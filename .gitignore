@@ -1,3 +1,7 @@
 # Locally downloaded release assets and generated packages
 resource.mcaddon
 Jujutsu-Awakening-Complete-26.mcaddon
+
+# Python cache
+__pycache__/
+*.py[cod]
