@@ -37,6 +37,7 @@ TEXT_SUFFIXES = {
     ".vsh",
     ".cfg",
     ".mcmeta",
+    ".mcfunction",
 }
 
 
