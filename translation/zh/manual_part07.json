@@ -1,0 +1,1678 @@
+{
+  "_comment": "part07: ids 1737-1901 宿傩容器台词/物品卡片（十影/吸收/不义游戏/真人/天与咒缚/灾厄烈焰/异界武器）",
+  "1737": {
+    "repl": [
+      [
+        "§lI mean, it's my body.",
+        "§l毕竟，这是我的身体。"
+      ]
+    ]
+  },
+  "1738": {
+    "repl": [
+      [
+        "§oI'm.... being suppressed???",
+        "§o我……被压制住了？？？"
+      ]
+    ]
+  },
+  "1739": "§r§f< §c两面宿傩 §r§f> §o闭嘴，我正要睡觉呢。",
+  "1740": "§r§f< §c两面宿傩 §r§f> §o你真是个烦人的小鬼",
+  "1741": "§r§f< §c两面宿傩 §r§f> §o闭嘴，小鬼。",
+  "1742": "§r§f< §c两面宿傩 §r§f> §o我可不会帮你。",
+  "1743": "§r§f< §c两面宿傩 §r§f> §o你真可悲。",
+  "1744": "§r§f< §c两面宿傩 §r§f> §o弱。",
+  "1745": "§r§f< §c两面宿傩 §r§f> §o我不在乎。",
+  "1746": "§r§f< §c两面宿傩 §r§f> §o认清自己的地位，蠢货。",
+  "1748": " §4剩余刻数。",
+  "1753": "§4我的咒术还不足以做到这件事，等我拥有约§c10 根手指§4后再试吧。",
+  "1759": "§4我的咒术还不足以做到这件事，等我拥有约§c15 根手指§4后再试吧。",
+  "1760": "§4我还不能开启这个术式，再多切一些「食材」吧。",
+  "1763": {
+    "repl": [
+      [
+        "§l§4Sukuna is not active.",
+        "§l§4宿傩当前未激活。"
+      ]
+    ]
+  },
+  "1766": "§r§f< §4",
+  "1767": " §r§f> §o我把这个小鬼抓做人质了。",
+  "1768": " §r§f> §o你现在可以害怕了，我要杀了你。",
+  "1769": "§4你需要吞噬两面宿傩的手指才能获得它。",
+  "1770": "§o§c我这是在做什么？",
+  "1771": "§l§d你没有权限。",
+  "1772": "§c似乎有什么正在干扰你的术式……",
+  "1773": "§l§4> §o控制台受损，正在修复。数据丢失。",
+  "1774": "< 监视者 > §4很高兴你答应了……",
+  "1775": {
+    "repl": [
+      [
+        "§c§o- You feel a presence watching you...",
+        "§c§o- 你感觉到有什么正在注视着你……"
+      ],
+      [
+        "§aYou can now take on Missions using your §eMissions Phone§a!",
+        "§a你现在可以使用§e任务手机§a接取任务了！"
+      ],
+      [
+        "---[ New Technique Unlocked ]---",
+        "---[ 解锁了新术式 ]---"
+      ],
+      [
+        "§r§eDivergent Fists Technique, allows you to engulf your hands in cursed energy, amplifying your damage on melee attacks...",
+        "§r§e径庭拳，让你用咒力包裹双拳，增强近战攻击的伤害……"
+      ]
+    ]
+  },
+  "1787": "§c你正在使用: §5灵魂御厨 §c咒术",
+  "1788": "§c你需要对特级敌人打出 10 次黑闪才能推进此项。",
+  "1789": {
+    "repl": [
+      [
+        "Ten Shadows Technique",
+        "十种影法术"
+      ],
+      [
+        "§5§oWith this treasure, I summon....",
+        "§5§o以此珍宝，我将召唤……"
+      ]
+    ]
+  },
+  "1790": "§r§d§l八握适应之轮\n§r§5§o- 此轮象征完整的循环与调和\n§7让你能在遭遇攻击/技能的 30 秒后适应它，效果持续 90 秒。\n§r§c(30 秒冷却)\n\n§l§e[ 神圣珍宝 ]",
+  "1791": {
+    "repl": [
+      [
+        "Shadow Wheel",
+        "影之轮"
+      ],
+      [
+        "§o10 Shadows Technique, ",
+        "§o十种影法术, "
+      ]
+    ]
+  },
+  "1792": {
+    "repl": [
+      [
+        "Round Deer",
+        "圆鹿"
+      ],
+      [
+        "§o8th Summon",
+        "§o第 8 式神"
+      ]
+    ]
+  },
+  "1793": {
+    "repl": [
+      [
+        "Max Elephant Crush",
+        "满象压杀"
+      ],
+      [
+        "Max Elephant",
+        "满象"
+      ],
+      [
+        "Piercing Water",
+        "贯水"
+      ],
+      [
+        "§o7th Summon",
+        "§o第 7 式神"
+      ]
+    ]
+  },
+  "1794": {
+    "repl": [
+      [
+        "Ox Rush",
+        "贯牛突进"
+      ],
+      [
+        "§o6th Summon",
+        "§o第 6 式神"
+      ]
+    ]
+  },
+  "1795": {
+    "repl": [
+      [
+        "Serpent Trap",
+        "蛇缚陷阱"
+      ],
+      [
+        "Great Serpent",
+        "大蛇"
+      ],
+      [
+        "§o5th Summon",
+        "§o第 5 式神"
+      ]
+    ]
+  },
+  "1796": {
+    "repl": [
+      [
+        "Nue Sweep",
+        "鵺横扫"
+      ],
+      [
+        "Lightning Bolt",
+        "雷击"
+      ],
+      [
+        "§o4th Summon",
+        "§o第 4 式神"
+      ]
+    ]
+  },
+  "1797": {
+    "repl": [
+      [
+        "Divine §8Dogs",
+        "玉§8犬"
+      ],
+      [
+        "§o3rd Summon",
+        "§o第 3 式神"
+      ]
+    ]
+  },
+  "1798": {
+    "repl": [
+      [
+        "Toad Sentry",
+        "虾蟇哨卫"
+      ],
+      [
+        "Toad Pull",
+        "虾蟇牵引"
+      ],
+      [
+        "§o2nd Summon",
+        "§o第 2 式神"
+      ]
+    ]
+  },
+  "1799": {
+    "repl": [
+      [
+        "Rabbit Escape",
+        "脱兔"
+      ],
+      [
+        "§o1st Summon",
+        "§o第 1 式神"
+      ]
+    ]
+  },
+  "1800": {
+    "repl": [
+      [
+        "Divine General Mahoraga",
+        "神将·魔虚罗"
+      ],
+      [
+        "Severing Slice",
+        "断斩"
+      ],
+      [
+        "§oAmong the Generations of Sorcerers, Not a single person has been able to tame this one.",
+        "§o在历代的咒术师之中，从未有人能够驯服这一位。"
+      ]
+    ]
+  },
+  "1801": {
+    "repl": [
+      [
+        "Merged Beast: Agito",
+        "合并兽·浑"
+      ],
+      [
+        "§oCombination of the Shikigami: Nue, Great Serpent, Round Deer, Tiger Funeral",
+        "§o由式神合体而成: 鵺、大蛇、玄鹿、虎葬"
+      ],
+      [
+        "§cYou cannot summon any of the Shikigami\n that were Merged into this creature while it has been summoned.",
+        "§c当它处于召唤状态时，你无法再召唤\n 任何已合体进这只生物的式神。"
+      ]
+    ]
+  },
+  "1802": {
+    "repl": [
+      [
+        "Domain Expansion: Chimera Shadow Garden, Swamp",
+        "领域展开: 嵌合暗翳庭·沼泽"
+      ],
+      [
+        "Domain Expansion: Chimera Shadow Garden, Void",
+        "领域展开: 嵌合暗翳庭·虚空"
+      ],
+      [
+        "§oDon't fall into the abyss...",
+        "§o别坠入深渊……"
+      ]
+    ]
+  },
+  "1803": {
+    "repl": [
+      [
+        "Absorption Technique",
+        "吸收术式"
+      ],
+      [
+        "§5§oAllows you to absorb taken damage and convert it into energy for destruction\ndoes NOT negate damage taken, only stores it.",
+        "§5§o让你吸收受到的伤害，并将其转化为毁灭性的能量。\n并不会抵消受到的伤害，只是将其储存。"
+      ]
+    ]
+  },
+  "1804": {
+    "repl": [
+      [
+        "Power Punch",
+        "蓄能重拳"
+      ],
+      [
+        "Power Counter",
+        "蓄能反击"
+      ],
+      [
+        "Power Leap",
+        "蓄能跃击"
+      ],
+      [
+        "Deepfry",
+        "电油炸透"
+      ],
+      [
+        "§oClose Ranged Attacks",
+        "§o近身攻击"
+      ]
+    ]
+  },
+  "1805": {
+    "repl": [
+      [
+        "Power Bolt",
+        "蓄能弹"
+      ],
+      [
+        "Power Shock",
+        "蓄能电击"
+      ],
+      [
+        "Power Wave",
+        "蓄能波动"
+      ],
+      [
+        "§oLong-Ranged Attacks",
+        "§o远程攻击"
+      ]
+    ]
+  },
+  "1806": {
+    "repl": [
+      [
+        "Full Power Release",
+        "全力解放"
+      ],
+      [
+        "§oMaximum Output",
+        "§o最大输出"
+      ]
+    ]
+  },
+  "1807": "§r§a不眠赌徒的连帽衫",
+  "1808": "§r§a不眠赌徒的牛仔裤",
+  "1809": "§r§b天选之人的披风",
+  "1810": "§r§b甚尔/五条的衣服",
+  "1811": "§r§b漏瑚王的披风",
+  "1812": "§r§b审判西装",
+  "1813": "§r§5雷神法袍",
+  "1814": "§r§b蒙耻之人的披风",
+  "1815": "§r§b日下部的披风",
+  "1816": "§r§b日下部的衣服",
+  "1817": "§r§5真·诅咒之衣",
+  "1818": "§r§7咒术高专校服",
+  "1819": "§r§d猪之王冠",
+  "1820": "§r§b恶意法袍",
+  "1821": "§r§b恶名之人的法袍",
+  "1822": "§r§a虎杖悠仁的校服",
+  "1823": "§r§c原子水晶\n§7[ §d特级 §7]\n\n§5 - 强大的水晶，新巨兽咒灵的残存之物。\n这块水晶本身就是特级咒灵凝结而成的咒术，\n可以与其他材料融合，制成一件§d咒具§5。",
+  "1824": {
+    "repl": [
+      [
+        "§r§f§fBasic Fist Combat Style",
+        "§r§f§f基础拳法战斗风格"
+      ],
+      [
+        "Strong Punch",
+        "强力拳"
+      ],
+      [
+        "§tRush",
+        "§t突进"
+      ],
+      [
+        "Downslam",
+        "下劈重击"
+      ],
+      [
+        "§r§5§o- Basic Combat Style",
+        "§r§5§o- 基础战斗风格"
+      ]
+    ]
+  },
+  "1825": {
+    "repl": [
+      [
+        "Todo's Fighting Style",
+        "东堂的战斗风格"
+      ],
+      [
+        "Hefty Blow",
+        "沉重一击"
+      ],
+      [
+        "Agile Sweep",
+        "敏捷横扫"
+      ],
+      [
+        "Divebomb",
+        "俯冲轰炸"
+      ],
+      [
+        "Twin-strikes",
+        "双重打击"
+      ],
+      [
+        "§r§cPlus Ultra",
+        "§r§c超越极限"
+      ],
+      [
+        "§eRequires §5120% Potential Trait§e or §5Delusional Idol Fan Trait",
+        "§e需要§5120% 的潜能特质§e或§5妄想偶像粉丝特质"
+      ],
+      [
+        "§r§5- §oBoogie Woogie fighting style",
+        "§r§5- §o不义游戏战斗风格"
+      ]
+    ]
+  },
+  "1826": {
+    "repl": [
+      [
+        "Boogie Woogie Technique",
+        "不义游戏术式"
+      ],
+      [
+        "§5§oWe are the exception!",
+        "§5§o我们是例外者！"
+      ]
+    ]
+  },
+  "1827": {
+    "repl": [
+      [
+        "§r§fSelect Target",
+        "§r§f选择目标"
+      ],
+      [
+        "§cLook Straight Down + Double-Sneak to remove target",
+        "§c垂直低头 + 双击潜行以移除目标"
+      ],
+      [
+        "§r§bSwap Others",
+        "§r§b与他人换位"
+      ],
+      [
+        "§r§bSwitch Kick",
+        "§r§b换位踢"
+      ],
+      [
+        "§r§bPebble Throw",
+        "§r§b投掷碎石"
+      ],
+      [
+        "§r§bSwap §7",
+        "§r§b换位 §7"
+      ],
+      [
+        "§9- If you have a target selected, you will switch with them if in-range.\nIf not, you will switch with the closest in view-range.§r",
+        "§9- 如果你已选定目标，在范围内你将与其互换位置。\n如果没有，你将与视野内最近的目标互换。§r"
+      ],
+      [
+        "§9Switches your selected target with whoever you are looking at.§r",
+        "§9将你选定的目标与你正注视的对象互换位置。§r"
+      ],
+      [
+        "§9Switches you with your target to initiate a swift kick in the direction they were facing.§r",
+        "§9与目标互换位置，并朝其面朝的方向踢出迅捷一脚。§r"
+      ],
+      [
+        "§9Throw a cursed-energy infused pebble, allowing you to swap with it by §gpunching§9 or hitting an enemy with it.§r",
+        "§9投掷一颗注入咒力的石子，你可以通过§g拳击§9或用它击中敌人来与其互换位置。§r"
+      ],
+      [
+        "§cALL SWAPS HAVE A 100 BLOCK DISTANCE CAP",
+        "§c所有交换都有 100 格的距离上限"
+      ],
+      [
+        "§r§5- §o1st Skillset",
+        "§r§5- §o技能组1"
+      ]
+    ]
+  },
+  "1828": {
+    "repl": [
+      [
+        "§r§eSelect Brother",
+        "§r§e选择兄弟"
+      ],
+      [
+        "§r§9- §oSelecting a 'brother' will allow you to perform combo attacks with them.\nAll they have to do is answer an §oeasy§r§9 question correctly to become your 'brother'\nTo select a 'Brother', simply click on a nearby Mob or Player with this item.",
+        "§r§9- §o选择一名「兄弟」后，你可以与他施展组合攻击。\n对方只要答对一个§o简单的§r§9问题，就能成为你的「兄弟」。\n要选择「兄弟」，只需用此物品点击附近的生物或玩家。"
+      ]
+    ]
+  },
+  "1829": {
+    "repl": [
+      [
+        "§r§bSwitch with Brother",
+        "§r§b与兄弟换位"
+      ],
+      [
+        "§9- Swaps with your closest in-range 'Brother'.§r",
+        "§9- 与范围内最近的「兄弟」互换位置。§r"
+      ],
+      [
+        "§r§bJujutsu Jumping",
+        "§r§b咒术跳跃"
+      ],
+      [
+        "§r§bStylistic Swap",
+        "§r§b风格换位"
+      ],
+      [
+        "§r§cException",
+        "§r§c例外之人"
+      ],
+      [
+        "§9Swap with your Brother as they brutally black flash the enemy.§r",
+        "§9在你的兄弟对敌人打出凶残的黑闪时与其换位。§r"
+      ],
+      [
+        "§r§5- §oBrother Combos Skillset",
+        "§r§5- §o兄弟组合技技能组"
+      ]
+    ]
+  },
+  "1830": {
+    "repl": [
+      [
+        "Love-Tap",
+        "爱之轻拍"
+      ],
+      [
+        "Idol's Debut",
+        "偶像首秀"
+      ],
+      [
+        "§r§dHearts ",
+        "§r§d爱心 "
+      ],
+      [
+        "Climax Jumping",
+        "高潮跳跃"
+      ],
+      [
+        "Handshake",
+        "握手"
+      ],
+      [
+        "§b- Requires Boogie Woogie to use -",
+        "§b- 需要不义游戏才能使用 -"
+      ],
+      [
+        "§r§5§o- Todo's Delusional Combat Style",
+        "§r§5§o- 东堂的妄想战斗风格"
+      ]
+    ]
+  },
+  "1831": "§r§e§l妄想\n§r§5- 你肯定有精神分裂症……\n\n§7[ §c只能在生命值低于最大值的 §430% §c时使用。 §7]\n\n§a如果你还没有该特质，请输入 /function cheats/give_delusional_trait",
+  "1832": {
+    "repl": [
+      [
+        "Idle Transfiguration Technique",
+        "无为转变术式"
+      ],
+      [
+        "§5§o- ''Thanks to the Hate Spewed Between Humans... I Was Born.''",
+        "§5§o- 「因为人类之间喷涌的憎恨……我才得以诞生。」"
+      ]
+    ]
+  },
+  "1833": {
+    "repl": [
+      [
+        "Mahito's Basic Fighting Style",
+        "真人的基础战斗风格"
+      ],
+      [
+        "§o§dSwitch Combat Style",
+        "§o§d切换战斗风格"
+      ],
+      [
+        "Pistol Blow",
+        "手枪冲拳"
+      ],
+      [
+        "Quad Stamp",
+        "四足践踏"
+      ],
+      [
+        "I'm feeling Romantical",
+        "浪漫的感觉来了"
+      ],
+      [
+        "§e- Counter",
+        "§e- 反击"
+      ],
+      [
+        "Focus Strike",
+        "聚焦一击"
+      ],
+      [
+        "§9- Timing §c聚焦一击 §9correctly will result in a §4Black Flash§9.",
+        "§9- 时机正确地打出§c聚焦一击§9，将触发§4黑闪§9。"
+      ],
+      [
+        "focus strike",
+        "聚焦一击"
+      ],
+      [
+        "§9- Landing 聚焦一击 on an enemy that is Low-HP (or a dummy)\nwill trigger an automatic §4Black Flash§9 finisher.",
+        "§9- 对低生命值的敌人（或训练假人）命中聚焦一击\n将触发自动的§4黑闪§9终结技。"
+      ],
+      [
+        "§r§5- §oMahito Combat",
+        "§r§5- §o真人格斗"
+      ]
+    ]
+  },
+  "1834": {
+    "repl": [
+      [
+        "Mahito's Blade Fighting Style",
+        "真人的刀刃战斗风格"
+      ],
+      [
+        "§o§dSwitch Combat Style",
+        "§o§d切换战斗风格"
+      ],
+      [
+        "Bisection",
+        "两断"
+      ],
+      [
+        "Beyblade",
+        "陀螺旋斩"
+      ],
+      [
+        "Rushing Blade",
+        "疾驰刀刃"
+      ],
+      [
+        "§cRend",
+        "§c撕裂"
+      ],
+      [
+        "§r§5- §oMahito Combat",
+        "§r§5- §o真人格斗"
+      ]
+    ]
+  },
+  "1835": {
+    "repl": [
+      [
+        "Mahito's Heavy Fighting Style",
+        "真人的重型战斗风格"
+      ],
+      [
+        "§o§dSwitch Combat Style",
+        "§o§d切换战斗风格"
+      ],
+      [
+        "§tMalice",
+        "§t恶意"
+      ],
+      [
+        "§tBrutal Force",
+        "§t蛮力"
+      ],
+      [
+        "§tCursed Crash",
+        "§t诅咒坠击"
+      ],
+      [
+        "§cWheel of Torment",
+        "§c折磨之轮"
+      ],
+      [
+        "§r§5- §oMahito Combat",
+        "§r§5- §o真人格斗"
+      ]
+    ]
+  },
+  "1836": {
+    "repl": [
+      [
+        "§r§uSoul Transfiguration",
+        "§r§u灵魂改造"
+      ],
+      [
+        "§r§dTransfigure Human",
+        "§r§d改造人体"
+      ],
+      [
+        "§r§dDetonation Touch",
+        "§r§d引爆之触"
+      ],
+      [
+        "§r§dHead-On!",
+        "§r§d正面硬刚！"
+      ],
+      [
+        "§o§4Soul-Transfiguration will only Kill if the enemy is either: §cBelow 40 HP§4 or §e2 Grades Beneath you§4!\n(You can enable always-instant-kill with /function setting_mahito_insta_kill)",
+        "§o§4灵魂改造只有在敌人§c低于 40 点生命§4或§e比你低 2 个评级§4时才能直接击杀！\n（你可以使用 /function setting_mahito_insta_kill 开启始终即死）"
+      ],
+      [
+        "§r§5- §oIdle Transfiguration",
+        "§r§5- §o无为转变"
+      ]
+    ]
+  },
+  "1837": {
+    "repl": [
+      [
+        "§r§uBody Transfiguration",
+        "§r§u肉体改造"
+      ],
+      [
+        "§r§dTrident Rush",
+        "§r§d三叉突进"
+      ],
+      [
+        "§r§dSpike Pierce",
+        "§r§d尖刺贯穿"
+      ],
+      [
+        "§r§dDrill Breaker",
+        "§r§d钻头破碎"
+      ],
+      [
+        "§r§dMurder Manifestation",
+        "§r§d杀意具现"
+      ],
+      [
+        "§r§dDecoy Trick",
+        "§r§d替身诡计"
+      ],
+      [
+        "§o§g(§4Spam Right-Click or Punch again to use Close-Range Drill Breaker§g)",
+        "§o§g(§4连续右键或拳击，以使用近距离钻头破碎§g)"
+      ],
+      [
+        "§r§5- §oIdle Transfiguration",
+        "§r§5- §o无为转变"
+      ]
+    ]
+  },
+  "1838": {
+    "repl": [
+      [
+        "§r§uTransfigured Combinations",
+        "§r§u改造组合技"
+      ],
+      [
+        "§r§dDual Clankers",
+        "§r§d双联敲击"
+      ],
+      [
+        "§r§dRifle",
+        "§r§d步枪"
+      ],
+      [
+        "§r§gSoul Multiplicity: §dMaximum Body Repel",
+        "§r§g多重灵魂: §d最大身体排斥"
+      ],
+      [
+        "§r§gSoul Multiplicity: §dBody Repel",
+        "§r§g多重灵魂: §d身体排斥"
+      ],
+      [
+        "§e- Right-Click again before shooting to ride along with the body repel",
+        "§e- 在发射前再次右键，可随身体排斥一同飞行"
+      ],
+      [
+        "§r§gSoul Multiplicity: §dPolymorphic Soul Isomer",
+        "§r§g多重灵魂: §d多形灵体变异体"
+      ],
+      [
+        "§r§5- §oIdle Transfiguration",
+        "§r§5- §o无为转变"
+      ]
+    ]
+  },
+  "1839": {
+    "repl": [
+      [
+        "§r§uStable Transfigured Soul",
+        "§r§u稳定改造灵魂"
+      ],
+      [
+        "§e- Souls that tried resisting transfiguration,\nemerging denser and tougher. Ideal tool for defensive applications.",
+        "§e- 试图抵抗改造的灵魂，\n变得更加致密坚韧。是防御用途的理想工具。"
+      ],
+      [
+        "§e- Can be fused with Unstable Souls to perform §o§aSoul Multiplicity§r§e.",
+        "§e- 可与不稳定灵魂融合，施展§o§a多重灵魂§r§e。"
+      ],
+      [
+        "§r§tConstruct: Block",
+        "§r§t构造: 方块"
+      ],
+      [
+        "§r§tConstruct: Wall",
+        "§r§t构造: 墙壁"
+      ],
+      [
+        "§g- Cost: [ §21x Stable Soul §g]",
+        "§g- 消耗: [ §21 个稳定灵魂 §g]"
+      ]
+    ]
+  },
+  "1840": {
+    "repl": [
+      [
+        "§r§uUnstable Transfigured Soul",
+        "§r§u不稳定改造灵魂"
+      ],
+      [
+        "§e- Souls violently warped by transfiguration,\nunstable but aggressive. Ideal tool for offensive techniques.",
+        "§e- 被改造粗暴扭曲的灵魂，\n不稳定但极具攻击性。是进攻术式的理想工具。"
+      ],
+      [
+        "§e- Can be fused with Stable Souls to perform §o§aSoul Multiplicity§r§e.",
+        "§e- 可与稳定灵魂融合，施展§o§a多重灵魂§r§e。"
+      ],
+      [
+        "§r§tConstruct: Multishot-Worms",
+        "§r§t构造: 多重蠕虫"
+      ],
+      [
+        "§r§tConstruct: Spikes",
+        "§r§t构造: 尖刺"
+      ],
+      [
+        "§r§tConstruct: Worms",
+        "§r§t构造: 蠕虫"
+      ],
+      [
+        "§g- Cost: [ §51x Unstable Soul §g]",
+        "§g- 消耗: [ §51 个不稳定灵魂 §g]"
+      ],
+      [
+        "§g- Cost: [ §53x Unstable Souls §g]",
+        "§g- 消耗: [ §53 个不稳定灵魂 §g]"
+      ]
+    ]
+  },
+  "1841": {
+    "repl": [
+      [
+        "Domain Expansion: Self-Embodiment of Perfection",
+        "领域展开: 自闭圆顿裹"
+      ],
+      [
+        "0.2 Second Domain Expansion",
+        "0.2 秒领域展开"
+      ],
+      [
+        "§r§5- §oDomain Expansion",
+        "§r§5- §o领域展开"
+      ]
+    ]
+  },
+  "1842": {
+    "repl": [
+      [
+        "§r§9§oInstant Spirit Body of Distorted Killing§r",
+        "§r§9§o遍杀即灵体§r"
+      ],
+      [
+        "§f-==Requirements=--",
+        "§f-==需求=--"
+      ],
+      [
+        "§c50+ Endurance",
+        "§c耐力 50+"
+      ],
+      [
+        "§350+ Agility",
+        "§3敏捷 50+"
+      ],
+      [
+        "§4Experience landing a Black Flash atleast once",
+        "§4有过至少打出一次黑闪的经历"
+      ],
+      [
+        "§r§5- §oClick again to exit the transformation",
+        "§r§5- §o再次点击以退出变身状态"
+      ]
+    ]
+  },
+  "1843": "§r§c锁定槽位",
+  "1844": {
+    "repl": [
+      [
+        "§r§uSpirit Body Combat",
+        "§r§u灵体格斗"
+      ],
+      [
+        "§tImpale",
+        "§t贯穿"
+      ],
+      [
+        "Ruthless Strikes",
+        "无情连击"
+      ],
+      [
+        "§tTakedown",
+        "§t坠落压制"
+      ],
+      [
+        "Rapid Assault",
+        "疾速突袭"
+      ],
+      [
+        "Impenetrable",
+        "铜墙铁壁"
+      ],
+      [
+        "Truly a Curse!",
+        "这才是真正的诅咒！"
+      ],
+      [
+        "§e- Counter",
+        "§e- 反击"
+      ],
+      [
+        "§c- Very Difficult to land",
+        "§c- 极难命中"
+      ],
+      [
+        "§r§5- §oMahito Awakened Combat",
+        "§r§5- §o真人觉醒格斗"
+      ]
+    ]
+  },
+  "1845": {
+    "repl": [
+      [
+        "§r§bCursed Energy Manipulation",
+        "§r§b咒力操纵"
+      ],
+      [
+        "§r§7[ §eSneak + Right-Click to Switch Output §7]",
+        "§r§7[ §e潜行+右键以切换输出 §7]"
+      ],
+      [
+        "§r§7[ §eRight-Click to Use §7]",
+        "§r§7[ §e右键以使用 §7]"
+      ],
+      [
+        "§r§5- §oThe advanced manipulation of Cursed Energy without using a cursed technique.",
+        "§r§5- §o不依赖术式的高级咒力操纵。"
+      ]
+    ]
+  },
+  "1846": {
+    "repl": [
+      [
+        "§r§aDash",
+        "§r§a冲刺"
+      ],
+      [
+        "(§eJump+Look up + Right Click§7)",
+        "(§e跳跃+抬头+右键§7)"
+      ],
+      [
+        "(§eSneak + Right Click§7)",
+        "(§e潜行+右键§7)"
+      ],
+      [
+        " to Frontflip Dash",
+        ": 前空翻冲刺"
+      ],
+      [
+        " to Flashstep",
+        ": 瞬步"
+      ]
+    ]
+  },
+  "1847": {
+    "repl": [
+      [
+        "§r§6The Disaster Flames Technique",
+        "§r§6灾厄烈焰术式"
+      ],
+      [
+        "§5§oAs the strongest curse, Jogoat...\nfought the fraud, the king of curses, he began to open his domain,\nSukuna shrunk back in fear then Jogoat said...\nStand Proud Sukuna, You were strong...",
+        "§5§o身为最强的咒灵，漏瑚王……\n与那个欺世盗名的诅咒之王展开了战斗。当他展开领域之时，\n宿傩吓得缩了回去，于是漏瑚王说道……\n骄傲点吧宿傩，你确实很强……"
+      ],
+      [
+        "Disaster Flames Technique",
+        "灾厄烈焰术式"
+      ],
+      [
+        "§6Double Sneak to Remove Volcano-Head",
+        "§6双击潜行以移除火山头"
+      ],
+      [
+        "§6Sneak+Punch+Sneak to add Volcano-Head",
+        "§6潜行+拳击+潜行以添加火山头"
+      ]
+    ]
+  },
+  "1848": {
+    "repl": [
+      [
+        "Domain Expansion: Coffin of the Iron Mountain",
+        "领域展开: 盖棺铁围山"
+      ],
+      [
+        "§r§5- §oDomain Expansion...",
+        "§r§5- §o领域展开……"
+      ]
+    ]
+  },
+  "1849": {
+    "repl": [
+      [
+        "§r§f§6Jogo's Combat Style",
+        "§r§f§6漏瑚的战斗风格"
+      ],
+      [
+        "Fire Palm",
+        "火焰掌"
+      ],
+      [
+        "Flaming Chokehold",
+        "烈焰锁喉"
+      ],
+      [
+        "Blazing Punch",
+        "灼热重拳"
+      ],
+      [
+        "Inferno Quake",
+        "炼狱震"
+      ],
+      [
+        "Inferno Kick",
+        "炼狱踢"
+      ],
+      [
+        "§r§5§o- Disaster Flames Cursed Technique style",
+        "§r§5§o- 灾厄烈焰咒术风格"
+      ]
+    ]
+  },
+  "1850": {
+    "repl": [
+      [
+        "§r§6Ember Insects",
+        "§r§6余烬虫"
+      ],
+      [
+        "§r§cGeyser Place",
+        "§r§c泉眼设置"
+      ],
+      [
+        "§eGeysers will last for 20 seconds until despawning.§r",
+        "§e间歇泉将持续 20 秒后消失。§r"
+      ],
+      [
+        "§r§cMinefield",
+        "§r§c泉涌雷区"
+      ],
+      [
+        "§r§5- §oVolcanic Skills",
+        "§r§5- §o火山技能"
+      ]
+    ]
+  },
+  "1851": {
+    "repl": [
+      [
+        "§r§6Fireball",
+        "§r§6火球"
+      ],
+      [
+        "§r§eChargeable (Use Twice)",
+        "§r§e可蓄力（连续使用两次）"
+      ],
+      [
+        "§r§6Heatwave",
+        "§r§6热浪"
+      ],
+      [
+        "§r§6Inferno Gatling",
+        "§r§6炼狱加特林"
+      ],
+      [
+        "Pyro Cannon",
+        "炎炮"
+      ],
+      [
+        "§r§5- §oRanged Fire Skills",
+        "§r§5- §o远程火焰技能"
+      ]
+    ]
+  },
+  "1852": {
+    "repl": [
+      [
+        "§r§cAsh Slam",
+        "§r§c灰烬猛击"
+      ],
+      [
+        "§r§cFlame Repulsion",
+        "§r§c烈焰斥退"
+      ],
+      [
+        "§r§cBlazing Impact",
+        "§r§c灼热冲击"
+      ],
+      [
+        "Stoic Bomb",
+        "沉寂爆弹"
+      ],
+      [
+        "§r§5- §oExplosive Skills",
+        "§r§5- §o爆炸技能"
+      ]
+    ]
+  },
+  "1853": {
+    "repl": [
+      [
+        "§r§6Volcanic Launch",
+        "§r§6火山喷发"
+      ],
+      [
+        "§r§6Molten Wave",
+        "§r§6熔岩波"
+      ],
+      [
+        "§r§6Lava Burst",
+        "§r§6熔岩迸发"
+      ],
+      [
+        "Volcanic Crush",
+        "火山压杀"
+      ],
+      [
+        "§r§5- §oMolten Lava Skills",
+        "§r§5- §o熔岩技能"
+      ]
+    ]
+  },
+  "1854": {
+    "repl": [
+      [
+        "Sunfire Bomb",
+        "阳炎爆弹"
+      ],
+      [
+        "Crimson Sun",
+        "绯红之日"
+      ],
+      [
+        "Supreme Art: Maximum Meteor",
+        "极之番·陨星"
+      ],
+      [
+        "§r§5- §oMaximum Technique Skills",
+        "§r§5- §o极之番技能"
+      ]
+    ]
+  },
+  "1855": {
+    "repl": [
+      [
+        "§r§gFlamethrower",
+        "§r§g火焰喷射器"
+      ],
+      [
+        "§r§6Firewall",
+        "§r§6火焰之墙"
+      ],
+      [
+        "§r§6Scorched Earth",
+        "§r§6焦土燎原"
+      ],
+      [
+        "Flash-fire Heatwave",
+        "瞬火热浪"
+      ],
+      [
+        "Eternal Blaze",
+        "永恒烈焰"
+      ],
+      [
+        "§r§5- §oWildfire Skills",
+        "§r§5- §o野火技能"
+      ]
+    ]
+  },
+  "1856": "§o§b神圣之金\n§5- 一块散发着强烈咒力的金锭",
+  "1857": "§r§a闪避",
+  "1858": {
+    "repl": [
+      [
+        "§r§dFinger Bearer's Explosive Cursed Energy",
+        "§r§d受指者的爆发咒力"
+      ],
+      [
+        "§5§oPure Cursed Energy manifested into devastating attacks...",
+        "§5§o纯粹的咒力，化为毁灭性的攻击……"
+      ]
+    ]
+  },
+  "1859": {
+    "repl": [
+      [
+        "§r§gPalm Blast",
+        "§r§g掌中爆破"
+      ],
+      [
+        "§r§gExplosive Release",
+        "§r§g爆发释放"
+      ],
+      [
+        "§r§5- §oClose Ranged Attacks",
+        "§r§5- §o近身攻击"
+      ]
+    ]
+  },
+  "1860": {
+    "repl": [
+      [
+        "§r§gExplosive Spit",
+        "§r§g爆炸唾沫"
+      ],
+      [
+        "§r§gDevastating Arrow",
+        "§r§g毁灭之箭"
+      ],
+      [
+        "§r§6Detonation Orb",
+        "§r§6爆裂光球"
+      ],
+      [
+        "§r§5- §oLong-Ranged Attacks",
+        "§r§5- §o远程攻击"
+      ]
+    ]
+  },
+  "1861": {
+    "repl": [
+      [
+        "§r§6Heatwave Slash",
+        "§r§6热浪斩"
+      ],
+      [
+        "§r§gFlaming Wall",
+        "§r§g烈焰之墙"
+      ],
+      [
+        "§r§5- §oDestructive Attacks",
+        "§r§5- §o毁灭性攻击"
+      ]
+    ]
+  },
+  "1862": "§r§d控制台钥匙卡\n§5- 你不该拥有这个东西的。",
+  "1863": "§r蝇头桶",
+  "1864": "§r§f9mm 子弹",
+  "1865": "§r§2格洛克手枪\n§5- 美利坚",
+  "1866": {
+    "repl": [
+      [
+        "§r§dCursed Seal",
+        "§r§d咒之封印"
+      ],
+      [
+        "§7[ §dSpecial Grade §7]",
+        "§7[ §d特级 §7]"
+      ],
+      [
+        "§5 - A Cursed seal, used to dispell the negative effects of a cursed object,\ncan be used to craft §dCurse Warders§5.",
+        "§5 - 咒之封印，用于解除咒物的负面效果，\n可用于制作§d驱咒傀儡§5。"
+      ]
+    ]
+  },
+  "1867": {
+    "repl": [
+      [
+        "§r§cCursed Seal",
+        "§r§c咒之封印"
+      ],
+      [
+        "§7[ §cGrade 1§7]",
+        "§7[ §c一级 §7]"
+      ],
+      [
+        "§5 - A Cursed seal, used to dispell the negative effects of a cursed object,\ncan be used to craft §dCurse Warders§5.",
+        "§5 - 咒之封印，用于解除咒物的负面效果，\n可用于制作§d驱咒傀儡§5。"
+      ]
+    ]
+  },
+  "1868": {
+    "repl": [
+      [
+        "§r§6Cursed Seal",
+        "§r§6咒之封印"
+      ],
+      [
+        "§7[ §6Grade 2§7]",
+        "§7[ §6二级 §7]"
+      ],
+      [
+        "§5 - A Cursed seal, used to dispell the negative effects of a cursed object,\ncan be used to craft §dCurse Warders§5.",
+        "§5 - 咒之封印，用于解除咒物的负面效果，\n可用于制作§d驱咒傀儡§5。"
+      ]
+    ]
+  },
+  "1869": {
+    "repl": [
+      [
+        "§r§2Cursed Seal",
+        "§r§2咒之封印"
+      ],
+      [
+        "§7[ §2Grade 3§7]",
+        "§7[ §2三级 §7]"
+      ],
+      [
+        "§5 - A Cursed seal, used to dispell the negative effects of a cursed object,\ncan be used to craft §dCurse Warders§5.",
+        "§5 - 咒之封印，用于解除咒物的负面效果，\n可用于制作§d驱咒傀儡§5。"
+      ]
+    ]
+  },
+  "1870": "§r§4暗影之剑 §r\n\n§5- 我……即是……原子！",
+  "1871": "§r§d白桦树\n§5- 多漂亮的一棵树。\n（该物品出自造物主的作品: Clover Legends/Meridia，是对 Roblox 上 Item Asylum 的致敬）",
+  "1872": {
+    "repl": [
+      [
+        "§r§dButter Blade §r",
+        "§r§d黄油之刃 §r"
+      ],
+      [
+        "§r§gBlade Throw",
+        "§r§g掷刃"
+      ],
+      [
+        "§r§gTp Slam",
+        "§r§g传送猛击"
+      ],
+      [
+        "§5- ButterJaffa's personal blade.",
+        "§5- ButterJaffa 的私人佩刀。"
+      ]
+    ]
+  },
+  "1873": "§r§d纷争精华\n§5- 来自异界的能量，\n似乎永远处于相互冲突之中，\n可能会对其他异界能量造成扰动。",
+  "1874": "§r§l§f§o创造核心 §r\n§5- 由造物主制造的物品，内含随机物品。\n\n§r§o§e遗物 - 40%\n§d特殊 - 30%\n§c独特 - 10%\n§l§4神圣 - 5%\n§l§o§a究极 - 1%",
+  "1875": {
+    "repl": [
+      [
+        "§r§dCrescendo ",
+        "§r§d渐强之刃 "
+      ],
+      [
+        "§r§gSoul Steal",
+        "§r§g灵魂窃取"
+      ],
+      [
+        "§5- Forged with fiery flames and a demon's eye,\nthe Crescendo ascends from its ancient sleep with a thundering tone.\n(This item was created in the architect's work: Clover Legends/Meridia, Item is a Reference to the Crescendo on Roblox)",
+        "§5- 以炽烈之火与恶魔之眼锻造而成，\n渐强之刃裹挟着雷鸣之音，从上古的沉眠中觉醒。\n（该物品出自造物主的作品: Clover Legends/Meridia，是对 Roblox 上 Crescendo 的致敬）"
+      ]
+    ]
+  },
+  "1876": "§r§cDack 的马克杯 \n\n§r§5- 将你的生命值完全恢复",
+  "1877": {
+    "repl": [
+      [
+        "§r§dDeath Horn ",
+        "§r§d死亡号角 "
+      ],
+      [
+        "§r§gThe Call of Death",
+        "§r§g死亡的召唤"
+      ],
+      [
+        "§5- A Horn that calls forth death and destruction.\n(Item is a Reference to the death horn from craftwars)",
+        "§5- 一只召唤死亡与毁灭的号角。\n（该物品是对 Craftwars 中死亡号角的致敬）"
+      ]
+    ]
+  },
+  "1878": "§r§cSnub 的毁灭者\n\n§5- 被击倒了！",
+  "1879": {
+    "repl": [
+      [
+        "Foreign Shard #4 ",
+        "异界碎片 #4 "
+      ],
+      [
+        "§5- A foreign object in the shape of a cube,\nclearly does not belong to this reality..\nIt feels as if the shard is being attracted to something, like a magnet.",
+        "§5- 一个立方体形状的异界物品，\n显然不属于这个现实……\n感觉这块碎片正像被磁铁吸引一样，被什么东西牵引着。"
+      ]
+    ]
+  },
+  "1880": {
+    "repl": [
+      [
+        "Foreign Shard #3 ",
+        "异界碎片 #3 "
+      ],
+      [
+        "§5- A foreign object in the shape of a cube,\nclearly does not belong to this reality..\nIt feels as if the shard is being attracted to something, like a magnet.",
+        "§5- 一个立方体形状的异界物品，\n显然不属于这个现实……\n感觉这块碎片正像被磁铁吸引一样，被什么东西牵引着。"
+      ]
+    ]
+  },
+  "1881": {
+    "repl": [
+      [
+        "Foreign Shard #2 ",
+        "异界碎片 #2 "
+      ],
+      [
+        "§5- A foreign object in the shape of a cube,\nclearly does not belong to this reality.\nIt feels as if the shard is being attracted to something, like a magnet.",
+        "§5- 一个立方体形状的异界物品，\n显然不属于这个现实。\n感觉这块碎片正像被磁铁吸引一样，被什么东西牵引着。"
+      ]
+    ]
+  },
+  "1882": {
+    "repl": [
+      [
+        "Foreign Shard #1 ",
+        "异界碎片 #1 "
+      ],
+      [
+        "§5- A foreign object in the shape of a cube,\nclearly does not belong to this reality..\nIt feels as if the shard is being attracted to something, like a magnet.",
+        "§5- 一个立方体形状的异界物品，\n显然不属于这个现实……\n感觉这块碎片正像被磁铁吸引一样，被什么东西牵引着。"
+      ]
+    ]
+  },
+  "1883": {
+    "repl": [
+      [
+        "§r§l§4Ｅｑｕｉｎｏｘ Ｅｄｇｅ§r",
+        "§r§l§4均衡之刃§r"
+      ],
+      [
+        "§r§fDeath's Dance",
+        "§r§f死亡之舞"
+      ],
+      [
+        "§r§8Fracture Strike",
+        "§r§8断裂一击"
+      ],
+      [
+        "§r§fMirrors of Misfortune",
+        "§r§f灾厄之镜"
+      ],
+      [
+        "§r§8Abyssal Strike",
+        "§r§8深渊一击"
+      ],
+      [
+        "§r§l§fCataclysm",
+        "§r§l§f灾变"
+      ],
+      [
+        "§5- Forged from the origin of light and darkness in several realities,\nthe Equinox Edge is a weapon of immeasurable power, existing beyond the confines of mortal understanding.\nThis edge bends the fabric of existence itself, capable of rending reality as if it were mere parchment.\nA fusion of countless realms, it pulses with an unstable, destructive energy—each strike threatening to unravel the boundaries between worlds.\nIn the right hands, its wrath is boundless, carving through creation itself with every swing.\n(Originating from Craftwars Overhaul)",
+        "§5- 铸自数个现实之中光与暗的本源，\n均衡之刃拥有无法估量的力量，超脱凡人的理解。\n这柄利刃扭曲存在本身，撕裂现实如同撕裂薄纸。\n作为无数世界的融合体，它涌动着不稳定的毁灭性能量——每一击都威胁着瓦解世界之间的边界。\n在合适的人手中，它的怒火无穷无尽，每一次挥舞都斩开造物本身。\n（出自 Craftwars Overhaul）"
+      ]
+    ]
+  },
+  "1884": {
+    "repl": [
+      [
+        "§r§l§4Ｅｑｕｉｎｏｘ Ｓｌｉｃｅｒ§r",
+        "§r§l§4均衡切割者§r"
+      ],
+      [
+        "§r§fFangs of Gilgamesh",
+        "§r§f吉尔伽美什之牙"
+      ],
+      [
+        "§r§8Equinox Slam",
+        "§r§8分至猛击"
+      ],
+      [
+        "§r§fGrasp of Darkness",
+        "§r§f黑暗之握"
+      ],
+      [
+        "§r§8Chaotic Vortex",
+        "§r§8混沌旋涡"
+      ],
+      [
+        "§r§l§fReality Tear",
+        "§r§l§f撕裂现实"
+      ],
+      [
+        "§5- Forged from the origin of light and darkness in several realities,\nthe Equinox Slicer is a weapon of unparalleled power—yet merely a prototype of something far greater.\nThis scythe bends the fabric of existence itself, capable of rending reality as if it were mere parchment.\nA fusion of countless realms, it pulses with an unstable,\ndestructive energy—each strike threatening to unravel the boundaries between worlds.\nThough its design remains incomplete, its wrath is undeniable, and in the right hands,\neven in its unfinished state, nothing can stand in its way.\n(Originating from Craftwars Overhaul)",
+        "§5- 铸自数个现实之中光与暗的本源，\n均衡切割者拥有无与伦比的力量——但它仅仅是某个更伟大存在的原型。\n这柄镰刀扭曲存在本身，撕裂现实如同撕裂薄纸。\n作为无数世界的融合体，它涌动着不稳定的毁灭性能量——\n每一击都威胁着瓦解世界之间的边界。\n尽管设计尚未完成，它的怒火无可否认。在合适的人手中，\n即便尚处未完成状态，也没有任何东西能够挡下它。\n（出自 Craftwars Overhaul）"
+      ]
+    ]
+  },
+  "1885": "§r§c爆炸法杖 \n\n§5- 爆炸！",
+  "1886": {
+    "repl": [
+      [
+        "§r§dFrog Cero Beam §r",
+        "§r§d蛙之虚闪 §r"
+      ],
+      [
+        "§r§gBig Cero Beam",
+        "§r§g大虚闪"
+      ],
+      [
+        "§r§gCero Beam",
+        "§r§g虚闪"
+      ],
+      [
+        "§5- Energy from the renowned Frogdog, allows you to manifest his Cero Beams.\n(Reference to the Addon Creator: Frogdog and his work on Chlorite, yes I had permission to use his VFX)",
+        "§5- 来自大名鼎鼎的 Frogdog 的能量，让你能够释放他的虚闪。\n（致敬插件作者 Frogdog 及其在 Chlorite 上的作品，是的，我获得了使用他特效的许可）"
+      ]
+    ]
+  },
+  "1887": {
+    "repl": [
+      [
+        "§r§8Heavenly Restriction: Unmeasured Strength",
+        "§r§8天与咒缚: 无可度量的力量"
+      ],
+      [
+        "§5§oA Pact made with the heavens, in exchange for your Cursed Energy levels\nbeing restricted to that of a normal civillian, you gain a body of steel and immeasurable physical prowess...",
+        "§5§o与上天定下的契约: 以咒力水平被限制到\n普通平民的程度为代价，你获得钢铁之躯与无可度量的肉体力量……"
+      ]
+    ]
+  },
+  "1888": {
+    "repl": [
+      [
+        "§r§tGround Slam",
+        "§r§t地面猛击"
+      ],
+      [
+        "§r§tFinal Hunt",
+        "§r§t最终狩猎"
+      ],
+      [
+        "§r§tRock Cannon",
+        "§r§t岩石加农"
+      ],
+      [
+        "§r§8Rubble Gatling",
+        "§r§8碎石加特林"
+      ],
+      [
+        "§r§5- §oDeadly Attacks.",
+        "§r§5- §o致命攻击。"
+      ]
+    ]
+  },
+  "1889": {
+    "repl": [
+      [
+        "§r§8Swift Counter",
+        "§r§8迅捷反击"
+      ],
+      [
+        "§r§o§e(Melee-Counter)",
+        "§r§o§e(近战反击)"
+      ],
+      [
+        "§r§tSwift Kick",
+        "§r§t迅捷踢"
+      ],
+      [
+        "§r§8Prey's Peril",
+        "§r§8猎豹险爪"
+      ],
+      [
+        "Flashstrike",
+        "闪光一击"
+      ],
+      [
+        "§r§5- §oAgile attacks.",
+        "§r§5- §o敏捷攻击。"
+      ]
+    ]
+  },
+  "1890": {
+    "repl": [
+      [
+        "§r§8Liver Punch",
+        "§r§8肝击拳"
+      ],
+      [
+        "§r§o§eBlockable",
+        "§r§o§e可格挡"
+      ],
+      [
+        "§r§tDeadly Strikes",
+        "§r§t致命打击"
+      ],
+      [
+        "§r§8Vanishing Blow",
+        "§r§8消失一击"
+      ],
+      [
+        "Dempsey Roll",
+        "登普西连击"
+      ],
+      [
+        "§r§5- §oClose-Ranged heavy attacks.",
+        "§r§5- §o近身重型攻击。"
+      ]
+    ]
+  },
+  "1891": {
+    "repl": [
+      [
+        "§r§5Heavenly Restriction Fighting Style§r",
+        "§r§5天与咒缚战斗风格§r"
+      ],
+      [
+        "§tStrength Contest",
+        "§t力量较量"
+      ],
+      [
+        "§r§o§eClashable",
+        "§r§o§e可对抗"
+      ],
+      [
+        "§r§tDive Kick",
+        "§r§t俯冲踢"
+      ],
+      [
+        "§r§tBone Splitter",
+        "§r§t碎骨者"
+      ],
+      [
+        "§r§5- §oPhysical combat brought to its limits.",
+        "§r§5- §o被推向极限的肉体格斗。"
+      ]
+    ]
+  },
+  "1892": {
+    "repl": [
+      [
+        "§r§dLegacy Scythe §r",
+        "§r§d传承之镰 §r"
+      ],
+      [
+        "§r§gStun",
+        "§r§g眩晕"
+      ],
+      [
+        "§5- The classic scythe from craftwars.",
+        "§5- 来自 Craftwars 的经典镰刀。"
+      ]
+    ]
+  },
+  "1893": "§r§d神秘的戒指\n§5- 一个巨大中空圆环形状的神秘物品，看起来可能是某种机关的部件？",
+  "1894": "§r§d神秘的碎片\n§5- 一块碎片形状的神秘物品，也许能与什么东西融合？",
+  "1895": "§r§d神秘的火把\n§5- 似乎是一支未点燃的火把，也许有什么办法可以点燃它？",
+  "1896": "§l§4由于该物品不太重要，暂未开发，请等待后续更新。\n\n\n§r§l§a究极-§0死亡§a之镰§r\n\n§r§4??? §7(§eRight-Click§7)\n§r§6??? §7(§eHold-Jump + Right-Click§7)\n§r§2??? §7(§eSneak + Right-Click§7)\n§r§b??? §7(§eSneak + Punch§7)\n§r§l§1??? §7(§eSneak + Jump + Right-Click§7)§r\n§5究极死亡之镰，一件拥有无法想象的毁灭之力的遗物，\n由造物主锻造，作为某个更伟大存在的投影。\n尽管它只是 Nacker 真正杰作的回响，\n其威力却丝毫不减——每一次挥舞都承载着湮灭本身的重量，\n在瞬间斩断命运与存在。一件被诸多现实遗忘的武器，\n仅凭其存在就足以扭曲造物的结构，所过之处只剩毁灭。\n\n§e注: §5(出自 Craftwars。如果你好奇为什么有这么多 Craftwars 相关的物品——\n它是我童年时很重要的一款游戏，我过去总是在上面制作地图/世界，我常常喜欢把觉得酷的东西在 Minecraft 中重现……\n另外，那个彩虹跟 LGBT 之类的没有任何关系，\n它纯粹是基于原作本来的样子，走开啦)'",
+  "1897": "§r§d起源宝珠\n§5- 一颗球体形状的神秘物品，也许能与什么东西融合？",
+  "1898": {
+    "repl": [
+      [
+        "§r§dReset Ticket §r",
+        "§r§d重置券 §r"
+      ],
+      [
+        "§5- This ticket allows you to reset your entire character,\nallowing you to restart from scratch and reroll your Cursed Technique and Traits",
+        "§5- 这张券允许你重置整个角色，\n让你从头开始，重新抽取你的术式与特质"
+      ]
+    ]
+  },
+  "1899": {
+    "repl": [
+      [
+        "§r§dRod of Discord ",
+        "§r§d不谐之杖 "
+      ],
+      [
+        "§r§gWarp",
+        "§r§g折跃"
+      ],
+      [
+        "§5- A Rod that allows you to teleport 10 blocks infront of you.\n(Item is a Reference to the Rod of Discord from terraria.)",
+        "§5- 一根能让你向前传送 10 格的法杖。\n（该物品是对泰拉瑞亚中不谐之杖的致敬）"
+      ]
+    ]
+  },
+  "1900": "§r§d神秘的符文石板\n§5- 一块看起来像某种石板或符文的神秘物品，也许能与其他东西组合？",
+  "1901": "§r§l§f§o终焉碎片 §r\n§5- 最后的武器……\n(致敬 Craftwars)"
+}

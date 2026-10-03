@@ -1,0 +1,79 @@
+name: Build zh_CN combined add-on
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-zh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download resource pack from release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download MC \
+            --pattern 'New-Jujutsu-Awakening-Addon-MCPE-Resource-26.mcaddon' \
+            --output resource.mcaddon --clobber
+
+      - name: Combine behavior and resource packs
+        run: |
+          python3 tools/combine_mcaddon.py \
+            New-Jujutsu-Awakening-Addon-MCPE-Behavior-26.mcaddon \
+            resource.mcaddon \
+            combined.mcaddon
+
+      - name: Extract combined tree (with binaries)
+        run: |
+          python3 - <<'EOF'
+          import zipfile
+          from pathlib import Path
+          dest = Path("build/full")
+          dest.mkdir(parents=True, exist_ok=True)
+          with zipfile.ZipFile("combined.mcaddon") as zf:
+              root = dest.resolve()
+              for m in zf.infolist():
+                  if m.is_dir():
+                      continue
+                  name = m.filename.replace("\\", "/")
+                  target = (dest / name).resolve()
+                  if root not in target.parents and target != root:
+                      raise SystemExit(f"unsafe member {m.filename!r}")
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(zf.read(m))
+          print("extracted", sum(1 for _ in dest.rglob('*') if _.is_file()), "files")
+          EOF
+
+      - name: Apply Chinese translations
+        run: |
+          python3 tools/apply_zh_map.py build/full --report build/apply_report.json
+
+      - name: Validate translated tree
+        run: |
+          python3 tools/validate_addon.py build/full build/validation_report.json
+
+      - name: Pack zh_CN mcaddon
+        run: |
+          python3 tools/pack_tree.py build/full Jujutsu-Awakening-zh-CN-26.mcaddon
+          unzip -t Jujutsu-Awakening-zh-CN-26.mcaddon > /dev/null && echo "zip OK"
+
+      - name: Upload zh_CN add-on to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload MC Jujutsu-Awakening-zh-CN-26.mcaddon --clobber
+
+      - name: Preserve reports as workflow artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: zh-build-reports
+          path: |
+            build/apply_report.json
+            build/validation_report.json
+            build/audit_after_zh.json
+          compression-level: 0

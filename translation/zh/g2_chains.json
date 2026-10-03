@@ -1,0 +1,54 @@
+{
+  "_comment": "G2 打字机链：ids 按出现顺序；prefix/body 用于生成单调前缀帧；pad=true 时补齐到帧首行原宽度（信用动画）。",
+  "chains": [
+    {
+      "name": "menu_credit_typewriter",
+      "ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "prefix": "§l§o§c",
+      "body_zh": "Heroic Productions 出品……",
+      "pad": true
+    },
+    {
+      "name": "order_in_the_court",
+      "ids": [681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695],
+      "prefix": "§l§f",
+      "body_zh": "肃静！",
+      "pad": false
+    },
+    {
+      "name": "not_guilty",
+      "ids": [745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755],
+      "prefix": "\n\n\n\n§l§f",
+      "body_zh": "无罪……",
+      "pad": false
+    },
+    {
+      "name": "guilty_white",
+      "ids": [758, 759, 760, 761, 762, 763],
+      "prefix": "\n\n\n\n§l§f",
+      "body_zh": "有罪，",
+      "pad": false
+    },
+    {
+      "name": "confiscation",
+      "ids": [764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777],
+      "prefix": "\n\n\n\n§l§f",
+      "body_zh": "没收……",
+      "pad": false
+    },
+    {
+      "name": "guilty_red",
+      "ids": [780, 781, 782, 783, 784, 785],
+      "prefix": "\n\n\n\n§l§4",
+      "body_zh": "有罪，",
+      "pad": false
+    },
+    {
+      "name": "death_penalty",
+      "ids": [786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799],
+      "prefix": "\n\n\n\n§l§4",
+      "body_zh": "死刑……",
+      "pad": false
+    }
+  ]
+}

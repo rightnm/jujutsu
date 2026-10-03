@@ -1,0 +1,657 @@
+{
+  "_comment": "part00: ids 0-190 菜单/帮助/开场过场（Heroic Prime/Architect/Balance/Luminosity）",
+  "0": "§l§o跳跃、潜行或拳击以开始",
+  "20": {
+    "repl": [
+      [
+        "             Ability Controls:",
+        "             技能操作说明:"
+      ],
+      [
+        "Click = Right-Click / LT / Tap Screen",
+        "点击(Click) = 右键 / LT / 点按屏幕"
+      ],
+      [
+        "Punch = Left-Click / RT / Tap Screen/block/entity",
+        "拳击(Punch) = 左键 / RT / 点按屏幕/方块/实体"
+      ],
+      [
+        "When it says 'jump or sneak' and click, make sure\nthat you HOLD the button and then press click.",
+        "当提示“跳跃或潜行 + 点击”时，请务必\n先按住该按钮，然后再按下点击键。"
+      ],
+      [
+        "This Addon is not recommended to play with more than 5-6 people due to delay/lag",
+        "由于延迟/卡顿，本插件不建议超过 5-6 人同时游玩"
+      ],
+      [
+        "This addon will not function well on realms.",
+        "本插件在 Realms 领域服上无法良好运行。"
+      ]
+    ]
+  },
+  "21": {
+    "repl": [
+      [
+        "             §l§aMade By Me:",
+        "             §l§a本插件作者:"
+      ],
+      [
+        "             - Models,Particles,Coding,Cutscenes,Abilities,Entities,ect§r",
+        "             - 模型、粒子、代码、过场动画、技能、实体等§r"
+      ],
+      [
+        "             §gHowever people have helped me with certain things in the past:",
+        "             §g不过过去也有一些人在某些方面帮助过我:"
+      ],
+      [
+        "             §l§2Frogdog - helping with a few certain parts of code and being goated",
+        "             §l§2Frogdog - 帮忙编写了部分代码，超强"
+      ],
+      [
+        "             §3GlitchyTurtle - for creating the passkey system, helping with a few certain parts of code and being goated",
+        "             §3GlitchyTurtle - 制作了密钥系统，并帮忙编写了部分代码，超强"
+      ],
+      [
+        "             §l§aSoul-King/Tomura - for creating character outfits",
+        "             §l§aSoul-King/Tomura - 制作了角色服装"
+      ],
+      [
+        "             §bBlue Lemon06 + j.06866 beta testers / helper",
+        "             §bBlue Lemon06 + j.06866 内测玩家 / 助手"
+      ],
+      [
+        "             §2Magroic - created amazing art for the addon and the Time Vessel structure",
+        "             §2Magroic - 为本插件绘制了精美美术，并制作了时之容器结构"
+      ],
+      [
+        "             §eVermint - a few of the character textures/models",
+        "             §eVermint - 部分角色贴图/模型"
+      ],
+      [
+        "             §cTalon_ah - for creating the custom minecraft title logo",
+        "             §cTalon_ah - 制作了自定义 Minecraft 标题 Logo"
+      ],
+      [
+        "             §tSchwerty - for creating the Stats GUI",
+        "             §tSchwerty - 制作了属性界面 GUI"
+      ],
+      [
+        "             §r§fAnd everyone else who's supported me and this project!",
+        "             §r§f以及所有支持过我和这个项目的人！"
+      ]
+    ]
+  },
+  "22": {
+    "repl": [
+      [
+        "§l§b-[ Sorcerer ]-",
+        "§l§b-[ 咒术师 ]-"
+      ],
+      [
+        "§r§gYou are a sorcerer,\nyou do not have any passive abilities\nhowever, you can be born into prestigious \nclans and inherit techniques and \nattributes that have been passed \ndown.",
+        "§r§g你是一名咒术师，\n没有任何被动能力，\n不过你可以出生在名门\n世家，继承世代相传的\n术式与能力。"
+      ]
+    ]
+  },
+  "23": {
+    "repl": [
+      [
+        "§l§5-[ Curse ]-",
+        "§l§5-[ 咒灵 ]-"
+      ],
+      [
+        "§r§gYou are a curse,",
+        "§r§g你是一只咒灵，"
+      ],
+      [
+        "born from negative energy",
+        "由负能量中诞生，"
+      ],
+      [
+        "you possess power above",
+        "你拥有超越"
+      ],
+      [
+        "the majority of humans, these include:",
+        "大多数人类的力量，包括:"
+      ],
+      [
+        "- Greatly Amplified Healing",
+        "- 大幅强化的治愈能力"
+      ],
+      [
+        "- Amplified Strength and Resistance",
+        "- 强化的力量与抗性"
+      ],
+      [
+        "and more, however you cannot inherit abilities",
+        "等等，但你无法继承"
+      ],
+      [
+        "passed down by clans and you are easily",
+        "世家传承的能力，且很容易被"
+      ],
+      [
+        "exterminated by positive energy.",
+        "正能量消灭。"
+      ]
+    ]
+  },
+  "24": "§l§f你选择了: §b人类§f。",
+  "25": "§l§f你选择了: §5咒灵§f。",
+  "26": "§l§f按 [潜行] 抽取你的世家 - 你还有: ",
+  "27": {
+    "repl": [
+      [
+        " §fRolls Left",
+        " §f次机会"
+      ]
+    ]
+  },
+  "28": {
+    "repl": [
+      [
+        "§l§f-[ No Clan ]-",
+        "§l§f-[ 无世家 ]-"
+      ],
+      [
+        "§l§fRolling Clan...",
+        "§l§f抽取世家中..."
+      ]
+    ]
+  },
+  "29": {
+    "repl": [
+      [
+        "§l§f-[ No Clan  ]-",
+        "§l§f-[ 无世家 ]-"
+      ],
+      [
+        "§l§fRolling Clan...",
+        "§l§f抽取世家中..."
+      ]
+    ]
+  },
+  "30": {
+    "repl": [
+      [
+        "§l§f-[ Inumaki ]-",
+        "§l§f-[ 狗卷 ]-"
+      ],
+      [
+        "§l§fRolling Clan...",
+        "§l§f抽取世家中..."
+      ]
+    ]
+  },
+  "31": {
+    "repl": [
+      [
+        "§l§f-[ Kamo ]-",
+        "§l§f-[ 加茂 ]-"
+      ],
+      [
+        "§l§fRolling Clan...",
+        "§l§f抽取世家中..."
+      ]
+    ]
+  },
+  "32": {
+    "repl": [
+      [
+        "§l§f-[ Zenin ]-",
+        "§l§f-[ 禅院 ]-"
+      ],
+      [
+        "§l§fRolling Clan...",
+        "§l§f抽取世家中..."
+      ]
+    ]
+  },
+  "33": {
+    "repl": [
+      [
+        "§l§f-[ Gojo ]-",
+        "§l§f-[ 五条 ]-"
+      ],
+      [
+        "§l§fRolling Clan...",
+        "§l§f抽取世家中..."
+      ]
+    ]
+  },
+  "34": {
+    "repl": [
+      [
+        "§l§f-[ No Clan  ]-",
+        "§l§f-[ 无世家 ]-"
+      ],
+      [
+        "Press [Sneak] to Re-Roll Clan - You have: ",
+        "按 [潜行] 重新抽取世家 - 你还有: "
+      ]
+    ]
+  },
+  "35": {
+    "repl": [
+      [
+        " §fRolls Left",
+        " §f次机会"
+      ],
+      [
+        "Press [Jump] to Continue...",
+        "按 [跳跃] 继续..."
+      ]
+    ]
+  },
+  "36": {
+    "repl": [
+      [
+        "§l§f-[ Inumaki  ]-",
+        "§l§f-[ 狗卷 ]-"
+      ],
+      [
+        "§r§3+5 Agility",
+        "§r§3+5 敏捷"
+      ],
+      [
+        "Press [Sneak] to Re-Roll Clan - You have: ",
+        "按 [潜行] 重新抽取世家 - 你还有: "
+      ]
+    ]
+  },
+  "37": {
+    "repl": [
+      [
+        "§l§f-[ Kamo  ]-",
+        "§l§f-[ 加茂 ]-"
+      ],
+      [
+        "§r§c+5 Endurance",
+        "§r§c+5 耐力"
+      ],
+      [
+        "Press [Sneak] to Re-Roll Clan - You have: ",
+        "按 [潜行] 重新抽取世家 - 你还有: "
+      ]
+    ]
+  },
+  "38": {
+    "repl": [
+      [
+        "§l§f-[ Zenin  ]-",
+        "§l§f-[ 禅院 ]-"
+      ],
+      [
+        "§r§4+5 Strength",
+        "§r§4+5 力量"
+      ],
+      [
+        "Press [Sneak] to Re-Roll Clan - You have: ",
+        "按 [潜行] 重新抽取世家 - 你还有: "
+      ]
+    ]
+  },
+  "39": {
+    "repl": [
+      [
+        "§l§f-[ Gojo  ]-",
+        "§l§f-[ 五条 ]-"
+      ],
+      [
+        "§r§b+100 Cursed Energy",
+        "§r§b+100 咒力"
+      ],
+      [
+        "Press [Sneak] to Re-Roll Clan - You have: ",
+        "按 [潜行] 重新抽取世家 - 你还有: "
+      ]
+    ]
+  },
+  "40": "§l§f按 [潜行] 抽取你的特质 - 你还有: ",
+  "41": "§r§o§4你没有剩余的特质抽取次数了！",
+  "42": "§l§f按 [潜行] 抽取你的术式 - 你还有: ",
+  "43": "§r§o§4你没有剩余的术式抽取次数了！",
+  "44": "§4该术式需要「黑闪王子」特质/战斗风格。",
+  "45": "§a你已卸下所有技能。",
+  "46": "§c- 你的§e储存能量§c不足，无法使用该技能。",
+  "53": "§c- 你至少需要§e100 点储存能量§c才能使用该技能。",
+  "55": "§g- §e你正在使用: 吸收咒术",
+  "56": "§a已向创造模式玩家授予全部形态。",
+  "57": "§g吸收咒术 技能组1: §e吸收近战 §g!\n§e【已解锁】",
+  "58": "§g吸收咒术 技能组2: §e吸收远程 §g!\n§e【已解锁】",
+  "59": "§g吸收咒术 技能组3: §e最大输出 §g!\n§e【已解锁】",
+  "61": {
+    "repl": [
+      [
+        "§b§lJujutsu Awakening ",
+        "§b§l咒术觉醒 "
+      ],
+      [
+        "§r§eA Heroic Productions...",
+        "§r§eHeroic Productions 出品..."
+      ],
+      [
+        "§fCheck out my Youtube: §4https://www.youtube.com/@heroicmaps1138",
+        "§f关注我的 Youtube: §4https://www.youtube.com/@heroicmaps1138"
+      ],
+      [
+        "§f§fAnd Join the Discord! §9https://discord.gg/sNKJqFp8BS",
+        "§f§f并加入 Discord! §9https://discord.gg/sNKJqFp8BS"
+      ],
+      [
+        "§cIf your addon is delayed/laggy it might be because of your Device or Realms, ect",
+        "§c如果插件出现延迟/卡顿，可能是你的设备或 Realms 等原因造成的"
+      ],
+      [
+        "ALSO Make sure BETA APis are enabled and you are using the CORRECT minecraft version!!!",
+        "另外，请务必开启实验性玩法(BETA APIs)，并使用正确的 Minecraft 版本!!!"
+      ],
+      [
+        "§rType /tag @s remove menu if you cannot use the menu correctly",
+        "§r如果菜单无法正常使用，请输入 /tag @s remove menu"
+      ],
+      [
+        "§4Remember, If your textures aren't showing or are all bugged, delete the RP from ur game, restart and reinstall the resource pack to fix it!",
+        "§4请记住，如果贴图不显示或出现异常，请在游戏中删除 RP，重启后重新安装资源包即可修复！"
+      ]
+    ]
+  },
+  "62": "§r< §r§o§l平衡之追忆 §r> §o§c仔细想想，我认识你，Blue Lemon。你就是那个现实里使用时间魔法的家伙，对吧？",
+  "63": "§r< §r§o§l平衡之追忆 §r> §o§c至少在这个现实里，我不用应付你那套东西了。现在的你不过是唾手可得的猎物。",
+  "64": "§r< §r§o§l平衡之追忆 §r> §o§c我认识你，Snubscroll。你或许在过去击败过我，但这次绝不会再发生。",
+  "65": "§r< §r§o§l平衡之追忆 §r> §o§c我认识你，Willz。你或许在过去击败过我，但这次绝不会再发生。",
+  "66": "§r< §r§o§l平衡之追忆 §r> §o§c我认识你，Neymar。你或许在过去击败过我，但这次绝不会再发生。",
+  "67": "§r< §r§o§l平衡之追忆 §r> §o§c啊，我想起来了。你不就是上一个现实里那个烦人的虚空魔法使用者吗。",
+  "68": "§r< §r§o§l平衡之追忆 §r> §o§c我可要慢慢地、好好地陪你玩玩。",
+  "69": "§r< §r§o§l平衡之追忆 §r> §o§f我终于自由了……太久没有看到天空了，我差点以为……自己已经死了。",
+  "70": "§r< §r§o§l平衡之追忆 §r> §o§f话说回来，这里到底是什么地方？这里既不是那座岛，也不是 Meridia 吧？",
+  "71": "§r< §r§o§l平衡之追忆 §r> §o§f现在就告诉我。我要怎么才能回到我的现实——",
+  "72": "§r< §r§o§l平衡之追忆 §r> §o§f到§ka§r底§ke§r是§ke§r怎么回事！？",
+  "73": "§l§4§k系统指令已接受，正在执行实体接管",
+  "74": "§r< §r§o§l平衡之追忆 §r> §o§c§l这是什么！？我感觉力量正在不断溢出……可是",
+  "75": "§r< §r§o§l平衡之追忆 §r> §o§c§l可我心中只剩下这股无法抗拒的冲动……",
+  "76": "§r< §r§o§l平衡之追忆 §r> §o§c§l将 你 与 一 切 彻 底 毁 灭 ……",
+  "77": "§l§4不要再作弊了。",
+  "78": "§r< §r§o§l平衡之追忆 §r> §o§f我又输了……",
+  "79": "§r< §r§o§l平衡之追忆 §r> §o§f我怎么会输？等等……我刚才为什么要跟你战斗？",
+  "80": "§r< §r§o§l平衡之追忆 §r> §o§f感觉就像……我的身体不能完全由自己控制。",
+  "81": "§l§4§k指令激活成功，正在终止进程",
+  "82": "§r< §r§o§l平衡之追忆 §r> §o§f发生什么事了！？",
+  "83": "§r< §r§o§l平衡之追忆 §r> §o§f不管是谁在背后操纵这一切，我发誓一定会让你付出代价！",
+  "84": "§r< §r§o§l光明之追忆 §r> §o§f什么？我还从来没被强制传送到某个地方过？",
+  "85": "§r< §r§o§l光明之追忆 §r> §o§f这里是另一个现实吗？",
+  "86": "§r< §r§o§l光明之追忆 §r> §o§f告诉我，人类。我为什么会被召唤？这是你干的吗？",
+  "87": "§r< §r§o§l光明之追忆 §r> §o§f我现在就要答案，我可没时间耗在这里。",
+  "88": "§r< §r§o§l光明之追忆 §r> §o§f现在，告诉我你为什么把我召唤——",
+  "89": "§r< §r§o§l光明之追忆 §r> §o§f什么…… §o§c§l你§kA§r§l§c在§kR§r§l§c对§kOU§r§l§c我做什么！？",
+  "90": "§r< §r§o§l光明之追忆 §r> §o§c§l这一定是你干的好事，像你这样的存在绝不能放任不管！",
+  "91": "§r< §r§o§l光明之追忆 §r> §o§f有哪里不对劲……幕后黑手不是你，对吧？",
+  "92": "§r< §r§o§l光明之追忆 §r> §o§f你很强……拜托了，请阻止那个幕后黑手。",
+  "93": "§r< §r§o§l光明之追忆 §r> §o§f§c我会把你从现实本身彻底抹除。",
+  "94": "§e你的经验有所增长，现在可以精进你的§4术式§e了！",
+  "95": "§r§d§l你打出了人生中第一次黑闪!!!\n\n§r§e当咒力在打击发生的一百万分之一秒内注入冲击时，就会产生黑闪。这是极其罕见的现象，只有极少数术师曾成功做到！\n\n§r§9+ 300 经验\n§5§o- 你感觉自己的心境达到了全新的境界。",
+  "96": "§c你在跟谁说话？你面前根本没有人，快醒醒吧。",
+  "97": {
+    "repl": [
+      [
+        "§fI just have to ask...",
+        "§f我就想问一句……"
+      ]
+    ]
+  },
+  "98": {
+    "repl": [
+      [
+        "§fWhat kind of woman is your type!?",
+        "§f你喜欢什么类型的女人！？"
+      ]
+    ]
+  },
+  "99": " §f> §e呃……",
+  "100": {
+    "repl": [
+      [
+        "§fI knew it... you're boring.",
+        "§f我就知道……你这人真没意思。"
+      ]
+    ]
+  },
+  "101": {
+    "repl": [
+      [
+        "§fYou have good taste, but is that all?",
+        "§f你很有品味，不过仅此而已吗？"
+      ]
+    ]
+  },
+  "102": {
+    "repl": [
+      [
+        "§fYou have good taste.",
+        "§f你很有品味。"
+      ]
+    ]
+  },
+  "103": {
+    "repl": [
+      [
+        "§fI knew it... you're boring. More boring than Fushiguro, how can you not have a type at all?",
+        "§f我就知道……你太无聊了。比伏黑还无聊，怎么会什么类型都没有？"
+      ]
+    ]
+  },
+  "104": {
+    "repl": [
+      [
+        "§fMy man you have great taste!",
+        "§f兄弟，你的品味太棒了！"
+      ]
+    ]
+  },
+  "105": {
+    "repl": [
+      [
+        "§fWhat... you better not be referring to children or I'm gonna beat your a** right here, right now.",
+        "§f什么……你最好别是在说小孩子，不然我现在就在这里把你揍扁。"
+      ]
+    ]
+  },
+  "106": {
+    "repl": [
+      [
+        "§fUh... good for you I guess.",
+        "§f呃……那也算是你的本事吧。"
+      ]
+    ]
+  },
+  "107": {
+    "repl": [
+      [
+        "§fYou're asking for it now. I'm gonna bash your skull in.",
+        "§f你这是在自找的。我要把你的脑袋砸开花。"
+      ]
+    ]
+  },
+  "108": {
+    "repl": [
+      [
+        "§fWhat!? What do you mean you like them small!? Is that why you hide your face in that stupid paper bag you sick person!?",
+        "§f什么！？你说喜欢小的是什么意思！？所以你的脸才藏在那个蠢纸袋里吗，你这个变态！？"
+      ]
+    ]
+  },
+  "109": {
+    "repl": [
+      [
+        "§fWhat!? You're sick!",
+        "§f什么！？你真恶心！"
+      ]
+    ]
+  },
+  "110": {
+    "repl": [
+      [
+        "§fYou never lost to anyone in your hometown, huh?",
+        "§f在家乡你从未输给过任何人，是吗？"
+      ]
+    ]
+  },
+  "111": {
+    "repl": [
+      [
+        "§fSeem's like we're best friends!",
+        "§f看来我们是最好的朋友了！"
+      ]
+    ]
+  },
+  "112": "§a悠仁现在是你的「§e兄弟§a」了！你可以召唤他来施展兄弟组合技！（只有区域内没有其他「§e兄弟§a」在场时，你才能与悠仁交换）",
+  "113": "§a你正在锁定目标: §r§f",
+  "119": "§c请稍等片刻再执行此操作: §e",
+  "124": "§3- §3你正在使用: §b不义游戏术式",
+  "125": "§3不义游戏: §b交换招式§e!\n§e【已解锁】",
+  "126": "§3不义游戏: §b兄弟组合技§e!\n§e【已解锁】",
+  "132": " §f> §e我没什么特别偏好，只要她有坚定不移的性格，我就别无所求了。",
+  "133": " §f> §e高挑大屁股的女人吧？就像詹妮弗·劳伦斯那样。",
+  "134": " §f> §e男娘。女人太麻烦了。",
+  "135": " §f> §e你妈妈。",
+  "136": " §f> §e大波波。",
+  "137": " §f> §e我不在乎。",
+  "138": " §f> §e闭嘴。",
+  "139": " §f> §e管好你自己的事。",
+  "140": " §f> §e不。",
+  "141": " §f> §e遵纪守法、品德高尚的女人。",
+  "142": " §f> §e大胸。",
+  "143": " §f> §e我喜欢五条悟。",
+  "144": " §f> §e比我更强、意志坚不可摧的、有才华的男人。",
+  "145": " §f> §e我喜欢小的。",
+  "146": " §f> §e嗯……我会说比我弱的，玩弄他们肯定很有意思。",
+  "147": " §f> §e男的",
+  "148": " §f> §e像我一样强大的女人。",
+  "149": {
+    "repl": [
+      [
+        "§f§lBROTHER!",
+        "§f§l兄弟！"
+      ]
+    ]
+  },
+  "150": "§a目标已锁定: §r§f",
+  "151": "§c你需要先用此技能选择一个目标，然后面向你想交换的另一个目标。\n( §a拳击 §c)。",
+  "152": " §f> §e我喜欢胸大的女人。",
+  "153": " §f> §e我没有任何偏好。",
+  "154": " §f> §e我喜欢那些哥特坏女孩！",
+  "155": " §f> §e我喜欢又矮又平的「可爱」女人。",
+  "156": " §f> §e男的。",
+  "157": " §f> §e你妈妈。",
+  "158": "§c护身符需要充能: §e",
+  "159": "§r§f< §o§l原初英雄 §r§f> §l§4希望你准备好了！",
+  "160": {
+    "repl": [
+      [
+        "§fThis place? Oh well, when SOMEONE decided to mess with my console, you seemed to have overloaded it with fragments of my creations from past times, basically sucking you and a bunch of random stuff info this pocket dimension.\nHowever when the console tried to divert excess energy to my home reality, it accidently brought in creations from there too, which is how I'm assuming you managed to find my Containment System and release... him.\n\nAs for the reason why your abilities do not work here, well thats most likely because it's been corrupted, the only powers that work here are powers that were brought through the rifts, which is why you obtained random abilities that you used to your advantage to take him down.",
+        "§f这个地方？唉，都怪「某个人」乱动我的控制台，你似乎让它超载了——我过去的造物碎片被灌了进去，结果把你和一堆乱七八糟的东西一起吸进了这个口袋维度。\n不过当控制台试图把多余能量导回我所在的现实时，也意外带进了那边的造物——我猜你就是这样找到了我的收容系统，并放出了……他。\n\n至于你的能力为什么在这里失效，多半是因为它们已经被腐化了。在这里唯一能生效的，就是从裂隙中带进来的力量。这也是为什么你获得了那些随机能力，并利用它们击败了他。"
+      ],
+      [
+        "§o§f§lThe Architect",
+        "§o§f§l造物主"
+      ]
+    ]
+  },
+  "161": {
+    "repl": [
+      [
+        "§fAh, you want to know what that was? He's a living entity I created imbued with fragments of my past self, he's not really fun to be around and would always try causing chaos or being egotistical because he thought he was better than everyone, he never knew he was a creation, he seems to think he's actually alive and has a grudge against me for banishing him after he caused too much drama and gave the name Heroic a bad reputation. He's basically just an alternate version of me I created, using abilities I had created and summoning echoes of my friends and creations... all while corrupting them.\nYou're lucky he wasn't capable of summoning the true potential of those echoes, if they had really been here you would've stood no chance as some of them are just as powerful as me...",
+        "§f啊，你想知道那是什么？他是我创造的一个活体，体内灌注了我过去自我的碎片。他一点都不好相处，总想惹是生非、自命不凡，因为他觉得自己比谁都强。他从不知道自己是被创造出来的，还真以为自己是活着的；他惹出太多乱子、败坏了 Heroic 这个名字，所以我把他放逐了，他因此怀恨在心。他基本上就是我创造出的「另一个我」，使用我创造的能力，召唤我朋友和造物的回响……并将它们全部腐化。\n你应该庆幸他召唤不出那些回响真正的潜力——如果它们本体真的来了，你毫无胜算，因为其中一些和我一样强……"
+      ],
+      [
+        "§o§f§lThe Architect",
+        "§o§f§l造物主"
+      ]
+    ]
+  },
+  "162": {
+    "repl": [
+      [
+        "§fAh, you want to know what that was? He's a living entity I created imbued with fragments of my past self, he's not really fun to be around and would always try causing chaos or being egotistical because he thought he was better than everyone, he never knew he was a creation, he seems to think he's actually alive and has a grudge against me for banishing him after he caused too much drama and gave the name Heroic a bad reputation. He's basically just an alternate version of me, using abilities I had created and summoning friends of mine all while corrupting them.\nYou're lucky he wasn't capable of summoning the true potential of those echoes, if they had really been here you would've stood no chance as some of them are just as powerful as me...\n\n\n I know he's not evil to the core, after all he is me. He's just misunderstood and corrupted, which is why I sealed him away forever. But he doesn't realise it's for our own good.",
+        "§f啊，你想知道那是什么？他是我创造的一个活体，体内灌注了我过去自我的碎片。他一点都不好相处，总想惹是生非、自命不凡，因为他觉得自己比谁都强。他从不知道自己是被创造出来的，还真以为自己是活着的；他惹出太多乱子、败坏了 Heroic 这个名字，所以我把他放逐了，他因此怀恨在心。他基本上就是我的另一个版本，使用我创造的能力，召唤我的朋友们的虚影……并将它们全部腐化。\n你应该庆幸他没能召唤出那些回响真正的潜力——如果它们本体真的来了，你毫无胜算，因为其中一些和我一样强……\n\n\n 我知道他并非坏到骨子里，毕竟他就是我。他只是被误解又被腐化了，所以我才将他永远封印。但他不明白，这是为了我们大家好。"
+      ],
+      [
+        "§o§f§lThe Architect",
+        "§o§f§l造物主"
+      ]
+    ]
+  },
+  "163": {
+    "repl": [
+      [
+        "§fMy console? I have one in every reality where my authority reaches to control the flow of things, they're usually hidden pretty well but sometimes they can be unstable and allow things to leak into their reality.\nSometimes entities in that reality mess with it, taking components, worshipping it, creating artifacts and a ton of other nonsense allowing situations like this to happen.\nTrust me you're not the first one I've talked to, this has happened several times before, it's kind of a nuisance at this point, however this time things were different as you somehow managed to break him out.",
+        "§f我的控制台？在每一个我权限所及的现实里我都放了一台，用来控制事物的流转。它们通常藏得很好，但有时会不稳定，让东西泄漏进那个现实。\n有时那个现实里的家伙会乱动它——拆零件、膜拜它、制造圣物，干出一大堆蠢事，导致现在这种情况发生。\n相信我，你不是第一个跟我聊这事的人，这种事以前发生过好几次，到现在都挺烦人了。不过这次不一样——你居然真的把他放出来了。"
+      ],
+      [
+        "§o§f§lThe Architect",
+        "§o§f§l造物主"
+      ]
+    ]
+  },
+  "164": {
+    "repl": [
+      [
+        "§fYou want to know about me? What's so important about me? I'm not even here, I'm sitting at home being lazy right now, you're just talking to another projection of me I put into this world. But other than that I'm the guy who created this all... ok well I don't create the realities but I'm responsible for the modifications added to all these realities or 'worlds'. In other words, Im similar to you, a player. You have the ability to do the same things I do if you try hard enough.",
+        "§f你想了解我？我有什么可重要的？我本人根本不在这儿——我正宅在家里摸鱼呢，你现在只是在跟我放进这个世界的另一个投影说话。除此之外，我是创造这一切的人……好吧，现实本身不是我创造的，但所有这些现实（或者说「世界」）里加入的修改都是我负责的。换句话说，我和你很像，也是个玩家。只要足够努力，你也能做到我做的这些事。"
+      ],
+      [
+        "§o§f§lThe Architect",
+        "§o§f§l造物主"
+      ]
+    ]
+  },
+  "165": {
+    "repl": [
+      [
+        "§fWhy did I take so long to arrive? I just cba...\n\nBesides I get this sort of thing pretty often, when I'm creating such strong beings I often overlook how powerful I can really make them, sometimes they go out of control, atleast for other players to handle. Take astaroth for example, he originated from the island, however he managed to break through into another reality of mine, Meridia and caused chaos there.\n\nThankfully I had made the power system of that reality stronger than his prior reality, allowing even the weakest spells to cause harm to him, I eventually sealed him away but he managed to break through into this reality somehow, I'm not sure what or who freed him but I believe it may have been another one of my creations' influence, or worse, another player/creator... If that is the case, that means there's someone out there who could be a threat to me and my creations... I did feel a disturbance of some sort when you disrupted those rifts that artifact lead you to.",
+        "§f为什么我这么久才来？我就是懒得动……\n\n再说这种事经常发生。我创造的生物太强时，我常常低估自己能让他们强到什么程度，有时他们就会失控——至少对其他玩家来说难以应付。就拿 Astaroth 来说吧，他起源于那座岛，却突破进入了我另一个现实 Meridia，在那里大闹了一场。\n\n好在那个现实的力量体系比他原本的更强大，连最弱的法术都能伤到他，我最终把他封印了。但不知怎的，他又突破到了这个现实。我不确定是什么或是谁释放了他——我猜可能是我另一个造物的影响，或者更糟……是另一个玩家/创作者。如果是后者，那就意味着外面有个能威胁到我和我的造物的家伙……你扰乱那件圣物指引你找到的那些裂隙时，我确实感觉到了某种扰动。"
+      ],
+      [
+        "§o§f§lThe Architect",
+        "§o§f§l造物主"
+      ]
+    ]
+  },
+  "166": {
+    "repl": [
+      [
+        "§fOh right, you did do my chores for me I guess, even after causing this mess.\nFine... I guess I can give you a little something to make up for your efforts.\n\nHere take this object, It's imbued with several creations of mine from the past and present, it should be useful, it'll be random whichever one you get though.",
+        "§f对了，你确实替我干了这些杂活——虽然这烂摊子本来就是你搞出来的。\n好吧……看在你出了力的份上，我就给你点小东西作为补偿吧。\n\n拿着这个。它灌注了我过去与现在的几件造物，应该会有用——不过你抽到哪一件是随机的哦。"
+      ],
+      [
+        "§o§f§lThe Architect",
+        "§o§f§l造物主"
+      ]
+    ]
+  },
+  "167": "§r§f< §o§f§l造物主 §r§f> §f你这个贪得无厌的家——",
+  "168": "§r§f< §o§f§l造物主 §r§f> §f呃，好吧……回头见！",
+  "169": "§r§f< §o§l原初英雄 §r§f> §l§4你——……",
+  "170": "§r§f< §o§l原初英雄 §r§f> §l§4怎么……可能？被一个区区玩家击败……？",
+  "171": "§r§f< §o§l原初英雄 §r§f> §l§4我绝不允许这种事发生。",
+  "172": "§r§f< §o§l原初英雄 §r§f> §l§4不可能！",
+  "173": "§r§f< §o§l原初英雄 §r§f> §l§4我才是最强的！",
+  "174": "§r§f< §o§l原初英雄 §r§f> §l§4你……你太可恶了！",
+  "175": "§r§f< §o§l原初英雄 §r§f> §l§4你必须……",
+  "176": "§r§f< §o§l原初英雄 §r§f> §l§4你必须死在我手里！！！！！！",
+  "177": "§r§f< §o§f§l造物主 §r§f> §f嗯……",
+  "178": "§r§f< §o§f§l造物主 §r§f> §f你们在这儿开派对不叫我？",
+  "179": "§r§f< §o§l原初英雄 §r§f> §l§4总算到时候了……",
+  "180": "§r§f< §o§l原初英雄 §r§f> §l§4过了这么久……你终于肯露面了！？！？",
+  "181": "§r§f< §o§l原初英雄 §r§f> §l§4我等这一刻……已经等了太久太久了！",
+  "182": "§r§f< §o§l原初英雄 §r§f> §l§4再无第二次机会！",
+  "183": "§r§f< §o§l原初英雄 §r§f> §l§4 再无任何仁慈！",
+  "184": "§r§f< §o§l原初英雄 §r§f> §l§4 今天就是你的葬身之地，你这可悲的造物主！",
+  "185": "§r§f< §o§f§l造物主 §r§f> §f你有完没完？",
+  "186": "§r§f< §o§l原初英雄 §r§f> §l§4 受死吧 Heroic！像条狗一样去死吧，你根本不是我的对手！！！",
+  "187": "§r§f< §o§f§l造物主 §r§f> §f够了，到此为止！",
+  "188": "§r§f< §o§f§l造物主 §r§f> §f你不过是个残次品！",
+  "189": "§r§f< §o§l原初英雄 §r§f> §l§4 记住我的话！",
+  "190": "§r§f< §o§l原初英雄 §r§f> §l§4 还没完呢！"
+}
