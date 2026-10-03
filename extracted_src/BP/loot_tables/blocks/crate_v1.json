@@ -1,0 +1,118 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "ds:cough_syrup",
+					"weight": 25,
+					"count": {
+						"min": 1,
+						"max": 3
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:coal",
+					"weight": 35,
+					"count": {
+						"min": 1,
+						"max": 8
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"weight": 25,
+					"count": {
+						"min": 1,
+						"max": 15
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:gold_ingot",
+					"weight": 25,
+					"count": {
+						"min": 1,
+						"max": 4
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:enchanted_book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 1,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond",
+					"weight": 15,
+					"count": {
+						"min": 1,
+						"max": 3
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:emerald",
+					"weight": 10
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "ds:katana",
+					"weight": 5,
+					"count": 3
+				},
+				{
+					"type": "item",
+					"name": "ds:nyoi_staff",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "ds:cursed_object_v1",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "ds:grade3_seal",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "ds:cursed_object_v2",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "ds:grade2_seal",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:coal",
+					"weight": 84,
+					"count": {
+						"min": 1,
+						"max": 8
+					}
+				}
+			]
+		}
+	]
+}

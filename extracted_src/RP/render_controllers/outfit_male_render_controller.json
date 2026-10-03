@@ -1,0 +1,50 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.outfitmale": {
+			"textures": [
+				"Array.variants[query.property('property:outfitmale')]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:outfitmale')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.outfitmale_sorcerer",
+						"Geometry.outfitmale_male1",
+						"Geometry.outfitmale_male2",
+						"Geometry.outfitmale_male3",
+						"Geometry.outfitmale_male4",
+						"Geometry.outfitmale_male5",
+						"Geometry.outfitmale_male6",
+						"Geometry.outfitmale_male7",
+						"Geometry.outfitmale_male8",
+						"Geometry.outfitmale_male9"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.outfitmale_sorcerer",
+						"Texture.outfitmale_male1",
+						"Texture.outfitmale_male2",
+						"Texture.outfitmale_male3",
+						"Texture.outfitmale_male4",
+						"Texture.outfitmale_male5",
+						"Texture.outfitmale_male6",
+						"Texture.outfitmale_male7",
+						"Texture.outfitmale_male8",
+						"Texture.outfitmale_male9"
+						
+					]
+				}
+			}
+		}
+	}
+}

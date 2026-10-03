@@ -1,0 +1,50 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ds:mountain_buster"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "BNR",
+            "NCN",
+            "RNR"
+        ],
+        "key": {
+            "C": {
+                "item": "ds:atomic_crystal"
+            },
+            "B": {
+                "item": "minecraft:beacon"
+            },
+            "N": {
+                "item": "minecraft:netherite_ingot"
+            },
+            "R": {
+                "item": "minecraft:redstone_block"
+            }
+			
+        },
+		"unlock": [
+          {
+            "item": "ds:atomic_crystal"
+          },
+          {
+            "item": "minecraft:beacon"
+          },
+          {
+            "item": "minecraft:netherite_ingot"
+          },
+          {
+            "item": "minecraft:redstone_block"
+          }
+        ],
+        "result": {
+            "item": "ds:mountain_buster",
+            "count": 1
+        },
+        "priority": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.extermination_swordretracted": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.textureoff",
+            "Texture.extermination_sword"
+          ]
+        }
+      },
+      "geometry": "Geometry.extermination_swordretracted",
+      "materials": [{"*": "Material.emissive"}],
+      "textures": [
+        "query.property('property:extermination_swordretracted') == 1 ? Texture.extermination_sword : (query.property('property:exterminationretracted_sword') == 0 ? Texture.textureoff)"
+      ]
+    }
+  }
+}

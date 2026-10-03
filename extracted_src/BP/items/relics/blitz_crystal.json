@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:blitz_crystal",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "blitz_crystal"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§l§d§oBlitz Crystal\n§r§5- A Crystal formed by a strange type of blitz energy.\n§r§e+2 §r§3Agility §eon Consumption\n\n§r§o§4-Cursed Relic-"
+            },
+            "minecraft:max_stack_size": 64
+            },
+            "minecraft:foil": true,
+            "minecraft:allow_off_hand": false
+            }
+        }

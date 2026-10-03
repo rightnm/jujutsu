@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:body_repel_max2",
+      "materials": {
+        "default": "arrow"
+      },
+      "textures": {
+        "default": "textures/entity/textureoff",
+"transfigured_colour1": "textures/entity/body_repel",
+"transfigured_colour2": "textures/entity/body_repel2",
+"transfigured_colour3": "textures/entity/body_repel3"
+      },
+      "geometry": {
+        "default": "geometry.body_repel"
+      },
+      "animations": {
+        "idle": "animation.worm.idle2",
+        "move": "animation.arrow.move"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.shake = query.shake_time - query.frame_alpha;",
+          "variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+        ],
+        "animate": [
+          "move",
+          "idle"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.arrow",
+        "controller.render.transfigured_colour2"
+      ]
+    }
+  }
+}

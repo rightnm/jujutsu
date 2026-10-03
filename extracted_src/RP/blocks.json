@@ -1,0 +1,218 @@
+{
+    "ds:crate_v1": {
+    "textures": "crate_v1",
+    "sound": "wood"
+    },
+    "ds:crate_v2": {
+    "textures": "crate_v2",
+    "sound": "wood"
+    },
+    "ds:crate_v3": {
+    "textures": "crate_v3",
+    "sound": "wood"
+    },
+    "ds:crate_v4": {
+    "textures": "crate_v4",
+    "sound": "wood"
+    },
+    "ds:crate_v5": {
+    "textures": "crate_v5",
+    "sound": "netherite"
+    },
+    "ds:unobtanium_block": {
+    "textures": "unobtanium_block",
+    "sound": "beacon"
+    },
+    "ds:divine_gold_block": {
+    "textures": "divine_gold_block",
+    "sound": "beacon"
+    },
+    "ds:heroic_plushie": {
+    "textures": "heroic_plushie",
+    "sound": "cloth"
+    },
+    "ds:bdayseal_plushie": {
+    "textures": "bdayseal_plushie",
+    "sound": "cloth"
+    },
+    "ds:cell_plushie": {
+    "textures": "cell_plushie",
+    "sound": "cloth"
+    },
+    "ds:gold_heroic_plushie": {
+    "textures": "gold_heroic_plushie",
+    "sound": "netherite"
+    },
+    "ds:heroic_plushie2": {
+    "textures": "heroic_plushie2",
+    "sound": "cloth"
+    },
+    "ds:void": {
+    "textures": "void",
+    "sound": "stone"
+    },
+    "ds:void_white": {
+    "textures": "void_white",
+    "sound": "stone"
+    },
+    "ds:void_gray": {
+    "textures": "void_gray",
+    "sound": "stone"
+    },
+    "ds:unobtanium_ore": {
+    "textures": "unobtanium_ore",
+    "sound": "stone"
+    },
+    "ds:foreign_bricks": {
+    "textures": "foreign_bricks",
+    "sound": "stone"
+    },
+    "ds:gojo_plushie": {
+    "textures": "gojo_plushie",
+    "sound": "cloth"
+    },
+    "ds:geto_plushie": {
+    "textures": "geto_plushie",
+    "sound": "cloth"
+    },
+    "ds:toji_plushie": {
+    "textures": "toji_plushie",
+    "sound": "cloth"
+    },
+    "ds:arox_plushie": {
+    "textures": "arox_plushie",
+    "sound": "cloth"
+    },
+    "ds:timmy_plushie": {
+    "textures": "timmy_plushie",
+    "sound": "cloth"
+    },
+    "ds:epicae_plushie": {
+    "textures": "epicae_plushie",
+    "sound": "cloth"
+    },
+    "ds:heian_sukuna_plushie": {
+    "textures": "heian_sukuna_plushie",
+    "sound": "cloth"
+    },
+    "ds:neuro_plushie": {
+    "textures": "neuro_plushie",
+    "sound": "cloth"
+    },
+    "ds:bash_plushie": {
+    "textures": "bash_plushie",
+    "sound": "cloth"
+    },
+    "ds:uzkownik_plushie": {
+    "textures": "uzkownik_plushie",
+    "sound": "cloth"
+    },
+    "ds:butter_plushie": {
+    "textures": "butter_plushie",
+    "sound": "cloth"
+    },
+    "ds:d4rius_plushie": {
+    "textures": "d4rius_plushie",
+    "sound": "cloth"
+    },
+    "ds:xero_plushie": {
+    "textures": "xero_plushie",
+    "sound": "cloth"
+    },
+    "ds:frogdog_plushie": {
+    "textures": "frogdog_plushie",
+    "sound": "cloth"
+    },
+    "ds:glitch_plushie": {
+    "textures": "glitch_plushie",
+    "sound": "cloth"
+    },
+    "ds:lemon_plushie": {
+    "textures": "lemon_plushie",
+    "sound": "cloth"
+    },
+    "ds:magroic_plushie": {
+    "textures": "magroic_plushie",
+    "sound": "cloth"
+    },
+    "ds:soulking_plushie": {
+    "textures": "soulking_plushie",
+    "sound": "cloth"
+},
+"ds:yuta_plushie": {
+"textures": "yuta_plushie",
+"sound": "cloth"
+},
+"ds:chosso_plushie": {
+"textures": "chosso_plushie",
+"sound": "cloth"
+},
+"ds:kashimo_plushie": {
+"textures": "kashimo_plushie",
+"sound": "cloth"
+},
+"ds:tobi_plushie": {
+"textures": "tobi_plushie",
+"sound": "cloth"
+},
+"ds:yazan_plushie": {
+"textures": "yazan_plushie",
+"sound": "cloth"
+},
+"ds:danser_plushie": {
+"textures": "danser_plushie",
+"sound": "cloth"
+},
+"ds:manga_yuji_plushie": {
+"textures": "manga_yuji_plushie",
+"sound": "cloth"
+},
+"ds:nanami_plushie": {
+"textures": "nanami_plushie",
+"sound": "cloth"
+},
+"ds:yuji_plushie": {
+"textures": "yuji_plushie",
+"sound": "cloth"
+},
+"ds:meguma_plushie": {
+"textures": "meguma_plushie",
+"sound": "cloth"
+},
+"ds:nobara_plushie": {
+    "textures": "nobara_plushie",
+    "sound": "cloth"
+},
+"ds:mei_plushie": {
+    "textures": "mei_plushie",
+    "sound": "cloth"
+},
+"ds:maki_plushie": {
+    "textures": "maki_plushie",
+    "sound": "cloth"
+},
+"ds:higuruma_plushie": {
+    "textures": "higuruma_plushie",
+    "sound": "cloth"
+},
+"ds:mahito_plushie": {
+    "textures": "mahito_plushie",
+    "sound": "cloth"
+},
+"ds:kenjaku_plushie": {
+    "textures": "kenjaku_plushie",
+    "sound": "cloth"
+},
+"ds:yuki_plushie": {
+    "textures": "yuki_plushie",
+    "sound": "cloth"
+},
+"ds:uraume_plushie": {
+    "textures": "uraume_plushie",
+    "sound": "cloth"
+},
+"ds:sukuna_plushie": {
+    "textures": "sukuna_plushie",
+    "sound": "cloth"
+}  
+    }

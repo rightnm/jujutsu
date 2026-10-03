@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:megaphone",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "megaphone"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§aCursed Megaphone\n§r§5- Increases the range of the Cursed Speech Technique when used.\n\n§r§l§a[ Grade 4 Cursed Tool ]"
+            },
+            "minecraft:max_stack_size": 1
+            },
+            "minecraft:foil": true,
+            "minecraft:allow_off_hand": false
+            }
+        }

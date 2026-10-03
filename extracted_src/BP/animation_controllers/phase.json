@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.boss_phase_activate": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "1": "query.max_health * 0.5 >= query.health"
+            }
+          ]
+        },
+        "1": {
+          "transitions": [
+            {
+              "default": "query.max_health"
+            }
+          ],
+          "on_entry": [
+            "/say test"
+          ]
+        }
+      }
+    }
+  }
+}

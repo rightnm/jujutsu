@@ -1,0 +1,147 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "scripts": {
+        "animate": [
+          "health"
+        ]
+      },
+      "animations": {
+        "health": "controller.animation.health"
+      },
+      "properties": {
+        "property:explode_staff": {
+          "type": "int",
+          "range": [0, 1],
+          "default": 1,
+          "client_sync": true
+        }
+      },
+      "identifier": "ds:xeroscoof",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "ds:disappear": {
+        "minecraft:transformation": {
+          "into": "ds:disappear",
+          "delay": 0.0
+        }
+      }
+    },
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": ["villain", "xeroscoof", "non_sorcerer", "heroic"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:health": {
+        "value": 500,
+        "max": 500,
+        "min": 1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:movement": {
+        "value": 0
+      },
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:knockback_resistance": {
+        "value": 4
+      },
+      "minecraft:scale": {
+        "value": 0.9
+      },
+      "minecraft:boss": {
+        "hud_range": 48,
+        "name": "§8-= §r§4Xero, The Scholar of RNG §8=-"
+      },
+      "minecraft:on_death": {
+        "event": "xeroscoof_die"
+      },
+      "minecraft:timer": {
+        "looping": true,
+        "time": 0,
+        "time_down_event": {
+          "event": "xeroscoof"
+        }
+      },
+      "minecraft:loot": {
+        "table": "loot/nothing.json"
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "test": "is_underwater",
+            "operator": "==",
+            "value": true
+          },
+          "event": "minecraft:start_transforming"
+        }
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      }
+    },
+    "events": {
+      "explode_staff_off": {
+        "set_property": {
+          "property:explode_staff": 0
+        }
+      },
+      "xeroscoof_die": {
+        "queue_command": {
+          "command": [
+            "function bosses/file/boss/summons/xeroscoof_death"
+          ]
+        }
+      },
+      "xeroscoof": {
+        "queue_command": {
+          "command": [
+            "function bosses/file/boss/summons/xeroscoof"
+          ]
+        }
+      },
+      "ds:disappear": {
+        "add": {
+          "component_groups": [
+            "ds:disappear"
+          ]
+        }
+      }
+    }
+  }
+}

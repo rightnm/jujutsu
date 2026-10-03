@@ -1,0 +1,31 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.18.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ds:judge_fit",
+			"materials": {
+				"default": "armor"
+			},
+			"textures": {
+				"default": "textures/entity/judge_fit"
+			},
+			"geometry": {
+				"default": "geometry.judge_fit"
+			},
+			"animations": {
+				"idle": "animation.judge_fit.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

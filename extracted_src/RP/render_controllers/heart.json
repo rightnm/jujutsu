@@ -1,0 +1,47 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.heart": {
+			"textures": [
+				"Array.variants[query.property('property:heart')]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:heart')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.textureoff",
+						"Geometry.heart",
+						"Geometry.rippedfinger",
+						"Geometry.yuji_rage",
+						"Geometry.rock_item",
+						"Geometry.megaphone",
+						"Geometry.special_charm",
+						"Geometry.rock_item2",
+						"Geometry.textureoff",
+						"Geometry.textureoff"
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.heart",
+						"Texture.rippedfinger",
+						"Texture.yuji_rage",
+						"Texture.rock_item",
+						"Texture.megaphone",	
+						"Texture.special_charm",
+						"Texture.rock_item",
+						"Texture.textureoff",
+						"Texture.textureoff"			
+					]
+				}
+			}
+		}
+	}
+}

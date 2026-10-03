@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:unstable_transfigured_human",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "transfigured_human_icon2"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§uUnstable Transfigured Soul\n§e- Souls violently warped by transfiguration,\nunstable but aggressive. Ideal tool for offensive techniques.\n§e- Can be fused with Stable Souls to perform §o§aSoul Multiplicity§r§e.\n\n§r§tConstruct: Spikes §7(§eRight-Click§7)\n§g- Cost: [ §51x Unstable Soul §g]\n\n§r§tConstruct: Worms §7(§eHold-Sneak + Right-Click§7)\n§g- Cost: [ §51x Unstable Soul §g]\n\n§r§tConstruct: Multishot-Worms §7(§eHold-Sneak + Punch§7)\n§g- Cost: [ §53x Unstable Souls §g]"
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

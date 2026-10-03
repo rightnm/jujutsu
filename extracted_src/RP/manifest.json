@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§l§5Jujutsu Awakening §7| §dMahito Update §7| §rAddon RP",
+        "description": "Enable BetaAPIs! | §4Made by Heroic Productions | Pack Image made by Magroic | ENABLE BETA APIS EXPERIMENTAL",
+        "uuid": "1ba83cec-3cd4-40a6-8efc-2e9874338dbc",
+        "version": [
+            1,
+            0,
+            4
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            80
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "83093fce-4bd3-4983-8808-58dd2f835027",
+            "version": [
+                1,
+                0,
+                4
+            ]
+        }
+    ]
+}

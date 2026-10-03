@@ -1,0 +1,35 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.18.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ds:water_fists",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/nothing"
+			},
+			"geometry": {
+				"default": "geometry.nothing"
+      },
+      "particle_effects": {
+        "flowingwater": "ds:flowingwater",
+        "flowingwater2": "ds:flowingwater2"
+			},
+			"animations": {
+				"idle": "animation.water_fists.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

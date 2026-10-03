@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:strange_vile",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "strange_vile"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§l§d§oStrange Vial\n§r§5- An Extremely rare vial of liquid. Upon consumption, you shall recieve a random trait.\n\n§r§o§4-Cursed Relic-"
+            },
+            "minecraft:max_stack_size": 1
+            },
+            "minecraft:foil": true,
+            "minecraft:allow_off_hand": false
+            }
+        }

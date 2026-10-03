@@ -1,0 +1,1233 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": { 
+      "scripts": {
+        "animate": [
+          "health",
+          "start",
+          "divergent",
+          "main",
+          "rotateleft",
+          "rotateright",
+          "left",
+          "right",
+          "jump",
+          "sneak",
+          "sprint",
+          "move",
+          "level"
+        ]
+      },
+      "animations": {
+        "health": "controller.animation.health",
+        "start": "animation.start",
+        "divergent": "controller.animation.divergentfists",
+        "main": "animation.main",
+        "left": "controller.animation.left",
+        "move": "controller.animation.move",
+        "right": "controller.animation.right",
+        "jump": "controller.animation.jump",
+        "sneak": "controller.animation.sneak",
+        "sprint": "controller.animation.sprint",
+        "level": "controller.animation.level"
+      },
+      "properties": {
+        "property:sukuna_markings": { 
+          "type": "int", 
+          "range": [0, 99], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:sixeyes": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:hollow_basket": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:ct_face": { 
+          "type": "int", 
+          "range": [0, 10], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:body_transfigure": { 
+          "type": "int", 
+          "range": [0, 2], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:hiten": { 
+          "type": "int", 
+          "range": [0, 2], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:body_transformation": { 
+          "type": "int", 
+          "range": [0, 5], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:kamutoke": { 
+          "type": "int", 
+          "range": [0, 5], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:volcano_head": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:fuga_spear": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:fuga_scythe": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:katana2": { 
+          "type": "int", 
+          "range": [0, 4], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:hazy_moon": { 
+          "type": "int", 
+          "range": [0, 4], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:execution_sword": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:heart": { 
+          "type": "int", 
+          "range": [0, 15], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:heart_wound": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:evidence": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:joystick": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:inventory_curse": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:pachinkohand1": { 
+          "type": "int", 
+          "range": [0, 4], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:extermination_sword": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:playful_cloud": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:extermination_swordretracted": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:mahoraga_wheel": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:mahoraga_wheel2": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:sixeyesb": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:weapon_hands": { 
+          "type": "int", 
+          "range": [0, 10], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:mahito_weapons": { 
+          "type": "int", 
+          "range": [0, 10], 
+          "default": 0,
+          "client_sync": true
+        },
+        "property:torch_light": { 
+          "type": "int", 
+          "range": [0, 1], 
+          "default": 0,
+          "client_sync": true
+        }			
+      },
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+      "jjka:body_transformation_rideable": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "player",
+            "dummy",
+            "curse",
+            "hostile",
+            "human"
+          ],
+          "seats": [
+            {
+            "position": [ 0, -1.5, 1 ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0,
+            "rotate_rider_by": 180
+            }
+          ]
+        }
+      },
+      "ds:soul_isomer_spawn": {
+            "minecraft:spawn_entity": {"entities": {"spawn_entity":"ds:familiar_entity", "min_wait_time":0, "max_wait_time":0, "num_to_spawn":2, "single_use":true}}
+      },
+      "ds:agatsuma_ai": {
+        "minecraft:behavior.melee_attack": {
+          "priority": 2,
+          "speed_multiplier": 0.3,
+          "reach_multiplier": 14,
+          "track_target": true
+        },
+        "minecraft:follow_range": {
+          "value": 35
+        },
+        "minecraft:behavior.hurt_by_target": {
+          "priority": 1
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:navigation.walk": {
+          "is_amphibious": true,
+          "can_pass_doors": true,
+          "can_walk": true,
+          "can_break_doors": true
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 2,
+          "within_radius": 25,
+          "reselect_targets": true,
+          "entity_types": [
+            {
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "=",
+                    "value": "raijinmarked"
+                  }
+                ]
+              },
+              "max_dist": 35
+            }
+          ],
+          "must_see": true,
+          "must_see_forget_duration": 17
+        }
+      },
+      "spider:username": {
+        "minecraft:nameable": {
+          "always_show": true,
+          "allow_name_tag_renaming": false
+        }
+      },
+      "ds:swordpunch": {
+        "minecraft:attack": {
+          "damage": 0
+        },
+        "minecraft:knockback_resistance": {
+          "value": 2.0
+        },
+        "minecraft:knockback_resistance": {
+          "value": 0.0
+        }
+      },
+      "jjka:sukuna_scale": {
+        "minecraft:scale": {
+          "value": 1.11
+        }
+      },
+      "jjka:normal_scale": {
+        "minecraft:scale": {
+          "value": 1
+        }
+      },
+      "minecraft:add_bad_omen": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "bad_omen",
+              "duration": 6000,
+              "visible": false,
+              "display_on_screen_animation": true
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": [0.0, 0.0],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:clear_add_bad_omen",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:clear_bad_omen_spell_effect": {
+        "minecraft:spell_effects": {
+        }
+      },
+      "minecraft:raid_trigger": {
+        "minecraft:raid_trigger": {
+          "triggered_event": {
+            "event": "minecraft:remove_raid_trigger",
+            "target": "self"
+          }
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": "bad_omen"
+        }
+      }
+    },
+    "components": {
+      "minecraft:experience_reward": {
+        "on_death": "Math.Min(query.player_level * 7, 100)"
+      },
+      "minecraft:type_family": {
+        "family": ["player"]
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {"test": "in_lava", "subject": "self", "operator": "==", "value": true},
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:exhaustion_values": {
+        "heal": 1,
+        "jump": 0.05,
+        "sprint_jump": 0.2,
+        "mine": 0.005,
+        "attack": 0.1,
+        "damage": 0.1,
+        "walk": 0.0,
+        "sprint": 0.1,
+        "swim": 0.01
+      },
+      "minecraft:player.saturation": {
+        "value": 5,
+        "max": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 20
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": -1,
+        "inhale_time": 3.75,
+        "generates_bubbles": false
+      },
+      "minecraft:physics": {
+        "push_towards_closest_space": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      },
+      "minecraft:block_climber": {},
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "all_of": [
+              {
+                "test": "has_mob_effect",
+                "subject": "self",
+                "value": "bad_omen"
+              },
+              {
+                "test": "is_in_village",
+                "subject": "self",
+                "value": true
+              }
+            ]
+          },
+          "event": "minecraft:trigger_raid"
+        }
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+        {
+        "on_damage": {
+        "filters": {
+        "all_of": [
+        {
+        "test": "has_tag",
+        "subject": "self",
+        "operator": "==",
+        "value": "Frames"
+        },
+        {
+        "test": "has_damage",
+        "subject": "self",
+        "operator": "!=",
+        "value": "suicide"
+        },
+        {
+        "test": "has_damage",
+        "subject": "self",
+        "operator": "!=",
+        "value": "override"
+        },
+        {
+        "test": "has_damage",
+        "subject": "self",
+        "operator": "!=",
+        "value": "starve"
+        },
+        {
+        "test": "has_damage",
+        "subject": "self",
+        "operator": "!=",
+        "value": "void"
+        }
+                ]
+              }
+            },
+        "deals_damage": false
+          },
+        {
+        "on_damage": {
+        "filters": {
+        "all_of": [
+        {
+        "test": "has_tag",
+        "subject": "self",
+        "operator": "==",
+        "value": "flames"
+        }
+            ]
+          }
+        },
+        "cause": "freezing",
+        "deals_damage": false
+             },
+             {
+        "on_damage": {
+        "filters": {
+        "all_of": [
+        {
+        "test": "has_tag",
+        "subject": "self",
+        "operator": "==",
+        "value": "idle_transfig"
+        },
+        {
+        "test": "has_tag",
+        "subject": "self",
+        "operator": "!=",
+        "value": "instant_body"
+        },
+        {
+        "test": "has_tag",
+        "subject": "self",
+        "operator": "!=",
+        "value": "nocts"
+        },
+        {
+        "any_of": [
+        {
+        "test": "has_damage",
+        "subject": "self",
+        "operator": "==",
+        "value": "void"
+        },
+        {
+        "test": "has_tag",
+        "subject": "damager",
+        "operator": "==",
+        "value": "soul_learned"
+        }
+                ]
+              }
+            ]
+          },
+          "event": "soul_damage",
+          "target": "self"
+        }
+             },
+             {
+        "on_damage": {
+        "filters": {
+        "all_of": [
+        {
+        "test": "has_tag",
+        "subject": "self",
+        "operator": "==",
+        "value": "instant_body"
+        },
+        {
+        "test": "has_tag",
+        "subject": "self",
+        "operator": "==",
+        "value": "resistance_0.5x"
+        },
+        {
+        "test": "has_damage",
+        "subject": "self",
+        "operator": "!=",
+        "value": "suicide"
+        },
+        {
+        "test": "has_damage",
+        "subject": "self",
+        "operator": "!=",
+        "value": "starve"
+        },
+        {
+        "test": "has_damage",
+        "subject": "self",
+        "operator": "!=",
+        "value": "drowning"
+        },
+        {
+        "test": "has_damage",
+        "subject": "self",
+        "operator": "!=",
+        "value": "void"
+        }
+            ]
+          }
+        },
+        "damage_multiplier": 0.5,
+        "damage_modifier": -1
+             }
+          ]
+       }
+    },
+    "events": {
+      "soul_isomer_spawn": {
+       "add": { "component_groups": [
+         "ds:soul_isomer_spawn"
+        ]}
+      },
+      "soul_damage": {
+             "queue_command": {"command": ["tag @s[scores={detect_health=1..},tag=!soul_damage] add soul_damage"]}
+      },
+      "sukunatextureoff": {
+        "set_property": {
+          "property:sukuna_markings": 0
+        }
+      },
+      "sukuna_markings": {
+        "set_property": {
+          "property:sukuna_markings": 1
+        }
+      },
+      "sukuna_markings_red0": {
+        "set_property": {
+          "property:sukuna_markings": 2
+        }
+      },
+      "sukuna_markings_red1": {
+        "set_property": {
+          "property:sukuna_markings": 3
+        }
+      },
+      "sukuna_markings_red": {
+        "set_property": {
+          "property:sukuna_markings": 4
+        }
+      },
+      "sukuna_markings_fire0": {
+        "set_property": {
+          "property:sukuna_markings": 5
+        }
+      },
+      "sukuna_markings_fire1": {
+        "set_property": {
+          "property:sukuna_markings": 6
+        }
+      },
+      "sukuna_markings_fire": {
+        "set_property": {
+          "property:sukuna_markings": 9
+        }
+      },
+      "sixeyestextureoff": {
+        "set_property": {
+          "property:sixeyes": 0
+        }
+      },
+      "amberbeasttextureoff": {
+        "set_property": {
+          "property:amberbeast": 0
+        }
+      },
+      "amberbeast1": {
+        "set_property": {
+          "property:amberbeast": 1
+        }
+      },
+      "amberbeast2": {
+        "set_property": {
+          "property:amberbeast": 2
+        }
+      },
+      "amberbeast3": {
+        "set_property": {
+          "property:amberbeast": 3
+        }
+      },
+      "amberbeast4": {
+        "set_property": {
+          "property:amberbeast": 4
+        }
+      },
+      "amberbeast5": {
+        "set_property": {
+          "property:amberbeast": 5
+        }
+      },
+      "amberbeast6": {
+        "set_property": {
+          "property:amberbeast": 6
+        }
+      },
+      "pachinkotextureoff": {
+        "set_property": {
+          "property:pachinkohand1": 0
+        }
+      },
+      "pachinkohand1": {
+        "set_property": {
+          "property:pachinkohand1": 1
+        }
+      },
+      "pachinkohand2": {
+        "set_property": {
+          "property:pachinkohand1": 2
+        }
+      },
+      "pachinkohand3": {
+        "set_property": {
+          "property:pachinkohand1": 3
+        }
+      },
+      "pachinkohand4": {
+        "set_property": {
+          "property:pachinkohand1": 4
+        }
+      },
+      "evidence": {
+        "set_property": {
+          "property:evidence": 1
+        }
+      },
+      "evidence_textureoff": {
+        "set_property": {
+          "property:evidence": 0
+        }
+      },
+      "sixeyes": {
+        "set_property": {
+          "property:sixeyes": 1
+        }
+      },
+      "mahoraga_wheeltextureoff": {
+        "set_property": {
+          "property:mahoraga_wheel": 0
+        }
+      },
+      "mahoraga_wheel": {
+        "set_property": {
+          "property:mahoraga_wheel": 1
+        }
+      },
+      "mahoraga_wheel2textureoff": {
+        "set_property": {
+          "property:mahoraga_wheel2": 0
+        }
+      },
+      "execution_sword": {
+        "set_property": {
+          "property:execution_sword": 1
+        }
+      },
+      "execution_swordtextureoff": {
+        "set_property": {
+          "property:execution_sword": 0
+        }
+      },
+      "mahoraga_wheel2": {
+        "set_property": {
+          "property:mahoraga_wheel2": 1
+        }
+      },
+      "joysticktextureoff": {
+        "set_property": {
+          "property:joystick": 0
+        }
+      },
+      "joystick": {
+        "set_property": {
+          "property:joystick": 1
+        }
+      },
+      "sixeyestextureoffb": {
+        "set_property": {
+          "property:sixeyesb": 0
+        }
+      },
+      "sixeyesb": {
+        "set_property": {
+          "property:sixeyesb": 1
+        }
+      },
+      "extermination_sword": {
+        "set_property": {
+          "property:extermination_sword": 1
+        }
+      },
+      "playful_cloud": {
+        "set_property": {
+          "property:playful_cloud": 1
+        }
+      },
+      "playful_cloudtextureoff": {
+        "set_property": {
+          "property:playful_cloud": 0
+        }
+      },
+      "inventory_curse": {
+        "set_property": {
+          "property:inventory_curse": 1
+        }
+      },
+      "inventory_cursetextureoff": {
+        "set_property": {
+          "property:inventory_curse": 0
+        }
+      },
+      "ds:divergent_fists_on": {
+        "set_property": {
+          "property:divergent_fists": 1
+        }
+      },
+      "ds:divergent_fists_off": {
+        "set_property": {
+          "property:divergent_fists": 0
+        }
+      },
+      "volcano_head": {
+        "set_property": {
+          "property:volcano_head": 1
+        }
+      },
+      "volcano_headtextureoff": {
+        "set_property": {
+          "property:volcano_head": 0
+        }
+      },
+      "katana2_sheathed": {
+        "set_property": {
+          "property:katana2": 1
+        }
+      },
+      "katana2_unsheathed": {
+        "set_property": {
+          "property:katana2": 2
+        }
+      },
+      "katana2_sheathdown": {
+        "set_property": {
+          "property:katana2": 4
+        }
+      },
+      "katana2_off": {
+        "set_property": {
+          "property:katana2": 3
+        }
+      },
+      "hazy_moon_off": {
+        "set_property": {
+          "property:hazy_moon": 0
+        }
+      },
+      "hazy_moon_on": {
+        "set_property": {
+          "property:hazy_moon": 1
+        }
+      },
+      "heart_wound_off": {
+        "set_property": {
+          "property:heart_wound": 0
+        }
+      },
+      "heart_wound_on": {
+        "set_property": {
+          "property:heart_wound": 1
+        }
+      },
+      "heart_off": {
+        "set_property": {
+          "property:heart": 0
+        }
+      },
+      "heart_on": {
+        "set_property": {
+          "property:heart": 1
+        }
+      },
+      "finger": {
+        "set_property": {
+          "property:heart": 2
+        }
+      },
+      "yuji_rage": {
+        "set_property": {
+          "property:heart": 3
+        }
+      },
+      "rock_item": {
+        "set_property": {
+          "property:heart": 4
+        }
+      },
+      "megaphone_on": {
+        "set_property": {
+          "property:heart": 5
+        }
+      },
+      "special_charm_on": {
+        "set_property": {
+          "property:heart": 6
+        }
+      },
+      "pebble_on": {
+        "set_property": {
+          "property:heart": 7
+        }
+      },
+      "extermination_swordretracted": {
+        "set_property": {
+          "property:extermination_swordretracted": 1
+        }
+      },
+      "fuga_speartextureoff": {
+        "set_property": {
+          "property:fuga_spear": 0
+        }
+      },
+      "fuga_spear": {
+        "set_property": {
+          "property:fuga_spear": 1
+        }
+      },
+      "fuga_scythetextureoff": {
+        "set_property": {
+          "property:fuga_scythe": 0
+        }
+      },
+      "fuga_scythe": {
+        "set_property": {
+          "property:fuga_scythe": 1
+        }
+      },
+      "extermination_swordtextureoff": {
+        "set_property": {
+          "property:extermination_sword": 0,
+          "property:extermination_swordretracted": 0
+        }
+      },
+      "okaruntextureoff": {
+        "set_property": {
+          "property:okarun": 0
+        }
+      },
+      "okarunmask": {
+        "set_property": {
+          "property:okarun": 1
+        }
+      },
+      "torn_limb": {
+        "set_property": {
+          "property:torn_limb": 1
+        }
+      },
+      "torn_limboff": {
+        "set_property": {
+          "property:torn_limb": 0
+        }
+      },
+      "custom_body_off": {
+        "set_property": {
+          "property:body_transformation": 0
+        }
+      },
+      "heian_on": {
+        "set_property": {
+          "property:body_transformation": 1
+        }
+      },
+      "heian_off": {
+        "set_property": {
+          "property:body_transformation": 0
+        }
+      },
+      "heian_red": {
+        "set_property": {
+          "property:body_transformation": 2
+        }
+      },
+      "instant_body_on": {
+        "set_property": {
+          "property:body_transformation": 3
+        },
+        "add": {
+          "component_groups": [
+            "jjka:body_transformation_rideable"
+          ]
+        }
+      },
+      "instant_body_off": {
+        "set_property": {
+          "property:body_transformation": 0
+        },
+        "remove": {
+          "component_groups": [
+            "jjka:body_transformation_rideable"
+          ]
+        }
+      },
+      "kamutoke_off": {
+        "set_property": {
+          "property:kamutoke": 0
+        }
+      },
+      "kamutoke_on": {
+        "set_property": {
+          "property:kamutoke": 1
+        }
+      },
+      "hiten": {
+        "set_property": {
+          "property:hiten": 1
+        }
+      },
+      "calamity_claws_on": {
+        "set_property": {
+          "property:weapon_hands": 1
+        }
+      },
+      "calamity_claws_off": {
+        "set_property": {
+          "property:weapon_hands": 0
+        }
+      },
+      "hiten_left": {
+        "set_property": {
+          "property:hiten_left": 2
+        }
+      },
+      "hiten_off": {
+        "set_property": {
+          "property:hiten": 0
+        }
+      },
+      "kamutoke_on_right": {
+        "set_property": {
+          "property:kamutoke": 2
+        }
+      },
+      "hollow_basket": {
+        "set_property": {
+          "property:hollow_basket": 1
+        }
+      },
+      "hollow_basket_off": {
+        "set_property": {
+          "property:hollow_basket": 0
+        }
+      },
+      "miracle_off": {
+        "set_property": {
+          "property:ct_face": 0
+        }
+      },
+      "ctface_off": {
+        "set_property": {
+          "property:ct_face": 0
+        }
+      },
+      "speech_tattoos_on": {
+        "set_property": {
+          "property:ct_face": 8
+        }
+      },
+      "miracle0": {
+        "set_property": {
+          "property:ct_face": 1
+        }
+      },
+      "miracle1": {
+        "set_property": {
+          "property:ct_face": 2
+        }
+      },
+      "miracle2": {
+        "set_property": {
+          "property:ct_face": 3
+        }
+      },
+      "miracle3": {
+        "set_property": {
+          "property:ct_face": 4
+        }
+      },
+      "miracle4": {
+        "set_property": {
+          "property:ct_face": 5
+        }
+      },
+      "miracle5": {
+        "set_property": {
+          "property:ct_face": 6
+        }
+      },
+      "miracle6": {
+        "set_property": {
+          "property:ct_face": 7
+        }
+      },
+      "torch_on": {
+        "set_property": {
+          "property:torch_light": 1
+        }
+      },
+      "torch_off": {
+        "set_property": {
+          "property:torch_light": 0
+        }
+      },
+      "mahito_off": {
+        "set_property": {
+          "property:body_transfigure": 0
+        }
+      },
+      "mahito_on": {
+        "set_property": {
+          "property:body_transfigure": 1
+        }
+      },
+      "mahito_mouthsigns_on": {
+        "set_property": {
+          "property:body_transfigure": 2
+        }
+      },
+      "mahito_metal_off": {
+        "set_property": {
+          "property:mahito_weapons": 0
+        }
+      },
+      "mahito_metal_on": {
+        "set_property": {
+          "property:mahito_weapons": 1
+        }
+      },
+      "mahito_drill_on": {
+        "set_property": {
+          "property:mahito_weapons": 2
+        }
+      },
+      "mahito_murder_manifestation": {
+        "set_property": {
+          "property:mahito_weapons": 3
+        }
+      },
+      "mahito_clankers": {
+        "set_property": {
+          "property:mahito_weapons": 4
+        }
+      },
+      "dual_souls": {
+        "set_property": {
+          "property:mahito_weapons": 5
+        }
+      },
+      "six_souls": {
+        "set_property": {
+          "property:mahito_weapons": 6
+        }
+      },
+      "mahito_blades": {
+        "set_property": {
+          "property:heart": 8
+        }
+      },
+      "mahito_heavy": {
+        "set_property": {
+          "property:heart": 9
+        }
+      },
+      "minecraft:display_chat_event": {
+        "add": {
+          "type": "show_custom_ui",
+          "name": "screen_animation"
+        }
+      },		
+      "jjka:give_sukuna_scale": {
+        "add": {
+          "component_groups": [
+            "jjka:sukuna_scale"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "jjka:normal_scale"
+          ]
+        }
+      },
+      "jjka:remove_sukuna_scale": {
+        "remove": {
+          "component_groups": [
+            "jjka:sukuna_scale"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "jjka:normal_scale"
+          ]
+        }
+      },
+      "ds:grab_seat": {
+        "add": {
+          "component_groups": [
+            "jjka:body_transformation_rideable"
+          ]
+        }
+      },
+      "ds:release_seat": {
+        "remove": {
+          "component_groups": [
+            "jjka:body_transformation_rideable"
+          ]
+        }
+      },
+      "minecraft:gain_bad_omen": {
+        "add": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        }
+      },
+      "minecraft:clear_add_bad_omen": {
+        "remove": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:clear_bad_omen_spell_effect"
+          ]
+        }
+      },
+      "minecraft:trigger_raid": {
+        "add": {
+          "component_groups": ["minecraft:raid_trigger"]
+        }
+      },
+      "minecraft:remove_raid_trigger": {
+        "remove": {
+          "component_groups": ["minecraft:raid_trigger"]
+        }
+      }
+    }
+  }
+}

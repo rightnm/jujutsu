@@ -1,0 +1,58 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§l§5Jujutsu Awakening §7| §dMahito Update §7| §rAddon BP",
+        "description": "Enable BetaAPIs! | §4Made by Heroic Productions | Pack Image made by Magroic | ENABLE BETA APIS EXPERIMENTAL",
+        "uuid": "996d2722-b4c8-478f-8788-37b0af8576e7",
+        "version": [
+            0,
+            1,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            30
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "49348d7b-7620-40b7-a2f5-a3d72167b108",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "dd190d90-c514-44e5-91d9-1abb896c7c7b",
+            "version": [
+                0,
+                1,
+                0
+            ],
+            "entry": "index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.17.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.3.0"
+        },
+        {
+            "uuid": "1ba83cec-3cd4-40a6-8efc-2e9874338dbc",
+            "version": [
+                1,
+                0,
+                4
+            ]
+        }
+    ]
+}

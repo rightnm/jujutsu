@@ -1,0 +1,107 @@
+//Naru code
+{
+  "format_version": "1.16.100",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "gg:impact_frame",
+      "is_summonable": true,
+      "is_spawnable": false,
+      "is_experimental": false
+    },
+    "component_groups": {
+        "naru:lol": {
+        "minecraft:timer": {
+      "time": 0.15,
+      "time_down_event": {
+      "event": "naru:next"
+        }
+      }
+        },
+        "naru:despawn": {
+        "minecraft:instant_despawn": {}
+        },
+        "naru:variant1": {
+        "minecraft:variant": {
+          "value": 1
+          }
+        },
+      "naru:variant2": {
+        "minecraft:variant": {
+          "value": 2
+          }
+        },
+        "naru:variant0": {
+        "minecraft:variant": {
+          "value": 0
+          }
+        }
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 1,
+        "min": 1,
+        "max": 1
+      },
+      "minecraft:type_family": {
+        "family": [
+          "inanimate"
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:persistent": {}
+    },
+    "events": {
+    "minecraft:entity_spawned": {
+            "queue_command": {
+             "command": ["execute if block ~~~ air run setblock ~~~ light_block [\"block_light_level\"=14]"]
+            },
+            "add": {
+            "component_groups": ["naru:lol"]
+            }
+         },
+    "naru:next": {
+            "queue_command": {
+             "command": ["fill ~3~3~3~-3~-3~-3 air [] replace light_block","event entity @s naru:despawn", "tag @e[c=1,type=!gg:impact_frame] add removeggframes"]
+            }
+         },
+    "naru:despawn": {
+        "sequence": [
+          {
+        "add": {
+          "component_groups": ["naru:despawn"]
+        }
+          }
+        ]
+      },
+      "naru:variant2": {
+        "add": {
+          "component_groups": [ "naru:variant2" ]
+            }
+      },
+      "naru:variant1": {
+        "remove": {
+        "component_groups": ["naru:variant0"]
+        },
+        "add": {
+          "component_groups": [ "naru:variant1" ]
+            }
+      },
+      "naru:variant0": {
+        "remove": {
+        "component_groups": ["naru:variant1"]
+        },
+        "add": {
+          "component_groups": [ "naru:variant0" ]
+            }
+      }
+    }
+  }
+}
+//Naru code

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:lovetrain4",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "lovetrain4"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§cCargo Haul\n§g- Cost: [ §7200 Cursed Energy §g]\n§r§5- §o4th Skill"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

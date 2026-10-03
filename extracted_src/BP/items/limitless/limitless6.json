@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:limitless6",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "limitless6"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§9§lDomain Expansion: Unlimited Void\n§r§g- Cost: [ §7800 Cursed Energy §g]\n\n§r§9§lQuick Domain Expansion: Unlimited Void §r§7(§eHold-Sneak+Right-Click§7)\n§r§g- Cost: [ §7800 Cursed Energy §g]\n\n§r§l§t0.2 Second Domain §r§7(§eHold-Jump+Right-Click§7)§r\n§g- Cost: [ §7300 Cursed Energy §g]\n§r§5- §o6th Skill"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

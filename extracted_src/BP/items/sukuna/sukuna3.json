@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:sukuna3",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "sukuna3"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§4Malevolent Shrine §7(§eRight-Click§7)\n§g- Cost: [ §7500 Cursed Energy §g]\n§9(Closed-Barrier Domain)\n\n§r§4Malevolent Shrine/Kitchen §7(§eHold-Sneak + Right-Click§7)\n§g- Cost: [ §72500 Cursed Energy §g]\n§9(Open-Barrier Domain)\n\n§r§cIncomplete Malevolent Shrine §7(§eHold-Jump + Right-Click §cWhile Under 25 Percent Health§e§7)\n§g- Cost: [ §71500 Cursed Energy §g]\n§4Requires Heian Era Transformation\n§9(Open-Barrier Domain)\n\n§r§5- §oDomain Expansion"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

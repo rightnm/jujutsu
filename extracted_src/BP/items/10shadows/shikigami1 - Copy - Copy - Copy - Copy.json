@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:shikigami5",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "shikigami5"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§fGreat Serpent\n§g- Cost: [ §7120 Cursed Energy §g]\n\n§r§fSerpent Trap §7(§eHold-Sneak+Right-Click§7)§r\n§g- Cost: [ §770 Cursed Energy §g]\n§r§5- §o5th Summon"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

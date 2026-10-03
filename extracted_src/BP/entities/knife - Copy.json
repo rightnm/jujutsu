@@ -1,0 +1,140 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ds:knives",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "ds:disappear": {
+        "minecraft:transformation": {
+          "into": "ds:disappear",
+          "delay": 0.0
+        }
+      },
+      "ds:projectile_adult": {
+        "minecraft:movement": {
+          "value": 0
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "idk"
+          ],
+          "seats": {
+            "position": [
+              0,
+              1.1,
+              -0.35
+            ],
+            "lock_rider_rotation": 0
+          }
+        },
+        "minecraft:behavior.mount_pathing": {
+          "priority": 2,
+          "speed_multiplier": 1.25,
+          "target_dist": 0,
+          "track_target": true
+        }
+      },
+      "bridge:execute_command_id_1": {
+        "minecraft:skin_id": {
+          "value": 1
+        }
+      },
+      "bridge:execute_no_command": {
+        "minecraft:skin_id": {
+          "value": 0
+        }
+      }
+    },
+    "components": {
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:type_family": {
+        "family": ["attack", "projectile"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.1
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1,
+        "min": 1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 0
+          }
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/none.json"
+      },
+      "minecraft:nameable": {},
+      "minecraft:persistent": {},
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": false,
+        "can_break_doors": true
+      },
+      "minecraft:movement": {
+        "value": 0
+	},
+	"minecraft:scale": {
+	"value": 1.85
+      },
+      "minecraft:jump.static": {},
+      "minecraft:timer": {
+        "looping": true,
+        "time": [0.0, 0.0],
+        "time_down_event": {
+          "event": "knife"
+        }
+      }
+    },
+    "events": {
+      "ds:disappear": {
+        "add": {
+          "component_groups": [
+            "ds:disappear"
+          ]
+        }
+      },
+      "knife": {
+        "queue_command": {
+          "command": [
+            "function knifethrow_2"
+          ]
+        }
+      }
+    }
+  }
+}

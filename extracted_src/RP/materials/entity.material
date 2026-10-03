@@ -1,0 +1,70 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    // Material for the impact frame, makes blocks and entities appear white with a black background
+    "impact_frame1:entity_emissive_alpha": {
+      "+defines": ["ALPHA_TEST"],
+      "depthFunc": "GreaterEqual",
+      "-defines": ["FANCY","ENABLE_FOG","ENABLE_LIGHT"],
+      "+states": ["Blending", "EnableStencilTest", "StencilWrite","DisableDepthWrite"],
+      "frontFace": {
+        "stencilFunc": "NotEqual"
+      },
+      "backFace": {
+        "stencilFunc": "NotEqual"
+      },
+      "stencilRef": 1
+    },
+
+    "impact_frame2:entity_alphatest": {
+      "+states": [
+        "EnableStencilTest","StencilWrite","DisableDepthWrite","InvertCulling"
+      ],
+      "depthFunc": "Always",
+      "-states": [
+        "DisableCulling"
+      ],
+      "-defines": [
+        "FANCY","ENABLE_FOG","ENABLE_LIGHT"
+      ],
+      "stencilRef": 1,
+      "stencilReadMask": 1
+    },
+
+    // Outline materials
+    "outline_base:entity_alphatest": {
+      "+states": [ "EnableStencilTest", "StencilWrite" ],
+      "frontFace": {
+        "stencilFunc": "Always",
+        "stencilFailOp": "Replace",
+        "stencilDepthFailOp": "Replace",
+        "stencilPassOp": "Replace"
+      },
+      "backFace": {
+        "stencilFunc": "Always",
+        "stencilFailOp": "Replace",
+        "stencilDepthFailOp": "Replace",
+        "stencilPassOp": "Replace"
+      },
+      "stencilRef": 2
+    },
+
+    "outline:entity_static": {
+      "+states": [ "InvertCulling", "EnableStencilTest", "DisableDepthWrite", "Blending" ],
+      "+defines": [ "USE_OVERLAY" ],
+      "-defines": [ "FANCY" ],
+      // "depthFunc": "Always",
+      // ^ Uncomment if you want the outline to be
+      //   rendered behind the block.
+      "frontFace": {
+        "stencilFunc": "NotEqual"
+      },
+      "backFace": {
+        "stencilFunc": "Equal"
+      },
+      "stencilRef": 2,
+      "stencilReadMask": 2
+    }
+  }
+}

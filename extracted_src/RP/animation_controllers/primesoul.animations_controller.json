@@ -1,0 +1,86 @@
+{
+    "format_version": "1.19.0",
+    "animation_controllers": {
+        "controller.animation.primesoul_idle": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": [
+                        {
+                            "primesoul_idle": "query.property('property:weapon') == 1"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "walk": "query.is_moving && query.is_on_ground && !q.is_sprinting && query.property('property:weapon') == 1"
+                        },
+                        {
+                            "sprint": "query.is_on_ground && q.is_sprinting && query.property('property:weapon') == 1"
+                        },
+                        {
+                            "jump": "query.is_jumping && query.property('property:weapon') == 1 && !query.is_in_water"
+                        }
+                    ],
+                    "blend_transition": 0.0
+                },
+                "walk": {
+                    "animations": [
+                        {
+                            "primesoul_idle": "query.property('property:weapon') == 1"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "idle": "query.is_on_ground && !query.is_moving && query.property('property:weapon') == 1"
+                        },
+                        {
+                            "sprint": "query.is_on_ground && q.is_sprinting && query.property('property:weapon') == 1"
+                        },
+                        {
+                            "jump": "query.is_jumping && query.property('property:weapon') == 1 && !query.is_in_water"
+                        }
+                    ],
+                    "blend_transition": 0.2
+                },
+                "sprint": {
+                    "animations": [
+                        {
+                            "primesoul_sprint": "query.property('property:weapon') == 1"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "walk": "query.is_moving && query.is_on_ground && !q.is_sprinting && query.property('property:weapon') == 1"
+                        },
+                        {
+                            "idle": "query.is_on_ground && !query.is_moving && query.property('property:weapon') == 1"
+                        },
+                        {
+                            "jump": "query.is_jumping && query.property('property:weapon') == 1 && !query.is_in_water"
+                        }
+                    ],
+                    "blend_transition": 0.0
+                },
+                "jump": {
+                    "animations": [
+                        {
+                            "primesoul_jump": "query.property('property:weapon') == 1 && !query.is_in_water"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "idle": "query.is_on_ground && !query.is_moving && query.property('property:weapon') == 1"
+                        },
+                        {
+                            "walk": "query.is_moving && query.is_on_ground && !q.is_sprinting && query.property('property:weapon') == 1"
+                        },
+                        {
+                            "sprint": "query.is_on_ground && q.is_sprinting && query.property('property:weapon') == 1"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                }
+            }
+        }
+    }
+}

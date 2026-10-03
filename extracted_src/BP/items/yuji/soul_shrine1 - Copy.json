@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:soul_shrine2",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "soul_shrine2"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§cDomain Expansion: Shrine of Reverie\n§g- Cost: [ §7500 Cursed Energy §g]\n§r§5- §oDomain Expansion"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

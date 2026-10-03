@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:challenger_dungeon"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 71341414,
+      "separation": 128,
+      "spacing": 257,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:challenger_dungeon",
+        "weight": 1
+      }
+    ]
+  }
+}

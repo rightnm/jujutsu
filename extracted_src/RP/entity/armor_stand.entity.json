@@ -1,0 +1,67 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:armor_stand",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "armor_stand"
+      },
+      "textures": {
+        "default": "textures/entity/armor_stand"
+      },
+      "animations": {
+        "default_pose": "animation.armor_stand.default_pose",
+        "no_pose": "animation.armor_stand.no_pose",
+        "solemn_pose": "animation.armor_stand.solemn_pose",
+        "athena_pose": "animation.armor_stand.athena_pose",
+        "brandish_pose": "animation.armor_stand.brandish_pose",
+        "honor_pose": "animation.armor_stand.honor_pose",
+        "entertain_pose": "animation.armor_stand.entertain_pose",
+        "salute_pose": "animation.armor_stand.salute_pose",
+        "riposte_pose": "animation.armor_stand.riposte_pose",
+        "zombie_pose": "animation.armor_stand.zombie_pose",
+        "cancan_a_pose": "animation.armor_stand.cancan_a_pose",
+        "cancan_b_pose": "animation.armor_stand.cancan_b_pose",
+        "hero_pose": "animation.armor_stand.hero_pose",
+        "wiggle": "animation.armor_stand.wiggle",
+        "controller.pose": "controller.animation.armor_stand.pose",
+        "controller.wiggling": "controller.animation.armor_stand.wiggle"
+      },
+      "particle_effects": {
+        "hollow_purple1": "ds:hollow_purple1",
+        "hollow_purple2": "ds:hollow_purple2",
+        "hollow_purple3": "ds:hollow_purple3",
+        "hollow_purple4": "ds:hollow_purple4",
+        "hollow_purple5": "ds:hollow_purple5",
+        "hollow_purple6": "ds:hollow_purple6",
+        "hollow_blue": "ds:hollow_blue",
+        "hollow_blue_trail": "ds:hollow_blue_trail",
+        "hollow_blue0": "ds:hollow_blue0",
+        "hollow_red": "ds:hollow_red",
+        "hollow_red_trail": "ds:hollow_red_trail",
+        "hollow_red0": "ds:hollow_red0",
+        "waterflow1": "ds:waterflow1",
+        "waterflow2": "ds:waterflow2",
+        "waterflow3": "ds:waterflow3",
+        "waterflow4": "ds:waterflow4",
+        "waterflow5": "ds:waterflow5"
+      },
+      "scripts": {
+        "initialize": [
+          "variable.armor_stand.pose_index = 0;",
+          "variable.armor_stand.hurt_time = 0;"
+        ],
+        "animate": [
+          "controller.pose",
+          "controller.wiggling"
+        ]
+      },
+      "geometry": {
+        "default": "geometry.armor_stand"
+      },
+      "render_controllers": [ "controller.render.armor_stand" ],
+      "enable_attachables": true
+    }
+  }
+}

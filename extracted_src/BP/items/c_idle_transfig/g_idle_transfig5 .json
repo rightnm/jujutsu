@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:idle_transfig5",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "idle_transfiguration_icon6"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§9§oInstant Spirit Body of Distorted Killing§r\n§g- Cost: [ §71000 Cursed Energy §g]\n\n§f-==Requirements=--\n§c50+ Endurance\n§350+ Agility\n§4Experience landing a Black Flash atleast once\n\n§r§5- §oClick again to exit the transformation"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

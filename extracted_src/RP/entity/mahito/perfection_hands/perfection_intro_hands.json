@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:perfection_intro_hands",
+      "spawn_egg": {
+        "overlay_color": "#a29920",
+        "base_color": "#a28949"
+      },
+      "materials": {
+        "default": "outline_base", // Must have due to custom material keeping the base on front.
+        "outline": "outline" // For outline.
+      },
+      "textures": {
+        "default": "textures/entity/perfection_hands", // Base texture
+        "outline": "textures/entity/White" // Outline texture
+      },
+      "geometry": {
+        "default": "geometry.perfection_intro_hands", // Base geometry
+        "outline": "geometry.perfection_intro_hands_outline" // Outline geometry - Same as base but inflated.
+      },
+			"scripts": {
+			"should_update_bones_and_effects_offscreen": true,
+			"animate": [
+			"root"
+			   ]
+			      },
+      "animations": {
+        "root": "animation.perfection_intro_hands"
+      },
+      "render_controllers": [
+        "controller.render.default",
+        "controller.render.arx.entity.outline" // For outline.
+      ]
+    }
+  }
+}

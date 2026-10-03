@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:idle_transfiguration_technique",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "idle_transfiguration_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§uIdle Transfiguration Technique\n§5§o- ''Thanks to the Hate Spewed Between Humans... I Was Born.''\n\n§r§g  - Click to use Idle Transfiguration Technique\n§g  - Sneak + Click to Advance Idle Transfiguration Technique§7 [ §gCost: 10 Invest Points §7]\n\n§l§9[Use while in Creative Mode to unlock all skills]\n\n§r§7[ §eSneak + Punch to Unequip All Skills §7]"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

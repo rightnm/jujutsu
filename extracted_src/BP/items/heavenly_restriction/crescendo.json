@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:crescendo",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.chestboat"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "crescendo"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§dCrescendo \n\n§r§gSoul Steal §7[§e Click §7]\n\n§5- Forged with fiery flames and a demon's eye,\nthe Crescendo ascends from its ancient sleep with a thundering tone.\n(This item was created in the architect's work: Clover Legends/Meridia, Item is a Reference to the Crescendo on Roblox)"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

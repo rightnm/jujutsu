@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:flames5",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "flames5"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§6Volcanic Launch\n§g- Cost: [ §7100 Cursed Energy §g]\n\n§r§6Molten Wave §7(§eHold-Sneak+Right-Click§7)§r\n§g- Cost: [ §7200 Cursed Energy §g]\n\n§r§6Lava Burst §7(§eHold-Jump+Right-Click§7)§r\n§g- Cost: [ §7200 Cursed Energy §g]\n\n§r§l§cVolcanic Crush §7(§eHold-Jump+Sneak+Right-Click§7)§r\n§g- Cost: [ §7800 Cursed Energy §g]\n§r§5- §oMolten Lava Skills"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

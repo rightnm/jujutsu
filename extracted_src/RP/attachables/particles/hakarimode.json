@@ -1,0 +1,40 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.18.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ds:hakarimode",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/nothing"
+			},
+			"geometry": {
+				"default": "geometry.nothing"
+      },
+      "particle_effects": {
+        "hakari_aura1": "ds:hakari_aura1",
+        "hakari_aura2": "ds:hakari_aura2",
+        "divergent_green1": "ds:hakari_aura3",
+        "hakari_aura4": "ds:hakari_aura4",
+        "hakari_aura5": "ds:hakari_aura5",
+        "hakari_aura6": "ds:hakari_aura6",
+        "hakari_aura7": "ds:hakari_aura7"
+			},
+			"animations": {
+				"idle": "animation.hakarimode.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

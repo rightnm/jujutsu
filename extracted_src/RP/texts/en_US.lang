@@ -1,0 +1,259 @@
+item.spawn_egg.entity.ds:no_knockback_dummy.name=§r§fDummy §7[§c Knockback-Disabled §r§7] 
+item.spawn_egg.entity.ds:knockback_dummy.name=§r§fDummy §7[§a Knockback-Enabled §r§7] 
+entity.ds:no_knockback_dummy.name=§r§fDummy §7[§c Knockback-Disabled §r§7] 
+entity.ds:knockback_dummy.name=§r§fDummy §7[§c Knockback-Enabled §r§7] 
+
+
+item.spawn_egg.entity.ds:dummy_no_finishers.name=§r§fDummy §7[§c Finishers-Disabled §r§7] 
+entity.ds:dummy_no_finishers.name=§r§fDummy §7[§c Finishers-Disabled §r§7] 
+
+entity.ds:pebble.name=§r§fPebble of Doom
+
+entity.ds:flyhead.name=§r§f[§a Grade 4 §r§f] Flyhead Curse
+entity.ds:flyhead2.name=§r§f[§a Grade 4 §r§f] Flyhead Curse
+entity.ds:flyhead3.name=§r§f[§a Grade 4 §r§f] Flyhead Curse
+entity.ds:flyhead4.name=§r§f[§a Grade 4 §r§f] Flyhead Curse
+entity.ds:snail_curse.name=§r§f[§a Grade 4 §r§f] Snail Curse
+entity.ds:ray.name=§r§f[§a Grade 4 §r§f] Ray Curse
+entity.ds:gremlin_curse1.name=§r§f[§a Grade 4 §r§f] Gremlin Curse
+entity.ds:kiss_fish.name=§r§f[§a Grade 4 §r§f] Lipsfish Curse
+entity.ds:centipede_curse.name=§r§f[§a Grade 4 §r§f] Centipede Curse
+entity.ds:leech_curse.name=§r§f[§a Grade 4 §r§f] Leech Curse
+
+entity.ds:mouth_curse.name=§r§f[§2 Grade 3 §r§f] Freaky Ahh Curse
+entity.ds:hair_curse.name=§r§f[§2 Grade 3 §r§f] Roppongi Curse
+entity.ds:mushroom_curse.name=§r§f[§2 Grade 3 §r§f] Mushroom Curse
+entity.ds:mushroom_curse_big.name=§r§f[§2 Grade 3 §r§f] Mushroom Curse
+entity.ds:longshroom_curse.name=§r§f[§2 Grade 3 §r§f] Longshroom Curse
+
+entity.ds:brute.name=§r§f[§6 Grade 2 §r§f] Brute Curse
+entity.ds:brute2.name=§r§f[§6 Grade 2 §r§f] Brute Curse
+entity.ds:brute3.name=§r§f[§6 Grade 2 §r§f] Brute Curse
+entity.ds:brute4.name=§r§f[§6 Grade 2 §r§f] Brute Curse
+entity.ds:lizard_curse.name=§r§f[§6 Grade 2 §r§f] Lizard Curse
+entity.ds:grasshopper_curse.name=§r§f[§6 Grade 2 §r§f] Grasshopper Curse
+entity.ds:sharko.name=§r§f[§6 Grade 2 §r§f] Sharko Curse
+
+entity.ds:azureflames_curse.name=§r§f[§c Grade 1 §r§f] Azure Forest Curse
+entity.ds:centipede_grade1.name=§r§f[§c Grade 1 §r§f] Titan Centipede Curse
+entity.ds:creepy.name=§r§f[§c Grade N/A §r§f] Stalker Curse
+
+
+entity.wither.name=§r§f[§5 Special Grade §r§f] The Wither
+entity.warden.name=§r§f[§5 Special Grade §r§f] The Warden
+entity.ds:jogo.name=§r§f[§5 Special Grade §r§f] Jogo
+
+entity.ds:mahito.name=§r§f[§5 Special Grade §r§f] Mahito
+item.spawn_egg.entity.ds:mahito.name=§r§f[§5 Special Grade §r§f] Mahito
+
+entity.ds:transfigured_human.name=§r§fTransfigured Human
+item.spawn_egg.entity.ds:transfigured_human.name=§r§fTransfigured Human
+
+
+entity.ds:soul_isomer.name=§r§fPolymorphic Soul Isomer
+
+item.spawn_egg.entity.ds:flyhead.name=§r§f[§a Grade 4 §r§f] Flyhead Curse
+item.spawn_egg.entity.ds:flyhead2.name=§r§f[§a Grade 4 §r§f] Flyhead Curse
+item.spawn_egg.entity.ds:flyhead3.name=§r§f[§a Grade 4 §r§f] Flyhead Curse
+item.spawn_egg.entity.ds:flyhead4.name=§r§f[§a Grade 4 §r§f] Flyhead Curse
+item.spawn_egg.entity.ds:snail_curse.name=§r§f[§a Grade 4 §r§f] Snail Curse
+item.spawn_egg.entity.ds:ray.name=§r§f[§a Grade 4 §r§f] Ray Curse
+item.spawn_egg.entity.ds:gremlin_curse1.name=§r§f[§a Grade 4 §r§f] Gremlin Curse
+item.spawn_egg.entity.ds:kiss_fish.name=§r§f[§a Grade 4 §r§f] Lipsfish Curse
+item.spawn_egg.entity.ds:centipede_curse.name=§r§f[§a Grade 4 §r§f] Centipede Curse
+item.spawn_egg.entity.ds:leech_curse.name=§r§f[§a Grade 4 §r§f] Leech Curse
+
+item.spawn_egg.entity.ds:mouth_curse.name=§r§f[§2 Grade 3 §r§f] Freaky Ahh Curse
+item.spawn_egg.entity.ds:hair_curse.name=§r§f[§2 Grade 3 §r§f] Roppongi Curse
+item.spawn_egg.entity.ds:mushroom_curse.name=§r§f[§2 Grade 3 §r§f] Mushroom Curse
+item.spawn_egg.entity.ds:mushroom_curse_big.name=§r§f[§2 Grade 3 §r§f] Mushroom Curse
+item.spawn_egg.entity.ds:longshroom_curse.name=§r§f[§2 Grade 3 §r§f] Longshroom Curse
+
+item.spawn_egg.entity.ds:brute.name=§r§f[§6 Grade 2 §r§f] Brute Curse
+item.spawn_egg.entity.ds:brute2.name=§r§f[§6 Grade 2 §r§f] Brute Curse
+item.spawn_egg.entity.ds:brute3.name=§r§f[§6 Grade 2 §r§f] Brute Curse
+item.spawn_egg.entity.ds:brute4.name=§r§f[§6 Grade 2 §r§f] Brute Curse
+item.spawn_egg.entity.ds:lizard_curse.name=§r§f[§6 Grade 2 §r§f] Lizard Curse
+item.spawn_egg.entity.ds:grasshopper_curse.name=§r§f[§6 Grade 2 §r§f] Grasshopper Curse
+item.spawn_egg.entity.ds:sharko.name=§r§f[§6 Grade 2 §r§f] Sharko Curse
+
+item.spawn_egg.entity.ds:azureflames_curse.name=§r§f[§c Grade 1 §r§f] Azure Forest Curse
+item.spawn_egg.entity.ds:centipede_grade1.name=§r§f[§c Grade 1 §r§f] Titan Centipede Curse
+item.spawn_egg.entity.ds:creepy.name=§r§f[§c Grade N/A §r§f] Stalker Curse
+
+
+item.spawn_egg.entity.ds:faceless_sorcerer.name=§r§f[§4 Grade N/A §r§f] Abnormal Entity
+entity.ds:faceless_sorcerer.name=§r§f[§4 Grade N/A §r§f] Abnormal Entity
+
+item.spawn_egg.entity.ds:finger_bearer.name=§r§f[§5 Special Grade §r§f] Finger Bearer
+item.spawn_egg.entity.ds:jogo.name=§r§f[§5 Special Grade §r§f] Jogo
+item.spawn_egg.entity.warden.name=§r§f[§5 Special Grade §r§f] The Warden
+item.spawn_egg.entity.ds:kaiju_curse.name=§r§f[§5 Special Grade §r§f] Shinkyodaiju Curse\n§5- It's Massive... But you know what else is massive?
+entity.ds:kaiju_curse.name=§r§f[§5 Special Grade §r§f] Shinkyodaiju Curse
+
+item.spawn_egg.entity.ds:beru_curse.name=§r§f[§5 Special Grade §r§f] Vengeful Ant Curse\n§5- Based off Beru from Solo Levelling,\nThis curse is the vengeful spirit of a large, lifeless ant colony.
+entity.ds:beru_curse.name=§r§f[§5 Special Grade §r§f] Vengeful Ant Curse
+
+
+entity.ds:limitless_explosion.name=an insanely strong force
+entity.ds:reversal_red.name=an incredibly strong force
+entity.ds:red_reversal.name=an incredibly strong force
+entity.ds:lapse_explode.name=a strong force
+entity.ds:pachinko_impact1.name=a strong force
+
+entity.ds:sorcerer_female.name=§r§f[§a Grade 4 §r§f] Jujutsu Sorcerer
+entity.ds:sorcerer_male.name=§r§f[§a Grade 4 §r§f] Jujutsu Sorcerer
+entity.ds:sorcerer_female_grade2.name=§r§f[§6 Semi-Grade 2 §r§f] Jujutsu Sorcerer
+entity.ds:sorcerer_male_grade2.name=§r§f[§6 Semi-Grade 2 §r§f] Jujutsu Sorcerer
+entity.ds:sorcerer_female_grade1.name=§r§f[§c Semi-Grade 1 §r§f] Jujutsu Sorcerer
+entity.ds:sorcerer_male_grade1.name=§r§f[§c Semi-Grade 1 §r§f] Jujutsu Sorcerer
+
+entity.ds:q_sorcerer.name=§r§f[§a Grade 4 §r§f] Q Sorcerer
+item.spawn_egg.entity.ds:q_sorcerer.name=§r§f[§a Grade 4 §r§f] Q Sorcerer
+
+entity.ds:q_sorcerer_grade3.name=§r§f[§a Grade 3 §r§f] Q Sorcerer
+item.spawn_egg.entity.ds:q_sorcerer_grade3.name=§r§f[§a Grade 3 §r§f] Q Sorcerer
+
+entity.ds:kokun.name=§r§f[§6 Grade 2 §r§f] Kokun 
+item.spawn_egg.entity.ds:kokun.name=§r§f[§6 Grade 2 §r§f] Kokun
+
+entity.ds:bayer.name=§r§f[§c Semi-Grade 1 §r§f] Bayer 
+item.spawn_egg.entity.ds:bayer.name=§r§f[§c Semi-Grade 1 §r§f] Bayer
+
+entity.ds:finger_bearer.name=§r§f[§5 Special Grade §r§f] Finger Bearer
+entity.ds:mahoragaboss.name=Eight-Handled Sword Divergent Sila Divine General Mahoraga
+entity.ds:mahoragatamed.name=Eight-Handled Sword Divergent Sila Divine General Mahoraga
+
+entity.ds:toji.name=§r§f[§4 N/A §r§f] Toji Fushiguro
+entity.ds:toji_reawakened.name=§r§f[§4 N/A §r§f] Toji Fushiguro (Reawakened)
+entity.ds:yuji_itadori.name=§r§f[§c Grade 1 §r§f] Yuji Itadori (Season 1 / 2)
+entity.ds:yuji_itadori_awakened.name=§r§f[§5 Special Grade §r§f] Awakened Yuji Itadori
+entity.ds:hakari.name=§r§f[§c Grade 1 §r§f] Hakari Kinji
+entity.ds:maki_cullinggames.name=§r§f[§4 N/A §r§f] Maki Zenin (Culling Games)
+entity.ds:kusakabe.name=§r§f[§c Grade 1 §r§f] Kusakabe Atsuya
+entity.ds:higuruma.name=§r§f[§c Grade 1 §r§f] Higuruma Hiromi
+entity.ds:kusakabe_npc.name=§r§f[§c Grade 1 §r§f] Kusakabe Atsuya (NPC)
+entity.ds:megumi.name=§r§f[§6 Grade 2 §r§f] Megumi Fushiguro
+entity.ds:inumaki.name=§r§f[§c Semi-Grade 1 §r§f] Toge Inumaki 
+entity.ds:todo.name=§r§f[§c Semi-Grade 1 §r§f] Aoi Todo
+
+entity.ds:bag_head.name=§r§f[§6 Grade 2 §r§f] Bag-Head Sorcerer
+item.spawn_egg.entity.ds:bag_head.name=§r§f[§6 Grade 2 §r§f] Bag-Head Sorcerer
+
+
+entity.ds:juzo.name=§r§f[§6 Grade 2 §r§f] Juzo Kumiya
+item.spawn_egg.entity.ds:juzo.name=§r§f[§6 Grade 2 §r§f] Juzo Kumiya
+
+entity.ds:miwa.name=§r§f[§2 Grade 3 §r§f] Miwa Kasumi
+item.spawn_egg.entity.ds:miwa.name=§r§f[§2 Grade 3 §r§f] Miwa Kasumi
+
+entity.ds:haruta.name=§r§f[§c Semi-Grade 1 §r§f] Haruta Shigemo
+item.spawn_egg.entity.ds:haruta.name=§r§f[§c Semi-Grade 1 §r§f] Haruta Shigemo
+
+
+entity.ds:kashimo.name=§r§f[§5 Special Grade §r§f] Kashimo Hajime (The Farmer)
+entity.ds:student_gojo.name=§r§f[§5 Special Grade §r§f] Satoru Gojo (Hidden Inventory Arc)
+entity.ds:student_gojo2.name=§r§f[§5 Special Grade §r§f] Reawakened Satoru Gojo (Hidden Inventory Arc)
+
+item.spawn_egg.entity.ds:ember_insect.name=§r§f[§a Grade 4 §r§f] Ember Insect
+item.spawn_egg.entity.ds:toji.name=§r§f[§4 N/A §r§f] Toji Fushiguro
+item.spawn_egg.entity.ds:toji_reawakened.name=§r§f[§4 N/A §r§f] Toji Fushiguro (Reawakened)
+item.spawn_egg.entity.ds:yuji_itadori.name=§r§f[§c Grade 1 §r§f] Yuji Itadori (Season 1 / 2)
+item.spawn_egg.entity.ds:yuji_itadori_awakened.name=§r§f[§5 Special Grade §r§f] Awakened Yuji Itadori
+item.spawn_egg.entity.ds:kashimo.name=§r§f[§5 Special Grade §r§f] Kashimo Hajime (The Farmer)
+item.spawn_egg.entity.ds:hakari.name=§r§f[§c Grade 1 §r§f] Hakari Kinji
+item.spawn_egg.entity.ds:maki_cullinggames.name=§r§f[§4 N/A §r§f] Maki Zenin (Culling Games)
+item.spawn_egg.entity.ds:kusakabe.name=§r§f[§c Grade 1 §r§f] Kusakabe Atsuya 
+item.spawn_egg.entity.ds:kusakabe_npc.name=§r§f[§c Grade 1 §r§f] Kusakabe Atsuya (NPC)
+item.spawn_egg.entity.ds:higuruma.name=§r§f[§c Grade 1 §r§f] Higuruma Hiromi
+
+item.spawn_egg.entity.ds:inumaki.name=§r§f[§c Semi-Grade 1 §r§f] Toge Inumaki 
+item.spawn_egg.entity.ds:todo.name=§r§f[§c Semi-Grade 1 §r§f] Aoi Todo
+
+
+item.spawn_egg.entity.ds:sorcerer_female.name=§r§f[§a Grade 4 §r§f] Jujutsu Sorcerer
+item.spawn_egg.entity.ds:sorcerer_male.name=§r§f[§a Grade 4 §r§f] Jujutsu Sorcerer
+item.spawn_egg.entity.ds:sorcerer_female_grade2.name=§r§f[§6 Semi-Grade 2 §r§f] Jujutsu Sorcerer
+item.spawn_egg.entity.ds:sorcerer_male_grade2.name=§r§f[§6 Semi-Grade 2 §r§f] Jujutsu Sorcerer
+item.spawn_egg.entity.ds:sorcerer_female_grade1.name=§r§f[§c Grade 1 §r§f] Jujutsu Sorcerer
+item.spawn_egg.entity.ds:sorcerer_male_grade1.name=§r§f[§c Grade 1 §r§f] Jujutsu Sorcerer
+
+item.spawn_egg.entity.ds:student_gojo.name=§r§f[§5 Special Grade §r§f] Gojo (Hidden Inventory Arc)
+item.spawn_egg.entity.ds:student_gojo2.name=§r§f[§5 Special Grade §r§f] Reawakened Gojo (Hidden Inventory Arc)
+item.spawn_egg.entity.ds:megumi.name=§r§f[§6 Grade 2 §r§f] Megumi Fushiguro
+
+tile.ds:gold_heroic_plushie.name=§l§dGolden Miniroic
+tile.ds:heroic_plushie.name=§gMiniroic
+tile.ds:heroic_plushie2.name=§gMiniroic Prime
+tile.ds:uzkownik_plushie.name=§gMiniuzkownik
+tile.ds:xero_plushie.name=§gMinixero
+tile.ds:soulking_plushie.name=§gMinisoul
+tile.ds:magroic_plushie.name=§gMinimagroic
+tile.ds:lemon_plushie.name=§gfake friend plushie
+tile.ds:glitch_plushie.name=§gMiniturtle
+tile.ds:frogdog_plushie.name=§gMinifrogdog
+tile.ds:butter_plushie.name=§gMinibutter
+tile.ds:gojo_plushie.name=§gMinigojo
+tile.ds:geto_plushie.name=§gMinigeto
+tile.ds:heian_sukuna_plushie.name=§gMinikuna
+tile.ds:toji_plushie.name=§gMinitoji
+tile.ds:yuta_plushie.name=§gMiniyuta
+tile.ds:chosso_plushie.name=§gMinichoso
+tile.ds:kashimo_plushie.name=§gMinikashimo
+tile.ds:manga_yuji_plushie.name=§gMiniyuji
+tile.ds:nanami_plushie.name=§gMininanami
+tile.ds:meguma_plushie.name=§gMinimeguna
+tile.ds:yuji_plushie.name=§gMiniyuji
+tile.ds:tobi_plushie.name=§gMinitobi
+tile.ds:danser_plushie.name=§gMinidanser
+tile.ds:d4rius_plushie.name=§gMinid4rius
+tile.ds:arox_plushie.name=§gMiniarox
+tile.ds:timmy_plushie.name=§gMinitimmy
+tile.ds:epicae_plushie.name=§gMiniepicae
+tile.ds:bdayseal_plushie.name=§gMiniseal §g(Winner of a Giveaway)
+tile.ds:neuro_plushie.name=§gMinineuro
+tile.ds:maki_plushie.name=§gMinimaki
+tile.ds:uraume_plushie.name=§gMiniuraume
+tile.ds:sukuna_plushie.name=§gMinikuna
+tile.ds:nobara_plushie.name=§gMininobara
+tile.ds:yuki_plushie.name=§gMiniyuki
+tile.ds:mei_plushie.name=§gMinimeimei
+tile.ds:higuruma_plushie.name=§gMinihiguruma
+tile.ds:mahito_plushie.name=§gMinimahito
+tile.ds:kenjaku_plushie.name=§gMinikenjaku
+tile.ds:cell_plushie.name=§gMinicell
+
+tile.ds:divine_gold_block.name=§dDivine Gold Block
+tile.ds:unobtanium_block.name=§dUnobtanium Block
+tile.ds:unobtanium_ore.name=§eUnobtanium Ore
+tile.ds:foreign_bricks.name=§eForeign Bricks
+tile.ds:lost_hiten.name=§r§dForgotten Spear
+tile.ds:crate_v1.name=§7[ §aGrade 4 §7] §r§fCrate
+tile.ds:crate_v2.name=§7[ §2Grade 3 §7] §r§fCrate
+tile.ds:crate_v3.name=§7[ §6Grade 2 §7] §r§fCrate
+tile.ds:crate_v4.name=§7[ §cGrade 1 §7] §r§fCrate
+tile.ds:crate_v5.name=§7[ §5Special Grade §7] §r§fCrate
+
+tile.ds:void.name=§l§k§0???
+tile.ds:void_white.name=§l§k§f???
+tile.ds:void_gray.name=§l§k§7???
+
+tile.vault.name=§r§dCursed Vault
+item.trial_key.name=§r§bCursed Key
+item.ominous_trial_key.name=§r§dOminous Cursed Key
+
+item.spawn_egg.entity.ds:curse_warder_v1.name=§r§fCurse Warder §r§f[§a Grade 3 §r§f] §c(Sneak+Punch to pick-up)
+item.spawn_egg.entity.ds:curse_warder_v2.name=§r§fCurse Warder §r§f[§6 Grade 2 §r§f] §c(Sneak+Punch to pick-up)
+item.spawn_egg.entity.ds:curse_warder_v3.name=§r§fCurse Warder §r§f[§c Grade 1 §r§f] §c(Sneak+Punch to pick-up)
+item.spawn_egg.entity.ds:curse_warder_v4.name=§r§fCurse Warder §r§f[§5 Special Grade §r§f] §c(Sneak+Punch to pick-up)
+
+
+entity.ds:curse_warder_v1.name=§r§fCurse Warder §r§f[§a Grade 3 §r§f]
+entity.ds:curse_warder_v2.name=§r§fCurse Warder §r§f[§6 Grade 2 §r§f]
+entity.ds:curse_warder_v3.name=§r§fCurse Warder §r§f[§c Grade 1 §r§f]
+entity.ds:curse_warder_v4.name=§r§fCurse Warder §r§f[§5 Special Grade §r§f]
+
+
+item.spawn_egg.entity.ds:mysterious_artifact.name=§r§dMysterious Artifact\n§5- ???\n\n§e(Hold Sneak + Punch to pick back up, §cwill clear artifact's data§e!)\n\n§l§4MIGHT NOT work on realms.
+entity.ds:mysterious_artifact.name=§r§dMysterious Artifact
+

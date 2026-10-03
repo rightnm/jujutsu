@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.glocks": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.textureoff",
+            "Texture.glocks"
+          ]
+        }
+      },
+      "geometry": "Geometry.glocks",
+      "materials": [{"*": "Material.emissive"}],
+      "textures": [
+        "query.property('property:glocks') == 1 ? Texture.glocks : (query.property('property:glocks') == 0 ? Texture.textureoff)"
+      ]
+    }
+  }
+}

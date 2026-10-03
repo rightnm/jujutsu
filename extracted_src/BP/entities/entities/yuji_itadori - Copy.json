@@ -1,0 +1,311 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": { 
+			"scripts": {
+	"animate": [
+					"health"
+				]
+			},
+			"animations": {
+				"health": "controller.animation.health"
+			},
+	"properties":{
+				"property:yuji_face": { 
+					"type": "int", 
+					"range": [0, 4], 
+					"default": 0,
+					"client_sync": true
+				},
+				"property:weapon_hands": { 
+					"type": "int", 
+					"range": [0, 1], 
+					"default": 1,
+					"client_sync": true
+				}	
+	},
+      "identifier": "ds:yuji_itadori_awakened",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:yuji_itadori_components": {
+
+        "minecraft:behavior.controlled_by_player": {
+          "speed_multiplier": 1.0
+        },
+        "minecraft:behavior.ranged_attack": {
+          "attack_groups": ["yuji_itadori_projectile"]
+        }
+      },
+        "target": {
+        "minecraft:timer": {
+        "time": 0,
+        "looping": true,
+        "time_down_event": {
+          "event": "bosscmd",
+          "target": "self"
+         }
+        }
+       }
+      },
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": ["hero", "yuji", "sorcerer", "human", "boss", "special_grade"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": true,
+        "can_break_doors": true
+      },
+      "minecraft:annotation.break_door": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:health": {
+        "value": 900,
+        "max": 900
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:movement": {
+        "value": 0.475
+      },
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 0.1
+      },
+      "minecraft:on_death": {
+        "event": "yuji_die"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/sus"
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "test": "is_underwater",
+            "operator": "==",
+            "value": true
+          },
+          "event": "minecraft:start_transforming"
+        }
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1,
+        "track_target": false
+      },
+      "minecraft:behavior.stomp_turtle_egg": {
+        "priority": 4,
+        "speed_multiplier": 1,
+        "search_range": 10,
+        "search_height": 3,
+        "goal_radius": 1.14,
+        "search_count": 4,
+        "interval": 20
+
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1,
+				"entity_types": {
+					"filters": {
+						"none_of": [
+							{
+								"test": "is_family",
+								"subject": "other",
+								"value": "hero"
+							},
+							{
+								"test": "has_tag",
+								"subject": "other",
+								"value": "yuji_awakened_brother"
+							}
+						]
+					},
+					"max_dist": 64
+				}
+			},
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 11,
+        "reselect_targets": true,
+        "must_see": false,
+        "within_radius": 64,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                        "subject": "other",
+                  "value": "villain"
+                },
+                {
+                  "test": "has_tag",
+                        "subject": "other",
+                  "value": "curse"
+                },
+                {
+                  "test": "is_family",
+                        "subject": "other",
+                  "value": "purecurse"		
+                },
+                {
+									"test": "has_tag",
+									"subject": "other",
+									"value": "sukuna"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "sukuna"
+								},
+								{
+                  "test": "is_family",
+                        "subject": "other",
+                  "value": "undead"				  
+                }
+              ]
+            },
+            "max_dist": 64
+          }
+        ]
+      },
+      "minecraft:follow_range": 300,
+      "minecraft:loot": {
+        "table": "loot/nothing.json"
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+	  },
+	  "minecraft:on_target_acquired": {
+        "event": "target"
+      }
+    },
+    "events": {
+    "yuji_faceoff": {
+    "set_property": {
+	"property:yuji_face": 0
+		}
+	},
+	"yuji_face1": {
+    "set_property": {
+	"property:yuji_face": 1
+		}
+	},
+	"yuji_face2": {
+    "set_property": {
+	"property:yuji_face": 2	
+		}
+	},
+	"yuji_face3": {
+    "set_property": {
+	"property:yuji_face": 3	
+		}
+	},
+	"calamity_claws": {
+    "set_property": {
+	"property:weapon_hands": 1	
+		}
+	},
+      "yuji_die": {
+        "queue_command": {
+          "command": [
+            "function mobs/yuji_death2",
+            "camerashake add @a[r=35] 0.1 0.1"
+		  ]
+            }
+  },
+			"minecraft:entity_spawned": {
+			"queue_command": {
+				"command": [
+					"function spawned_mob"
+				]
+			}
+		},
+            "target": {
+                "sequence": [
+                    {
+                        "add": {
+                            "component_groups": [
+                                "target"
+                            ]
+                        },
+                        "queue_command": {
+                            "command": [
+                                "event entity @s bosscmd"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "bosscmd": {
+                "sequence": [
+                    {
+                        "queue_command": {
+                            "command": [
+                                "tag @s[tag=!target] add target"
+                            ],
+                            "target": "target"
+                        }
+                    },
+                    {
+                        "queue_command": {
+                            "command": [
+                                "execute as @s[scores={Energy=0..}] at @s run function mobs/sorcerers/yuji_awakened/yuji_awakened",
+                                "tag @e[tag=target] remove target"
+                            ]
+                        }
+                    }
+                ]
+            }
+	    }
+    }
+}

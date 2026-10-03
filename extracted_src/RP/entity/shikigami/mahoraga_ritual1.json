@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ds:mahoraga_ritual1",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/shikigami/mahoraga_ritual1"
+			},
+			"geometry": {
+				"default": "geometry.mahoraga_ritual1"
+      },
+      "particle_effects": {
+        "mahoraga_ritual1": "ds:mahoraga_ritual1"
+},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"enable_attachables": true
+		}
+	}
+}

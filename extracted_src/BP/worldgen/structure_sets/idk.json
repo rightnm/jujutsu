@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:idk"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 71341414,
+      "separation": 60,
+      "spacing": 121,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:idk",
+        "weight": 1
+      }
+    ]
+  }
+}

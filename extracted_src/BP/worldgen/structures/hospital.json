@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "ds:hospital"
+    },
+    "step": "surface_structures",
+    "terrain_adaptation": "beard_thin",
+    "start_pool": "ds:hospital",
+    "max_depth": 20,
+    "heightmap_projection": "world_surface",
+    "biome_filters": {
+      "all_of": [
+        {
+          "test": "has_biome_tag",
+          "value": "overworld"
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "ocean"
+        }
+      ]
+    },
+    "start_height": {
+      "type": "constant",
+      "value": {
+        "absolute": 0
+      }
+    },
+    "dimension_padding": {
+      "top": 95,
+      "bottom": 0
+    },
+    "liquid_settings": "ignore_waterlogging"
+  }
+}

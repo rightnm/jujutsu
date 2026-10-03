@@ -1,0 +1,195 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ds:creepy",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "mouth_curse_components": {
+
+        "minecraft:behavior.controlled_by_player": {
+          "speed_multiplier": 1.0
+        },
+        "minecraft:behavior.ranged_attack": {
+          "attack_groups": ["mouth_curse_projectile"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": ["monster", "purecurse", "curse", "grade1"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": true,
+        "can_break_doors": true
+      },
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:health": {
+        "value": 80,
+        "max": 80
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:attack": {
+        "damage": 25
+      },
+      "minecraft:movement": {
+        "value": 0.7
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:on_death": {
+        "event": "curse_die"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/sus"
+      },
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": {
+              "test": "is_underwater",
+              "operator": "==",
+              "value": true
+            },
+            "event": "minecraft:start_transforming"
+          }
+        ]
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1,
+        "track_target": false
+
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 11,
+        "reselect_targets": true,
+        "must_see": true,
+        "within_radius": 64,
+        "entity_types": [
+          {
+            "filters": {
+              "none_of": [
+                {
+                  "test": "is_family",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "value": "sorcerer"
+                },
+                {
+                  "test": "is_family",
+                  "value": "human"
+                }
+              ]
+            },
+            "max_dist": 64
+          }
+        ]
+      },
+      "minecraft:follow_range": 300,
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+    "minecraft:timer":{
+    "looping": true,
+    "time": [0.0, 0.0],
+    "time_down_event": {
+        "event": "creepy"
+		}
+      }
+    },
+    "events": {
+      "curse_die": {
+        "queue_command": {
+          "command": [
+            "playsound mob.creepy @a[r=100] ~~~ 99999 0.8 99999",
+            "stopsound @a[r=100] record.mellohi ",
+            "scoreboard players add @p[r=20] expadd 300",
+            "scoreboard players random @s chance 1 4",
+            "execute as @s[scores={chance=2}] at @s run structure load mystructure:diary1 ~~~",
+            "execute as @s[scores={chance=1}] at @s run structure load mystructure:diary2 ~~~",
+            "execute as @s[scores={chance=1}] at @s run structure load mystructure:diary3 ~~~",
+            "particle ds:curse_death_small ~ ~1 ~",
+            "particle ds:curse_death_small ~ ~0.5 ~",
+            "particle ds:curse_death_small ~ ~1.5 ~",
+            "function missions/credit/killcredit_grade1curse"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "queue_command": {
+          "command": [
+            "function mobs/curses/creepy_spawn"
+          ]
+        }
+      },
+      "creepy": {
+        "queue_command": {
+          "command": [
+            "execute as @s at @s if entity @a[r=33] run function creepy"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "scripts": {
+        "animate": ["health"]
+      },
+      "animations": {
+        "health": "controller.animation.health"
+      },
+      "properties": {
+        "property:mahito_clump": {
+          "type": "int",
+          "range": [0, 4],
+          "default": 1,
+          "client_sync": true
+        }
+      },
+      "identifier": "ds:mahito_clump",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "ds:disappear": {
+        "minecraft:transformation": {
+          "into": "ds:disappear",
+          "delay": 0.0
+        }
+      }
+    },
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": ["monster", "purecurse", "curse", "grade3", "mahito_clump"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.5
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": true,
+        "can_break_doors": true
+      },
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:health": {
+        "value": 2,
+        "max": 2
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:movement": {
+        "value": 0.4
+      },
+      "minecraft:scale": {
+        "value": 0.7
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:knockback_resistance": {
+        "value": 0.1
+      },
+      "minecraft:on_hurt": {
+        "event": "combat"
+      },
+      "minecraft:on_death": {
+        "event": "mob_die"
+      },
+      "minecraft:attack": {
+        "damage": 2
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "test": "is_underwater",
+            "operator": "==",
+            "value": true
+          },
+          "event": "minecraft:start_transforming"
+        }
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1,
+        "track_target": true
+      },
+      "minecraft:behavior.stomp_turtle_egg": {
+        "priority": 4,
+        "speed_multiplier": 1,
+        "search_range": 10,
+        "search_height": 3,
+        "goal_radius": 1.14,
+        "search_count": 4,
+        "interval": 20
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1,
+        "entity_types": {
+          "filters": {
+            "none_of": [
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "curse"
+              },
+              {
+                "test": "has_tag",
+                "subject": "other",
+                "value": "idle_transfig"
+              }
+            ]
+          },
+          "max_dist": 64
+        }
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 11,
+        "reselect_targets": true,
+        "must_see": true,
+        "within_radius": 64,
+        "entity_types": [
+          {
+            "filters": {
+              "none_of": [
+                { "test": "is_family", "value": "player" }
+              ]
+            },
+            "max_dist": 64
+          }
+        ]
+      },
+      "minecraft:follow_range": 300,
+      "minecraft:loot": {
+        "table": "loot/nothing.json"
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    },
+    "events": {
+      "mahito_clump1": {
+        "set_property": {
+          "property:mahito_clump": 0
+        }
+      },
+      "mahito_clump2": {
+        "set_property": {
+          "property:mahito_clump": 1
+        }
+      },
+      "mahito_clump3": {
+        "set_property": {
+          "property:mahito_clump": 2
+        }
+      },
+      "mahito_clump4": {
+        "set_property": {
+          "property:mahito_clump": 3
+        }
+      },
+      "mob_die": {
+        "queue_command": {
+          "command": [
+            "particle ds:curses_energy_hit1 ~~0.3~",
+            "particle ds:transfigure_death2 ~~0.5~",
+            "particle ds:transfigure_death3 ~~0.5~",
+            "playsound mob.shulker.death @a ~~0.3~ 1 0.7",
+            "execute if entity @s[tag=mahito_clump_real] run damage @e[tag=idle_transfig,scores={move=20..93},c=1] 100",
+            "execute if entity @s[tag=mahito_clump_trick] run scoreboard players set @e[tag=!Frames,tag=!idle_transfig,r=3.5] Stun 20",
+            "execute if entity @s[tag=mahito_clump_trick] run function idle_transfig/mahito_trick_sfx",
+            "playsound mob.blood3 @a ~~0.3~ 1 1.7"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "queue_command": {
+          "command": [
+            "scoreboard objectives add skincolour dummy",
+            "particle ds:curses_energy_hit1 ~~0.3~",
+            "playsound mob.disfigure2 @a[r=20] ~~0.3~ 9999 0.8 9999",
+            "scoreboard players random @s skincolour 1 4",
+            "event entity @s[scores={skincolour=1}] mahito_clump1",
+            "event entity @s[scores={skincolour=2}] mahito_clump2",
+            "event entity @s[scores={skincolour=3}] mahito_clump3",
+            "event entity @s[scores={skincolour=4}] mahito_clump4"
+          ]
+        }
+      },
+      "ds:disappear": {
+        "add": {
+          "component_groups": [
+            "ds:disappear"
+          ]
+        }
+      },
+      "riko_amanai_die": {
+        "queue_command": {
+          "command": [
+            "function missions/vessel_mission/mission_failed",
+            "camerashake add @a[r=35] 0.1 0.1"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:kamutoke",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "kamutoke"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§d§lKamutoke\n§r§5- §oKamutoke is a small weapon that resembles a tokkosho, wielded by sukuna in the heian era.\nThis weapon holds the ability to summon torrents of electricity\nthat strike the target from above.\n\n§r§tElectrified Pulse §7(§ePunch§7)\n§e(Counter)\n\n§r§tLightning-Strike §7(§eRight-Click§7)\n\n§r§tStorm Slice §7(§eHold-Sneak + Right-Click§7)\n\n§r§tElectric Discharge §7(§eHold-Jump + Right-Click§7)\n\n§r§cElectro-Pulse Beam §7(§eHold-Sneak + Hold-Jump + Click§7)\n\n§r§l§d[ Special Grade Cursed Tool ]"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

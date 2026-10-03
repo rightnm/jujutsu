@@ -1,0 +1,40 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.pachinkohand1": {
+			"textures": [
+				"Array.variants[query.property('property:pachinkohand1')]"
+			],
+			"materials": [
+				{
+					"*": "Material.entity_emissive_alpha"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:pachinkohand1')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.default",
+						"Geometry.pachinkohand1",
+						"Geometry.pachinkohand2",
+						"Geometry.pachinkohand3",
+						"Geometry.pachinkohand4"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.pachinkohand1",
+						"Texture.pachinkohand2",
+						"Texture.pachinkohand3",
+						"Texture.pachinkohand4"
+						
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,112 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ds:body_repel_max1",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:arrow",
+      "properties": {
+        "property:transfigured_colour": {
+          "type": "int",
+          "range": [0, 100],
+          "default": 1,
+          "client_sync": true
+        }
+      }
+    },
+    "component_groups": {
+      "ds:despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["projectile", "damage"]
+      },
+      "minecraft:timer": {
+        "looping": true,
+        "randomInterval": false,
+        "time": 0.0,
+        "time_down_event": {
+          "event": "ds:timer_event",
+          "target": "self"
+        }
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 0,
+            "knockback": true,
+            "semi_random_diff_damage": false,
+            "destroy_on_hit": false
+          },
+          "definition_event": {
+            "affectProjectile": true,
+            "eventTrigger": {
+              "event": "ds:hit_event",
+              "target": "self"
+            }
+          }
+        },
+        "offset": [0, 0, 0],
+        "power": 1.2,
+        "gravity": 0.1,
+        "angle_offset": 0.0,
+        "inertia": 1,
+        "knockback": false,
+        "multiple_targets": true,
+        "liquid_inertia": 1
+      },
+      "minecraft:transformation": {
+        "into": "ds:despawn",
+        "delay": 1
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 80.0,
+          "max_dropped_ticks": 10,
+          "use_motion_prediction_hints": true
+        }
+      }
+    },
+    "events": {
+      "ds:timer_event": {
+        "queue_command": {
+          "command": [
+            "execute unless block ~~~ air run function idle_transfig/max_repel_hit",
+            "execute if block ~~~ air unless entity @p[tag=arenaboss] run execute as @e[tag=!Frames,family=!projectile,family=!damage,r=4] at @s unless entity @s[scores={Hit=1..}] run execute as @e[type=ds:transfigured_human_worm,c=1,r=4] at @s run function idle_transfig/max_repel_hit"
+          ]
+        }
+      },
+      "ds:hit_event": {
+        "queue_command": {
+          "command": [
+            "execute unless entity @p[tag=arenaboss] run function idle_transfig/max_repel_hit"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "queue_command": {
+          "command": [
+            "scoreboard objectives add skincolour dummy",
+            "scoreboard players random @s skincolour 1 3",
+            "event entity @s[scores={skincolour=1}] transfigured_colour1",
+            "event entity @s[scores={skincolour=2}] transfigured_colour2",
+            "event entity @s[scores={skincolour=3}] transfigured_colour3"
+          ]
+        }
+      },
+      "transfigured_colour1": {
+        "set_property": { "property:transfigured_colour": 0 }
+      },
+      "transfigured_colour2": {
+        "set_property": { "property:transfigured_colour": 1 }
+      },
+      "transfigured_colour3": {
+        "set_property": { "property:transfigured_colour": 2 }
+      }
+    }
+  }
+}

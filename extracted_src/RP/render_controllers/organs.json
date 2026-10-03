@@ -1,0 +1,36 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.organs": {
+			"textures": [
+				"Array.variants[query.property('property:organs')]"
+			],
+			"materials": [
+				{
+					"*": "Material.entity_alphatest"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:organs')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.default",
+						"Geometry.organs",
+						"Geometry.organs2"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.default",
+						"Texture.organs",
+						"Texture.organs2"
+						
+					]
+				}
+			}
+		}
+	}
+}

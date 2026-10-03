@@ -1,0 +1,37 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.skincolour": {
+			"textures": [
+				"Array.variants[query.property('property:skincolour')]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:skincolour')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.skin",
+						"Geometry.skin",
+						"Geometry.skin"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.skincolour_white",
+						"Texture.skincolour_black",
+						"Texture.skincolour_tan"
+						
+						
+					]
+				}
+			}
+		}
+	}
+}

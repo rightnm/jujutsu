@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:beru_daggers",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "beru_daggers"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§d§lVengeful Mandibles\n§r§5- §oTwo Daggers forged with remains of the Vengeful Ant Curse,\nThese daggers are imbued with the Curse's Negative energy\nallowing them to pierce targets with ease and inflict poison.\n\n§r§tEviscerate §7(§eRight-Click§7)\n§b(Requires 10+ Agility)\n\n§r§tMutilation §7(§eHold-Jump + Right-Click§7)\n§b(Requires 25+ Agility)\n\n§r§tDagger Blitz §7(§eHold-Sneak + Right-Click§7)\n§b(Requires 35+ Agility)\n\n§r§cVanishing Fangs §7(§eHold-Sneak + Hold-Jump + Click§7)\n§8(§bRequires 50+ Agility, §450+ Strength§8)\n\n§r§cFalling Tempest Blitz §7(§eHold-Sneak + Punch§7)\n§8(§bRequires 50+ Agility, §450+ Strength§8)\n\n§r§l§d[ Special Grade Cursed Tool ]"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

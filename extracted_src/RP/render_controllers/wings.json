@@ -1,0 +1,36 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.primesoul_wings": {
+			"textures": [
+				"Array.variants[query.property('property:wings')]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:wings')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.nothing",
+						"Geometry.wings",
+						"Geometry.wings2"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.wings",
+						"Texture.wings"
+						
+					]
+				}
+			}
+		}
+	}
+}

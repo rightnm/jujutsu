@@ -1,0 +1,493 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ds:sorcerer_female_grade2",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"health"
+				]
+			},
+			"animations": {
+				"health": "controller.animation.health"
+			},
+			"properties": {
+				"property:eyes": {
+					"type": "int",
+					"range": [
+						0,
+						100
+					],
+					"default": 1,
+					"client_sync": true
+				},
+				"property:skincolour": {
+					"type": "int",
+					"range": [
+						0,
+						100
+					],
+					"default": 1,
+					"client_sync": true
+				},
+				"property:hair": {
+					"type": "int",
+					"range": [
+						0,
+						100
+					],
+					"default": 1,
+					"client_sync": true
+				},
+				"property:haircolour": {
+					"type": "int",
+					"range": [
+						0,
+						100
+					],
+					"default": 1,
+					"client_sync": true
+				},
+				"property:outfitfemale": {
+					"type": "int",
+					"range": [
+						0,
+						100
+					],
+					"default": 1,
+					"client_sync": true
+				}
+			}
+		},
+		"component_groups": {
+			"minecraft:sorcerer_female_components": {
+
+				"minecraft:behavior.controlled_by_player": {
+					"speed_multiplier": 1.0
+				}
+			}
+		},
+		"components": {
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"hero",
+					"sorcerer",
+					"human",
+					"regular_human_m1s",
+					"irongolem",
+					"grade2"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_walk": true,
+				"can_break_doors": true
+			},
+
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:health": {
+				"value": 75,
+				"max": 75
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": true,
+				"breathes_water": true
+			},
+			"minecraft:attack": {
+				"damage": 1
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+			},
+			"minecraft:movement": {
+				"value": 0.5
+			},
+			"minecraft:scale": {
+				"value": 0.9
+			},
+			"minecraft:knockback_resistance": {
+				"value": 0.2
+			},
+			"minecraft:on_death": {
+				"event": "mob_die"
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 3,
+				"speed_multiplier": 1,
+				"track_target": false
+			},
+			"minecraft:behavior.stomp_turtle_egg": {
+				"priority": 4,
+				"speed_multiplier": 1,
+				"search_range": 10,
+				"search_height": 3,
+				"goal_radius": 1.14,
+				"search_count": 4,
+				"interval": 20
+
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 6,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 7,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 7
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1,
+				"entity_types": {
+					"filters": {
+						"none_of": [
+							{
+								"test": "is_family",
+								"subject": "other",
+								"value": "sorcerer"
+							}
+						]
+					},
+					"max_dist": 64
+				}
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 11,
+				"reselect_targets": true,
+				"must_see": true,
+				"within_radius": 64,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "villain"
+								},
+								{
+									"test": "has_tag",
+									"subject": "other",
+									"value": "curse"
+								},
+								{
+									"test": "has_tag",
+									"subject": "other",
+									"value": "sukuna"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "sukuna"
+								},
+								{
+									"test": "has_tag",
+									"subject": "other",
+									"value": "rogue_target"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "purecurse"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "undead"
+								}
+							]
+						},
+						"max_dist": 64
+					}
+				]
+			},
+			"minecraft:follow_range": 300,
+			"minecraft:loot": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			}
+		},
+		"events": {
+			"skincolour1": {
+				"set_property": {
+					"property:skincolour": 0
+				}
+			},
+			"skincolour2": {
+				"set_property": {
+					"property:skincolour": 1
+				}
+			},
+			"skincolour3": {
+				"set_property": {
+					"property:skincolour": 2
+				}
+			},
+			"eyes1": {
+				"set_property": {
+					"property:eyes": 1
+				}
+			},
+			"eyes2": {
+				"set_property": {
+					"property:eyes": 2
+				}
+			},
+			"eyes3": {
+				"set_property": {
+					"property:eyes": 3
+				}
+			},
+			"eyes4": {
+				"set_property": {
+					"property:eyes": 4
+				}
+			},
+			"eyes5": {
+				"set_property": {
+					"property:eyes": 5
+				}
+			},
+			"eyes6": {
+				"set_property": {
+					"property:eyes": 6
+				}
+			},
+			"eyes7": {
+				"set_property": {
+					"property:eyes": 7
+				}
+			},
+			"eyes8": {
+				"set_property": {
+					"property:eyes": 8
+				}
+			},
+			"eyes9": {
+				"set_property": {
+					"property:eyes": 9
+				}
+			},
+			"eyes10": {
+				"set_property": {
+					"property:eyes": 10
+				}
+			},
+			"hair1": {
+				"set_property": {
+					"property:hair": 1
+				}
+			},
+			"hair2": {
+				"set_property": {
+					"property:hair": 2
+				}
+			},
+			"hair3": {
+				"set_property": {
+					"property:hair": 3
+				}
+			},
+			"hair4": {
+				"set_property": {
+					"property:hair": 4
+				}
+			},
+			"hair5": {
+				"set_property": {
+					"property:hair": 5
+				}
+			},
+			"hair6": {
+				"set_property": {
+					"property:hair": 6
+				}
+			},
+			"hair7": {
+				"set_property": {
+					"property:hair": 7
+				}
+			},
+			"hair8": {
+				"set_property": {
+					"property:hair": 8
+				}
+			},
+			"hair9": {
+				"set_property": {
+					"property:hair": 9
+				}
+			},
+			"hair10": {
+				"set_property": {
+					"property:hair": 10
+				}
+			},
+			"hair11": {
+				"set_property": {
+					"property:hair": 11
+				}
+			},
+			"hair12": {
+				"set_property": {
+					"property:hair": 12
+				}
+			},
+			"hair13": {
+				"set_property": {
+					"property:hair": 13
+				}
+			},
+			"hair14": {
+				"set_property": {
+					"property:hair": 14
+				}
+			},
+			"hair15": {
+				"set_property": {
+					"property:hair": 15
+				}
+			},
+			"hair16": {
+				"set_property": {
+					"property:hair": 16
+				}
+			},
+			"hair17": {
+				"set_property": {
+					"property:hair": 17
+				}
+			},
+			"haircolour1": {
+				"set_property": {
+					"property:haircolour": 1
+				}
+			},
+			"haircolour2": {
+				"set_property": {
+					"property:haircolour": 2
+				}
+			},
+			"haircolour3": {
+				"set_property": {
+					"property:haircolour": 3
+				}
+			},
+			"haircolour4": {
+				"set_property": {
+					"property:haircolour": 4
+				}
+			},
+			"haircolour5": {
+				"set_property": {
+					"property:haircolour": 5
+				}
+			},
+			"haircolour6": {
+				"set_property": {
+					"property:haircolour": 6
+				}
+			},
+			"outfit1": {
+				"set_property": {
+					"property:outfitfemale": 0
+				}
+			},
+			"mob_die": {
+				"queue_command": {
+					"command": [
+						"function mobs/grade2_sorcerer_death",
+						"camerashake add @a[r=35] 0.1 0.1"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"queue_command": {
+					"command": [
+						"scoreboard objectives add weapontype dummy",
+						"scoreboard objectives add skincolour dummy",
+						"scoreboard objectives add eyes dummy",
+						"scoreboard objectives add hair dummy",
+						"scoreboard objectives add outfit dummy",
+						"scoreboard players random @s skincolour 1 10",
+						"scoreboard players random @s eyes 1 10",
+						"scoreboard players random @s hair 1 17",
+						"event entity @s[scores={skincolour=1..7}] skincolour1",
+						"event entity @s[scores={skincolour=8..9}] skincolour3",
+						"event entity @s[scores={skincolour=10}] skincolour2",
+						"scoreboard players set @s[scores={skincolour=10}] hair 10",
+						"scoreboard players random @s weapontype 0 5",
+						"replaceitem entity @s[scores={weapontype=1}] slot.weapon.mainhand 1 ds:slaughter_demon",
+						"replaceitem entity @s[scores={weapontype=2}] slot.weapon.mainhand 1 iron_sword",
+						"replaceitem entity @s[scores={weapontype=3}] slot.weapon.mainhand 1 iron_axe",
+						"replaceitem entity @s[scores={weapontype=4}] slot.weapon.mainhand 1 ds:katana",
+						"scoreboard players random @s damageadd 1 3",
+						"scoreboard players random @s[scores={weapontype=1..}] damageadd 2 5",
+						"event entity @s[scores={eyes=1}] eyes1",
+						"event entity @s[scores={eyes=2}] eyes2",
+						"event entity @s[scores={eyes=3}] eyes3",
+						"event entity @s[scores={eyes=4}] eyes4",
+						"event entity @s[scores={eyes=5}] eyes5",
+						"event entity @s[scores={eyes=6}] eyes6",
+						"event entity @s[scores={eyes=7}] eyes7",
+						"event entity @s[scores={eyes=8}] eyes8",
+						"event entity @s[scores={eyes=9}] eyes9",
+						"event entity @s[scores={eyes=10}] eyes10",
+						"event entity @s[scores={hair=1}] hair1",
+						"event entity @s[scores={hair=2}] hair2",
+						"event entity @s[scores={hair=3}] hair3",
+						"event entity @s[scores={hair=4}] hair4",
+						"event entity @s[scores={hair=5}] hair5",
+						"event entity @s[scores={hair=6}] hair6",
+						"event entity @s[scores={hair=7}] hair7",
+						"event entity @s[scores={hair=8}] hair8",
+						"event entity @s[scores={hair=9}] hair9",
+						"event entity @s[scores={hair=10}] hair10",
+						"event entity @s[scores={hair=11}] hair11",
+						"event entity @s[scores={hair=12}] hair12",
+						"event entity @s[scores={hair=13}] hair13",
+						"event entity @s[scores={hair=14}] hair14",
+						"event entity @s[scores={hair=15}] hair15",
+						"event entity @s[scores={hair=16}] hair16",
+						"event entity @s[scores={hair=17}] hair17",
+						"event entity @s outfit1"
+					]
+				}
+			}
+		}
+	}
+}

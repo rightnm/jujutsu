@@ -1,0 +1,38 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.yuji_face": {
+			"textures": [
+				"Array.variants[query.property('property:yuji_face')]"
+			],
+			"materials": [
+				{
+					"*": "Material.entity_alpha"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:yuji_face')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.nothing",
+						"Geometry.yuji_face",
+						"Geometry.yuji_face",
+						"Geometry.yuji_face"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.yuji_face1",
+						"Texture.yuji_face2",
+						"Texture.yuji_face3"
+						
+					]
+				}
+			}
+		}
+	}
+}

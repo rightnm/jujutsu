@@ -1,0 +1,81 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": { 
+      "identifier": "ds:front_vfx",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+      "ds:disappear": {
+        "minecraft:transformation": {
+          "into": "ds:disappear",
+          "delay": 0.0
+        }
+      },
+
+      "ds:despawn_timer": {
+        "minecraft:timer": {
+          "looping": false,
+          "time": 1.0,
+          "time_down_event": {
+            "event": "ds:disappear"
+          }
+        }
+      },
+
+      "ds:projectile_adult": {
+        "minecraft:type_family": { "family": ["projectile"] },
+        "minecraft:collision_box": { "width": 0.1, "height": 0.1 },
+        "minecraft:damage_sensor": { "triggers": { "cause": "all", "deals_damage": false } },
+        "minecraft:health": { "value": 1, "max": 1, "min": 1 },
+        "minecraft:loot": { "table": "loot_tables/entities/none.json" },
+        "minecraft:nameable": {},
+        "minecraft:persistent": {},
+        "minecraft:physics": { "has_gravity": false },
+        "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+        "minecraft:scale": { "value": 1 }
+      },
+
+      "ds:spawn_timer": {
+        "minecraft:timer": {
+          "looping": false,
+          "time": [0.05, 0.05],
+          "time_down_event": { "event": "ds:spawn_commands" }
+        }
+      }
+    },
+
+    "events": {
+      "ds:main": {
+        "add": {
+          "component_groups": [
+            "ds:projectile_adult",
+            "ds:spawn_timer"
+          ]
+        }
+      },
+
+      "ds:spawn_commands": {
+        "queue_command": {
+          "command": [
+            "playanimation @s[name=Test] animation.front_vfx.test1",
+            "playanimation @s[name=rapid_assault_dash1] animation.front_vfx.rapid_assault_dash1",
+            "playanimation @s[name=rapid_assault_dash2] animation.front_vfx.rapid_assault_dash2"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ds:despawn_timer"
+          ]
+        }
+      },
+
+      "ds:disappear": {
+        "add": { "component_groups": [ "ds:disappear" ] }
+      }
+    }
+  }
+}

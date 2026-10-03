@@ -1,0 +1,48 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.miracle": {
+			"textures": [
+				"Array.variants[query.property('property:ct_face')]"
+			],
+			"materials": [
+				{
+					"*": "Material.blend"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:ct_face')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.nothing",
+						"Geometry.miracle",
+						"Geometry.miracle",
+						"Geometry.miracle",
+						"Geometry.miracle",
+						"Geometry.miracle",
+						"Geometry.miracle",
+						"Geometry.miracle",
+						"Geometry.speech_tattoos"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.miracle0",
+						"Texture.miracle1",
+						"Texture.miracle2",
+						"Texture.miracle3",
+						"Texture.miracle4",
+						"Texture.miracle5",
+						"Texture.miracle6",
+						"Texture.speech_tattoos"
+						
+					]
+				}
+			}
+		}
+	}
+}

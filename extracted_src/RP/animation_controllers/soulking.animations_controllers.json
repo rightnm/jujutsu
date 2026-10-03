@@ -1,0 +1,78 @@
+{
+    "format_version": "1.19.0",
+    "animation_controllers": {
+        "controller.animation.soulking_idle": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": [
+                        "soulking_idle"
+                    ],
+                    "transitions": [
+                        {
+                            "walk": "query.is_moving && query.is_on_ground && !q.is_sprinting"
+                        },
+                        {
+                            "sprint": "query.is_on_ground && q.is_sprinting"
+                        },
+                        {
+                            "jump": "query.is_jumping && !query.is_in_water"
+                        }
+                    ],
+                    "blend_transition": 0.0
+                },
+                "walk": {
+                    "animations": [
+                        "soulking_walk"
+                    ],
+                    "transitions": [
+                        {
+                            "idle": "query.is_on_ground && !query.is_moving"
+                        },
+                        {
+                            "sprint": "query.is_on_ground && q.is_sprinting"
+                        },
+                        {
+                            "jump": "query.is_jumping && !query.is_in_water"
+                        }
+                    ],
+                    "blend_transition": 0.2
+                },
+                "sprint": {
+                    "animations": [
+                        "soulking_sprint"
+                    ],
+                    "transitions": [
+                        {
+                            "walk": "query.is_moving && query.is_on_ground && !q.is_sprinting"
+                        },
+                        {
+                            "idle": "query.is_on_ground && !query.is_moving"
+                        },
+                        {
+                            "jump": "query.is_jumping && !query.is_in_water"
+                        }
+                    ],
+                    "blend_transition": 0.0
+                },
+                "jump": {
+                    "animations": [
+                        "soulking_jump"
+                    ],
+                    "transitions": [
+                        {
+                            "idle": "query.is_on_ground && !query.is_moving"
+                        },
+                        {
+                            "walk": "query.is_moving && query.is_on_ground && !q.is_sprinting"
+                        },
+                        {
+                            "sprint": "query.is_on_ground && q.is_sprinting"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                }
+            }
+        }
+    }
+}

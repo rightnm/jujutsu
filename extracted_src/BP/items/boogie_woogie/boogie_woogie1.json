@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:boogie_woogie1",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "boogie_woogie_icon1"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§fSelect Target §7(§ePunch§7)\n§cLook Straight Down + Double-Sneak to remove target\n\n§r§bSwap §7(§eRight-Click / Click again to Feint§7)\n§9- If you have a target selected, you will switch with them if in-range.\nIf not, you will switch with the closest in view-range.§r\n§g- Cost: [ §710 Cursed Energy §g]\n\n§r§bSwap Others §7(§eHold-Sneak+Right-Click§7)\n§9Switches your selected target with whoever you are looking at.§r\n§g- Cost: [ §720 Cursed Energy §g]\n\n§r§bSwitch Kick §7(§eHold-Jump+Right-Click§7)\n§9Switches you with your target to initiate a swift kick in the direction they were facing.§r\n§g- Cost: [ §750 Cursed Energy §g]\n\n§r§bPebble Throw §7(§eSneak + Punch§7)\n§9Throw a cursed-energy infused pebble, allowing you to swap with it by §gpunching§9 or hitting an enemy with it.§r\n§g- Cost: [ §750 Cursed Energy §e+ §71 Cobblestone §g]\n§cALL SWAPS HAVE A 100 BLOCK DISTANCE CAP\n§r§5- §o1st Skillset"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

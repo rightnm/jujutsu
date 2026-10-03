@@ -1,0 +1,39 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.18.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ds:amberbeastfull",
+			"materials": {
+				"default": "entity_beam_additive"
+			},
+			"textures": {
+				"default": "textures/entity/amberbeastfull"
+			},
+			"geometry": {
+				"default": "geometry.amberbeastfull"
+			},
+			"animations": {
+				"idle": "animation.amberbeastfull.idle"
+      },
+      "particle_effects": {
+        "amber_beastfull1": "ds:amber_beastfull1",
+        "amber_beastfull2": "ds:amber_beastfull2",
+        "amber_beast3": "ds:amber_beast3",
+        "amber_beast4": "ds:amber_beast4",
+        "lightning_fist1": "ds:lightning_fist1",
+        "lightning_fist1a": "ds:lightning_fist1a"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

@@ -1,0 +1,34 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.glowing": {
+			"textures": [
+				"Array.variants[query.property('property:glowing')]"
+			],
+			"materials": [
+				{
+					"*": "Material.entity_emissive_alpha"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:glowing')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.default",
+						"Geometry.default"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.not_glowing",
+						"Texture.glowing"
+						
+					]
+				}
+			}
+		}
+	}
+}

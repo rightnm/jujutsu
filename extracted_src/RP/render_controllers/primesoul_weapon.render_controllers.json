@@ -1,0 +1,52 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.primesoul_weapon": {
+			"textures": [
+				"Array.variants[query.property('property:weapon')]"
+			],
+			"materials": [
+				{
+					"*": "Material.entity_emissive_alpha"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:weapon')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.scythe",
+						"Geometry.scythe",
+						"Geometry.sword",
+						"Geometry.spear",
+						"Geometry.nogkatanalol",
+						"Geometry.nothing",
+						"Geometry.nothing",
+						"Geometry.nothing",
+						"Geometry.nothing",
+						"Geometry.nothing",
+						"Geometry.nothing"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.scythe",
+						"Texture.scythe",
+						"Texture.sword",
+						"Texture.spear",
+						"Texture.primekatana",
+						"Texture.textureoff",
+						"Texture.textureoff",
+						"Texture.textureoff",
+						"Texture.textureoff",
+						"Texture.textureoff",
+						"Texture.textureoff"
+						
+					]
+				}
+			}
+		}
+	}
+}

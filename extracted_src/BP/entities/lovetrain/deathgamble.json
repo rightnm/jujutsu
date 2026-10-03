@@ -1,0 +1,178 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ds:deathgamble",
+      "is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"bridge_execute_commands"
+				]
+			},
+			"animations": {
+				"bridge_execute_commands": "controller.animation.bridge_projectile.execute_commands"
+			}
+		},
+		"component_groups": {
+			"ds:projectile_adult": {
+				"minecraft:movement": {
+					"value": 0
+				},
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"family_types": [
+						"icewall"
+					],
+					"seats": {
+						"position": [
+							0,
+							1.1,
+							-0.35
+						],
+						"lock_rider_rotation": 0
+					}
+				},
+				"minecraft:behavior.mount_pathing": {
+					"priority": 2,
+					"speed_multiplier": 1.25,
+					"target_dist": 0,
+					"track_target": true
+				}
+			},
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			}
+		},
+		"components": {
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"projectile",
+					"damage",
+					"shikigami",
+					"projectile"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.1,
+				"height": 0.2
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_walk": false,
+				"can_break_doors": true
+			},
+			"minecraft:annotation.break_door": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:health": {
+				"value": 99999,
+				"max": 99999
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": true,
+				"breathes_water": true
+			},
+			"minecraft:attack": {
+				"damage": 0
+					  },
+      "minecraft:damage_sensor": 
+	    {
+          "cause": "all",
+          "deals_damage": false
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/projectile.json"
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"within_radius": 25,
+				"reselect_targets": true,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "snowgolem"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "irongolem"
+								}
+							]
+						},
+						"max_dist": 35
+					},
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "villager"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "wandering_trader"
+								}
+							]
+						},
+						"max_dist": 35,
+						"must_see": false
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "baby_turtle"
+								},
+								{
+									"test": "in_water",
+									"subject": "other",
+									"operator": "!=",
+									"value": true
+								}
+							]
+						},
+						"max_dist": 35
+					}
+				],
+				"must_see": true,
+				"must_see_forget_duration": 17
+			},
+			"minecraft:scale": {
+				"value": 0.8
+			},
+			"minecraft:damage_sensor": {
+    "triggers": {
+        "cause": "all",
+        "deals_damage": false
+    }
+}
+				}
+			}
+		}

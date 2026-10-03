@@ -1,0 +1,46 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.transfigured_colour2": {
+			"textures": [
+				"Array.variants[query.property('property:transfigured_colour')]"
+			],
+			"materials": [
+				{
+					"*": "Material.entity_alphatest"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:transfigured_colour')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.default",
+						"Geometry.default",
+						"Geometry.default",
+						"Geometry.default",
+						"Geometry.default",
+						"Geometry.default",
+						"Geometry.default",
+						"Geometry.default"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.transfigured_colour1",
+						"Texture.transfigured_colour2",
+						"Texture.transfigured_colour3",
+						"Texture.transfigured_colour4",
+						"Texture.transfigured_colour5",
+						"Texture.transfigured_colour6",
+						"Texture.transfigured_colour7",
+						"Texture.transfigured_colour8"
+						
+					]
+				}
+			}
+		}
+	}
+}

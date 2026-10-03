@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:core_of_creation",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.chestboat"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "core_of_creation"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§l§f§oCσɾҽ σϝ Cɾҽαƚισɳ §r\n§5- An Object created by the Architect, contains random items.\n\n§r§o§eRelic - 40 Percent\n§dSpecial - 30 Percent\n§cUnique - 10 Percent\n§l§4ᴅɪᴠɪɴᴇ - 5 Percent\n§l§o§aＯＭＥＧＡ - 1 Percent"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

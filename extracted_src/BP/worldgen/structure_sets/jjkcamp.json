@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:jjkcamp"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 71423313,
+      "separation": 30,
+      "spacing": 64,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:jjkcamp",
+        "weight": 1
+      }
+    ]
+  }
+}

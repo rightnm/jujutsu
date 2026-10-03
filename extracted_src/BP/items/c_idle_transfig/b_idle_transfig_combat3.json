@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:idle_transfig_combat3",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "mahito_combat3"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§uMahito's Heavy Fighting Style\n\n§r§o§dSwitch Combat Style §r§7(§eLook Down + Sneak§7)\n\n§r§tMalice §7(§eRight-Click§7)\n\n§r§tBrutal Force §7(§eHold-Sneak+Right-Click§7)\n\n§r§tCursed Crash §7(§eHold-Jump+Right-Click§7)\n\n§r§cWheel of Torment §7(§eHold-Sneak+Punch§7)\n\n§r§5- §oMahito Combat"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

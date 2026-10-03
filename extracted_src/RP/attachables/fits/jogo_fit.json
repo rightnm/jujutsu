@@ -1,0 +1,31 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.18.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ds:jogo_fit",
+			"materials": {
+				"default": "armor"
+			},
+			"textures": {
+				"default": "textures/models/jogo_fit"
+			},
+			"geometry": {
+				"default": "geometry.jogo_fit"
+			},
+			"animations": {
+				"idle": "animation.jogo_fit.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

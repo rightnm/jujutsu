@@ -1,0 +1,58 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ds:pachinko_impact1",
+      "is_spawnable": false,
+      "is_summonable": true
+    },
+    "component_groups": {
+      "on_destroy": {
+        "minecraft:is_sheared": {}
+      },
+      "despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false,
+          "filters": {
+            "all_of": [
+              {
+                "test": "is_explosion_source",
+                "subject": "source_entity"
+              },
+              {
+                "test": "has_component",
+                "subject": "target",
+                "value": "minecraft:armor_stand"
+              }
+            ]
+          }
+        }
+      },
+      "minecraft:explode": {
+        "fuse_length": 0,
+        "fuse_lit": true,
+        "power": 3.4,
+        "causes_fire": false,
+        "destroy_affected_by_griefing": true
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.1
+      },
+      "minecraft:physics": {
+        "has_collision": true,
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      }
+    }
+  }
+}

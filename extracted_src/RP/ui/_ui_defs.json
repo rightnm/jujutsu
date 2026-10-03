@@ -1,0 +1,7 @@
+{
+    "ui_defs": [
+        "ui/heroic/stats.json",
+    "ui/fuga/flames_bar.json",
+    "ui/fuga/flames_bar_uv.json"
+    ]
+}

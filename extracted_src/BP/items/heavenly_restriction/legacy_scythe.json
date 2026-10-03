@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:legacy_scythe",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.chestboat"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "legacy_scythe"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§dLegacy Scythe §r\n\n§r§gStun §7(§eRight-Click§7)\n\n§5- The classic scythe from craftwars."
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

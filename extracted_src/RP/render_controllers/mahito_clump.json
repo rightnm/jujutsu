@@ -1,0 +1,37 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.mahito_clump": {
+			"textures": [
+				"Array.variants[query.property('property:mahito_clump')]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:mahito_clump')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.mahito_clump1",
+						"Geometry.mahito_clump2",
+						"Geometry.mahito_clump3",
+						"Geometry.mahito_clump4"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.default",
+						"Texture.default",
+						"Texture.default",
+						"Texture.default"
+					]
+				}
+			}
+		}
+	}
+}

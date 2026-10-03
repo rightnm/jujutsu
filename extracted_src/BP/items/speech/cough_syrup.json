@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:cough_syrup",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "cough_syrup"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§aCough Syrup\n§r§5- Helps relieve mouth-related pains and coughs\n\n§9(Used to temporarily relieve the negative effects of Cursed-Speech)"
+            },
+            "minecraft:max_stack_size": 16
+            },
+            "minecraft:foil": true,
+            "minecraft:allow_off_hand": false
+            }
+        }

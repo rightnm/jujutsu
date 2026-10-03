@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:lightning4",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "lightning4"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§l§dMythical Beast Amber\n§r§g- Cost: [ §7750 Cursed Energy §g]\n§r§5- §oTechnique Release, Mythical Beast Amber... Using this awakening will cost you your life."
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

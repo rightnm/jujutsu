@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:basic_combat",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "fist"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§f§fBasic Fist Combat Style\n\n§r§tStrong Punch\n §7(§eRight-Click§7)\n\n§r§tRush\n §7(§eSneak + Click§7)\n\n§r§tDownslam \n §7(§eHold Jump + Click§7)\n\n§r§5§o- Basic Combat Style\n§o§4Dropping this item will DELETE it."
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

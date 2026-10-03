@@ -1,0 +1,270 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "ds:kiss_fish": {
+        "volume": 0.450,
+        "pitch": [1, 1.5],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:mouth_curse": {
+        "volume": 0.6,
+        "pitch": [1.25, 1.5],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:mahito_clump": {
+        "volume": 0.450,
+        "pitch": [1.8, 2],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:soul_isomer": {
+        "volume": 0.450,
+        "pitch": [0.3, 0.4],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:curse_warder_v1": {
+        "volume": 0.150,
+        "pitch": [1.8, 2],
+        "events": {
+          "hurt": {
+            "sound": "mob.wither.break_block"
+          }
+        }
+      },
+      "ds:curse_warder_v2": {
+        "volume": 0.150,
+        "pitch": [1.78, 1.95],
+        "events": {
+          "hurt": {
+            "sound": "mob.wither.break_block"
+          }
+        }
+      },
+      "ds:curse_warder_v3": {
+        "volume": 0.150,
+        "pitch": [1.75, 1.9],
+        "events": {
+          "hurt": {
+            "sound": "mob.wither.break_block"
+          }
+        }
+      },
+      "ds:curse_warder_v4": {
+        "volume": 0.150,
+        "pitch": [1.7, 1.8],
+        "events": {
+          "hurt": {
+            "sound": "mob.wither.break_block"
+          }
+        }
+      },
+      "ds:mouth_curse": {
+        "volume": 0.450,
+        "pitch": [0.4, 1],
+        "events": {
+          "hurt": {
+            "sound": "mob.slime.jump"
+          },
+          "ambient": {
+            "sound": "mob.slime.jump"
+          }
+        }
+      },
+      "ds:mushroom_curse": {
+        "volume": 0.450,
+        "pitch": [1.2, 1.5],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:sharko": {
+        "volume": 0.450,
+        "pitch": [0.25, 0.4],
+        "events": {
+          "hurt": {
+            "sound": "mob.shulker.hurt"
+          },
+          "ambient": {
+            "sound": "mob.shulker.ambient"
+          }
+        }
+      },
+      "ds:mushroom_curse_big": {
+        "volume": 0.450,
+        "pitch": [0.7, 0.9],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:centipede_curse": {
+        "volume": 0.450,
+        "pitch": [1.2, 1.5],
+        "events": {
+          "hurt": {
+            "sound": "mob.spider.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:longshroom_curse": {
+        "volume": 0.450,
+        "pitch": [0.3, 0.4],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:grasshopper_curse": {
+        "volume": 0.450,
+        "pitch": [0.3, 0.5],
+        "events": {
+          "hurt": {
+            "sound": "mob.spider.hurt"
+          },
+          "ambient": {
+            "sound": "mob.spider.say"
+          }
+        }
+      },
+      "ds:hair_curse": {
+        "volume": 0.450,
+        "pitch": [0.5, 0.65],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:lizard_curse": {
+        "volume": 0.450,
+        "pitch": [0.4, 0.55],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:brute": {
+        "volume": 0.450,
+        "pitch": [0.5, 0.7],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:brute2": {
+        "volume": 0.450,
+        "pitch": [0.5, 0.7],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:brute3": {
+        "volume": 0.450,
+        "pitch": [0.5, 0.7],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:brute4": {
+        "volume": 0.450,
+        "pitch": [0.5, 0.7],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:gremlin_curse1": {
+        "volume": 0.450,
+        "pitch": [1.05, 1.3],
+        "events": {
+          "hurt": {
+            "sound": "mob.witch.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      },
+      "ds:azureflames_curse": {
+        "volume": 0.450,
+        "pitch": [0.4, 0.5],
+        "events": {
+          "hurt": {
+            "sound": "mob.wither.hurt"
+          },
+          "ambient": {
+            "sound": "mob.curse.ambient"
+          }
+        }
+      }
+    }
+  }
+}

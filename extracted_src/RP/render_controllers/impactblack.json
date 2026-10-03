@@ -1,0 +1,18 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.impactblack": {
+			"ignore_lighting": true,
+			"textures": [
+				"Texture.black"
+			],
+			"materials": [
+				{
+					"*": "Material.impactblack"
+				}
+			],
+			"geometry": "Geometry.inversionbox"
+		}
+	}
+}

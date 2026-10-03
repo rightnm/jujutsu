@@ -1,0 +1,31 @@
+{
+  "format_version": "1.18.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "ds:keycard",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/models/keycard"
+      },
+      "geometry": {
+        "default": "geometry.keycard"
+			},
+			"animations": {
+				"idle": "animation.keycard.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

@@ -1,0 +1,260 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": { 
+			"scripts": {
+	"animate": [
+					"health"
+				]
+			},
+			"animations": {
+				"health": "controller.animation.health"
+			},
+	"properties":{
+				"property:mushroom_curse": { 
+					"type": "int", 
+					"range": [0, 100], 
+					"default": 1,
+					"client_sync": true
+				}	
+	},
+      "identifier": "ds:mushroom_curse",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:mushroom_curse_components": {
+
+        "minecraft:behavior.controlled_by_player": {
+          "speed_multiplier": 1.0
+        },
+        "minecraft:behavior.ranged_attack": {
+          "attack_groups": ["mushroom_curse_projectile"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": ["monster", "purecurse", "curse", "grade3", "small"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": true,
+        "can_break_doors": true
+      },
+
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:health": {
+        "value": 30,
+        "max": 25
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:attack": {
+        "damage": 4,
+    "effect_duration": 5.0,
+    "effect_name": "poison"
+      },
+      "minecraft:movement": {
+        "value": 0.4
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:knockback_resistance": {
+        "value": 0.1
+	  },
+      "minecraft:on_hurt": {
+        "event": "combat"
+      },
+      "minecraft:on_death": {
+        "event": "mob_die"
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "test": "is_underwater",
+            "operator": "==",
+            "value": true
+          },
+          "event": "minecraft:start_transforming"
+        }
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1,
+        "track_target": false
+      },
+      "minecraft:behavior.stomp_turtle_egg": {
+        "priority": 4,
+        "speed_multiplier": 1,
+        "search_range": 10,
+        "search_height": 3,
+        "goal_radius": 1.14,
+        "search_count": 4,
+        "interval": 20
+
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 11,
+        "reselect_targets": true,
+        "must_see": true,
+        "within_radius": 64,
+        "entity_types": [
+          {
+            "filters": {
+              "none_of": [
+                {
+                  "test": "is_family",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "value": "sorcerer"
+                },
+			    {
+                  "test": "is_family",
+                  "value": "human"
+                },					
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "despawncito"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "damage"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "projectile"
+	},
+                {
+                  "test": "has_tag",
+                  "subject": "other",
+                  "value": "curse"	
+	},
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "purecurse"	
+	},
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "pest"	  
+                }
+              ]
+            },
+            "max_dist": 64
+          }
+        ]
+      },
+      "minecraft:follow_range": 300,
+      "minecraft:loot": {
+        "table": "loot/nothing.json"
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+	  }
+    },
+    "events": {
+	"mushroom_curse1": {
+    "set_property": {
+	"property:mushroom_curse": 0	
+		}
+	},
+	"mushroom_curse2": {
+    "set_property": { 
+	"property:mushroom_curse": 1	
+		}
+	},
+	"mushroom_curse3": {
+    "set_property": {
+	"property:mushroom_curse": 2
+		}
+	},
+      "mob_die": {
+        "queue_command": {
+          "command": [
+            "scoreboard players random @p[r=20] expadd 4 6",
+            "particle ds:curse_death_small ~~1~",
+            "playsound mob.shulker.death @a ~~~ 1 0.7",
+            "function missions/credit/killcredit_grade3curse"
+		  ]
+            }
+	},
+      "combat": {
+        "queue_command": {
+          "command": [
+            "camerashake add @a[r=10] 0.0001 0.0001"
+		  ]
+            }
+  },
+			"minecraft:entity_spawned": {
+			"queue_command": {
+				"command": [
+					"scoreboard objectives add skincolour dummy",
+					"scoreboard players random @s skincolour 1 3",
+					"event entity @s[scores={skincolour=1}] mushroom_curse1",
+					"event entity @s[scores={skincolour=2}] mushroom_curs2",
+					"event entity @s[scores={skincolour=3}] mushroom_curse3"
+					
+				]
+			}
+		}
+	}
+  }
+}

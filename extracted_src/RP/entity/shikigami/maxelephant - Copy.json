@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:maxelephant",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/shikigami/maxelephant"
+      },
+      "geometry": {
+        "default": "geometry.maxelephant"
+      },
+      "animations": {
+          "static": "animation.maxelephant.static",
+          "move_controller": "controller.animation.maxelephant.move",
+          "move": "animation.maxelephant.move"
+		      },
+      "particle_effects": {
+        "water_hose1": "ds:water_hose1",
+        "water_hose2": "ds:water_hose2",
+        "water_hose3": "ds:water_hose3"
+      },
+      "scripts": {
+          "animate": [
+              "static",
+              "attack_controller",
+              "move_controller"
+          ],
+          "pre_animation": [
+			  "variable.attack = Math.sin(variable.attack_time * 30.0);",
+			  "variable.random = math.round(math.random(0,1));"
+		  ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "enderman_spawn_egg"
+      }
+    }
+  }
+}

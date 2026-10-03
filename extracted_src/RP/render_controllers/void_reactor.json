@@ -1,0 +1,36 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.void_reactor": {
+			"textures": [
+				"Array.variants[query.property('property:void_reactor')]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:void_reactor')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.default",
+						"Geometry.void_reactor_red",
+						"Geometry.void_reactor_off"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.default",
+						"Texture.void_reactor_red",
+						"Texture.void_reactor_off"
+						
+					]
+				}
+			}
+		}
+	}
+}

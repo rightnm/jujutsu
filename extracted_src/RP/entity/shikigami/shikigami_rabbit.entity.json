@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ds:rabbitescape",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"brown": "textures/entity/shikigami/brown",
+				"white": "textures/entity/shikigami/white",
+				"black": "textures/entity/shikigami/black",
+				"white_splotched": "textures/entity/shikigami/white_splotched",
+				"gold": "textures/entity/shikigami/gold",
+				"salt": "textures/entity/shikigami/salt",
+				"toast": "textures/entity/shikigami/toast"
+			},
+			"geometry": {
+				"default": "geometry.killer_bunny"
+			},
+			"animations": {
+				"move": "animation.killer_bunny.move",
+				"baby_transform": "animation.killer_bunny.baby_transform",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.rabbit.general"
+				},
+				{
+					"baby": "controller.animation.rabbit.baby"
+				}
+			],
+			"render_controllers": ["controller.render.rabbit"],
+			"spawn_egg": {
+				"texture": "killer_bunny_spawn_egg"
+			}
+		}
+	}
+}

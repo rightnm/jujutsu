@@ -1,0 +1,32 @@
+{
+  "format_version": "1.18.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "ds:the_shard",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/models/the_shard",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.the_shard"
+			},
+			"animations": {
+				"idle": "animation.the_shard.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

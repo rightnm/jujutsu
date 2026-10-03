@@ -1,0 +1,26 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.8.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ds:mysterious_torch",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/models/mysterious_torch",
+				"awakened": "textures/models/mysterious_torch2"
+			},
+			"geometry": {
+				"default": "geometry.mysterious_torch",
+				"awakened": "geometry.mysterious_torch"
+      },
+      "scripts": {
+        "parent_setup": "variable.boot_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.mysterious_torch"
+			]
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.astaroth_lament": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.textureoff",
+            "Texture.astaroth_lament"
+          ]
+        }
+      },
+      "geometry": "Geometry.astaroth_lament",
+      "materials": [{"*": "Material.entity_emissive_alpha"}],
+      "textures": [
+        "query.property('property:astaroth_lament') == 1 ? Texture.astaroth_lament : (query.property('property:astaroth_lament') == 0 ? Texture.textureoff)"
+      ]
+    }
+  }
+}

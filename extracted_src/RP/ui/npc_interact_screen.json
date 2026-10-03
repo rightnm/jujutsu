@@ -1,0 +1,146 @@
+{
+  "namespace": "npc_interact",
+  "$schema": "https://kalmemarq.github.io/Bugrock-JSON-UI-Schemas/ui.schema.json",
+
+
+  "custom_uis": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "controls": [
+      {
+        "stats@renderer": {
+          "$child": "heroic_stats.ui",
+          "$flag": "stats",
+          "$length": 5
+        }
+      }
+    ]
+  },
+
+
+  "npc_screen_contents": {
+    "type": "panel",
+    "controls": [
+      {
+        // Teacher window containing basic and advanced editing screens
+        "teacher@npc_interact.root_panel": {
+          "$child_control": "npc_interact.main_content",
+          "bindings": [
+            {
+              "binding_name": "#teacher_view_visible",
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            }
+          ]
+        }
+      },
+      {
+        "student@default_renderer": {}
+      },
+      {
+        "extension@custom_uis": {}
+      },
+      {
+        "close": {
+          "type": "button",
+          "size": [
+            0,
+            0
+          ],
+          "button_mappings": [
+            {
+              "from_button_id": "button.menu_cancel",
+              "to_button_id": "button.menu_exit",
+              "mapping_type": "global"
+            }
+          ]
+        }
+      },
+      {
+        "npc_screen_close@npc_interact.close_text": {
+          "anchor_to": "bottom_left",
+          "anchor_from": "bottom_left",
+          "offset": [
+            20,
+            0
+          ]
+        }
+      }
+    ]
+  },
+
+
+  "default_renderer": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "$child|default": "npc_interact.default",
+    "bindings": [
+      {
+        "binding_name": "#title_text"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not(('%.5s' * #title_text) = 'stats'))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "child@$child": {}
+      }
+    ]
+  },
+
+  "renderer": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "$flag|default": "default",
+    "$length|default": 7,
+    "$child|default": "npc_interact.default",
+    "bindings": [
+      {
+        "binding_name": "#title_text"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((('%.' + $length + 's') * (#title_text - '§')) = $flag)",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "child@$child": {}
+      }
+    ]
+  },
+  "default@common_dialogs.form_fitting_main_panel_no_buttons": {
+    "$panel_size": [
+      320,
+      "100%cm"
+    ],
+    "size": "$panel_size",
+    "$child_control": "npc_interact.student_view_content",
+    "$title_panel": "common_dialogs.standard_title_label",
+    "$text_name": "#title_text",
+    "$title_text_binding_type": "global",
+    // Don't show default close button, we want our own
+    "$show_close_button": false,
+    "$custom_background": "common_dialogs.dialog_background_opaque_with_child",
+    "bindings": [
+      {
+        "binding_name": "#student_view_visible",
+        "binding_name_override": "#visible",
+        "binding_type": "global"
+      }
+    ]
+  }
+}

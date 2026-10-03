@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.soul_sword_back": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.textureoff",
+            "Texture.soul_sword_back"
+          ]
+        }
+      },
+      "geometry": "Geometry.soul_sword_back",
+      "materials": [{"*": "Material.default"}],
+      "textures": [
+        "query.property('property:soul_sword_back') == 1 ? Texture.soul_sword_back : (query.property('property:soul_sword_back') == 0 ? Texture.textureoff)"
+      ]
+    }
+  }
+}

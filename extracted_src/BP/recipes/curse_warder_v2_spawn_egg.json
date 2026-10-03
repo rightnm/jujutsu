@@ -1,0 +1,47 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ds:curse_warder_v2_spawn_egg"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "BGC",
+            " T ",
+            "STS"
+        ],
+        "key": {
+            "T": {
+                "item": "minecraft:stick"
+            },
+            "G": {
+                "item": "minecraft:iron_ingot"
+            },
+            "S": {
+                "item": "minecraft:smooth_stone"
+            },
+            "C": {
+                "item": "ds:cursed_object_v2"
+            },
+            "B": {
+                "item": "ds:grade2_seal"
+            }
+			
+        },
+		"unlock": [
+          {
+            "item": "ds:cursed_object_v2"
+          },
+          {
+            "item": "ds:grade2_seal"
+            }
+        ],
+        "result": {
+            "item": "ds:curse_warder_v2_spawn_egg",
+            "count": 1
+        },
+        "priority": 1
+    }
+}

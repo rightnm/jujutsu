@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:rodofdiscord",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.chestboat"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "rodofdiscord"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§dRod of Discord \n\n§r§gWarp §7[§e Click §7]\n\n§5- A Rod that allows you to teleport 10 blocks infront of you.\n(Item is a Reference to the Rod of Discord from terraria.)"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

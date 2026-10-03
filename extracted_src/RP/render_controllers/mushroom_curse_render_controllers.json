@@ -1,0 +1,38 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.mushroom_curse": {
+			"textures": [
+				"Array.variants[query.property('property:mushroom_curse')]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:mushroom_curse')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.mushroom_curse",
+						"Geometry.mushroom_curse",
+						"Geometry.mushroom_curse",
+						"Geometry.mushroom_curse"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.mushroom_curse1",
+						"Texture.mushroom_curse2",
+						"Texture.mushroom_curse3",
+						"Texture.mushroom_curse3"
+						
+					]
+				}
+			}
+		}
+	}
+}

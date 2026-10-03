@@ -1,0 +1,36 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.body_transfigure": {
+			"textures": [
+				"Array.variants[query.property('property:body_transfigure')]"
+			],
+			"materials": [
+				{
+					"*": "Material.entity_alpha"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:body_transfigure')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.nothing",
+						"Geometry.body_transfigure",
+						"Geometry.mouth_handsigns"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.default",
+						"Texture.default"
+						
+					]
+				}
+			}
+		}
+	}
+}

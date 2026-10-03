@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:mahoragawheel",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.helmet"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "mahoraga_wheel"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§d§lEight-Handled Wheel of Adaption\n§r§5§o- This wheel represents a complete cycle and harmony\n§7Allows you to adapt to an attack/ability for 90 seconds, 30 seconds after encountering it.\n§r§c(30 Second Cooldown)\n\n§l§e[ Sacred Treasure ]"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false,
+            "minecraft:enchantable": {
+                "value": 14,
+                "slot": "armor_head"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.head",
+                "protection": 6
+					}
+            }
+        }
+    }

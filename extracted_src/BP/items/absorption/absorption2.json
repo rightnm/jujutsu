@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:absorption2",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "absorption_icon2"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§ePower Bolt\n§r§g- Cost: [ §7100 Cursed Energy + §g10 Stored Energy §g]\n\n§r§ePower Shock §7(§eHold-Sneak+Right-Click§7)§r\n§r§g- Cost: [ §7200 Cursed Energy + §g25 Stored Energy §g]\n\n§r§ePower Wave §7(§eHold-Jump+Right-Click§7)§r\n§r§g- Cost: [ §7250 Cursed Energy + §g50 Stored Energy §g]\n§r§5- §oLong-Ranged Attacks"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

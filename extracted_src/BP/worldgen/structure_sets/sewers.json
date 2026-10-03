@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:sewers"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 51543317,
+      "separation": 33,
+      "spacing": 67,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:sewers",
+        "weight": 1
+      }
+    ]
+  }
+}

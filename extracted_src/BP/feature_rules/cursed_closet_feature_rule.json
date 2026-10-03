@@ -1,0 +1,46 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:feature_rules": {
+	  "description": {
+		"identifier": "ds:cursed_closet_feature_rule",
+		"places_feature": "ds:cursed_closet_feature"
+	  },
+	  "conditions": {
+		"placement_pass": "surface_pass",
+		"minecraft:biome_filter": [
+		  {
+			"any_of": [
+			  {
+				"test": "has_biome_tag",
+				"operator": "==",
+				"value": "monster"
+			  }
+			],
+			"none_of": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "ocean"
+				  }
+			]
+		  }
+		]
+	  },
+	  "distribution": {
+		"iterations": 1,
+		"x": -16,
+		"y": {
+		  "extent": [
+			  64,
+			  228
+			],
+			"distribution": "uniform"
+		},
+		"z": -16,
+		"scatter_chance": {
+		  "numerator": 1,
+		  "denominator": 20
+		}
+	  }
+	}
+  }

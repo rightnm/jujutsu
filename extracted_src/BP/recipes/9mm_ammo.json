@@ -1,0 +1,44 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ds:9mm_ammo"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "nAn",
+            "nBn",
+            "nXn"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:iron_nugget"
+            },
+            "B": {
+                "item": "minecraft:copper_ingot"
+            },
+            "X": {
+                "item": "minecraft:gunpowder"
+            }
+			
+        },
+		"unlock": [
+          {
+            "item": "minecraft:iron_nugget"
+          },
+          {
+            "item": "minecraft:copper_ingot"
+          },
+          {
+            "item": "minecraft:gunpowder"
+          }
+        ],
+        "result": {
+            "item": "ds:9mm_ammo",
+            "count": 16
+        },
+        "priority": 1
+    }
+}

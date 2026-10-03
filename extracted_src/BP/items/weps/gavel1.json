@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:gavel1",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "gavel"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§f§eJudge's Gavel\n\n§r§eHeavy Smack\n§g- Cost: [ §740 Cursed Energy §g] §7(§eRight-Click§7)\n\n§r§eThrow Gavel\n§g- Cost: [ §740 Cursed Energy §g] §7(§eHold-Sneak+Right-Click§7)\n\n§r§eHead Smash \n§g- Cost: [ §780 Cursed Energy §g] §7(§eHold-Sneak+Punch§7)\n\n§r§eJudgement Strike \n§g- Cost: [ §7200 Cursed Energy §g] §7(§eSprint+Right-Click§7)\n\n§r§cSwitch Forms \n§g- Cost: [ §710 Cursed Energy §g] §7(§eDouble-Sneak+Punch§7)\n\n§r§5§o- Small-Sized Gavel"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

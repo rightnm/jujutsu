@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:shikigami8",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "shikigami8"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§cRound Deer\n§g- Cost: [ §7500 Cursed Energy §g]\n§r§5- §o8th Summon"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

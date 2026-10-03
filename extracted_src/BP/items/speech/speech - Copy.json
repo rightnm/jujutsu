@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:speech2",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "cursed_speech2"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§8Break!\n§g- Cost: [ §775 Cursed Energy §g]\n§9- Forces the target's bone(s) to break/take damage.\n\n§r§8Blast Away! §7(§eHold-Jump+Right-Click§7)§r\n§g- Cost: [ §7150 Cursed Energy §g]\n§9- Forces the to be launched away with immense force.\n\n§r§8Get Crushed! §7(§eHold-Sneak+Right-Click§7)§r\n§g- Cost: [ §7200 Cursed Energy §g]\n§9- Crushes the target inbetween 2 invisible forces of Cursed Energy.\n\n§r§8Plummet! §7(§eHold-Sneak+Hold-Jump+Right-Click§7)§r\n§g- Cost: [ §7500 Cursed Energy §g]\n§9- Forces the target to plummet deep into the ground.\n\n§r§cDie. §7(§eHold-Sneak+Punch§7)§r\n§g- Cost: [ §73000 Cursed Energy §g]\n§9- Kills the target if they are atleast 2 grades below you\nIf the target is not 2 grades below you, they will just take damage.\n\n§r§5- §oOffensive Force Words\n\n§4Warning, these words can have some serious back-lash!"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

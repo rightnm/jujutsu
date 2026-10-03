@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:equinox_blade",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.chestboat"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "origin_blade"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§l§4Ｅｑｕｉｎｏｘ Ｅｄｇｅ§r\n\n§r§fDeath's Dance §7(§eRight-Click§7)\n\n§r§8Fracture Strike §7(§eHold-Jump + Right-Click§7)\n\n§r§fMirrors of Misfortune §7(§eSneak + Right-Click§7)\n\n§r§8Abyssal Strike §7(§eSneak + Punch§7)\n\n§r§l§fCataclysm §7(§eSneak + Jump + Right-Click§7)§r\n\n§5- Forged from the origin of light and darkness in several realities,\nthe Equinox Edge is a weapon of immeasurable power, existing beyond the confines of mortal understanding.\nThis edge bends the fabric of existence itself, capable of rending reality as if it were mere parchment.\nA fusion of countless realms, it pulses with an unstable, destructive energy—each strike threatening to unravel the boundaries between worlds.\nIn the right hands, its wrath is boundless, carving through creation itself with every swing.\n(Originating from Craftwars Overhaul)"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

@@ -1,0 +1,37 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.heian_sukuna": {
+			"textures": [
+				"Array.variants[query.property('property:body_transformation')]"
+			],
+			"materials": [
+				{
+					"*": "Material.entity_alphatest"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:body_transformation')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.default2",
+						"Geometry.heian_sukuna",
+						"Geometry.heian_sukuna",
+						"Geometry.instant_body"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.default2",
+						"Texture.heian_sukuna",
+						"Texture.heian_sukuna_red",
+						"Texture.instant_body"						
+					]
+				}
+			}
+		}
+	}
+}

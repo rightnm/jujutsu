@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:agito",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/shikigami/agito"
+      },
+      "geometry": {
+        "default": "geometry.agito"
+      },
+      "animations": {
+          "movement_controller": "controller.animation.agito.movement",
+          "static": "animation.agito.static",
+          "move": "animation.agito.move",
+          "sprint": "animation.agito.sprint"
+      },
+      "particle_effects": {
+        "shock_punch1": "ds:shock_punch1",
+        "shock_punch2": "ds:shock_punch2"
+      },
+      "scripts": {
+          "animate": [
+              "movement_controller"
+          ],
+          "pre_animation": [
+			  "variable.attack = Math.sin(variable.attack_time * 30.0);",
+			  "variable.random = math.round(math.random(0,1));"
+		  ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "enderman_spawn_egg"
+      }
+    }
+  }
+}

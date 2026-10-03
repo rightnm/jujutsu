@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:plane"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 11543021,
+      "separation": 33,
+      "spacing": 70,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:plane",
+        "weight": 1
+      }
+    ]
+  }
+}

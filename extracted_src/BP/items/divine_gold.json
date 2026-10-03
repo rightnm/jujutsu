@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:divine_gold",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "divine_gold"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§o§bDivine Gold\n§5- A Golden ingot radiating with intense Cursed Energy"
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

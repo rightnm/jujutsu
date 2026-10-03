@@ -1,0 +1,62 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	    "controller.animation.serpent.move": {
+			"states": {
+				"default": {
+				    "variables": {
+                        "move_speed": {
+                            "input": "query.modified_move_speed",
+                            "remap_curve": {
+                                "0.0": 0.0,
+                                "0.25": 1.0
+                            }
+                        }
+                    },
+                    "animations": [
+                        {
+                            "move": "variable.move_speed"
+                        }
+                    ]
+				}
+			}
+		},
+		"controller.animation.serpent.attack": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"attack1": "query.is_delayed_attacking && variable.random == 0"
+						},
+						{
+							"attack2": "query.is_delayed_attacking && variable.random == 1"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"attack1": {
+					"animations": [
+						"attack1"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"attack2": {
+					"animations": [
+						"attack2"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.2
+				}
+			}
+		}
+	}
+}

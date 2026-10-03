@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:cursedenergy",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "cursed_icon2"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§bCursed Energy Manipulation\n\n§r§7[ §eSneak + Right-Click to Switch Output §7]\n§r§7[ §eRight-Click to Use §7]\n\n§r§5- §oThe advanced manipulation of Cursed Energy without using a cursed technique."
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

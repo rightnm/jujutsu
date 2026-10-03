@@ -1,0 +1,36 @@
+{
+    "format_version": "1.19.0",
+    "animation_controllers": {
+        "controller.animation.mahito_blade.idle": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": [
+                        {
+                            "mahito_blades_idle": "query.property('property:heart') == 8"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "sprint": "query.is_on_ground && q.is_sprinting && query.property('property:heart') == 8"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                },
+                "sprint": {
+                    "animations": [
+                        {
+                            "mahito_blades_sprint": "query.property('property:heart') == 8"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "idle": "query.is_on_ground && !query.is_moving && query.property('property:heart') == 8"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                }
+            }
+        }
+    }
+}

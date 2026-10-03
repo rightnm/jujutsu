@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "ds:cursed_cavern_feature"
+		},
+		"structure_name": "mystructure:cursed_cavern_load",
+		"adjustment_radius": 16,
+		"constraints": {
+      "unburied": {},
+			"block_intersection": {
+				"block_allowlist": [
+					"minecraft:dirt",
+					"minecraft:stone",
+					"minecraft:deepslate",
+					"minecraft:gravel",
+					"minecraft:sandstone"
+				]
+			}
+		}
+	}
+}
