@@ -1,0 +1,1 @@
+setmaxplayers 1

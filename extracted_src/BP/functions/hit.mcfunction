@@ -1,0 +1,13 @@
+
+execute if entity @s[scores={infinity=1..},tag=Frames,type=!player] run scoreboard players set @s Hit 0
+
+scoreboard players add @s[scores={Hit=1},tag=530kiq,tag=!unselect] Evade 2
+execute as @s[tag=alleycat,scores={Hit=1..,combat=0},tag=!unselect] at @s run playsound mob.bat.takeoff @a ~~~ 0.5 1.1
+execute as @s[tag=alleycat,scores={Hit=1..,combat=0},tag=!unselect] at @s run particle mcdp_v:knockback_roar_particle_2 ~~~
+effect @s[tag=alleycat,scores={Hit=1..,combat=0},tag=!unselect] speed 15 5 true
+execute as @s[scores={Hit=1..},type=!item,family=!projectile,family=!despawncito,family=!damage,type=!xp_orb,type=!arrow,type=!falling_block,tag=!unselect,type=!ds:lapse_explode,type=!ds:red_reversal,type=!ds:hollow_nuke,type=!ds:limitless_explosion,type=!ds:pressure,type=!ds:energy_explosion,type=!ds:massive_bomb,type=!ds:shrine_dmg,type=!ds:pachinko_impact1,type=!ds:bolt_explode,type=!ds:shikigami_impact,type=!ds:oxrushex,type=!gg:impact_frame,type=!armor_stand] at @s unless entity @s[type=ds:duke,scores={endurance=1..}] run particle ds:blood ~~0.1~
+execute as @s[scores={Hit=1..},type=!item,family=!projectile,family=!despawncito,family=!damage,type=!xp_orb,type=!arrow,type=!falling_block,tag=!unselect,type=!ds:lapse_explode,type=!ds:red_reversal,type=!ds:hollow_nuke,type=!ds:limitless_explosion,type=!ds:pressure,type=!ds:energy_explosion,type=!ds:massive_bomb,type=!ds:shrine_dmg,type=!ds:pachinko_impact1,type=!ds:bolt_explode,type=!ds:shikigami_impact,type=!ds:oxrushex,type=!gg:impact_frame,type=!armor_stand] at @s unless entity @s[type=ds:duke,scores={endurance=1..}] run particle ds:blood_splat ~~0.1~
+scoreboard players add @s[scores={Hit=1..},type=!item,family=!projectile,family=!despawncito,family=!damage,type=!xp_orb,type=!arrow,type=!falling_block,tag=!unselect,type=!ds:lapse_explode,type=!ds:red_reversal,type=!ds:hollow_nuke,type=!ds:limitless_explosion,type=!ds:pressure,type=!ds:energy_explosion,type=!ds:massive_bomb,type=!ds:shrine_dmg,type=!ds:pachinko_impact1,type=!ds:bolt_explode,type=!ds:shikigami_impact,type=!ds:oxrushex,type=!gg:impact_frame,type=!armor_stand] Hyper 0
+scoreboard players set @s[tag=!Frames,type=!item,family=!projectile,family=!despawncito,family=!damage,type=!xp_orb,type=!arrow,type=!falling_block,tag=!unselect,type=!ds:lapse_explode,type=!ds:red_reversal,type=!ds:hollow_nuke,type=!ds:limitless_explosion,type=!ds:pressure,type=!ds:energy_explosion,type=!ds:massive_bomb,type=!ds:shrine_dmg,type=!ds:pachinko_impact1,type=!ds:bolt_explode,type=!ds:shikigami_impact,type=!ds:oxrushex,type=!gg:impact_frame,type=!armor_stand] combat 800
+scoreboard players remove @s[scores={Hit=1..}] Hit 1
+

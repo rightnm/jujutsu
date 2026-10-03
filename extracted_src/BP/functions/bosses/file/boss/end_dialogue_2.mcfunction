@@ -1,0 +1,13 @@
+
+scoreboard objectives add amt dummy
+scoreboard players add @s[tag=arenaboss,r=200] amt 1
+scoreboard objectives add completedbossfight dummy
+scoreboard players add @s[tag=arenaboss,r=200] completedbossfight 0
+execute if entity @s[tag=arenaboss,r=200,scores={amt=5..}] run function bosses/file/boss/end_dialogue_full
+
+
+execute unless entity @s[tag=arenaboss,r=200,scores={amt=5..,completedbossfight=0}] run tellraw @s[tag=arenaboss,r=300] {"rawtext":[{"text":"\n§r§f< §o§f§lThe Architect §r§f> §fAh, you want to know what that was? He's a living entity I created imbued with fragments of my past self, he's not really fun to be around and would always try causing chaos or being egotistical because he thought he was better than everyone, he never knew he was a creation, he seems to think he's actually alive and has a grudge against me for banishing him after he caused too much drama and gave the name Heroic a bad reputation. He's basically just an alternate version of me I created, using abilities I had created and summoning echoes of my friends and creations... all while corrupting them.\nYou're lucky he wasn't capable of summoning the true potential of those echoes, if they had really been here you would've stood no chance as some of them are just as powerful as me..."}]}
+
+execute unless entity @s[tag=arenaboss,r=200,scores={amt=5..,completedbossfight=1..}] run tellraw @s[tag=arenaboss,r=300] {"rawtext":[{"text":"\n§r§f< §o§f§lThe Architect §r§f> §fAh, you want to know what that was? He's a living entity I created imbued with fragments of my past self, he's not really fun to be around and would always try causing chaos or being egotistical because he thought he was better than everyone, he never knew he was a creation, he seems to think he's actually alive and has a grudge against me for banishing him after he caused too much drama and gave the name Heroic a bad reputation. He's basically just an alternate version of me, using abilities I had created and summoning friends of mine all while corrupting them.\nYou're lucky he wasn't capable of summoning the true potential of those echoes, if they had really been here you would've stood no chance as some of them are just as powerful as me...\n\n\n I know he's not evil to the core, after all he is me. He's just misunderstood and corrupted, which is why I sealed him away forever. But he doesn't realise it's for our own good."}]}
+
+execute unless entity @s[tag=arenaboss,r=200,scores={amt=5..}] run playsound random.click

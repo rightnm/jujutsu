@@ -1,0 +1,1 @@
+scoreboard players operation @p Exp = @p ExpMax

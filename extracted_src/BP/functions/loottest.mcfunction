@@ -1,0 +1,1 @@
+execute as @p run loot spawn ~~1~ loot end_city_treasure

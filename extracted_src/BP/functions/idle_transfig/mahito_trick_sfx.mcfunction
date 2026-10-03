@@ -1,0 +1,3 @@
+execute as @e[tag=idle_transfig,c=1,type=player] at @s run titleraw @a[r=50] title {"rawtext":[{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n§o§c< "},{"selector":"@s"},{"text":" > You fell for it!"}]}
+execute as @e[tag=idle_transfig,c=1,type=!player] at @s run titleraw @a[r=50] title {"rawtext":[{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n§o§c< Mahito > You fell for it!"}]}
+execute as @e[tag=idle_transfig,c=1] at @s run playsound mob.mahito_trick @a[r=50] ~~1~ 99999 1 99999

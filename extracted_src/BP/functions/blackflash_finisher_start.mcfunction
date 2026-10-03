@@ -1,0 +1,12 @@
+scoreboard players set @s[scores={blackflashing=!0}] blackflashing 0
+scoreboard players set @s Frames 10
+scoreboard players random @s chance 1 2
+
+execute as @s[scores={chance=1..2},tag=limitless] at @s positioned ^^^6 if entity @e[scores={detect_health=0..50},r=5.95,c=1,tag=!blackflash1,tag=!blackflash2,tag=!blackflash3,tag=!blackflash4,tag=!blackflash_finisher_gojo,tag=!blackflash_finisher_gojo2,tag=!nocutscenes,type=!item,family=!projectile,family=!despawncito,family=!damage,family=!disappear,type=!xp_orb,type=!arrow,type=!thrown_trident,type=!fireball,type=!dragon_fireball,type=!small_fireball,type=!fireworks_rocket,type=!fishing_hook,type=!splash_potion,type=!area_effect_cloud,type=!snowball,type=!egg,type=!falling_block,tag=!unselect,type=!ds:lapse_explode,type=!ds:red_reversal,type=!ds:hollow_nuke,type=!ds:limitless_explosion,type=!ds:pressure,type=!ds:energy_explosion,type=!ds:massive_bomb,type=!ds:shrine_dmg,type=!ds:pachinko_impact1,type=!ds:bolt_explode,type=!ds:shikigami_impact,type=!ds:oxrushex,type=!gg:impact_frame,type=!armor_stand,family=!grade4,family=!grade3] run tag @s add blackflash_finisher_gojo
+execute as @s[scores={chance=1..2},tag=limitless] at @s positioned ^^^6 run tag @e[scores={detect_health=0..50},r=5.95,c=1,tag=!blackflash1,tag=!blackflash2,tag=!blackflash3,tag=!blackflash4,tag=!blackflash_finisher_gojo,tag=!blackflash_finisher_gojo2,tag=!nocutscenes,type=!item,family=!projectile,family=!despawncito,family=!damage,family=!disappear,type=!xp_orb,type=!arrow,type=!thrown_trident,type=!fireball,type=!dragon_fireball,type=!small_fireball,type=!fireworks_rocket,type=!fishing_hook,type=!splash_potion,type=!area_effect_cloud,type=!snowball,type=!egg,type=!falling_block,tag=!unselect,type=!ds:lapse_explode,type=!ds:red_reversal,type=!ds:hollow_nuke,type=!ds:limitless_explosion,type=!ds:pressure,type=!ds:energy_explosion,type=!ds:massive_bomb,type=!ds:shrine_dmg,type=!ds:pachinko_impact1,type=!ds:bolt_explode,type=!ds:shikigami_impact,type=!ds:oxrushex,type=!gg:impact_frame,type=!armor_stand,family=!grade4,family=!grade3] add blackflash_finisher_gojo2
+
+scoreboard players set @s[tag=blackflash_finisher_gojo] blackflashing 421
+scoreboard players set @s[tag=blackflash_finisher_gojo] Frames 430
+
+scoreboard players set @e[tag=blackflash_finisher_gojo2,r=15,c=1] cutscene 421
+scoreboard players set @e[tag=blackflash_finisher_gojo2,r=15,c=1] Frames 430

@@ -1,0 +1,27 @@
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 dirt [] replace grass
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 fire [] replace double_plant
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 fire [] replace tallgrass
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 fire [] replace red_flower
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 fire [] replace yellow_flower
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 basalt [] replace log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 basalt [] replace birch_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 basalt [] replace spruce_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 basalt [] replace acacia_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 basalt [] replace mangrove_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 basalt [] replace jungle_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 basalt [] replace dark_oak_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 basalt [] replace cherry_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 smooth_basalt [] replace planks
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 polished_basalt [] replace stripped_oak_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 polished_basalt [] replace stripped_birch_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 polished_basalt [] replace stripped_spruce_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 polished_basalt [] replace stripped_acacia_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 polished_basalt [] replace stripped_mangrove_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 polished_basalt [] replace stripped_jungle_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 polished_basalt [] replace stripped_dark_oak_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 polished_basalt [] replace stripped_cherry_log
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air [] replace water
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air [] replace leaves
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air [] replace leaves2
+execute if entity @p[tag=griefable] run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air [] replace azalea_leaves
+

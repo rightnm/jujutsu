@@ -1,0 +1,59 @@
+tag @e[type=!item,family=!projectile,family=!despawncito,family=!damage,family=!disappear,type=!xp_orb,type=!arrow,type=!thrown_trident,type=!fireball,type=!dragon_fireball,type=!small_fireball,type=!fireworks_rocket,type=!fishing_hook,type=!splash_potion,type=!area_effect_cloud,type=!snowball,type=!egg,type=!falling_block,tag=!unselect,type=!ds:lapse_explode,type=!ds:red_reversal,type=!ds:hollow_nuke,type=!ds:limitless_explosion,type=!ds:pressure,type=!ds:energy_explosion,type=!ds:massive_bomb,type=!ds:shrine_dmg,type=!ds:pachinko_impact1,type=!ds:bolt_explode,type=!ds:shikigami_impact,type=!ds:oxrushex,type=!gg:impact_frame,type=!armor_stand,scores={knockdown=1..},tag=!knockdown] add knockdown
+scoreboard players set @e[scores={knockdown=1..},tag=knockdown] Stun 5
+
+playanimation @e[scores={knockdown=1..},tag=knockdown] animation.knockback
+
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=!hardknockback] at @s unless block ~~~ water unless block ~~-1~ water if entity @a[tag=griefable,c=1] if entity @e[family=boss,r=100] unless block ~~~ bedrock unless block ~~-1~ bedrock unless block ~~-2~ bedrock unless block ~~-3~ bedrock unless block ~~-4~ bedrock unless block ~~-5~ bedrock unless block ~~-6~ bedrock unless block ~~-7~ bedrock unless block ~~-8~ bedrock unless block ~~~ barrier unless block ~~-1~ barrier unless block ~~-2~ barrier unless block ~~-3~ barrier unless block ~~-4~ barrier unless block ~~-5~ barrier unless block ~~-6~ barrier unless block ~~-7~ barrier unless block ~~-8~ barrier run fill ~1 ~2 ~1 ~-1 ~ ~-1 air [] destroy
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=!hardknockback] at @s unless block ~~~ water unless block ~~-1~ water if entity @a[tag=griefable,c=1] if entity @e[family=boss,r=100] unless block ~~~ bedrock unless block ~~-1~ bedrock unless block ~~-2~ bedrock unless block ~~-3~ bedrock unless block ~~-4~ bedrock unless block ~~-5~ bedrock unless block ~~-6~ bedrock unless block ~~-7~ bedrock unless block ~~-8~ bedrock unless block ~~~ barrier unless block ~~-1~ barrier unless block ~~-2~ barrier unless block ~~-3~ barrier unless block ~~-4~ barrier unless block ~~-5~ barrier unless block ~~-6~ barrier unless block ~~-7~ barrier unless block ~~-8~ barrier run fill ~1 ~1 ~2 ~-1 ~ ~2 air [] destroy
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=!hardknockback] at @s unless block ~~~ water unless block ~~-1~ water if entity @a[tag=griefable,c=1] if entity @e[family=boss,r=100] unless block ~~~ bedrock unless block ~~-1~ bedrock unless block ~~-2~ bedrock unless block ~~-3~ bedrock unless block ~~-4~ bedrock unless block ~~-5~ bedrock unless block ~~-6~ bedrock unless block ~~-7~ bedrock unless block ~~-8~ bedrock unless block ~~~ barrier unless block ~~-1~ barrier unless block ~~-2~ barrier unless block ~~-3~ barrier unless block ~~-4~ barrier unless block ~~-5~ barrier unless block ~~-6~ barrier unless block ~~-7~ barrier unless block ~~-8~ barrier run fill ~2 ~2 ~2 ~-2 ~ ~-2 air [] destroy
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=!hardknockback] at @s unless block ~~~ water unless block ~~-1~ water if entity @a[tag=griefable,c=1] if entity @e[family=boss,r=100] unless block ~~~ bedrock unless block ~~-1~ bedrock unless block ~~-2~ bedrock unless block ~~-3~ bedrock unless block ~~-4~ bedrock unless block ~~-5~ bedrock unless block ~~-6~ bedrock unless block ~~-7~ bedrock unless block ~~-8~ bedrock unless block ~~~ barrier unless block ~~-1~ barrier unless block ~~-2~ barrier unless block ~~-3~ barrier unless block ~~-4~ barrier unless block ~~-5~ barrier unless block ~~-6~ barrier unless block ~~-7~ barrier unless block ~~-8~ barrier run fill ~2 ~1 ~1 ~2 ~ ~-1 air [] destroy
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=!hardknockback] at @s unless block ~~~ water unless block ~~-1~ water if entity @a[tag=griefable,c=1] if entity @e[family=boss,r=100] unless block ~~~ bedrock unless block ~~-1~ bedrock unless block ~~-2~ bedrock unless block ~~-3~ bedrock unless block ~~-4~ bedrock unless block ~~-5~ bedrock unless block ~~-6~ bedrock unless block ~~-7~ bedrock unless block ~~-8~ bedrock unless block ~~~ barrier unless block ~~-1~ barrier unless block ~~-2~ barrier unless block ~~-3~ barrier unless block ~~-4~ barrier unless block ~~-5~ barrier unless block ~~-6~ barrier unless block ~~-7~ barrier unless block ~~-8~ barrier run kill @e[type=item,r=15]
+
+
+
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=hardknockback] at @s if entity @a[tag=griefable,c=1] unless block ~~~ water unless block ~~-1~ water unless block ~~~ bedrock unless block ~~-1~ bedrock unless block ~~-2~ bedrock unless block ~~-3~ bedrock unless block ~~-4~ bedrock unless block ~~-5~ bedrock unless block ~~-6~ bedrock unless block ~~-7~ bedrock unless block ~~-8~ bedrock unless block ~~~ barrier unless block ~~-1~ barrier unless block ~~-2~ barrier unless block ~~-3~ barrier unless block ~~-4~ barrier unless block ~~-5~ barrier unless block ~~-6~ barrier unless block ~~-7~ barrier unless block ~~-8~ barrier run fill ~1 ~1 ~2 ~-1 ~ ~2 air [] destroy
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=hardknockback] at @s if entity @a[tag=griefable,c=1] unless block ~~~ water unless block ~~-1~ water unless block ~~~ bedrock unless block ~~-1~ bedrock unless block ~~-2~ bedrock unless block ~~-3~ bedrock unless block ~~-4~ bedrock unless block ~~-5~ bedrock unless block ~~-6~ bedrock unless block ~~-7~ bedrock unless block ~~-8~ bedrock unless block ~~~ barrier unless block ~~-1~ barrier unless block ~~-2~ barrier unless block ~~-3~ barrier unless block ~~-4~ barrier unless block ~~-5~ barrier unless block ~~-6~ barrier unless block ~~-7~ barrier unless block ~~-8~ barrier run fill ~2 ~2 ~2 ~-2 ~ ~-2 air [] destroy
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=hardknockback] at @s if entity @a[tag=griefable,c=1] unless block ~~~ water unless block ~~-1~ water unless block ~~~ bedrock unless block ~~-1~ bedrock unless block ~~-2~ bedrock unless block ~~-3~ bedrock unless block ~~-4~ bedrock unless block ~~-5~ bedrock unless block ~~-6~ bedrock unless block ~~-7~ bedrock unless block ~~-8~ bedrock unless block ~~~ barrier unless block ~~-1~ barrier unless block ~~-2~ barrier unless block ~~-3~ barrier unless block ~~-4~ barrier unless block ~~-5~ barrier unless block ~~-6~ barrier unless block ~~-7~ barrier unless block ~~-8~ barrier run fill ~2 ~1 ~1 ~2 ~ ~-1 air [] destroy
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=hardknockback] at @s if entity @a[tag=griefable,c=1] run kill @e[type=item,r=15]
+
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=downknockback] at @s if block ~~-1~ air run tp @s ~~-1~
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=downknockback] at @s if block ~~-1~ air run tp @s ~~-1~
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=downknockback] at @s if block ~~-1~ air run tp @s ~~-1~
+
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s unless block ~~-0.2~ air run camerashake add @a[r=40] 4 0.25
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s unless block ~~-0.2~ air run playsound random.explode @a ~~~ 700 0.5 700
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s unless block ~~-0.2~ air run playsound mob.wither.break_block @a ~~~ 700 0.45 700
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s unless block ~~-0.2~ air run playsound mob.wither.break_block @a ~~~ 700 0.45 700
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s unless block ~~-0.2~ air run particle ds:ground_slam1
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s unless block ~~-0.2~ air run particle ds:ground_slam2
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s unless block ~~-0.2~ air run particle ds:ground_slam3
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s unless block ~~-0.2~ air run particle ds:leap
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s unless block ~~-0.2~ air run particle ds:crater2
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s unless block ~~-0.2~ air run damage @s 4 override
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=hardknockback] at @s unless block ~~-0.2~ air run tag @s remove hardknockback
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames,tag=downknockback] at @s unless block ~~-0.2~ air run tag @s remove downknockback
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s unless block ~~-0.2~ air run scoreboard players set @s knock 25
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s unless block ~~-0.2~ air run scoreboard players set @s knockdown 0
+
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s if entity @e[family=boss,r=100] rotated ~ 0 unless block ^^0.8^-0.25 air run effect @s resistance 1 20 true
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s if entity @e[family=boss,r=100] rotated ~ 0 unless block ^^0.8^-0.25 air run summon ds:lapse_explode ^^^
+
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run camerashake add @a[r=40] 4 0.35
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run playsound random.explode @a ~~~ 700 0.5 700
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run playsound mob.wither.break_block @a ~~~ 700 0.45 700
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run playsound mob.wither.break_block @a ~~~ 700 0.45 700
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run particle ds:ground_slam1
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run particle ds:ground_slam2
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run particle ds:ground_slam3
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run particle ds:rubble3
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run particle ds:dirt2
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run particle ds:dirt3
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run particle ds:dirt3
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run damage @s 5 override
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run scoreboard players set @s Stun 30
+execute as @e[scores={knockdown=1..84},tag=knockdown,tag=!Frames] at @s rotated ~ 0 unless block ^^0.8^-0.25 air run scoreboard players set @s knockdown 0
+
+scoreboard players set @e[scores={knockdown=1..,knock=1..}] knockdown 0
+tag @e[scores={knockdown=0..2},tag=hardknockback] remove hardknockback
+tag @e[scores={knockdown=0..2},tag=downknockback] remove downknockback
+tag @e[scores={knockdown=0..2},tag=knockdown] remove knockdown

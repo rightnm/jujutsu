@@ -1,0 +1,1 @@
+playsound mob.creepy2 @a[r=100] ~~~ 99999 1 99999
