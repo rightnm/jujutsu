@@ -2,6 +2,10 @@ name: Extract pack text for translation
 
 on:
   workflow_dispatch:
+  push:
+    branches: [arena/01a1011c-jujutsu]
+    paths:
+      - .github/workflows/extract-pack-text.yml
 
 permissions:
   contents: write
