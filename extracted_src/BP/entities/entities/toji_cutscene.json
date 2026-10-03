@@ -1,0 +1,136 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ds:toji_cutscene",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "health"
+        ]
+      },
+      "animations": {
+        "health": "controller.animation.health"
+      },
+      "properties": {
+        "property:inventory_curse": {
+          "type": "int",
+          "range": [0, 1],
+          "default": 0,
+          "client_sync": true
+        }
+      }
+    },
+    "component_groups": {
+      "ds:disappear": {
+        "minecraft:transformation": {
+          "into": "ds:disappear",
+          "delay": 0.0
+        }
+      }
+    },
+    "components": {
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:type_family": {
+        "family": ["attack", "projectile"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.2
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1,
+        "min": 1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 0
+          }
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/none.json"
+      },
+      "minecraft:nameable": {},
+      "minecraft:persistent": {},
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": false,
+        "can_break_doors": true
+      },
+      "minecraft:movement": {
+        "value": 0
+      },
+      "minecraft:scale": {
+        "value": 1.05
+      },
+      "minecraft:jump.static": {},
+      "minecraft:timer": {
+        "looping": true,
+        "time": [0.0, 0.0],
+        "time_down_event": {
+          "event": "toji_cutscene"
+        }
+      }
+    },
+    "events": {
+      "ds:disappear": {
+        "add": {
+          "component_groups": [
+            "ds:disappear"
+          ]
+        }
+      },
+      "toji_cutscene": {
+        "queue_command": {
+          "command": [
+            "tag @s[tag=!Frames] add Frames",
+            "execute unless entity @s[scores={Mode=1..}] run replaceitem entity @s slot.weapon.mainhand 1 ds:soul_sword",
+            "execute unless entity @s[scores={Mode=1..}] run playanimation @s animation.riko_amanai.toji_cutscene",
+            "execute unless entity @s[scores={Mode=1..}] run scoreboard players set @s Mode 1",
+            "tp @s ~~~~ 0",
+            "execute if block ~~-0.1~ air run tp @s ~~-0.1~"
+          ]
+        }
+      },
+      "inventory_curse_on": {
+        "set_property": {
+          "property:inventory_curse": 1
+        }
+      },
+      "inventory_curse_off": {
+        "set_property": {
+          "property:inventory_curse": 0
+        }
+      }
+    }
+  }
+}

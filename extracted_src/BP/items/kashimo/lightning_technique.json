@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:lightning_technique",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "lightning_technique"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§dLightning Cursed Energy / Mythical Beast Amber\n§5§oThe God of Lightning...\n\n§r§g  - Click to use Technique\n§g  - Sneak + Click to Advance Technique§7 [ §gCost: 10 Invest Points §7]\n\n§l§9[Use while in Creative Mode to unlock all skills]\n\n§r§7[ §eSneak + Punch to Unequip All Skills §7]"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

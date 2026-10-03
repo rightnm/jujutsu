@@ -1,0 +1,232 @@
+{
+	"pools": [
+		{
+			"rolls": 4,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"weight": 2,
+					"count": {
+						"min": 3,
+						"max": 12
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond",
+					"weight": 15,
+					"count": {
+						"min": 3,
+						"max": 12
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_block",
+					"weight": 1,
+					"count": {
+						"min": 7,
+						"max": 12
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:gold_ingot",
+					"weight": 25,
+					"count": {
+						"min": 6,
+						"max": 12
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:enchanted_book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 9,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond",
+					"weight": 15,
+					"count": {
+						"min": 2,
+						"max": 14
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:emerald",
+					"weight": 10,
+					"count": {
+						"min": 2,
+						"max": 14
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+{
+  "type": "item",
+  "name": "ds:katana",
+  "weight": 10
+},
+{
+  "type": "item",
+  "name": "ds:nyoi_staff",
+  "weight": 13
+},
+{
+  "type": "item",
+  "name": "ds:slaughter_demon",
+  "weight": 10
+},
+{
+  "type": "item",
+  "name": "ds:black_blade",
+  "weight": 10
+},
+{
+  "type": "item",
+  "name": "ds:undying_crystal",
+  "weight": 4
+},
+{
+  "type": "item",
+  "name": "ds:rough_crystal",
+  "weight": 4
+},
+{
+  "type": "item",
+  "name": "ds:blitz_crystal",
+  "weight": 4
+},
+{
+  "type": "item",
+  "name": "ds:cursed_crystal",
+  "weight": 4
+},
+{
+  "type": "item",
+  "name": "ds:sukuna_torso",
+  "weight": 1
+},
+{
+  "type": "item",
+  "name": "ds:kings_cloak",
+  "weight": 1
+},
+{
+  "type": "item",
+  "name": "ds:judge_fit",
+  "weight": 1
+},
+{
+  "type": "item",
+  "name": "ds:gojo_torso",
+  "weight": 2
+},
+{
+  "type": "item",
+  "name": "ds:jogo_fit",
+  "weight": 2
+},
+{
+  "type": "item",
+  "name": "ds:gojo_cloak",
+  "weight": 2
+},
+{
+  "type": "item",
+  "name": "ds:inverted_spear",
+  "weight": 1
+},
+{
+  "type": "item",
+  "name": "ds:soul_sword",
+  "weight": 1
+},
+{
+  "type": "item",
+  "name": "ds:playful_cloud",
+  "weight": 1
+},
+{
+  "type": "item",
+  "name": "ds:kamutoke",
+  "weight": 1
+},
+{
+  "type": "item",
+  "name": "ds:hiten",
+  "weight": 1
+},
+{
+  "type": "item",
+  "name": "ds:cursed_eye",
+  "weight": 2
+},
+{
+  "type": "item",
+  "name": "ds:cursed_object_v1",
+  "weight": 4
+},
+{
+  "type": "item",
+  "name": "ds:grade3_seal",
+  "weight": 4
+},
+{
+  "type": "item",
+  "name": "ds:cursed_object_v2",
+  "weight": 3
+},
+{
+  "type": "item",
+  "name": "ds:grade2_seal",
+  "weight": 3
+},
+{
+  "type": "item",
+  "name": "ds:cursed_object_v3",
+  "weight": 2
+},
+{
+  "type": "item",
+  "name": "ds:grade1_seal",
+  "weight": 2
+},
+{
+  "type": "item",
+  "name": "ds:cursed_object_v4",
+  "weight": 1
+},
+{
+  "type": "item",
+  "name": "ds:special_grade_seal",
+  "weight": 1
+},
+{
+  "type": "item",
+  "name": "ds:soul_sword",
+  "weight": 1
+},
+{
+  "type": "item",
+  "name": "ds:dread_bell",
+  "weight": 2
+}
+			]
+		}
+	]
+}

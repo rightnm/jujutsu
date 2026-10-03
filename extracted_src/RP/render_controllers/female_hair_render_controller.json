@@ -1,0 +1,64 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.hair_female": {
+			"textures": [
+				"Array.variants[query.property('property:hair_female')]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:hair_female')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female",
+						"Geometry.hair_female"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.hair_normal",
+						"Texture.hair_normal2",
+						"Texture.hair_normal3",
+						"Texture.hair_normal4",
+						"Texture.hair_classic",
+						"Texture.hair_classic2",
+						"Texture.hair_classic3",
+						"Texture.hair_classic4",
+						"Texture.hair_straight",
+						"Texture.hair_straight2",
+						"Texture.hair_straight3",
+						"Texture.hair_straight4",
+						"Texture.hair_long2",
+						"Texture.hair_long2",
+						"Texture.hair_long3",
+						"Texture.hair_long4",
+						"Texture.hair_long5"
+						
+					]
+				}
+			}
+		}
+	}
+}

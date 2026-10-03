@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:sharpened_cloud_drop",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/models/playful_cloud2"
+      },
+      "geometry": {
+        "default": "geometry.sharpened_cloud_drop"
+      },
+      "spawn_egg": {
+        "texture": "village_guard_spawn_egg",
+        "texture_index": 0
+      },
+      "particle_effects": {
+        "special_aura1": "ds:special_aura1",
+        "special_aura2": "ds:special_aura2"
+			},
+			"animations": {
+				"idle": "animation.weapon.drop"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+    }
+  }
+}

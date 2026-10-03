@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:lovetrain5",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "lovetrain5"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§l§aDomain Expansion: Idle Death Gamble§r\n§g- Cost: [ §7800 Cursed Energy §g]\n§r§5- §o5th Skill"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

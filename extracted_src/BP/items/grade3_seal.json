@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:grade3_seal",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "grade4_seal"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§2Cursed Seal\n§7[ §2Grade 3§7]\n\n§5 - A Cursed seal, used to dispell the negative effects of a cursed object,\ncan be used to craft §dCurse Warders§5."
+            },
+            "minecraft:max_stack_size": 16,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

@@ -1,0 +1,56 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ds:reset_ticket"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "GUG",
+            "ASC",
+            "GUG"
+        ],
+        "key": {
+            "S": {
+                "item": "ds:starplasma_ingot"
+            },
+            "G": {
+                "item": "ds:divine_gold_block"
+            },
+            "U": {
+                "item": "ds:unobtanium_block"
+            },
+            "A": {
+                "item": "ds:atomic_crystal"
+            },
+            "C": {
+                "item": "ds:sukuna_finger"
+            }
+			
+        },
+		"unlock": [
+          {
+            "item": "ds:starplasma_ingot"
+          },
+          {
+            "item": "ds:divine_gold_block"
+          },
+          {
+            "item": "ds:unobtanium_block"
+          },
+          {
+            "item": "ds:atomic_crystal"
+          },
+          {
+            "item": "ds:sukuna_finger"
+          }
+        ],
+        "result": {
+            "item": "ds:reset_ticket",
+            "count": 1
+        },
+        "priority": 1
+    }
+}

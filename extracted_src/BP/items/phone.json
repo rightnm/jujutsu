@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:phone",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "phone"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§aMissions Phone\n§g[ §7Click to be assigned to a mission §g]\n§g[ §4Sneak+Punch to cancel current mission §g]\n\n§5- Used to take on Missions that allow you to gain more EXP and rewards."
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

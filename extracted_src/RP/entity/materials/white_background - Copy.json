@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ds:black_background",
+			"materials": {
+				"default": "domain_expansion"
+			},
+			"textures": {
+				"default": "textures/entity/Black"
+			},
+			"geometry": {
+				"default": "geometry.impact_frame"
+			},
+			"scripts": {
+			"should_update_bones_and_effects_offscreen": true,
+			"animate": [
+			"hi"
+			   ]
+			},
+			"animations": {
+			"hi": "animation.impact_frame.wh"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 0
+			},
+			"render_controllers": [
+				"controller.render.default",
+				"controller.render.pachinko"
+			],
+			"enable_attachables": true,
+			"particle_effects": {
+				"particle": "gg:de_black"
+			}
+		}
+	}
+}

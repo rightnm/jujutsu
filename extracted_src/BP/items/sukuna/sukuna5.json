@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:sukuna5",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "sukuna5"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§cChant §7(§eRight-Click§7)\n§g- Cost: [ §7200 Cursed Energy §g]\n\n§r§3World-Cutting Slash §7(§ePunch§7)\n§g- Cost: [ §7500 Cursed Energy + §c3 Chants §g]\n\n§r§bMAXIMUM World-Cutting Slash §7(§eHold Sneak + Right-Click§7)\n§g- Cost: [ §73333 Cursed Energy + §4Heian Era Transformation  §g]\n\n§r§bMAXIMUM World-Cutting Slash: Vertical §7(§eHold Jump + Right-Click§7)\n§g- Cost: [ §73333 Cursed Energy + §4Heian Era Transformation §g]\n\n§9- The slash that cuts through space itself, capable of piercing infinity.\n\n§r§5- §oSpecial Technique"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

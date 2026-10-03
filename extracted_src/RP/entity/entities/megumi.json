@@ -1,0 +1,172 @@
+{
+"format_version": "1.12.0",
+"minecraft:client_entity": {
+"description": {
+"identifier": "ds:megumi",
+"enable_attachables": true,
+"materials": {
+"default": "zombie"
+},
+"textures": {
+"default": "textures/entity/megumi",
+"megumi_phase2": "textures/entity/megumi_phase2"
+},
+"geometry": {
+"default": "geometry.megumi",
+"megumi_phase2": "geometry.megumi_phase2"
+},
+"scripts": {
+"pre_animation": [
+"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+"variable.attack = Math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0) * 57.3;",
+"variable.attack2 = Math.sin(variable.attack_time * 180.0) * 57.3;",
+"variable.z_bob = Math.cos(query.life_time * 103.13244) * 2.865 + 2.865;",
+"variable.x_bob = Math.sin(query.life_time * 76.776372) * 2.865;"
+],
+"animate": [
+{
+"admire": "query.is_admiring"
+},
+{
+"humanoid_big_head": "query.is_baby"
+},
+{
+"celebrate_hunt": "query.is_celebrating"
+},
+{
+"celebrate_hunt_special": "query.is_celebrating_special"
+},
+"move",
+"bob",
+"look_at_target_controller",
+"piglin_attack_controller",
+"riding_controller"
+]
+},
+"animations": {
+"move": "animation.piglin.move",
+"bob": "animation.humanoid.bob",
+"humanoid_big_head": "animation.humanoid.big_head",
+"admire": "animation.piglin.admire",
+"celebrate_hunt": "animation.piglin.celebrate_hunt",
+"celebrate_hunt_special": "animation.piglin.celebrate_hunt_special",
+"look_at_target_controller": "controller.animation.humanoid.look_at_target",
+"look_at_target_default": "animation.humanoid.look_at_target.default",
+"look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+"look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+"piglin_attack_controller": "controller.animation.piglin.attack",
+"crossbow_hold": "animation.piglin.crossbow.hold",
+"crossbow_charge": "animation.piglin.crossbow.charge",
+"riding_controller": "controller.animation.humanoid.riding",
+"riding.arms": "animation.humanoid.riding.arms",
+"riding.legs": "animation.humanoid.riding.legs"
+},
+      "particle_effects": {
+        "glare1": "ds:glare1",
+        "black_slash1": "ds:black_slash1",
+        "black_slash2": "ds:black_slash2",
+        "black_slash3": "ds:black_slash3",
+        "black_slash4": "ds:black_slash4",
+        "black_slash5": "ds:black_slash5",
+        "black_ab1": "ds:black_ab1",
+        "black_ab1a": "ds:black_ab1a",
+        "black_ab1b": "ds:black_ab1b",
+        "black_ab2": "ds:black_ab2",
+        "black_ab2a": "ds:black_ab2a",
+        "black_ab2b": "ds:black_ab2b",
+        "black_ab2c": "ds:black_ab2c",
+        "black_ab3": "ds:black_ab3",
+        "black_ab3a": "ds:black_ab3a",
+        "black_ab3b": "ds:black_ab3b",
+        "black_ab3c": "ds:black_ab3c",
+        "black_ab3d": "ds:black_ab3d",
+        "flashstep1": "ds:flashstep_anchored",
+        "flashstep_anchored": "ds:flashstep_anchored",
+        "slaughter_ab1": "ds:slaughter_ab1",
+        "slaughter_ab1a": "ds:slaughter_ab1a",
+        "slaughter_ab1b": "ds:slaughter_ab1b",
+        "slaughter_ab2": "ds:slaughter_ab2",
+        "slaughter_ab2a": "ds:slaughter_ab2a",
+        "katana_ab1": "ds:katana_ab1",
+        "katana_ab2": "ds:katana_ab2",
+        "katana_ab3": "ds:katana_ab3",
+        "katana_ab4": "ds:katana_ab4",
+        "katana_slash1": "ds:katana_slash1",
+        "katana_slash2": "ds:katana_slash2",
+        "katana_slash3": "ds:katana_slash3",
+        "katana_slash4": "ds:katana_slash4",
+        "running1": "ds:running1",
+        "divergent1": "ds:divergent1",
+        "divergent2": "ds:divergent2",
+        "divergent_slow1": "ds:divergent_slow1",
+        "divergent_slow2": "ds:divergent_slow2",
+        "divergent_ac1": "ds:divergent_ac1",
+        "divergent_ac2": "ds:divergent_ac2",
+        "divergent_ac4": "ds:divergent_ac4",
+        "divergent_ac3": "ds:divergent_ac3",
+        "divergent_ac5": "ds:divergent_ac5",
+        "divergent_ac6": "ds:divergent_ac6",
+        "back_dash1": "ds:back_dash1",
+        "back_dash2": "ds:back_dash2",
+        "left_dash1": "ds:left_dash1",
+        "left_dash2": "ds:left_dash2",
+        "right_dash1": "ds:right_dash1",
+        "right_dash2": "ds:right_dash2",
+        "fist_charge1": "ds:fist_charge1",
+        "fist_charge2": "ds:fist_charge2",
+        "downspeed1": "ds:downspeed1",
+        "clash1": "ds:clash1",
+        "clash2": "ds:clash2",
+        "clash3": "ds:clash3",
+        "clash4": "ds:clash4",
+        "red_out1": "ds:red_out1",
+        "red_out2": "ds:red_out2",
+"smoke_impact1": "ds:smoke_impact1",
+"punch_warning": "ds:punch_warning",
+"blow0": "ds:blow0",
+"blow1": "ds:blow1",
+"blow2": "ds:punch_mob",
+"blow3": "ds:blow3",
+"blow4": "ds:blow4",
+"blow5": "ds:blow5",
+"blow6": "ds:blow6",
+"blow7": "ds:blow7",
+"bazooka": "ds:bazooka",
+"mob_punches1": "ds:mob_punches1",
+"mob_punches2": "ds:mob_punches2",
+"temp": "ds:temp"
+},
+      "sound_effects": {
+        "stomp": "mob.stomp",
+        "step_sound": "random.sprint",
+        "whoosh": "random.whoosh",
+        "whoop": "random.whoop",
+        "movement": "mob.enderdragon.flap",
+        "step_sound": "random.sprint",
+        "shock1": "mob.shock1",
+        "punch1": "mob.punch1",
+        "bullet": "mob.strike",
+        "swordslash": "mob.swordslash",
+        "slash1": "mob.slash1",
+        "sniper": "mob.bullet",
+        "blocked": "random.blocked",
+        "wind": "mob.wind",
+        "flap": "mob.enderdragon.flap",
+        "magic1": "mob.magic1",
+        "explode_sound": "random.explode",
+        "whoosh_sound": "mob.witch.throw",
+        "splat": "mob.slime.jump",
+        "sheath": "armor.equip_chain",
+        "fizz_sound": "random.fizz"
+      },
+"render_controllers": [
+"controller.render.default",
+"controller.render.megumi_phase"
+],
+"spawn_egg": {
+"base_color": "#000000",
+"overlay_color": "#0A2160"
+}
+}
+}
+}

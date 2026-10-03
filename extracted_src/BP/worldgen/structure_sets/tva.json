@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:tva"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 33523317,
+      "separation": 40,
+      "spacing": 81,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:tva",
+        "weight": 1
+      }
+    ]
+  }
+}

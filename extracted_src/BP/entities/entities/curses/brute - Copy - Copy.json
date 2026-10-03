@@ -1,0 +1,209 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": { 			
+      "identifier": "ds:brute3",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:brute_components": {
+
+        "minecraft:behavior.controlled_by_player": {
+          "speed_multiplier": 1.0
+        },
+        "minecraft:behavior.ranged_attack": {
+          "attack_groups": ["brute_projectile"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": ["monster", "purecurse", "curse", "grade2", "brute", "boss"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": true,
+        "can_break_doors": true
+      },
+      "minecraft:annotation.break_door": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:health": {
+        "value": 75,
+        "max": 75
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:attack": {
+        "damage": 2
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:movement": {
+        "value": 0.25
+      },
+      "minecraft:scale": {
+        "value": 1.75
+      },
+      "minecraft:knockback_resistance": {
+        "value": 0.7
+      },
+      "minecraft:on_death": {
+        "event": "curse_die"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/sus"
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "test": "is_underwater",
+            "operator": "==",
+            "value": true
+          },
+          "event": "minecraft:start_transforming"
+        }
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1,
+        "track_target": false
+      },
+      "minecraft:behavior.stomp_turtle_egg": {
+        "priority": 4,
+        "speed_multiplier": 1,
+        "search_range": 10,
+        "search_height": 3,
+        "goal_radius": 1.14,
+        "search_count": 4,
+        "interval": 20
+
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 11,
+        "reselect_targets": true,
+        "must_see": true,
+        "within_radius": 64,
+        "entity_types": [
+          {
+            "filters": {
+              "none_of": [
+                {
+                  "test": "is_family",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "value": "sorcerer"
+                },
+			    {
+                  "test": "is_family",
+                  "value": "human"
+                },					
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "despawncito"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "damage"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "projectile"
+	},
+                {
+                  "test": "has_tag",
+                  "subject": "other",
+                  "value": "curse"	
+	},
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "purecurse"	
+	},
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "boss"	  
+                }
+              ]
+            },
+            "max_dist": 64
+          }
+        ]
+      },
+      "minecraft:follow_range": 300,
+      "minecraft:loot": {
+        "table": "loot/nothing.json"
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+	  }
+    },
+    "events": {
+      "curse_die": {
+        "queue_command": {
+          "command": [
+            "scoreboard players random @p[r=20] expadd 8 14",
+            "particle ds:curse_death_big ~~1~",
+            "playsound mob.shulker.death @a ~~~ 1 0.7",
+            "function missions/credit/killcredit_grade2curse",
+            "execute as @p[tag=killquest_grade2_curse,r=50] at @s run function missions/credit/killcredit_grade2_curse"
+		  ]
+      }
+    }
+  }
+  }
+}

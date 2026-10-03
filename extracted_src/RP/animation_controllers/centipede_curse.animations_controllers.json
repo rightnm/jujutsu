@@ -1,0 +1,49 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.centipede_curse.movement": {
+            "initial_state": "static",
+            "states": {
+                "static": {
+                    "animations": [
+                        "static"
+                    ], "blend_transition":0.2,
+                    "transitions": [
+                        {
+                            "move": "query.ground_speed>0.1&&!query.has_target"
+                        },
+                        {
+                            "sprint": "query.ground_speed>0.1&&query.has_target"
+                        }
+                    ]
+                },
+                "move": {
+                    "animations": [
+                        "move"
+                    ], "blend_transition":0.2,
+                    "transitions": [
+                        {
+                            "static": "query.ground_speed<0.1"
+                        },
+                        {
+                            "sprint": "query.ground_speed>0.1&&query.has_target"
+                        }
+                    ]
+                },
+                "sprint": {
+                    "animations": [
+                        "sprint"
+                    ], "blend_transition":0.2,
+                    "transitions": [
+                        {
+                            "static": "query.ground_speed<0.1"
+                        },
+                        {
+                            "move": "query.ground_speed>0.1&&!query.has_target"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

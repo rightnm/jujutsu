@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:totality",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/shikigami/totality_wolf"
+      },
+      "geometry": {
+        "default": "geometry.totality"
+      },
+      "animations": {
+          "static": "animation.totality.static",
+          "move_controller": "controller.animation.totality.move",
+          "move": "animation.totality.move"
+      },
+      "particle_effects": {
+        "claw_slash1": "ds:claw_slash1",
+        "claw_slash2": "ds:claw_slash2"
+      },
+      "scripts": {
+          "animate": [
+              "static",
+              "move_controller"
+          ],
+          "pre_animation": [
+			  "variable.attack = Math.sin(variable.attack_time * 30.0);",
+			  "variable.random = math.round(math.random(0,1));"
+		  ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "enderman_spawn_egg"
+      }
+    }
+  }
+}

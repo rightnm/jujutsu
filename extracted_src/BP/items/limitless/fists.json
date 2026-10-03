@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:limitless_fists",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "fist"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§f§3Gojo Satoru Combat Style\n\n§r§tInfinity Backhand\n§g- Cost [ §725 Cursed Energy §g] §7(§eRight-Click§7)\n\n§r§tFury Barrage\n§g- Cost [ §750 Cursed Energy §g] §7(§eSneak + Click§7)\n\n§r§tShockwave Punch \n§g- Cost [ §730 Cursed Energy §g] §7(§eHold Jump + Click§7)\n\n§r§c Reversal Red: Point-Blank\n§eRequires Reverse Cursed Technique\n§g- Cost [ §7200 Cursed Energy §g] §7(§eSneak + Punch§7)\n\n§r§bLapse Blue: Infused Fists\n§g- Cost [ §7200 Cursed Energy §g] §7(§eDouble Sneak)\n\n§r§5§o- Limitless Cursed Technique style"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

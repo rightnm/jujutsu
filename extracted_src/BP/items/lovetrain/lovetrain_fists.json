@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:lovetrain_fists",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "fist"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§f§aRestless Gambler's Combat Style\n\n§r§2Lucky Fist\n§g- Cost: [ §750 Cursed Energy §g] §7(§eRight-Click§7)\n\n§r§2Fever Combo\n§g- Cost: [ §780 Cursed Energy §g] §7(§eSneak + Click§7)\n\n§r§2Devastating Blow \n§g- Cost: [ §7200 Cursed Energy §g] §7(§eSprint+Jump+Right-Click§7)\n\n§r§aBrutal Barrage \n§g- Cost: [ §7300 Cursed Energy §g] §7(§eSneak + Punch§7)\n\n§r§5§o- Private Pure Lovetrain Cursed Technique style"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

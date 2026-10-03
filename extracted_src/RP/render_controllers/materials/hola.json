@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+"controller.render.pachinko": {
+      "geometry": "geometry.pachinko",
+      "materials": [{"*": "material.default1"}],
+      "textures": ["texture.pachinko"]
+    }
+}
+}

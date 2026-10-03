@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:hr_combat",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "hr_icon1"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§5Heavenly Restriction Fighting Style§r\n\n§r§r§tStrength Contest §7(§eRight-Click§7)\n§r§o§eClashable\n\n§r§tDive Kick §7(§eSprint + Jump + Right-Click§7)\n§g- Requirements: [ §c5 Strength, 5 Agility §g]\n\n§r§tBone Splitter §7(§eSneak + Right-Click§7)\n§g- Requirements: [ §c10 Strength, 10 Agility §g]\n\n§r§5- §oPhysical combat brought to its limits."
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

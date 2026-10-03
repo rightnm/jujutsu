@@ -1,0 +1,7 @@
+scoreboard objectives add amt dummy
+scoreboard players add @s[tag=arenaboss,r=200] amt 1
+execute if entity @s[tag=arenaboss,r=200,scores={amt=5..}] run function bosses/file/boss/end_dialogue_full
+
+
+execute unless entity @s[tag=arenaboss,r=200,scores={amt=5..}] run tellraw @s[tag=arenaboss,r=300] {"rawtext":[{"text":"\n§r§f< §o§f§lThe Architect §r§f> §fWhy did I take so long to arrive? I just cba...\n\nBesides I get this sort of thing pretty often, when I'm creating such strong beings I often overlook how powerful I can really make them, sometimes they go out of control, atleast for other players to handle. Take astaroth for example, he originated from the island, however he managed to break through into another reality of mine, Meridia and caused chaos there.\n\nThankfully I had made the power system of that reality stronger than his prior reality, allowing even the weakest spells to cause harm to him, I eventually sealed him away but he managed to break through into this reality somehow, I'm not sure what or who freed him but I believe it may have been another one of my creations' influence, or worse, another player/creator... If that is the case, that means there's someone out there who could be a threat to me and my creations... I did feel a disturbance of some sort when you disrupted those rifts that artifact lead you to."}]}
+execute unless entity @s[tag=arenaboss,r=200,scores={amt=5..}] run playsound random.click

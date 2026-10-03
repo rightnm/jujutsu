@@ -1,0 +1,44 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ds:starplasma_ingot"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "RBR",
+            "BCB",
+            "RBR"
+        ],
+        "key": {
+            "B": {
+                "item": "minecraft:nether_star"
+            },
+            "C": {
+                "item": "ds:sukuna_finger"
+            },
+            "R": {
+                "item": "ds:cursed_object_v4"
+            }
+			
+        },
+		"unlock": [
+          {
+            "item": "minecraft:nether_star"
+          },
+          {
+            "item": "ds:cursed_object_v4"
+          },
+          {
+            "item": "ds:sukuna_finger"
+          }
+        ],
+        "result": {
+            "item": "ds:starplasma_ingot",
+            "count": 1
+        },
+        "priority": 1
+    }
+}

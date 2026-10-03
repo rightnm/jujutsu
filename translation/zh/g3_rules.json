@@ -1,0 +1,237 @@
+{
+  "_comment": "G3 正则模板规则。$N=原样分组; {g|section|N}=查glossary(section)翻译分组核心(去格式码); {t|tableKey|N}=查本规则tables。模板中的 '$' 写为 $1 形式。",
+  "rules": [
+    {
+      "name": "cooldown",
+      "pattern": "^((?:§[0-9a-rt])*)(.*?[^ ])((?:§[0-9a-rt])*) (?:is|are) on cooldown: (§[0-9a-rt])$",
+      "template": "$1{g|skill|2}$3 冷却中: $4"
+    },
+    {
+      "name": "cooldown_this",
+      "pattern": "^§cThis (.+?) is on cooldown: §e$",
+      "template": "§c此{g|skill|1}冷却中: §e"
+    },
+    {
+      "name": "recharge",
+      "pattern": "^§cThe (.+?) needs recharging: §e$",
+      "template": "§c{g|skill|1}需要充能: §e"
+    },
+    {
+      "name": "shikigami_selected",
+      "pattern": "^§e(.+?) §8has been selected\\.$",
+      "template": "§e{g|skill|1}§8已被选中。"
+    },
+    {
+      "name": "shikigami_tamed",
+      "pattern": "^§l§e- §8ꜱʜɪᴋɪɢᴀᴍɪ ᴅᴇꜰᴇᴀᴛᴇᴅ §e-\n§r§e- (.+?) (?:has|have) been tamed\\.$",
+      "template": "§l§e- §8式神已击败 §e-\n§r§e- {g|skill|1}已被驯服。"
+    },
+    {
+      "name": "shikigami_not_tamed",
+      "pattern": "^§cYou do not have this Shikigami tamed, defeat the (.+?) to tame the [Ss]hikigami\\.$",
+      "template": "§c你尚未驯服该式神，击败{g|skill|1}后才能将其驯服。",
+      "tables": { "extra": { "rabbits": "脱兔群", "Toad": "虾蟇" } }
+    },
+    {
+      "name": "shikigami_calledback",
+      "pattern": "^§(7|8)(.+?) (?:has|have) been called back\\.\\.\\.$",
+      "template": "§$1{g|skill|2}已被召回……"
+    },
+    {
+      "name": "capture_point",
+      "pattern": "^((?:§l)?§a)Capture Point: (\\d+)%$",
+      "template": "$1占领进度: $2%"
+    },
+    {
+      "name": "mission_assign_new",
+      "pattern": "^§f§l\\| You have been assigned a new Mission \\|\n§r§a- Find and Kill (.+?)\\.§r$",
+      "template": "§f§l| 你已被指派新任务 |\n§r§a- 寻找并击杀{t|assign|1}§r",
+      "tables": {
+        "assign": {
+          "5 §lLow-Grade (Grade 3-4)§r§a Curses": "5 只§l低级（3~4级）§r§a咒灵",
+          "10 §lLow-Grade (Grade 3-4)§r§a Curses": "10 只§l低级（3~4级）§r§a咒灵",
+          "30 §lLow-Grade (Grade 3-4)§r§a Curses": "30 只§l低级（3~4级）§r§a咒灵",
+          "5 §lMedium-Grade (Grade 3-2)§r§a Curses": "5 只§l中级（2~3级）§r§a咒灵",
+          "10 §lMedium-Grade (Grade 3-2)§r§a Curses": "10 只§l中级（2~3级）§r§a咒灵",
+          "30 §lMedium-Grade (Grade 3-2)§r§a Curses": "30 只§l中级（2~3级）§r§a咒灵",
+          "a §lGrade 1§r§a Curse": "1 只§l一级§r§a咒灵",
+          "3 §lGrade 1§r§a Curses": "3 只§l一级§r§a咒灵",
+          "5 §lGrade 1§r§a Curses": "5 只§l一级§r§a咒灵",
+          "a §l§r§5Special Grade§r§a Curse": "1 只§l§r§5特级§r§a咒灵",
+          "5 §lLow-Grade (Grade 3-4)§r§a Sorcerers": "5 名§l低级（3~4级）§r§a咒术师",
+          "10 §lLow-Grade (Grade 3-4)§r§a Sorcerers": "10 名§l低级（3~4级）§r§a咒术师",
+          "30 §lLow-Grade (Grade 3-4)§r§a Sorcerers": "30 名§l低级（3~4级）§r§a咒术师",
+          "5 §lMedium-Grade (Grade 3-2)§r§a Sorcerers": "5 名§l中级（2~3级）§r§a咒术师",
+          "10 §lMedium-Grade (Grade 3-2)§r§a Sorcerers": "10 名§l中级（2~3级）§r§a咒术师",
+          "30 §lMedium-Grade (Grade 3-2)§r§a Sorcerers": "30 名§l中级（2~3级）§r§a咒术师",
+          "a §lGrade 1§r§a Sorcerer": "1 名§l一级§r§a咒术师",
+          "3 §lGrade 1§r§a Sorcerers": "3 名§l一级§r§a咒术师",
+          "5 §lGrade 1§r§a Sorcerers": "5 名§l一级§r§a咒术师",
+          "a §l§r§5Special Grade§r§a Sorcerer": "1 名§l§r§5特级§r§a咒术师",
+          "5 Villagers": "5 名村民",
+          "10 Villagers": "10 名村民"
+        }
+      }
+    },
+    {
+      "name": "mission_assign_show",
+      "pattern": "^§f§l\\| You have been assigned a Mission \\|\n§r§a- Find and Kill (.+?)\\.§r$",
+      "template": "§f§l| 你的当前任务 |\n§r§a- 寻找并击杀{t|assign_new.assign|1}§r"
+    },
+    {
+      "name": "mission_assign_watcher",
+      "pattern": "^§f\\| §c§lThe watcher has a request of you§r \\|\n§r§a- (?:Find and )?Kill (.+?)\\.§r$",
+      "template": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 寻找并击杀{t|assign_new.assign|1}§r"
+    },
+    {
+      "name": "mission_reward",
+      "pattern": "^§l§f-     Mission Completed    -§r\n§a§o> (.+?) √§r\n\n§eYour Rewards: §9\\+(\\d+) EXP( §5x Your Grade)?$",
+      "template": "§l§f-     任务完成    -§r\n§a§o> {t|reward|1} √§r\n\n§e任务奖励: §9+$2 经验{t|suffix|3}",
+      "tables": {
+        "suffix": { " §5x Your Grade": " §5× 你的评级", "": "" },
+        "reward": {
+          "Kill 10 Low Grade Curses": "击杀 10 只低级咒灵",
+          "Kill 10 Low Grade Sorcerers": "击杀 10 名低级咒术师",
+          "Kill 10 Medium Grade Curses": "击杀 10 只中级咒灵",
+          "Kill 10 Medium Grade Sorcerers": "击杀 10 名中级咒术师",
+          "Kill 10 Villagers": "击杀 10 名村民",
+          "Kill 1 Grade 1 Curse": "击杀 1 只一级咒灵",
+          "Kill 1 Grade 1 Sorcerer": "击杀 1 名一级咒术师",
+          "Kill 30 Low Grade Curses": "击杀 30 只低级咒灵",
+          "Kill 30 Low Grade Sorcerers": "击杀 30 名低级咒术师",
+          "Kill 30 Medium Grade Curses": "击杀 30 只中级咒灵",
+          "Kill 30 Medium Grade Sorcerers": "击杀 30 名中级咒术师",
+          "Kill 3 Grade 1 Curses": "击杀 3 只一级咒灵",
+          "Kill 3 Grade 1 Sorcerers": "击杀 3 名一级咒术师",
+          "Kill 5 Grade 1 Curses": "击杀 5 只一级咒灵",
+          "Kill 5 Grade 1 Sorcerers": "击杀 5 名一级咒术师",
+          "Kill 5 Low Grade Curses": "击杀 5 只低级咒灵",
+          "Kill 5 Low Grade Sorcerers": "击杀 5 名低级咒术师",
+          "Kill 5 Medium Grade Curses": "击杀 5 只中级咒灵",
+          "Kill 5 Medium Grade Sorcerers": "击杀 5 名中级咒术师",
+          "Kill 5 Villagers": "击杀 5 名村民",
+          "Capture the Point": "占领目标点",
+          "The Cursed Box": "清除咒力之箱",
+          "§c§oThe Disgraced Box §r§a": "§c§o破坏堕毁之箱 §r§a",
+          "Flyheads Infestation": "清理蝇头灾害",
+          "Grade 2 Curse Extermination": "拔除二级咒灵",
+          "Grade 1 Curse Extermination": "拔除一级咒灵",
+          "Grasshopper Curse Extermination": "拔除蚱蜢咒灵",
+          "Sorcerer Extermination": "拔除咒术师",
+          "§r§5Kill Special Grade Curse§r§a!": "§r§5击杀特级咒灵§r§a!",
+          "Cause a §6Grade 2§a Negative Field": "制造一场§6二级§a负能量场",
+          "Cause a §cGrade 1§a Negative Field": "制造一场§c一级§a负能量场"
+        }
+      }
+    },
+    {
+      "name": "speech_equation",
+      "pattern": "^Equation: (\\d+) (.+?) Score for @s: $",
+      "template": "公式: $1 层{g|word|2}分数 @s: "
+    },
+    {
+      "name": "speech_final",
+      "pattern": "^Final (.+?) Score for @s: $",
+      "template": "最终{g|word|1}分数 @s: "
+    },
+    {
+      "name": "speech_score",
+      "pattern": "^Speech Score for @s: $",
+      "template": "言灵分数 @s: "
+    },
+    {
+      "name": "exp_multiplier",
+      "pattern": "^§([ac])Exp Multiplier is now set to: §r§l§([49])(\\d+)x EXP$",
+      "template": "§$1经验倍率已设置为: §r§l§$2$3 倍"
+    },
+    {
+      "name": "lang_graded_mob",
+      "pattern": "^§r§f\\[§([0-9a-r]) (Grade [1234]|Special Grade|Grade N/A|Semi-Grade [12]|N/A) §r§f\\] (.+)$",
+      "template": "§r§f[§$1 {g|grade|2} §r§f] {g|mob|3}"
+    },
+    {
+      "name": "lang_crate",
+      "pattern": "^§7\\[ §([0-9a-r]) ?(Grade [1234]|Special Grade) ?§7\\] §r§fCrate$",
+      "template": "§7[ §$1{g|grade|2} §7] §r§f补给箱"
+    },
+    {
+      "name": "lang_warder",
+      "pattern": "^§r§fCurse Warder §r§f\\[§([0-9a-r]) ?(Grade [123]|Special Grade) ?§r§f\\]( §c\\(Sneak\\+Punch to pick-up\\))?$",
+      "template": "§r§f驱咒傀儡 §r§f[§$1 {g|grade|2} §r§f]{t|pick|3}",
+      "tables": { "pick": { " §c(Sneak+Punch to pick-up)": " §c（潜行+拳击以拾取）", "": "" } }
+    },
+    {
+      "name": "lang_dummy",
+      "pattern": "^§r§fDummy §7\\[§([0-9a-r]) (Knockback|Finishers)-(Disabled|Enabled) §r§7\\] ?$",
+      "template": "§r§f训练假人 §7[§$1 {t|stat|2}-{t|onoff|3} §r§7] ",
+      "tables": {
+        "stat": { "Knockback": "击退", "Finishers": "终结技" },
+        "onoff": { "Disabled": "禁用", "Enabled": "启用" }
+      }
+    },
+    {
+      "name": "lang_mini",
+      "pattern": "^§g(\\w+)( §g\\(Winner of a Giveaway\\))?$",
+      "template": "§g{g|mini|1}{t|win|2}",
+      "tables": { "win": { " §g(Winner of a Giveaway)": " §g（抽奖活动获奖者）", "": "" } }
+    },
+    {
+      "name": "ten_shadows_unlock",
+      "pattern": "^§710 Shadows Shikigami: §7(.+?)§7!\n§e\\[Unlocked\\]$",
+      "template": "§7十种影法术式神: §7{g|skill|1}§7!\n§e【已解锁】"
+    },
+    {
+      "name": "already_using",
+      "pattern": "^§cYou are already using (.+?) you bozo!$",
+      "template": "§c你已经在使用{t|tech|1}了，笨蛋！",
+      "tables": {
+        "tech": {
+          "Absorption Cursed Technique": "吸收咒术",
+          "Boogie Woogie Technique": "不义游戏术式",
+          "Disaster Flames Technique": "灾厄烈焰术式",
+          "Explosive Cursed Energy": "爆发咒力",
+          "Heavenly Restriction": "天与咒缚",
+          "Idle Transfiguration Technique": "无为转变术式",
+          "Judgeman Technique": "审判者术式",
+          "Thunder God / Mythical Beast Amber Technique": "雷神/幻兽琥珀术式",
+          "Limitless Technique": "无下限术式",
+          "Private Pure Lovetrain Technique": "坐杀博徒术式",
+          "10 Shadows Technique": "十种影法术",
+          "Miracles Technique": "奇迹术式",
+          "Pain-killer Technique": "止痛剂术式",
+          "Pain-Killer Technique": "止痛剂术式",
+          "Immobilizing Sight Technique": "凝视定身术式",
+          "Wind-up Technique": "蓄能术式",
+          "Cursed Speech Technique": "咒言术式",
+          "Soul Shrine Technique": "灵魂御厨术式"
+        }
+      }
+    },
+    {
+      "name": "already_mastered",
+      "pattern": "^§cYou have already Mastered (?:the )?(.+?), you have nothing else to advance\\.$",
+      "template": "§c你已经完全掌握了{t|tech|1}，没有可继续提升的内容了。",
+      "tables": {
+        "tech": {
+          "Absorption Technique": "吸收咒术",
+          "Boogie Woogie Technique": "不义游戏术式",
+          "Explosive Cursed Energy": "爆发咒力",
+          "Disaster Flames Technique": "灾厄烈焰术式",
+          "Idle Transfiguration Technique": "无为转变术式",
+          "Judgeman Technique": "审判者术式",
+          "Thunder God / Mythical Beast Amber Technique / Mythical Beast Amber Technique": "雷神/幻兽琥珀术式",
+          "Limitless Technique": "无下限术式",
+          "Private Pure Lovetrain Technique": "坐杀博徒术式",
+          "10 Shadows Technique": "十种影法术",
+          "Cursed Speech Technique": "咒言术式",
+          "Heavenly Restriction": "天与咒缚"
+        }
+      }
+    },
+    {
+      "name": "selected_skill",
+      "pattern": "^§g- Selected Skill: §5(.+?)\n§g>-----------------------------<$",
+      "template": "§g- 已选技能: §5{g|skill|1}\n§g>-----------------------------<"
+    }
+  ]
+}

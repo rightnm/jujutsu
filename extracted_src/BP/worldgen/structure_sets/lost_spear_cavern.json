@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:lost_spear_cavern"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 34592314,
+      "separation": 50,
+      "spacing": 125,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:lost_spear_cavern",
+        "weight": 1
+      }
+    ]
+  }
+}

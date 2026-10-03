@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:absorption1",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "absorption_icon1"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§ePower Punch\n§r§g- Cost: [ §750 Cursed Energy + §g5 Stored Energy §g]\n\n§r§ePower Counter §7(§eHold-Sneak+Right-Click§7)§r\n§r§g- Cost: [ §775 Cursed Energy + §g5 Stored Energy §g]\n\n§r§ePower Leap §7(§eHold-Jump+Right-Click§7)§r\n§r§g- Cost: [ §750 Cursed Energy + §g5 Stored Energy §g]\n\n§r§eDeepfry §7(§eHold-Jump+Hold-Sneak+Right-Click§7)§r\n§r§g- Cost: [ §7100 Cursed Energy + §g15 Stored Energy §g]\n§r§5- §oClose Ranged Attacks"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

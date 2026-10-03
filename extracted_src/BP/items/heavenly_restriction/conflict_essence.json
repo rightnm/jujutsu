@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:conflict_essence",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.banner_pattern"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "conflict_essence"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§dEssence of Conflict\n§5- From a foreign reality,\nthis energy seems like it's always at conflict\nmay cause disturbances to other foreign types of energy."
+            },
+            "minecraft:max_stack_size": 16,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

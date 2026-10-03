@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.divergent_fists": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.textureoff"
+          ]
+        }
+      },
+"ignore_lighting": true,
+      "geometry": "Geometry.nothing",
+      "materials": [{"*": "Material.emissive"}],
+      "textures": [
+        "query.property('property:divergent_fists') == 1 ? Texture.textureoff : (query.property('property:divergent_fists') == 0 ? Texture.textureoff)"
+      ]
+    }
+  }
+}

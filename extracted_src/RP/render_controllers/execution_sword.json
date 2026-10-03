@@ -1,0 +1,16 @@
+{
+	"format_version": "1.19.20",
+	"render_controllers": {
+		"controller.render.execution_sword": {
+			"geometry": "geometry.locator_players",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.textureoff"
+			]
+				}
+	}
+		}

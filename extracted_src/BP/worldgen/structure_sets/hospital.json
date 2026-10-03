@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:hospital"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 5254336,
+      "separation": 69,
+      "spacing": 140,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:hospital",
+        "weight": 1
+      }
+    ]
+  }
+}

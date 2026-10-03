@@ -1,0 +1,36 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.18.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ds:blitz_crystal",
+			"materials": {
+				"default": "entity_beam_additive"
+			},
+			"textures": {
+				"default": "textures/models/blitz_crystal"
+			},
+			"geometry": {
+				"default": "geometry.crystal"
+      },
+      "particle_effects": {
+        "blitz_crystal_aura1": "ds:blitz_crystal_aura1",
+        "blitz_crystal_aura2": "ds:blitz_crystal_aura2",
+        "blitz_crystal_aura3": "ds:blitz_crystal_aura3"
+			},
+			"animations": {
+				"idle": "animation.blitz_crystal.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

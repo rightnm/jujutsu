@@ -1,0 +1,50 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.sukuna_markings2": {
+			"textures": [
+				"Array.variants[query.property('property:sukuna_markings')]"
+			],
+			"materials": [
+				{
+					"*": "Material.additive"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:sukuna_markings')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.textureoff",
+						"Geometry.sukuna_markings",
+						"Geometry.sukuna_markings",
+						"Geometry.sukuna_markings",
+						"Geometry.sukuna_markings2",
+						"Geometry.sukuna_markings",
+						"Geometry.sukuna_markings",
+						"Geometry.sukuna_markings",
+						"Geometry.sukuna_markings",
+						"Geometry.sukuna_markings2"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.textureoff",
+						"Texture.textureoff",
+						"Texture.textureoff",
+						"Texture.sukuna_markings_glowred",
+						"Texture.textureoff",
+						"Texture.textureoff",
+						"Texture.textureoff",
+						"Texture.textureoff",
+						"Texture.sukuna_markings_glowfire"
+						
+					]
+				}
+			}
+		}
+	}
+}

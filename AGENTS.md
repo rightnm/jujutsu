@@ -146,3 +146,67 @@ jujutsu/
 2. 确定一个最小可玩功能（MVP），再创建行为包和资源包 manifest。
 3. 建立最小测试世界/导入流程并在 Android 真机验证。
 4. 每次新增功能后更新本节、测试记录和兼容性记录。
+
+## 9. 汉化（zh_CN）管线——本仓库现状（2026-10-03 建立）
+
+本仓库的**实际模组来源**：GitHub Release `MC`（`rightnm/jujutsu`），资产为
+`New-Jujutsu-Awakening-Addon-MCPE-Behavior-26.mcaddon`（BP，已随仓库提交）与
+`New-Jujutsu-Awakening-Addon-MCPE-Resource-26.mcaddon`（RP，约 131 MB，**不要提交到 git**；
+`.gitignore` 已忽略 `resource.mcaddon` 及打包产物）。
+
+### 9.1 原则
+
+- 只翻译**玩家可见文本**（lang 值、物品 display_name、mcfunction 的 tellraw/title/say、
+  脚本 `ActionFormData`/`sendMessage` 字面量、RP ui 文本、manifest 名称/描述）；
+  不碰 identifier、命令、函数逻辑、tag、数值、UUID、包依赖和任何 Bug。
+- 原版 Bug 只记录不修复 → 见 `translation/BUGS.md`。
+- 统一术语以 `translation/zh/glossary.json` 为唯一事实来源（470+ 键，技能/特质/面板用语）；
+  卡片内频繁出现的操作/消耗片段由 `translation/zh/fragments.json` 全局片段表兜底（**长的在前**）。
+
+### 9.2 工具链（全部确定，可直接重跑）
+
+```bash
+# 1) 从合并包抽取文本树（原包 → extracted_src/{BP,RP} + inventory.json）
+python3 tools/extract_pack_text.py combined.mcaddon extracted_src
+# 2) 审计玩家可见文本 → translation/audit_catalog.json（2240 条；json_errors 是原版 bug）
+python3 tools/audit_player_text.py extracted_src translation/audit_catalog.json
+# 3) 构建 zh 映射（manual > G2 链 > G3 规则 > G1 字形族；同 en 多 zh 会构建失败）
+python3 tools/build_zh_map.py            # 产出 translation/zh_map.json；漏译退出码 1
+# 4) 应用翻译到完整解包树（含二进制的 build/full/{Jujutsu Awakening BP,Jujutsu Awakening RP}）
+python3 tools/apply_zh_map.py build/full --report build/apply_report.json
+# 5) 校验（严格 JSON 与原版基线比对、manifest 依赖、node 检查 .js、资源引用大小写、重审计漏译）
+python3 tools/validate_addon.py build/full build/validation_report.json
+# 6) 打包（安全成员名 + 完整性自测）
+python3 tools/pack_tree.py build/full Jujutsu-Awakening-zh-CN-26.mcaddon
+```
+
+### 9.3 翻译来源分层（build_zh_map 顺序）
+
+- `translation/zh/manual_part00.json`…`part08.json`：人工条目；既支持整串，
+  也支持 `{"repl": [["en 片段","zh 片段"], ...]}` 在原文上顺序替换（片段必须命中，否则构建报错）。
+- `translation/zh/extra_texts.json`：audit 目录外的文本（manifest 名称/描述）。
+- `translation/zh/g2_chains.json`：打字机式逐帧文本链（按可见长度等比截取中文 + 补全空格）。
+- `translation/zh/g3_rules.json`：正则模板规则（cooldown、任务、评级、抽奖滚动等 30+ 族）。
+- `translation/g1_families.json` + 构建器 `G1_REPLACEMENTS`：PUA 字形帧族（标题屏动画，只替文本骨架）。
+- G2/G3/G1 都不会“抢先”占用 manual 已覆盖的 id（manual 最先应用）。
+
+### 9.4 关键约定
+
+- 术语示例：「解」Dismantle、「捌」Cleave、肢解 Dissect、不可侵 Infinity、虚式「茈」Hollow Purple、
+  无量空处 Unlimited Void、伏魔御厨子 Malevolent Shrine、神炎「竈」Divine Flames、
+  十种影法术、玉§8犬（颜色码内嵌时保持码位）、天与咒缚、黑闪王子、灵魂御厨 Soul Shrine、
+  驱咒傀儡 Curse Warder、评级：四级/三级/二级/一级/特级、特质地名 `-普通-/-优秀-/-稀有-/-传说-/-天选-/-恶名-`。
+- 操作说明统一中文版：`§7(§e右键§7)`、`§7(§e按住潜行+右键§7)`、`消耗: [ §7N 咒力 §g]` 等。
+- 沙盒网络限制：`release-assets.githubusercontent.com` 被断（TLS 重置），**RP 资产下载只能在
+  GitHub Actions runner 上进行**；因此完整“下载→合并→翻译→校验→打包→上传”由
+  `.github/workflows/build-zh-addon.yml` 在 runner 执行（`gh workflow run build-zh-addon.yml
+  --ref arena/01a1011c-jujutsu`）。本地可跑 2/3/4/5/6 步做纯文本验证。
+- 交付物：`Jujutsu-Awakening-zh-CN-26.mcaddon`（上传为 Release `MC` 新资产），
+  校验/应用/审计报告作为 workflow artifact `zh-build-reports`。
+
+### 9.5 当前状态（2026-10-03）
+
+- 2240/2240 条玩家可见文本全部有中文映射；本地纯文本树 apply 后重审计漏译 = 0，
+  新增 JSON 错误 = 0（74 个原版 JSON 错误逐字保留并已记录）。
+- 真机（Android 26.32）未验证；标题屏中文动画帧排版可能与原版等宽假设有出入，
+  真机若观察到标题屏错位，优先检查 `translation/zh/g2_chains.json` 的 `pad` 链。

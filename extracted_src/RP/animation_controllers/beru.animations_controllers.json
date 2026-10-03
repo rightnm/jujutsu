@@ -1,0 +1,52 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.beru.movement": {
+            "initial_state": "static",
+            "states": {
+                "static": {
+                    "animations": [
+                        "static"
+                    ],
+                    "blend_transition": 0.1,
+                    "transitions": [
+                        {
+                            "move": "query.ground_speed > 0.1 && !query.has_target && query.property('property:awaken') == 0"
+                        },
+                        {
+                            "sprint": "query.ground_speed > 0.1 && query.has_target && query.property('property:awaken') == 0"
+                        }
+                    ]
+                },
+                "move": {
+                    "animations": [
+                        "move"
+                    ],
+                    "blend_transition": 0.1,
+                    "transitions": [
+                        {
+                            "static": "query.ground_speed < 0.1 && query.property('property:awaken') == 0"
+                        },
+                        {
+                            "sprint": "query.ground_speed > 0.1 && query.has_target && query.property('property:awaken') == 0"
+                        }
+                    ]
+                },
+                "sprint": {
+                    "animations": [
+                        "sprint"
+                    ],
+                    "blend_transition": 0.1,
+                    "transitions": [
+                        {
+                            "static": "query.ground_speed < 0.1 && query.property('property:awaken') == 0"
+                        },
+                        {
+                            "move": "query.ground_speed > 0.1 && !query.has_target && query.property('property:awaken') == 0"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

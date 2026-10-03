@@ -1,0 +1,88 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ds:blast_away4",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+	
+    "component_groups": {
+      "minecraft:despawn": {
+        "minecraft:type_family": { "family": [ "despawncito" ] }
+      }
+	},
+	
+    "components": {
+	  "minecraft:despawn": {
+	    "filters": {
+		  "all_of": [
+		    { "test": "is_family", "subject": "self", "value": "despawncito" }
+		  ]
+		}
+	  },
+      "minecraft:damage_sensor": [
+	    {
+          "cause": "all",
+          "deals_damage": false
+        }
+	  ],
+      "minecraft:scale": { "value": 0.1 },
+      "minecraft:behavior.knockback_roar": {
+        "priority": 1,
+        "duration": 0.2,
+        "attack_time": 0.1,
+        "knockback_damage": 0,
+        "knockback_strength": 18,
+        "knockback_range": 5,
+        "knockback_filters": {
+              "none_of": [
+                {
+                  "test": "is_family",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "despawncito"
+                },
+                {
+                  "test": "has_tag",
+                  "subject": "other",
+                  "value": "cursed_speaking"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "damage"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "projectile"
+				}
+		  ]
+        },
+        "on_roar_end": {
+          "event": "minecraft:event_despawn"
+        },
+        "damage_filters": {
+		  "all_of": [
+		    { "test": "is_family", "subject": "other" }
+		  ]
+        }
+      },
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
+	
+    "events": {
+      "minecraft:event_despawn": {
+	    "add": { "component_groups": [ "minecraft:despawn" ] }
+      }
+    }
+  }
+}

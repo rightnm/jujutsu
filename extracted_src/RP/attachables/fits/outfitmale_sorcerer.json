@@ -1,0 +1,31 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.18.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ds:sorcerers_outfit",
+			"materials": {
+				"default": "armor"
+			},
+			"textures": {
+				"default": "textures/entity/outfitmale_sorcerer"
+			},
+			"geometry": {
+				"default": "geometry.outfitmale_sorcerer2"
+			},
+			"animations": {
+				"idle": "animation.outfitmale_sorcerer.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

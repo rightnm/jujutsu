@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:wheel_drop",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/shikigami/mahoraga"
+      },
+      "geometry": {
+        "default": "geometry.mahoraga_wheel1"
+      },
+      "spawn_egg": {
+        "texture": "village_guard_spawn_egg",
+        "texture_index": 0
+      },
+      "particle_effects": {
+        "wheel_aura1": "ds:wheel_aura1",
+        "wheel_aura2": "ds:wheel_aura2",
+        "nue_flap1": "ds:nue_flap1",
+        "nue_flap2": "ds:nue_flap2"
+			},
+			"animations": {
+				"idle": "animation.mahoraga_wheel.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+    }
+  }
+}

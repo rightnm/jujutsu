@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:void_katana",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.chestboat"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "void_katana"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§cVoidsoul Katana §r\n\n§r§gVoid Slash §7(§eRight-Click§7)\n\n§r§gDark Passage §7(§eSneak + Right-Click§7)\n\n§r§gEradicate §7(§eHold-Jump + Right-Click§7)\n\n§5- Created by the architect and handed down to Soulking\nThis blade has void-properties, originating from the Clover Legends reality."
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

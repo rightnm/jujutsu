@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:flames3",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "flames3"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§6Fireball\n§g- Cost: [ §775 Cursed Energy §g]\n§r§eChargeable (Use Twice)\n\n§r§6Heatwave §7(§eHold-Jump+Right-Click§7)§r\n§g- Cost: [ §7100 Cursed Energy §g]\n\n§r§6Inferno Gatling §7(§eHold-Sneak+Right-Click§7)§r\n§g- Cost: [ §7200 Cursed Energy §g]\n\n§r§l§6Pyro Cannon §r§7(§eLook Down+Sneak+Right-Click§7)§r\n§g- Cost: [ §7400 Cursed Energy §g]\n§r§5- §oRanged Fire Skills"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

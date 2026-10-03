@@ -1,0 +1,947 @@
+{
+  "_comment": "part06: ids 1516-1736 十影/日下部刀法/夜蛾考核/咒言/宿傩夺舍过场",
+  "1516": "§7十种影法术式神: §l§f神将·魔虚罗§7!\n§e【已解锁】",
+  "1517": "§7十种影法术: §l§f领域展开: 嵌合暗翳庭§7!\n§e【已解锁】",
+  "1519": "§f< §g日下部 §f> 干得漂亮。",
+  "1520": {
+    "repl": [
+      [
+        "---[ New Technique Unlocked ]---",
+        "---[ 解锁了新术式 ]---"
+      ],
+      [
+        "§r§eNew Shadow Style: Simple Domain Technique, allows you conjure a field of cursed energy that acts as a direct counter to domain expansions.\nWith Kusakabe's combat style you can expand upon the abilities of this technique even further!",
+        "§r§e新阴流: 简易领域之术，让你生成一片咒力场，直接对抗领域展开。\n配合日下部的战斗风格，你还能进一步拓展该术式的招式！"
+      ]
+    ]
+  },
+  "1521": "§f< §g日下部 §f> 没想到你真做到了，不错。把我这把刀拿去吧，很结实的。接下来我教你我的刀法。",
+  "1522": {
+    "repl": [
+      [
+        "---[ New Technique Unlocked ]---",
+        "---[ 解锁了新术式 ]---"
+      ],
+      [
+        "§r§eNew Shadow Style: Katana Techniques, allows you to combine your simple domain with sword techniques, aswell as release powerful attacks using the sword drawing techniques!",
+        "§r§e新阴流: 刀法，让你将简易领域与刀法相结合，还能用拔刀术释放强力的攻击！"
+      ]
+    ]
+  },
+  "1523": "§d+1 奇迹",
+  "1524": "§u你的奇迹术式救了你。",
+  "1526": "§e你正在使用: §u奇迹术式",
+  "1527": "§c该术式无法升级。",
+  "1529": "§g- §e你正在使用: §2 止痛剂术式",
+  "1530": "§c该术式无法升级，因为它会随你的咒力量一同成长。",
+  "1534": {
+    "repl": [
+      [
+        "You are now using the: §7Immobilizing Sight Technique",
+        "你正在使用: §7凝视定身术式"
+      ]
+    ]
+  },
+  "1536": {
+    "repl": [
+      [
+        "You are now using the: §6 Wind-up Technique",
+        "你正在使用: §6 蓄能术式"
+      ]
+    ]
+  },
+  "1537": "§c该术式无法升级，因为它取决于你的力量与时间。",
+  "1538": "§r§c你承受不住这股力量，需要将§r§4力量§c提升到 10 点以上",
+  "1539": "§r§c你承受不住这股力量，需要将§r§4力量§c提升到 25 点以上",
+  "1540": "§r§c你承受不住这股力量，需要将§r§4力量§c提升到 50 点以上",
+  "1541": "§r§c你已无法再承受更多力量。",
+  "1542": "§r§e蓄能伤害层数:\n§r§l§c",
+  "1543": "< 夜蛾校长 > §e揍飞他。",
+  "1544": "< 夜蛾校长 > §e呃……你不是已经通过考核了吗？",
+  "1545": "< 夜蛾校长 > §e呃……你明明就是一只咒灵啊……",
+  "1546": {
+    "repl": [
+      [
+        "§5Sorcerer's Exam:\n- Defeat Principle Yaga's cursed doll to complete the exam!",
+        "§5咒术师考核:\n- 击败夜蛾校长的咒骸人偶即可完成考核！"
+      ]
+    ]
+  },
+  "1547": "< 夜蛾校长 > §e你必须通过咒术师考核！",
+  "1548": "§l§e--- §5已接受特殊任务 §e---\n\n§r§a- 前往坐标 §e'5000 62 3000'§a。\n你的任务是接应星浆体§d天内理子§a，并将她护送到§d天元§a那里。\n\n§a要小心，她的项上人头已被悬赏。无论是非术师还是咒术师都有可能阻挠你的任务。你主要需要警惕的是§dQ§a——一个妄图颠覆现代咒术界、让天元失去理智的咒术师组织！\n§a§d天元的具体位置§a将在接到容器后告知。\n\n§c绝不能让星浆体死亡！",
+  "1581": "召回该式神需要消耗 ",
+  "1582": " 点咒力。",
+  "1583": "召回该目标需要消耗 ",
+  "1589": "§c- 目标太强，无法单纯用言语使其入睡。",
+  "1600": "§e- 使用咒言后，领域将每 20 秒回响一次你最后的话语……",
+  "1601": "§c- 你使用§8咒言§c过度了。你需要等待一段时间，或者多锻炼你的§b咒力§c，以提高对§8咒言§c的耐受度。",
+  "1603": "§g- 你正在使用: §8咒言术式",
+  "1604": "§e咒言术式 技能组2: §7攻击向强语 §r§4!\n§e【已解锁】",
+  "1605": "§c- 该领域展开需要至少 30 点加点。",
+  "1606": "§e咒言术式 §l§9领域展开: §8共鸣之室 §r§4!\n§e【已解锁】",
+  "1608": "§r§f< §o§l原初英雄 §r§f> §4太弱了。",
+  "1609": "❙❙ §r§d§l你的评级: §c四级 §r❙❙\n",
+  "1610": "❙❙ §r§l§e可用加点:§g ",
+  "1611": " §r❙❙ \n\n\n§r❙❙ §a耐力 ",
+  "1612": " ♥ §r❙❙ §4力量 ",
+  "1613": " ¤ §r❙❙ §3敏捷 ",
+  "1614": " ☄ §r❙❙ §b咒力上限 ",
+  "1615": "❙❙ §r§d§l你的评级: §6三级 §r❙❙\n",
+  "1616": "❙❙ §r§d§l你的评级: §b二级 §r❙❙\n",
+  "1617": "❙❙ §r§d§l你的评级: §a一级 §r❙❙\n",
+  "1618": "❙❙ §r§d§l你的评级: §5特级 §r❙❙\n",
+  "1619": "§4你的身体不允许你再喝这些东西了。",
+  "1620": "§f< §c两面宿傩 §r§f> §o现在由我来接管……\n\n§5- 宿傩已完全接管了你的身体，你将能够永久使用他的能力。",
+  "1621": {
+    "repl": [
+      [
+        "§o§cDon't poke around inside me. I hate it.",
+        "§o§c别在我体内乱动，我很讨厌这样。"
+      ]
+    ]
+  },
+  "1622": {
+    "repl": [
+      [
+        "§o§cBrat.",
+        "§o§c小鬼。"
+      ]
+    ]
+  },
+  "1623": {
+    "repl": [
+      [
+        "§fWhat is this place?",
+        "§f这里是什么地方？"
+      ]
+    ]
+  },
+  "1624": {
+    "repl": [
+      [
+        "§o§cThis is my innate domain.",
+        "§o§c这里是我的生得领域。"
+      ]
+    ]
+  },
+  "1625": {
+    "repl": [
+      [
+        "§fInnate Domain-?",
+        "§f生得领域——？"
+      ]
+    ]
+  },
+  "1626": {
+    "repl": [
+      [
+        "§o§cYou could also say we're in my mind.",
+        "§o§c也可以说，我们现在就在我的脑海里。"
+      ]
+    ]
+  },
+  "1627": {
+    "repl": [
+      [
+        "§o§cIn other words, you're trapped here with me for now.",
+        "§o§c换句话说，你就暂时和我一起关在这儿吧。"
+      ]
+    ]
+  },
+  "1628": {
+    "repl": [
+      [
+        "§o§cIf you accept my conditions, maybe I'll leave your body.",
+        "§o§c如果你答应我的条件，或许我会离开你的身体。"
+      ]
+    ]
+  },
+  "1629": {
+    "repl": [
+      [
+        "§fAlright, what conditions?",
+        "§f好吧，什么条件？"
+      ]
+    ]
+  },
+  "1630": {
+    "repl": [
+      [
+        "§o§cWe'll fight to the death, and if you win, I will leave your body without any conditions...",
+        "§o§c我们打一场，至死方休。如果你赢了，我就无条件离开你的身体……"
+      ]
+    ]
+  },
+  "1631": {
+    "repl": [
+      [
+        "§fSure! I'll beat you to-",
+        "§f好啊！我这就把你揍——"
+      ]
+    ]
+  },
+  "1632": {
+    "repl": [
+      [
+        "§o§cYou Jujutsu Sorcerers are always trouble,\nNo matter what the era!",
+        "§o§c你们这些咒术师总是这么碍事，\n无论在哪个时代！"
+      ]
+    ]
+  },
+  "1633": {
+    "repl": [
+      [
+        "§o§cLet's use the open space!",
+        "§o§c这里很宽敞，好好利用吧！"
+      ]
+    ]
+  },
+  "1634": {
+    "repl": [
+      [
+        "§r§f§l< §eSPAM PUNCH §l§f>",
+        "§r§f§l< §e连续拳击 §l§f>"
+      ]
+    ]
+  },
+  "1635": {
+    "repl": [
+      [
+        "§o§cCome on, Try harder.",
+        "§o§c来啊，再用点力。"
+      ]
+    ]
+  },
+  "1636": {
+    "repl": [
+      [
+        "§o§cYou die here!",
+        "§o§c你就死在这吧！"
+      ]
+    ]
+  },
+  "1637": {
+    "repl": [
+      [
+        "§o§cCome at me!",
+        "§o§c放马过来！"
+      ]
+    ]
+  },
+  "1638": {
+    "repl": [
+      [
+        "§r§l§fCharge: §o",
+        "§r§l§f蓄力: §o"
+      ],
+      [
+        "§r§f[ §eClick to Release §f]",
+        "§r§f[ §e点击以释放 §f]"
+      ],
+      [
+        "- Or keep charging -",
+        "- 或继续蓄力 -"
+      ]
+    ]
+  },
+  "1639": {
+    "repl": [
+      [
+        "§r§l§fCharge: §o",
+        "§r§l§f蓄力: §o"
+      ],
+      [
+        "§r§f[ §eClick to Release §f]",
+        "§r§f[ §e点击以释放 §f]"
+      ],
+      [
+        "- Or keep charging -",
+        "- 或继续蓄力 -"
+      ]
+    ]
+  },
+  "1640": {
+    "repl": [
+      [
+        "§r§l§fCharge: §o",
+        "§r§l§f蓄力: §o"
+      ],
+      [
+        "§r§f[ §eClick to Release §f]",
+        "§r§f[ §e点击以释放 §f]"
+      ],
+      [
+        "- Or keep charging -",
+        "- 或继续蓄力 -"
+      ]
+    ]
+  },
+  "1641": {
+    "repl": [
+      [
+        "§r§l§fCharge: §o",
+        "§r§l§f蓄力: §o"
+      ],
+      [
+        "§r§f[ §eClick to Release §f]",
+        "§r§f[ §e点击以释放 §f]"
+      ],
+      [
+        "- Or keep charging -",
+        "- 或继续蓄力 -"
+      ]
+    ]
+  },
+  "1642": {
+    "repl": [
+      [
+        "§o§cYou've done it now!",
+        "§o§c你彻底惹毛我了！"
+      ]
+    ]
+  },
+  "1643": {
+    "repl": [
+      [
+        "§o§cDissect!",
+        "§o§c「捌」！"
+      ]
+    ]
+  },
+  "1644": {
+    "repl": [
+      [
+        "§r§l§fCharge: §o",
+        "§r§l§f蓄力: §o"
+      ],
+      [
+        "§r§f[ §eClick to Fire §f]",
+        "§r§f[ §e点击以发射 §f]"
+      ],
+      [
+        "- Or keep charging -",
+        "- 或继续蓄力 -"
+      ]
+    ]
+  },
+  "1645": {
+    "repl": [
+      [
+        "§r§l§fCharge: §o",
+        "§r§l§f蓄力: §o"
+      ],
+      [
+        "§r§f[ §eClick to Fire §f]",
+        "§r§f[ §e点击以发射 §f]"
+      ],
+      [
+        "- Or keep charging -",
+        "- 或继续蓄力 -"
+      ]
+    ]
+  },
+  "1646": {
+    "repl": [
+      [
+        "§r§l§fCharge: §o",
+        "§r§l§f蓄力: §o"
+      ],
+      [
+        "§r§f[ §eClick to Fire §f]",
+        "§r§f[ §e点击以发射 §f]"
+      ],
+      [
+        "- Or keep charging -",
+        "- 或继续蓄力 -"
+      ]
+    ]
+  },
+  "1647": {
+    "repl": [
+      [
+        "§r§l§fCharge: §o",
+        "§r§l§f蓄力: §o"
+      ],
+      [
+        "§r§f[ §eClick to Fire §f]",
+        "§r§f[ §e点击以发射 §f]"
+      ],
+      [
+        "- Or keep charging -",
+        "- 或继续蓄力 -"
+      ]
+    ]
+  },
+  "1648": {
+    "repl": [
+      [
+        "§r§f§l< §eClick Again §l§f>",
+        "§r§f§l< §e再次点击 §l§f>"
+      ]
+    ]
+  },
+  "1649": "§r§c你输掉了领域对抗！",
+  "1650": {
+    "repl": [
+      [
+        "§o§cOpen.",
+        "§o§c开启。"
+      ]
+    ]
+  },
+  "1651": {
+    "repl": [
+      [
+        "§6-[ §cFlame Arrow §6]-",
+        "§6-[ §c炎之矢 §6]-"
+      ],
+      [
+        "§r§o§e-Click to Scroll, Punch to Select",
+        "§r§o§e-点击以滚动，拳击以选定"
+      ],
+      [
+        "§c(It is recommended to use this attack at night, It'll look better)",
+        "§c（建议在夜间使用该攻击，视觉效果更好）"
+      ]
+    ]
+  },
+  "1652": {
+    "repl": [
+      [
+        "§6-[ §cFlame Spear §6]-",
+        "§6-[ §c炎之枪 §6]-"
+      ],
+      [
+        "§r§o§e-Click to Scroll, Punch to Select",
+        "§r§o§e-点击以滚动，拳击以选定"
+      ],
+      [
+        "§c(It is recommended to use this attack at night, It'll look better)",
+        "§c（建议在夜间使用该攻击，视觉效果更好）"
+      ]
+    ]
+  },
+  "1653": {
+    "repl": [
+      [
+        "§6-[ §cFlame Blade §6]-",
+        "§6-[ §c火焰之刃 §6]-"
+      ],
+      [
+        "§r§o§e-Click to Scroll, Punch to Select",
+        "§r§o§e-点击以滚动，拳击以选定"
+      ],
+      [
+        "§c(It is recommended to use this attack at night, It'll look better)",
+        "§c（建议在夜间使用该攻击，视觉效果更好）"
+      ]
+    ]
+  },
+  "1654": {
+    "repl": [
+      [
+        "§6-[ §cFlame Scythe §6]-",
+        "§6-[ §c炎之镰 §6]-"
+      ],
+      [
+        "§r§o§e-Click to Scroll, Punch to Select",
+        "§r§o§e-点击以滚动，拳击以选定"
+      ],
+      [
+        "§c(It is recommended to use this attack at night, It'll look better)",
+        "§c（建议在夜间使用该攻击，视觉效果更好）"
+      ]
+    ]
+  },
+  "1655": "§4我已经咏唱了 3 次。",
+  "1671": "§r§4已吞噬的手指:\n",
+  "1672": "§5- §l§c",
+  "1673": "§r§b+300 咒力\n§9+100 经验\n§g+3 加点",
+  "1674": "§l§4手指拒绝了你……",
+  "1675": "§r§6§l- 神炎「竈」准备就绪",
+  "1676": {
+    "repl": [
+      [
+        "---[ New Trait Unlocked ]---",
+        "---[ 解锁了新特质 ]---"
+      ],
+      [
+        "§r§eReverse Cursed Master, allowing you to automatically gain RCT and spread that healing to heal others while Sneaking. RCT also costs less Cursed Energy...",
+        "§r§e反转术式大师，让你自动获得反转术式，并能在潜行时将治愈之力扩散以治疗他人。反转术式消耗的咒力也更少……"
+      ]
+    ]
+  },
+  "1677": {
+    "repl": [
+      [
+        "§cBrat, you just savour it...",
+        "§c小鬼，你就好好品味吧……"
+      ]
+    ]
+  },
+  "1678": {
+    "repl": [
+      [
+        "§7Sacred Treasure-...",
+        "§7神器——……"
+      ]
+    ]
+  },
+  "1679": {
+    "repl": [
+      [
+        "§7Wh-",
+        "§7什——"
+      ]
+    ]
+  },
+  "1680": {
+    "repl": [
+      [
+        "§7NO-",
+        "§7不——"
+      ]
+    ]
+  },
+  "1681": {
+    "repl": [
+      [
+        "§cBrat, you just savour it...",
+        "§c小鬼，你就好好品味吧……"
+      ]
+    ]
+  },
+  "1682": {
+    "repl": [
+      [
+        "§7Sacred Treasure-...",
+        "§7神器——……"
+      ]
+    ]
+  },
+  "1683": {
+    "repl": [
+      [
+        "§7Wh-",
+        "§7什——"
+      ]
+    ]
+  },
+  "1684": {
+    "repl": [
+      [
+        "§7NO-",
+        "§7不——"
+      ]
+    ]
+  },
+  "1685": {
+    "repl": [
+      [
+        "§fWh-... What have you done?",
+        "§f什……你都做了什么？"
+      ]
+    ]
+  },
+  "1686": {
+    "repl": [
+      [
+        "§fM-Megumi...?",
+        "§f惠……惠……？"
+      ]
+    ]
+  },
+  "1687": {
+    "repl": [
+      [
+        "§fYou... I'll-",
+        "§f你……我要——"
+      ]
+    ]
+  },
+  "1688": {
+    "repl": [
+      [
+        "§fWh-... What have you done?",
+        "§f什……你都做了什么？"
+      ]
+    ]
+  },
+  "1689": {
+    "repl": [
+      [
+        "§fM-Megumi...?",
+        "§f惠……惠……？"
+      ]
+    ]
+  },
+  "1690": {
+    "repl": [
+      [
+        "§fYou... I'll-",
+        "§f你……我要——"
+      ]
+    ]
+  },
+  "1691": {
+    "repl": [
+      [
+        "§cIdiot.",
+        "§c蠢货。"
+      ]
+    ]
+  },
+  "1692": {
+    "repl": [
+      [
+        "§cIdiot.",
+        "§c蠢货。"
+      ]
+    ]
+  },
+  "1693": {
+    "repl": [
+      [
+        "§cThis vessel is now mine.",
+        "§c这具容器现在归我了。"
+      ]
+    ]
+  },
+  "1694": {
+    "repl": [
+      [
+        "§cWhich means...",
+        "§c也就是说……"
+      ]
+    ]
+  },
+  "1695": {
+    "repl": [
+      [
+        "§cThis vessel is now mine.",
+        "§c这具容器现在归我了。"
+      ]
+    ]
+  },
+  "1696": {
+    "repl": [
+      [
+        "§cWhich means...",
+        "§c也就是说……"
+      ]
+    ]
+  },
+  "1697": {
+    "repl": [
+      [
+        "§cI no longer have a use for you anymore!",
+        "§c我已经不再需要你了！"
+      ]
+    ]
+  },
+  "1698": {
+    "repl": [
+      [
+        "§cI no longer have a use for you anymore!",
+        "§c我已经不再需要你了！"
+      ]
+    ]
+  },
+  "1699": {
+    "repl": [
+      [
+        "§fWhy!?",
+        "§f为什么！？"
+      ]
+    ]
+  },
+  "1700": {
+    "repl": [
+      [
+        "§fWh.. Why can't you just live life without causing suffering!?",
+        "§f为……为什么你就不能安安分分地活着，非要带来痛苦！？"
+      ]
+    ]
+  },
+  "1701": {
+    "repl": [
+      [
+        "§cHow can a creature that falls apart so easily want to live happily?",
+        "§c如此脆弱的生物，凭什么奢望幸福地活着？"
+      ]
+    ]
+  },
+  "1702": {
+    "repl": [
+      [
+        "§cYou deserve to suffer for being weak.",
+        "§c弱者就活该受苦。"
+      ]
+    ]
+  },
+  "1703": {
+    "repl": [
+      [
+        "§fWhy!?",
+        "§f为什么！？"
+      ]
+    ]
+  },
+  "1704": {
+    "repl": [
+      [
+        "§fWh.. Why can't you just live life without causing suffering!?",
+        "§f为……为什么你就不能安安分分地活着，非要带来痛苦！？"
+      ]
+    ]
+  },
+  "1705": {
+    "repl": [
+      [
+        "§cHow can a creature that falls apart so easily want to live happily?",
+        "§c如此脆弱的生物，凭什么奢望幸福地活着？"
+      ]
+    ]
+  },
+  "1706": {
+    "repl": [
+      [
+        "§cYou deserve to suffer for being weak.",
+        "§c弱者就活该受苦。"
+      ]
+    ]
+  },
+  "1707": {
+    "repl": [
+      [
+        "§l§4L e t ' s   s e e   i f   y o u   c a n   s w a l l o w   m y   s u f f e r i n g.",
+        "§l§4那 就 看 看 你 能 不 能 吞 下 我 的 痛 苦 。"
+      ]
+    ]
+  },
+  "1708": {
+    "repl": [
+      [
+        "§l§4L e t ' s   s e e   i f   y o u   c a n   s w a l l o w   m y   s u f f e r i n g.",
+        "§l§4那 就 看 看 你 能 不 能 吞 下 我 的 痛 苦 。"
+      ]
+    ]
+  },
+  "1709": {
+    "repl": [
+      [
+        "§cCome closer then.",
+        "§c那就再靠近点吧。"
+      ]
+    ]
+  },
+  "1710": {
+    "repl": [
+      [
+        "§cCome closer then.",
+        "§c那就再靠近点吧。"
+      ]
+    ]
+  },
+  "1711": {
+    "repl": [
+      [
+        "§cGIVE HIM BACK!",
+        "§c把他还回来！"
+      ]
+    ]
+  },
+  "1712": {
+    "repl": [
+      [
+        "§cGIVE HIM BACK!",
+        "§c把他还回来！"
+      ]
+    ]
+  },
+  "1713": {
+    "repl": [
+      [
+        "§cWhere'd that endurance come from!?",
+        "§c这股韧劲是从哪来的！？"
+      ]
+    ]
+  },
+  "1714": {
+    "repl": [
+      [
+        "§cWait-no...",
+        "§c等等——不对……"
+      ]
+    ]
+  },
+  "1715": {
+    "repl": [
+      [
+        "§cWhere'd that endurance come from!?",
+        "§c这股韧劲是从哪来的！？"
+      ]
+    ]
+  },
+  "1716": {
+    "repl": [
+      [
+        "§cWait-no...",
+        "§c等等——不对……"
+      ]
+    ]
+  },
+  "1717": {
+    "repl": [
+      [
+        "§cThis vessel's cursed energy output is low!",
+        "§c这具容器的咒力输出太低了！"
+      ]
+    ]
+  },
+  "1718": {
+    "repl": [
+      [
+        "§cUgh.",
+        "§c呃。"
+      ]
+    ]
+  },
+  "1719": {
+    "repl": [
+      [
+        "§cYou little-!",
+        "§c你这个小——！"
+      ]
+    ]
+  },
+  "1720": {
+    "repl": [
+      [
+        "§cUgh.",
+        "§c呃。"
+      ]
+    ]
+  },
+  "1721": {
+    "repl": [
+      [
+        "§cYou little-!",
+        "§c你这个小——！"
+      ]
+    ]
+  },
+  "1722": {
+    "repl": [
+      [
+        "§cWh-.. His punch was severing the connection between this vessel's soul and mine?",
+        "§c什……他的拳头在切断这具容器的灵魂与我的连接？"
+      ]
+    ]
+  },
+  "1723": {
+    "repl": [
+      [
+        "§cWh-.. His punch was severing the connection between this vessel's soul and mine?",
+        "§c什……他的拳头在切断这具容器的灵魂与我的连接？"
+      ]
+    ]
+  },
+  "1724": {
+    "repl": [
+      [
+        "§cI'll see you again later, you annoying brat!",
+        "§c我们还会再见面的，你这烦人的小鬼！"
+      ]
+    ]
+  },
+  "1725": "§e宿傩已经离开了你的身体，你从此走上属于自己的道路，摆脱了宿傩的枷锁。\n\n§a你觉醒了属于自己的能力。\n\n§4「Meguna」之后就能在你的世界中生成了（我是说等我把这个角色做出来之后，哈哈）",
+  "1726": {
+    "repl": [
+      [
+        "§oAh, I knew it!",
+        "§o呵，我就知道！"
+      ]
+    ]
+  },
+  "1727": {
+    "repl": [
+      [
+        "§oThe light feels best in the flesh!",
+        "§o果然还是血肉之躯里的光芒最舒服！"
+      ]
+    ]
+  },
+  "1728": {
+    "repl": [
+      [
+        "§oA Cursed spirit's flesh is so boring...",
+        "§o咒灵的肉体实在太没意思了……"
+      ]
+    ]
+  },
+  "1729": {
+    "repl": [
+      [
+        "§oWhere are the people!? The Women!?",
+        "§o人都去哪了！？女人呢！？"
+      ]
+    ]
+  },
+  "1730": {
+    "repl": [
+      [
+        "§oWhat a wonderful era to be in.",
+        "§o真是个美好的时代啊。"
+      ]
+    ]
+  },
+  "1731": {
+    "repl": [
+      [
+        "§oWomen and children are crawling everywhere like maggots...",
+        "§o女人和孩子像蛆虫一样到处爬……"
+      ]
+    ]
+  },
+  "1732": {
+    "repl": [
+      [
+        "§oMarvelous!",
+        "§o太美妙了！"
+      ]
+    ]
+  },
+  "1733": {
+    "repl": [
+      [
+        "§oIt'll be a massacre!",
+        "§o这将是一场大屠杀！"
+      ]
+    ]
+  },
+  "1734": {
+    "repl": [
+      [
+        "§lWhat do you think you're doing with my body!?",
+        "§l你想对我的身体做什么！？"
+      ]
+    ]
+  },
+  "1735": {
+    "repl": [
+      [
+        "§lGive it back.",
+        "§l把它还给我。"
+      ]
+    ]
+  },
+  "1736": {
+    "repl": [
+      [
+        "§oHow are you able to move?",
+        "§o你为什么还能动？"
+      ]
+    ]
+  }
+}

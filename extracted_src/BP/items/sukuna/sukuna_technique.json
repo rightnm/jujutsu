@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:sukuna_technique",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "sukuna_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§l§4The King of Curses, Ryomen Sukuna§r\n§5§oAfter consuming his finger, Sukuna shall lay dormant inside of you,\nhowever upon consuming 15 of his fingers,\nhe shall take full-control of your body.\n\n§r§c- Click to give Sukuna control of your body\n\n§r§c- Hold Sneak for 3 Seconds and Punch a Player or Human (Megumi) to transfer vessel\n§7( §eRequires 15+ Fingers §7+ §4Prince of Black Sparks Trait/Yuji Itadori's Style §7)\n\n§r§7[ §eSneak + Right-Click to Equip/Unequip All Skills §7]"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

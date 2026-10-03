@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:absorption3",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "absorption_icon3"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§cFull Power Release\n§r§g- Cost: [ §cAll your Stored Energy §g]\n§r§5- §oMaximum Output"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

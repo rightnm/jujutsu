@@ -1,0 +1,44 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.mahito_weapons": {
+			"textures": [
+				"Array.variants[query.property('property:mahito_weapons')]"
+			],
+			"materials": [
+				{
+					"*": "Material.entity_alpha"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:mahito_weapons')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.nothing",
+						"Geometry.body_metal",
+						"Geometry.body_drill",
+						"Geometry.murder_manifestation",
+						"Geometry.body_clankers",
+						"Geometry.dual_souls",
+						"Geometry.six_souls"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.metal_texture",
+						"Texture.metal_texture",
+						"Texture.murder_manifestation",
+						"Texture.body_clankers",
+						"Texture.dual_souls",
+						"Texture.six_souls"
+						
+					]
+				}
+			}
+		}
+	}
+}

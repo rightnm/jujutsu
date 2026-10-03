@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:rough_crystal",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "rough_crystal"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§l§d§oRough Crystal\n§r§5- A Crystal formed by a strange type of cursed energy.\n§r§e+2 §r§4Strength §eon Consumption\n\n§r§o§4-Cursed Relic-"
+            },
+            "minecraft:max_stack_size": 64
+            },
+            "minecraft:foil": true,
+            "minecraft:allow_off_hand": false
+            }
+        }

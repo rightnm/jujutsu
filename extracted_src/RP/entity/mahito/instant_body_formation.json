@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:instant_body_formation",
+      "spawn_egg": {
+        "overlay_color": "#a29920",
+        "base_color": "#a28949"
+      },
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/instant_body_formation"
+      },
+      "geometry": {
+        "default": "geometry.instant_body_formation"
+			},
+			"scripts": {
+			"should_update_bones_and_effects_offscreen": true,
+			"animate": [
+			"root"
+			   ]
+			      },
+      "animations": {
+        "root": "animation.instant_body_formation.idle"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

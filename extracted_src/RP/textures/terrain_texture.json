@@ -1,0 +1,179 @@
+{
+    "texture_name": "atlas.terrain",
+    "resource_pack_name": "jujutsuawakening",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "crate_v1": {
+            "textures": "textures/blocks/crate_v1"
+},
+"crate_v2": {
+            "textures": "textures/blocks/crate_v2"
+},
+"crate_v3": {
+            "textures": "textures/blocks/crate_v3"
+},
+"crate_v4": {
+            "textures": "textures/blocks/crate_v4"
+},
+"crate_v5": {
+            "textures": "textures/blocks/crate_v5"
+},
+"unobtanium_block": {
+            "textures": "textures/blocks/unobtanium_block"
+},
+"divine_gold_block": {
+            "textures": "textures/blocks/divine_gold_block"
+},
+"void": {
+            "textures": "textures/blocks/void"
+},
+"void_white": {
+            "textures": "textures/blocks/void_white"
+},
+"void_gray": {
+            "textures": "textures/blocks/void_gray"
+},
+"foreign_bricks": {
+            "textures": "textures/blocks/foreign_bricks"
+},
+"unobtanium_ore": {
+            "textures": "textures/blocks/unobtanium_ore"
+},
+"heroic_plushie": {
+            "textures": "textures/blocks/heroic_plushie"
+},
+"timmy_plushie": {
+            "textures": "textures/blocks/timmy_plushie"
+},
+"gold_heroic_plushie": {
+            "textures": "textures/blocks/gold_heroic_plushie"
+},
+"heroic_plushie2": {
+            "textures": "textures/blocks/heroic_plushie2"
+},
+"gojo_plushie": {
+            "textures": "textures/blocks/gojo"
+},
+"geto_plushie": {
+            "textures": "textures/blocks/geto"
+},
+"heian_sukuna_plushie": {
+            "textures": "textures/blocks/heian_sukuna"
+},
+"toji_plushie": {
+            "textures": "textures/blocks/toji"
+},
+"nobara_plushie": {
+            "textures": "textures/blocks/nobara_plushie"
+},
+"mei_plushie": {
+            "textures": "textures/blocks/mei_plushie"
+},
+"maki_plushie": {
+            "textures": "textures/blocks/maki_plushie"
+},
+"higuruma_plushie": {
+            "textures": "textures/blocks/higuruma_plushie"
+},
+"mahito_plushie": {
+            "textures": "textures/blocks/mahito_plushie"
+},
+"kenjaku_plushie": {
+            "textures": "textures/blocks/kenjaku_plushie"
+},
+"cell_plushie": {
+            "textures": "textures/blocks/cell_plushie"
+},
+"yuki_plushie": {
+            "textures": "textures/blocks/yuki_plushie"
+},
+"uraume_plushie": {
+            "textures": "textures/blocks/uraume_plushie"
+},
+"sukuna_plushie": {
+            "textures": "textures/blocks/sukuna_plushie"
+},
+"arox_plushie": {
+            "textures": "textures/blocks/arox_plushie"
+},
+"epicae_plushie": {
+            "textures": "textures/blocks/epicae_plushie"
+},
+"d4rius_plushie": {
+            "textures": "textures/blocks/d4rius_plushie"
+},
+"uzkownik_plushie": {
+            "textures": "textures/blocks/uzkownik"
+},
+"chosso_plushie": {
+            "textures": "textures/blocks/chosso_plushie"
+            
+},
+"nanami_plushie": {
+            "textures": "textures/blocks/nanami_plushie"
+            
+},
+"meguma_plushie": {
+            "textures": "textures/blocks/meguma_plushie"
+            
+},
+"kashimo_plushie": {
+            "textures": "textures/blocks/kashimo_plushie"
+},
+"bdayseal_plushie": {
+            "textures": "textures/blocks/bdayseal_plushie"
+},
+"neuro_plushie": {
+            "textures": "textures/blocks/neuro_plushie"      
+},
+"bash_plushie": {
+            "textures": "textures/blocks/bash_plushie"     
+},
+"manga_yuji_plushie": {
+            "textures": "textures/blocks/manga_yuji_plushie"
+            
+},
+"yuji_plushie": {
+            "textures": "textures/blocks/yuji_plushie"
+            
+},
+"yuta_plushie": {
+            "textures": "textures/blocks/yuta_plushie"
+            
+},
+"tobi_plushie": {
+            "textures": "textures/blocks/tobi_plushie"
+            
+},
+"yazan_plushie": {
+            "textures": "textures/blocks/yazan"
+            
+},
+"danser_plushie": {
+            "textures": "textures/blocks/danser"
+            
+},
+"butter_plushie": {
+            "textures": "textures/entity/butterjaffa2"
+},
+"xero_plushie": {
+            "textures": "textures/entity/xeroscoof2"
+},
+"frogdog_plushie": {
+            "textures": "textures/entity/frogdog2"
+},
+"glitch_plushie": {
+            "textures": "textures/entity/glitchyturtle2"
+},
+"lemon_plushie": {
+            "textures": "textures/entity/bluelemon2"
+},
+"magroic_plushie": {
+            "textures": "textures/entity/magroic2"
+},
+"soulking_plushie": {
+            "textures": "textures/entity/soulking2"
+        }
+    }
+}

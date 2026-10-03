@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:black_blade",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "black_blade"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§9Jet Black Blade\n§r§5- §oAn Extremely sharp pitch black blade infused with tons of cursed energy.\n\n§r§tOverhead Slice §7(§eRight-Click§7)\n\n§r§tDark Flourish §7(§eHold-Jump + Right-Click§7)\n\n§r§tUmbral Rush §7(§eSneak + Right-Click§7)\n\n§r§cShadow Assault §7(§eSneak + Jump + Right-Click§7)\n§r§o§f-=- Requires 10 Shadows Technique -=-§r\n\n§r§cShadow Dance §7(§eSneak + Punch§7)\n§r§4-=- Requires Physical Heavenly Restriction -=-\n\n§r§7[ §9Grade 1 Cursed Tool §7]"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

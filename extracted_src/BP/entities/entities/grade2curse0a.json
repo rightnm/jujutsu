@@ -1,0 +1,254 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "scripts": {
+        "animate": [
+          "health"
+        ]
+      },
+      "animations": {
+        "health": "controller.animation.health"
+      },
+      "properties": {
+        "property:organs": {
+          "type": "int",
+          "range": [0, 2],
+          "default": 1,
+          "client_sync": true
+        },
+        "property:awakened": {
+          "type": "int",
+          "range": [0, 1],
+          "default": 0,
+          "client_sync": true
+        },
+        "property:airhorn": {
+          "type": "int",
+          "range": [0, 1],
+          "default": 0,
+          "client_sync": true
+        },
+        "property:wings": {
+          "type": "int",
+          "range": [0, 2],
+          "default": 0,
+          "client_sync": true
+        },
+        "property:weapon": {
+          "type": "int",
+          "range": [0, 10],
+          "default": 1,
+          "client_sync": true
+        },
+        "property:primekatana": {
+          "type": "int",
+          "range": [0, 3],
+          "default": 0,
+          "client_sync": true
+        }
+      },
+      "identifier": "ds:primesoul",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "ds:disappear": {
+        "minecraft:transformation": {
+          "into": "ds:disappear",
+          "delay": 0.0
+        }
+      }
+    },
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": ["villain", "primesoul", "non_sorcerer", "heroic"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:health": {
+        "value": 10000,
+        "max": 10000,
+        "min": 1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:movement": {
+        "value": 0
+      },
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:knockback_resistance": {
+        "value": 4
+      },
+      "minecraft:boss": {
+        "hud_range": 56,
+        "name": "§0§l-= §r§o§lHeroic Prime§r §l§0=-"
+      },
+      "minecraft:on_death": {
+        "event": "primesoul_die"
+      },
+      "minecraft:timer": {
+        "looping": true,
+        "time": 0,
+        "time_down_event": {
+          "event": "primesoul"
+        }
+      },
+      "minecraft:loot": {
+        "table": "loot/nothing.json"
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "test": "is_underwater",
+            "operator": "==",
+            "value": true
+          },
+          "event": "minecraft:start_transforming"
+        }
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      }
+    },
+    "events": {
+      "scythe": {
+        "set_property": {
+          "property:weapon": 1
+        }
+      },
+      "sword": {
+        "set_property": {
+          "property:weapon": 2
+        }
+      },
+      "spear": {
+        "set_property": {
+          "property:weapon": 3
+        }
+      },
+      "organs": {
+        "set_property": {
+          "property:organs": 1
+        }
+      },
+      "organs2": {
+        "set_property": {
+          "property:organs": 2
+        }
+      },
+      "awakened": {
+        "set_property": {
+          "property:awakened": 1
+        }
+      },
+      "wings_on": {
+        "set_property": {
+          "property:wings": 1
+        }
+      },
+      "wings_2": {
+        "set_property": {
+          "property:wings": 2
+        }
+      },
+      "wings_off": {
+        "set_property": {
+          "property:wings": 0
+        }
+      },
+      "airhorn_on": {
+        "set_property": {
+          "property:airhorn": 1
+        }
+      },
+      "airhorn_off": {
+        "set_property": {
+          "property:airhorn": 0
+        }
+      },
+      "primekatana_off": {
+        "set_property": {
+          "property:primekatana": 0,
+          "property:weapon": 5
+        }
+      },
+      "primekatana": {
+        "set_property": {
+          "property:primekatana": 1,
+          "property:weapon": 4
+        }
+      },
+      "primekatana_sheathed": {
+        "set_property": {
+          "property:primekatana": 2,
+          "property:weapon": 4
+        }
+      },
+      "primekatana3": {
+        "set_property": {
+          "property:primekatana": 3,
+          "property:weapon": 4
+        }
+      },
+      "prime_weapon_off": {
+        "set_property": {
+          "property:primekatana": 0,
+          "property:weapon": 10
+        }
+      },
+      "primesoul_die": {
+        "queue_command": {
+          "command": [
+            "function bosses/file/boss/primesoul_death"
+          ]
+        }
+      },
+      "primesoul": {
+        "queue_command": {
+          "command": [
+            "function bosses/file/boss/primesoul"
+          ]
+        }
+      },
+      "ds:disappear": {
+        "add": {
+          "component_groups": [
+            "ds:disappear"
+          ]
+        }
+      }
+    }
+  }
+}

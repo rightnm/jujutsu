@@ -1,0 +1,31 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.18.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ds:gojo_torso",
+			"materials": {
+				"default": "armor"
+			},
+			"textures": {
+				"default": "textures/models/gojotorso"
+			},
+			"geometry": {
+				"default": "geometry.gojo_torso1"
+			},
+			"animations": {
+				"idle": "animation.gojo_torso.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

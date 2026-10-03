@@ -1,0 +1,137 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "scripts": {
+        "animate": [
+          "health"
+        ]
+      },
+      "animations": {
+        "health": "controller.animation.health"
+      },
+      "identifier": "ds:chaos",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "ds:disappear": {
+        "minecraft:transformation": {
+          "into": "ds:disappear",
+          "delay": 0.0
+        }
+      }
+    },
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": ["villain", "heroic", "non_sorcerer"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": false,
+        "can_break_doors": false
+      },
+      "minecraft:jump.static": {},
+      "minecraft:health": {
+        "value": 1500,
+        "max": 1500,
+        "min": 1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:movement": {
+        "value": 0
+      },
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 0.1
+      },
+      "minecraft:boss": {
+        "hud_range": 64,
+        "name": "§8-= §r§lChaos Incarnate §8=-"
+      },
+      "minecraft:on_death": {
+        "event": "chaos_die"
+      },
+      "minecraft:timer": {
+        "looping": true,
+        "time": 0,
+        "time_down_event": {
+          "event": "chaos"
+        }
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/sus"
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "test": "is_underwater",
+            "operator": "==",
+            "value": true
+          },
+          "event": "minecraft:start_transforming"
+        }
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    },
+    "events": {
+      "chaos_die": {
+        "queue_command": {
+          "command": [
+            "function bosses/file/boss/summons/chaos_death"
+          ]
+        }
+      },
+      "chaos": {
+        "queue_command": {
+          "command": [
+            "function bosses/file/boss/chaos_phase"
+          ]
+        }
+      },
+      "ds:disappear": {
+        "add": {
+          "component_groups": [
+            "ds:disappear"
+          ]
+        }
+      }
+    }
+  }
+}

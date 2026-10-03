@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:idle_transfig_combat2",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "mahito_combat2"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§uMahito's Blade Fighting Style\n\n§r§o§dSwitch Combat Style §r§7(§eLook Down + Sneak§7)\n\n§r§tBisection §7(§eRight-Click§7)\n\n§r§tBeyblade §7(§eHold-Jump+Right-Click§7)\n\n§r§tRushing Blade §7(§eHold-Sneak+Right-Click§7)\n\n§r§cRend §7(§eHold-Sneak+Punch§7)\n\n§r§5- §oMahito Combat"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

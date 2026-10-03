@@ -1,0 +1,36 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player.first_person": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "part_visibility": [
+        { "*": false },
+        { "rightArm": "query.property('property:body_transformation') == 0" },
+        { "rightSleeve": "query.property('property:body_transformation') == 0" },
+        { "leftArm": "query.property('property:body_transformation') == 0" },
+        { "leftSleeve": "query.property('property:body_transformation') == 0" }
+      ]
+    },
+    "controller.render.player.third_person": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "part_visibility": [
+        { "*":  "query.property('property:body_transformation') == 0" },
+        { "helmet": "variable.helmet_layer_visible && query.property('property:body_transformation') == 0" },
+        { "leftLegging": "variable.leg_layer_visible && query.property('property:body_transformation') == 0" },
+        { "rightLegging": "variable.leg_layer_visible && query.property('property:body_transformation') == 0" },
+        { "leftBoot": "variable.boot_layer_visible && query.property('property:body_transformation') == 0" },
+        { "rightBoot": "variable.boot_layer_visible && query.property('property:body_transformation') == 0" },
+        { "leftSock": "variable.boot_layer_visible && variable.leg_layer_visible && query.property('property:body_transformation') == 0" },
+        { "rightSock": "variable.boot_layer_visible && variable.leg_layer_visible && query.property('property:body_transformation') == 0" },
+        { "bodyArmor": "variable.chest_layer_visible && !query.has_cape && query.property('property:body_transformation') == 0" },
+        { "leftArmArmor": "variable.chest_layer_visible && !query.has_cape && query.property('property:body_transformation') == 0" },
+        { "rightArmArmor": "variable.chest_layer_visible && !query.has_cape && query.property('property:body_transformation') == 0" },
+        { "belt": "variable.chest_layer_visible && variable.leg_layer_visible && query.property('property:body_transformation') == 0" }
+      ]
+    }
+  }
+}

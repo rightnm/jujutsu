@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:limitless4",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "limitless4"
+                }
+            },
+            "minecraft:display_name": {
+	"value": "§r§bSpatial Blitz\n§g- Cost: [ §745 Cursed Energy §g]\n\n§r§bSpatial Burst §7(§eHold-Sneak+Right-Click§7)\n§g- Cost: [ §7100 Cursed Energy §g]\n\n§r§bSpatial Kick §7(§eHold-Jump+Right-Click§7)\n§g- Cost: [ §7100 Cursed Energy §g]]\n§r§5- §o4th Skill"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

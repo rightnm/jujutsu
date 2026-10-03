@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:deathgamble",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/lovetrain/deathgamble"
+      },
+      "geometry": {
+        "default": "geometry.deathgamble"
+      },
+      "particle_effects": {
+        "gamble_start1": "ds:gamble_start1",
+        "gamble_start2": "ds:gamble_start2",
+        "gamble_start3": "ds:gamble_start3",
+        "gamble_start4": "ds:gamble_start4"
+			},
+			"animations": {
+				"idle": "animation.deathgamble.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+    }
+  }
+}

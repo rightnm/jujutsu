@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:hr3",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "hr_icon4"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§tGround Slam §7(§eRight-Click§7)\n§g- Requirements: [ §c30 Strength §g])\n\n§r§tFinal Hunt §7(§eHold-Jump + Right-Click§7)\n§g- Requirements: [ §c40 Strength, 10 Agility §g]\n\n§r§tRock Cannon §7(§eSneak + Right-Click§7)\n§g- Requirements: [ §c40 Strength §g]\n\n§r§8Rubble Gatling §7(§eSneak + Jump + Right-Click§7)\n§g- Requirements: [ §c40 Strength, 40 Agility §g]\n\n§r§5- §oDeadly Attacks."
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

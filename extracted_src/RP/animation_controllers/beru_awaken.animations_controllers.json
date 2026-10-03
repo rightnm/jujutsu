@@ -1,0 +1,52 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.beru_awaken.movement": {
+            "initial_state": "static_awaken",
+            "states": {
+                "static_awaken": {
+                    "animations": [
+                        "static_awaken"
+                    ],
+                    "blend_transition": 0.1,
+                    "transitions": [
+                        {
+                            "move_awaken": "query.ground_speed > 0.1 && !query.has_target && query.property('property:awaken') == 1"
+                        },
+                        {
+                            "sprint_awaken": "query.ground_speed > 0.1 && query.has_target && query.property('property:awaken') == 1"
+                        }
+                    ]
+                },
+                "move_awaken": {
+                    "animations": [
+                        "move_awaken"
+                    ],
+                    "blend_transition": 0.1,
+                    "transitions": [
+                        {
+                            "static_awaken": "query.ground_speed < 0.1 && query.property('property:awaken') == 1"
+                        },
+                        {
+                            "sprint_awaken": "query.ground_speed > 0.1 && query.has_target && query.property('property:awaken') == 1"
+                        }
+                    ]
+                },
+                "sprint_awaken": {
+                    "animations": [
+                        "sprint_awaken"
+                    ],
+                    "blend_transition": 0.1,
+                    "transitions": [
+                        {
+                            "static_awaken": "query.ground_speed < 0.1 && query.property('property:awaken') == 1"
+                        },
+                        {
+                            "move_awaken": "query.ground_speed > 0.1 && !query.has_target && query.property('property:awaken') == 1"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

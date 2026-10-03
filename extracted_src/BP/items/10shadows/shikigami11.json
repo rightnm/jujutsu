@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:shikigami11",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "shikigami11"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§l§fMerged Beast: Agito\n§r§g- Cost: [ §7600 Cursed Energy §g]\n§r§5- §oCombination of the Shikigami: Nue, Great Serpent, Round Deer, Tiger Funeral\n\n§cYou cannot summon any of the Shikigami\n that were Merged into this creature while it has been summoned."
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

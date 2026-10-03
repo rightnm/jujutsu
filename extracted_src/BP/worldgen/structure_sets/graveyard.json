@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:graveyard"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 41543714,
+      "separation": 40,
+      "spacing": 85,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:graveyard",
+        "weight": 1
+      }
+    ]
+  }
+}

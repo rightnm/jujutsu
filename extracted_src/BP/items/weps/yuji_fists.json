@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:yuji_fists",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "yuji_fist"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§cYuji Itadori's Fighting Style\n\n§r§tManji Kick §7(§eRight-Click§7)\n\n§r§tTriple Kicks §7(§eHold-Sneak+Right-Click§7)\n\n§r§tManji Dropkick §7(§eHold-Jump+Right-Click§7)\n\n§r§tFierce Barrage §7(§eHold-Sneak+Jump+Right-Click§7)\n\n§r§4Divergent Strike\n§g- Cost: [ §750 Cursed Energy §g] §7(§eHold-Sneak+Punch§7)\n§e(Right-Clicking to time this move correctly will allow you to perform a controlled black-flash!)"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

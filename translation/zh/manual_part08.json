@@ -1,0 +1,2223 @@
+{
+  "_comment": "part08: ids 1208-1271(补漏的任务模板)、1427、1902-2005(咒具/术式卡片)、2006-2240(设置/问答/方块/名称)，全部对齐 glossary 术语",
+  "1208": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 找到并击杀 5 名§l低评级(3-4级)§r§a咒术师。§r",
+  "1209": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 找到并击杀 10 名§l低评级(3-4级)§r§a咒术师。§r",
+  "1210": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 找到并击杀 30 名§l低评级(3-4级)§r§a咒术师。§r",
+  "1211": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 找到并击杀 5 名§l中评级(3-2级)§r§a咒术师。§r",
+  "1212": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 找到并击杀 10 名§l中评级(3-2级)§r§a咒术师。§r",
+  "1213": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 找到并击杀 30 名§l中评级(3-2级)§r§a咒术师。§r",
+  "1214": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 找到并击杀1 名§l一级§r§a咒术师。§r",
+  "1215": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 找到并击杀 3 名§l一级§r§a咒术师。§r",
+  "1216": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 找到并击杀 5 名§l一级§r§a咒术师。§r",
+  "1217": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 找到并击杀1 名§l§r§5特级§r§a咒术师。§r",
+  "1218": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 击杀 5 名村民。§r",
+  "1219": "§f| §c§l「监视者」向你发出了一个请求§r |\n§r§a- 击杀 10 名村民。§r",
+  "1263": "§f§l| 你已被指派新任务 |\n§r§a- 找到并击杀 5 只§l低评级(3-4级)§r§a咒灵。§r",
+  "1264": "§f§l| 你已被指派新任务 |\n§r§a- 找到并击杀 10 只§l低评级(3-4级)§r§a咒灵。§r",
+  "1265": "§f§l| 你已被指派新任务 |\n§r§a- 找到并击杀 30 只§l低评级(3-4级)§r§a咒灵。§r",
+  "1266": "§f§l| 你已被指派新任务 |\n§r§a- 找到并击杀 5 只§l中评级(3-2级)§r§a咒灵。§r",
+  "1267": "§f§l| 你已被指派新任务 |\n§r§a- 找到并击杀 10 只§l中评级(3-2级)§r§a咒灵。§r",
+  "1268": "§f§l| 你已被指派新任务 |\n§r§a- 找到并击杀 30 只§l中评级(3-2级)§r§a咒灵。§r",
+  "1269": "§f§l| 你已被指派新任务 |\n§r§a- 找到并击杀1 只§l一级§r§a咒灵。§r",
+  "1270": "§f§l| 你已被指派新任务 |\n§r§a- 找到并击杀 3 只§l一级§r§a咒灵。§r",
+  "1271": "§f§l| 你已被指派新任务 |\n§r§a- 找到并击杀 5 只§l一级§r§a咒灵。§r",
+  "1427": "§e玉犬§8已被选中。",
+  "1902": {
+    "repl": [
+      [
+        "§r§lTrue Amulet ",
+        "§r§l真·护符 "
+      ],
+      [
+        "§r§7Nullifying Shield",
+        "§r§7无效化护盾"
+      ],
+      [
+        "§5- A false memory.",
+        "§5- 一段虚假的记忆。"
+      ]
+    ]
+  },
+  "1903": {
+    "repl": [
+      [
+        "§r§lTrue Grimoire ",
+        "§r§l真·魔导书 "
+      ],
+      [
+        "§r§7Magic Pulse",
+        "§r§7魔能脉冲"
+      ],
+      [
+        "§5- A false memory.",
+        "§5- 一段虚假的记忆。"
+      ]
+    ]
+  },
+  "1904": {
+    "repl": [
+      [
+        "§r§lTrue Phaser ",
+        "§r§l真·相位枪 "
+      ],
+      [
+        "§r§7Shoot",
+        "§r§7射击"
+      ],
+      [
+        "§5- A false memory.",
+        "§5- 一段虚假的记忆。"
+      ]
+    ]
+  },
+  "1905": {
+    "repl": [
+      [
+        "§r§lTrue Sword ",
+        "§r§l真·宝剑 "
+      ],
+      [
+        "§r§7Heavy Slash",
+        "§r§7重斩"
+      ],
+      [
+        "§5- A false memory.",
+        "§5- 一段虚假的记忆。"
+      ]
+    ]
+  },
+  "1906": {
+    "repl": [
+      [
+        "§r§cVoidsoul Katana §r",
+        "§r§c虚魂之刃 §r"
+      ],
+      [
+        "§r§gVoid Slash",
+        "§r§g虚空斩"
+      ],
+      [
+        "§r§gDark Passage",
+        "§r§g暗之通道"
+      ],
+      [
+        "§r§gEradicate",
+        "§r§g根绝"
+      ],
+      [
+        "§5- Created by the architect and handed down to Soulking\nThis blade has void-properties, originating from the Clover Legends reality.",
+        "§5- 由造物主铸造，后传予 Soulking。\n这柄刀刃拥有虚空属性，源自 Clover Legends 现实。"
+      ]
+    ]
+  },
+  "1907": {
+    "repl": [
+      [
+        "§r§cWater-Stream Rock Smashing Fist",
+        "§r§c流水碎岩拳"
+      ],
+      [
+        "§r§gRushing Current",
+        "§r§g奔流"
+      ],
+      [
+        "§r§gFlowing Stream",
+        "§r§g流水"
+      ],
+      [
+        "§r§gCrushing Basin",
+        "§r§g碎流"
+      ],
+      [
+        "§r§gPrey's Peril",
+        "§r§g猎豹险爪"
+      ],
+      [
+        "§r§gTyphoon Fang Strike",
+        "§r§g台风牙击"
+      ],
+      [
+        "§r§bFinal Smash",
+        "§r§b终结猛击"
+      ],
+      [
+        "§5- untrustworthy.",
+        "§5- 不足为信。"
+      ]
+    ]
+  },
+  "1908": "§r§b求职申请",
+  "1909": {
+    "repl": [
+      [
+        "§r§eDomain Expansion: Deadly Sentencing",
+        "§r§e领域展开: 诛伏赐死"
+      ]
+    ]
+  },
+  "1910": {
+    "repl": [
+      [
+        "§r§4Objection! §e(Melee-Counter)",
+        "§r§4异议! §e(近战反击)"
+      ],
+      [
+        "§r§3Confiscation",
+        "§r§3没收"
+      ],
+      [
+        "§r§eJudgement",
+        "§r§e审判"
+      ]
+    ]
+  },
+  "1911": {
+    "repl": [
+      [
+        "Judgeman Technique",
+        "审判者术式"
+      ],
+      [
+        "§5§oThe Genius.",
+        "§5§o天才。"
+      ]
+    ]
+  },
+  "1912": {
+    "repl": [
+      [
+        "§r§l§dDomain Expansion: Unforgiving Tempest§r",
+        "§r§l§d领域展开: 无情雷暴§r"
+      ]
+    ]
+  },
+  "1913": {
+    "repl": [
+      [
+        "§r§dEnergy Wave",
+        "§r§d能量波"
+      ],
+      [
+        "§r§dElectromagnetic Hellfire",
+        "§r§d电磁狱炎"
+      ],
+      [
+        "§r§dElectromagnetic Thunder Cannon",
+        "§r§d电磁雷炮"
+      ],
+      [
+        "§r§5- §oClose Ranged Lightning Combat",
+        "§r§5- §o近距离雷电格斗"
+      ]
+    ]
+  },
+  "1914": {
+    "repl": [
+      [
+        "§dCyclone Blitz ",
+        "§d旋风雷闪 "
+      ],
+      [
+        "§r§dRising Thunder",
+        "§r§d升雷"
+      ],
+      [
+        "§r§dThunderclap",
+        "§r§d霹雳掌"
+      ],
+      [
+        "§r§5- §oClose Ranged Lightning Combat",
+        "§r§5- §o近距离雷电格斗"
+      ]
+    ]
+  },
+  "1915": {
+    "repl": [
+      [
+        "§r§l§dMythical Beast Amber",
+        "§r§l§d幻兽琥珀"
+      ],
+      [
+        "§r§5- §oTechnique Release, Mythical Beast Amber... Using this awakening will cost you your life.",
+        "§r§5- §o术式解放,幻兽琥珀……使用这个觉醒将付出你的生命。"
+      ]
+    ]
+  },
+  "1916": {
+    "repl": [
+      [
+        "§r§5Lightning Cloak",
+        "§r§5雷衣"
+      ],
+      [
+        "§r§5- §oSupport Skill",
+        "§r§5- §o辅助技能"
+      ]
+    ]
+  },
+  "1917": {
+    "repl": [
+      [
+        "§r§bLightning Bolt",
+        "§r§b雷击"
+      ],
+      [
+        "§r§fStatic Shocker",
+        "§r§f静电冲击"
+      ],
+      [
+        "§r§bElectro Carve",
+        "§r§b电刻突进"
+      ],
+      [
+        "§r§dGrand Javelin",
+        "§r§d大雷枪"
+      ],
+      [
+        "§r§5- §oRanged Lightning Combat",
+        "§r§5- §o远程雷电格斗"
+      ]
+    ]
+  },
+  "1918": {
+    "repl": [
+      [
+        "§r§bKashimo Hajime's Fighting Style",
+        "§r§b鹿紫云一的战斗风格"
+      ],
+      [
+        "§r§bLightning Palm",
+        "§r§b雷掌"
+      ],
+      [
+        "§r§3Bolt Barrage",
+        "§r§3雷电雨"
+      ],
+      [
+        "§r§bSpeedblitz",
+        "§r§b疾速雷击"
+      ],
+      [
+        "§r§5- §oClose Ranged Lightning Combat",
+        "§r§5- §o近距离雷电格斗"
+      ]
+    ]
+  },
+  "1919": {
+    "repl": [
+      [
+        "§r§dLightning Cursed Energy / Mythical Beast Amber",
+        "§r§d雷电咒力 / 幻兽琥珀"
+      ],
+      [
+        "§5§oThe God of Lightning...",
+        "§5§o雷电之神……"
+      ],
+      [
+        "Click to use Technique",
+        "点击以使用术式"
+      ],
+      [
+        "Sneak + Click to Advance Technique",
+        "潜行+点击以推进术式"
+      ]
+    ]
+  },
+  "1920": {
+    "repl": [
+      [
+        "§r§f§3Gojo Satoru Combat Style",
+        "§r§f§3五条悟战斗风格"
+      ],
+      [
+        "§r§tInfinity Backhand",
+        "§r§t不可侵反掌"
+      ],
+      [
+        "§r§tFury Barrage",
+        "§r§t怒涛连打"
+      ],
+      [
+        "§r§tShockwave Punch ",
+        "§r§t冲击波拳 "
+      ],
+      [
+        "§r§c Reversal Red: Point-Blank",
+        "§r§c 赫: 零距离"
+      ],
+      [
+        "§eRequires Reverse Cursed Technique",
+        "§e需要反转术式"
+      ],
+      [
+        "§r§bLapse Blue: Infused Fists",
+        "§r§b苍: 咒缠之拳"
+      ],
+      [
+        "§r§5§o- Limitless Cursed Technique style",
+        "§r§5§o- 无下限咒术风格"
+      ]
+    ]
+  },
+  "1921": {
+    "repl": [
+      [
+        "§r§4Reversal Technique: Shoot up the Classroom!",
+        "§r§4反转术式: 教室起飞!"
+      ],
+      [
+        "§l§dLimitless Technique Admin Spec",
+        "§l§d无下限术式·管理员专用"
+      ],
+      [
+        "§r§5- §oCredit to: Sinisterbart on Youtube",
+        "§r§5- §o鸣谢: Sinisterbart (Youtube)"
+      ]
+    ]
+  },
+  "1922": {
+    "repl": [
+      [
+        "§r§bImaginary Technique: Scope Him like JFK",
+        "§r§b虚式: 像狙肯尼迪一样瞄准他"
+      ],
+      [
+        "§l§dLimitless Technique Admin Spec",
+        "§l§d无下限术式·管理员专用"
+      ],
+      [
+        "§r§5- §oCredit to: Sinisterbart on Youtube",
+        "§r§5- §o鸣谢: Sinisterbart (Youtube)"
+      ]
+    ]
+  },
+  "1923": {
+    "repl": [
+      [
+        "§r§bInfinity\n",
+        "§r§b不可侵\n"
+      ],
+      [
+        "§r§bSpacial Levitation",
+        "§r§b空间悬浮"
+      ],
+      [
+        "§r§3Infinite Pressure",
+        "§r§3不可侵威压"
+      ],
+      [
+        "§4Sneak + Punch to disable infinity",
+        "§4潜行+拳击以关闭不可侵"
+      ]
+    ]
+  },
+  "1924": {
+    "repl": [
+      [
+        "§r§bLapse Blue\n",
+        "§r§b苍\n"
+      ],
+      [
+        "§r§bSpacial Pull",
+        "§r§b空间牵引"
+      ],
+      [
+        "§r§1Lapse Blue: Maximum Output",
+        "§r§1「苍」最大输出"
+      ],
+      [
+        "§r§o§cEnchanted Blue§r",
+        "§r§o§c咏唱·苍§r"
+      ]
+    ]
+  },
+  "1925": {
+    "repl": [
+      [
+        "§r§4Reversal Red\n",
+        "§r§4赫\n"
+      ],
+      [
+        "§r§cReversal Red: Maximum Output",
+        "§r§c「赫」最大输出"
+      ],
+      [
+        "§r§4Reversal Launch",
+        "§r§4反转冲击"
+      ],
+      [
+        "§r§o§cEnchanted Red§r",
+        "§r§o§c咏唱·赫§r"
+      ]
+    ]
+  },
+  "1926": {
+    "repl": [
+      [
+        "§r§bSpatial Blitz",
+        "§r§b空间疾冲"
+      ],
+      [
+        "§r§bSpatial Burst",
+        "§r§b空间爆发"
+      ],
+      [
+        "§r§bSpatial Kick",
+        "§r§b空间踢"
+      ]
+    ]
+  },
+  "1927": {
+    "repl": [
+      [
+        "§r§5Imaginary Technique: Purple",
+        "§r§5虚式: 茈"
+      ],
+      [
+        "§r§5Hollow Purple",
+        "§r§5虚式「茈」"
+      ],
+      [
+        "§r§l§dHollow Purple, Output: 200 Percent",
+        "§r§l§d虚式「茈」·输出200%"
+      ],
+      [
+        "§r§l§dHollow Purple, Output: Limitless",
+        "§r§l§d虚式「茈」·输出无极限"
+      ]
+    ]
+  },
+  "1928": {
+    "repl": [
+      [
+        "Quick Domain Expansion: Unlimited Void",
+        "快速领域展开: 无量空处"
+      ],
+      [
+        "Domain Expansion: Unlimited Void",
+        "领域展开: 无量空处"
+      ],
+      [
+        "§r§l§t0.2 Second Domain",
+        "§r§l§t0.2 秒领域"
+      ]
+    ]
+  },
+  "1929": {
+    "repl": [
+      [
+        "§r§bThe Limitless Technique",
+        "§r§b无下限术式"
+      ],
+      [
+        "§5§oThroughout heaven and earth, I alone am the honored one.",
+        "§5§o天上天下,唯我独尊。"
+      ],
+      [
+        "Limitless Technique",
+        "无下限术式"
+      ]
+    ]
+  },
+  "1930": {
+    "repl": [
+      [
+        "§r§l§aDomain Expansion: Idle Death Gamble§r",
+        "§r§l§a领域展开: 坐杀博徒§r"
+      ]
+    ]
+  },
+  "1931": {
+    "repl": [
+      [
+        "§r§cCargo Haul",
+        "§r§c货运冲击"
+      ]
+    ]
+  },
+  "1932": {
+    "repl": [
+      [
+        "§r§gSlot Slam",
+        "§r§g老虎机重击"
+      ],
+      [
+        "§r§4Joystick Crash",
+        "§r§4摇杆猛击"
+      ]
+    ]
+  },
+  "1933": {
+    "repl": [
+      [
+        "§r§2Pachinko Strike",
+        "§r§2弹珠打击"
+      ],
+      [
+        "§r§4Pachinko Rush",
+        "§r§4弹珠突进"
+      ],
+      [
+        "§r§gPachinko Cannon",
+        "§r§g弹珠加农"
+      ]
+    ]
+  },
+  "1934": {
+    "repl": [
+      [
+        "§r§2Target Shutter Doors",
+        "§r§2定向卷帘门"
+      ],
+      [
+        "§r§2Shutter Doors",
+        "§r§2卷帘门"
+      ],
+      [
+        "§r§2Slicing Door",
+        "§r§2切割之门"
+      ]
+    ]
+  },
+  "1935": {
+    "repl": [
+      [
+        "§r§f§aRestless Gambler's Combat Style",
+        "§r§f§a不眠赌徒的战斗风格"
+      ],
+      [
+        "§r§2Lucky Fist",
+        "§r§2幸运拳"
+      ],
+      [
+        "§r§2Fever Combo",
+        "§r§2狂热连击"
+      ],
+      [
+        "§r§2Devastating Blow ",
+        "§r§2毁灭一击 "
+      ],
+      [
+        "§r§aBrutal Barrage ",
+        "§r§a狂暴连击 "
+      ],
+      [
+        "§r§5§o- Private Pure Lovetrain Cursed Technique style",
+        "§r§5§o- 纯爱列车咒术风格"
+      ]
+    ]
+  },
+  "1936": {
+    "repl": [
+      [
+        "§r§aPrivate Pure Lovetrain Technique",
+        "§r§a纯爱列车术式"
+      ],
+      [
+        "§5§oIf you are unsure on who is going to win, Always bet on Hakari.",
+        "§5§o拿不准谁会赢的时候,就永远押秤金次。"
+      ],
+      [
+        "Lovetrain Technique",
+        "纯爱列车术式"
+      ]
+    ]
+  },
+  "1937": {
+    "repl": [
+      [
+        "§r§l§fConsole Component | Rift Command Core",
+        "§r§l§f控制台组件 | 裂隙指令核心"
+      ],
+      [
+        "§r§5- Must've been stolen.",
+        "§r§5- 八成是被人偷走的。"
+      ]
+    ]
+  },
+  "1938": {
+    "repl": [
+      [
+        "§r§aMissions Phone",
+        "§r§a任务手机"
+      ],
+      [
+        "§5- Used to take on Missions that allow you to gain more EXP and rewards.",
+        "§5- 用于接取任务,以获得更多经验与奖励。"
+      ]
+    ]
+  },
+  "1939": {
+    "repl": [
+      [
+        "§r§dJujutsu Grade Promotion Papers",
+        "§r§d咒术晋升推荐状"
+      ],
+      [
+        "§5- Promotes you up a Grade in Jujutsu Sorcery.",
+        "§5- 将你的咒术师评级提升一级。"
+      ],
+      [
+        "§cDoes not grant any of the stats acquired from levelling up normally.",
+        "§c不会获得正常升级所给予的属性点数。"
+      ]
+    ]
+  },
+  "1940": {
+    "repl": [
+      [
+        "§r§l§d§oAll-Seeing Cursed Eye",
+        "§r§l§d§o全知咒眼"
+      ],
+      [
+        "§r§5- Extremely rare strange cursed eye that allows you to percieve life.",
+        "§r§5- 极其罕见的奇异咒眼,让你能够感知生命。"
+      ]
+    ]
+  },
+  "1941": {
+    "repl": [
+      [
+        "§r§l§d§oBlitz Crystal",
+        "§r§l§d§o闪击水晶"
+      ],
+      [
+        "§r§5- A Crystal formed by a strange type of blitz energy.",
+        "§r§5- 由某种奇异的闪击能量凝结而成的水晶。"
+      ],
+      [
+        "§r§e+2 §r§3Agility §eon Consumption",
+        "§r§e+2 §r§3敏捷§e(食用时)"
+      ]
+    ]
+  },
+  "1942": {
+    "repl": [
+      [
+        "§r§l§d§oCursed Crystal",
+        "§r§l§d§o咒力水晶"
+      ],
+      [
+        "§r§5- A Crystal formed by a strange type of cursed energy.",
+        "§r§5- 由某种奇异的咒力凝结而成的水晶。"
+      ],
+      [
+        "§r§e+30 §r§bCursed Energy §eon Consumption",
+        "§r§e+30 §r§b咒力§e(食用时)"
+      ]
+    ]
+  },
+  "1943": {
+    "repl": [
+      [
+        "§r§dSuperior Cursed Remnant",
+        "§r§d上等诅咒残滓"
+      ],
+      [
+        "§r§5- A Remnant from a past sorcerer or curse lost to time,\nthese cursed objects are sought after by curses and sorcerers alike as they contain immense cursed energy.\nCan be used to craft a §dCurse Warder§5.",
+        "§r§5- 来自一位被时间遗忘的咒术师或咒灵的残存之物,\n这些咒物因蕴含庞大的咒力,被咒灵与咒术师竞相追寻。\n可用于制作一个§d驱咒傀儡§5。"
+      ],
+      [
+        "§7+ §b100 Cursed Energy §7on consumption.",
+        "§7+ §b100 咒力§7(食用时)"
+      ]
+    ]
+  },
+  "1944": {
+    "repl": [
+      [
+        "§r§cDeadly Cursed Remnant",
+        "§r§c致命诅咒残滓"
+      ],
+      [
+        "§r§5- A Remnant from a past sorcerer or curse lost to time,\nthese cursed objects are sought after by curses and sorcerers alike as they contain immense cursed energy.\nCan be used to craft a §dCurse Warder§5.",
+        "§r§5- 来自一位被时间遗忘的咒术师或咒灵的残存之物,\n这些咒物因蕴含庞大的咒力,被咒灵与咒术师竞相追寻。\n可用于制作一个§d驱咒傀儡§5。"
+      ],
+      [
+        "§7+ §b60 Cursed Energy §7on consumption.",
+        "§7+ §b60 咒力§7(食用时)"
+      ]
+    ]
+  },
+  "1945": {
+    "repl": [
+      [
+        "§r§6Strong Cursed Remnant",
+        "§r§6强力诅咒残滓"
+      ],
+      [
+        "§r§5- A Remnant from a past sorcerer or curse lost to time,\nthese cursed objects are sought after by curses and sorcerers alike as they contain immense cursed energy.\nCan be used to craft a §dCurse Warder§5.",
+        "§r§5- 来自一位被时间遗忘的咒术师或咒灵的残存之物,\n这些咒物因蕴含庞大的咒力,被咒灵与咒术师竞相追寻。\n可用于制作一个§d驱咒傀儡§5。"
+      ],
+      [
+        "§7+ §b40 Cursed Energy §7on consumption.",
+        "§7+ §b40 咒力§7(食用时)"
+      ]
+    ]
+  },
+  "1946": {
+    "repl": [
+      [
+        "§r§2Shoddy Cursed Remnant",
+        "§r§2粗劣诅咒残滓"
+      ],
+      [
+        "§r§5- A Remnant from a past sorcerer or curse lost to time,\nthese cursed objects are sought after by curses and sorcerers alike as they contain immense cursed energy.\nCan be used to craft a §dCurse Warder§5.",
+        "§r§5- 来自一位被时间遗忘的咒术师或咒灵的残存之物,\n这些咒物因蕴含庞大的咒力,被咒灵与咒术师竞相追寻。\n可用于制作一个§d驱咒傀儡§5。"
+      ],
+      [
+        "§7+ §b20 Cursed Energy §7on consumption.",
+        "§7+ §b20 咒力§7(食用时)"
+      ]
+    ]
+  },
+  "1947": {
+    "repl": [
+      [
+        "§r§l§d§oCursed Bell of Dread",
+        "§r§l§d§o恐惧咒铃"
+      ],
+      [
+        "§r§5- This rare cursed bell harvests the negative energy from creatures nearby,\nweakening cursed spirits and giving power to the user.",
+        "§r§5- 这只稀有的咒铃汲取附近生物的负面能量,\n削弱咒灵,并将力量赐予使用者。"
+      ]
+    ]
+  },
+  "1948": {
+    "repl": [
+      [
+        "§r§l§d§oRough Crystal",
+        "§r§l§d§o粗糙水晶"
+      ],
+      [
+        "§r§5- A Crystal formed by a strange type of cursed energy.",
+        "§r§5- 由某种奇异的咒力凝结而成的水晶。"
+      ],
+      [
+        "§r§e+2 §r§4Strength §eon Consumption",
+        "§r§e+2 §r§4力量§e(食用时)"
+      ]
+    ]
+  },
+  "1949": {
+    "repl": [
+      [
+        "§r§l§d§oStrange Vial",
+        "§r§l§d§o奇异药瓶"
+      ],
+      [
+        "§r§5- An Extremely rare vial of liquid. Upon consumption, you shall recieve a random trait.",
+        "§r§5- 一个极其罕见的药瓶。饮用后,你将随机获得一种特质。"
+      ]
+    ]
+  },
+  "1950": {
+    "repl": [
+      [
+        "§r§l§4§oRyomen Sukuna's Finger",
+        "§r§l§4§o两面宿傩的手指"
+      ],
+      [
+        "§r§5- One of 20 Fingers from the ancient King of Curses, Sukuna.\nConsuming one of these fingers leads to instant death...\nbut with an extremely rare chance, one may become a Vessel for the King of Curses himself.",
+        "§r§5- 上古诅咒之王——宿傩的 20 根手指之一。\n吞下一根手指会立刻死亡……\n但也有极其微小的概率,能成为诅咒之王本人的容器。"
+      ]
+    ]
+  },
+  "1951": {
+    "repl": [
+      [
+        "§r§l§d§oUndying Crystal",
+        "§r§l§d§o不灭水晶"
+      ],
+      [
+        "§r§5- A Crystal formed by a strange type of cursed energy.",
+        "§r§5- 由某种奇异的咒力凝结而成的水晶。"
+      ],
+      [
+        "§r§e+2 §r§aEndurance §eon Consumption",
+        "§r§e+2 §r§a耐力§e(食用时)"
+      ]
+    ]
+  },
+  "1952": "§r§a插件设置",
+  "1953": {
+    "repl": [
+      [
+        "§r§2Self - Apply",
+        "§r§2对自己 - 施用"
+      ],
+      [
+        "§r§2Others - Apply",
+        "§r§2对他人 - 施用"
+      ],
+      [
+        "§r§5- §oPainkiller Technique",
+        "§r§5- §o止痛剂术式"
+      ]
+    ]
+  },
+  "1954": {
+    "repl": [
+      [
+        "Pain-Killer Technique",
+        "止痛剂术式"
+      ],
+      [
+        "§5§o- Allows you to produce a temporary pain-killer to yourself or others, scaling with your cursed energy and\nstopping wounds from getting worse and slowing down negative effects.",
+        "§5§o- 让你能为自己或他人制造暂时的止痛剂,效果随你的咒力成长,\n阻止伤势恶化并减缓负面效果。"
+      ]
+    ]
+  },
+  "1955": {
+    "repl": [
+      [
+        "Miracles Technique",
+        "奇迹术式"
+      ],
+      [
+        "§5§o- This technique erases most little miracles from your life and stores them,\nwhich is shown by the marks under your eyes.\nThese stored miracles are released when your life is in danger,\naltering your luck to ensure you survive or evade would-be fatal blows.\nWhen a miracle has been used, the marking turns to white.",
+        "§5§o- 这个术式会抹去你生活中的大多数微小奇迹并将其储存,\n储存的数量以你眼下的印记显示。\n当生命陷入危险时,这些储存的奇迹会被释放,\n扭转你的运气,确保你从必死的一击中幸存或避开。\n一个奇迹被用掉后,印记会变为白色。"
+      ],
+      [
+        "§cThis technique will not save you from Every Attack, it will only save you when you are already close to death!",
+        "§c这个术式无法让你躲开所有攻击,它只会在你已经濒死之际拯救你!"
+      ]
+    ]
+  },
+  "1956": {
+    "repl": [
+      [
+        "Immobilizing Sight Technique",
+        "凝视定身术式"
+      ],
+      [
+        "§5§o- Standing still while sneaking and looking at something will freeze them in place until you stop looking at them.",
+        "§5§o- 潜行并保持不动地注视某个目标时,会使其定在原地,直到你移开视线。"
+      ]
+    ]
+  },
+  "1957": {
+    "repl": [
+      [
+        "§r§6Wind-up",
+        "§r§6蓄能上弦"
+      ]
+    ]
+  },
+  "1958": {
+    "repl": [
+      [
+        "Wind-Up Technique",
+        "蓄能上弦术式"
+      ],
+      [
+        "§5§o- Imbue strength into your arm that stacks with each use getting stronger and stronger.\nHowever upon impact the effect vanishes.",
+        "§5§o- 将力量灌注进手臂,每次使用不断叠加,越来越强。\n不过在命中的一瞬间,效果就会消失。"
+      ],
+      [
+        "§c( Not a Canon Cursed Technique )",
+        "§c( 非原作正史术式 )"
+      ]
+    ]
+  },
+  "1959": {
+    "repl": [
+      [
+        "§r§aCough Syrup",
+        "§r§a止咳糖浆"
+      ],
+      [
+        "§r§5- Helps relieve mouth-related pains and coughs",
+        "§r§5- 帮助缓解口腔相关的疼痛与咳嗽"
+      ],
+      [
+        "§9(Used to temporarily relieve the negative effects of Cursed-Speech)",
+        "§9(用于暂时缓解咒言的负面效果)"
+      ]
+    ]
+  },
+  "1960": {
+    "repl": [
+      [
+        "§r§aCursed Megaphone",
+        "§r§a诅咒扩音器"
+      ],
+      [
+        "§r§5- Increases the range of the Cursed Speech Technique when used.",
+        "§r§5- 使用时扩大咒言术式的作用范围。"
+      ]
+    ]
+  },
+  "1961": {
+    "repl": [
+      [
+        "§r§l§8Domain Expansion: Chamber of Resonance",
+        "§r§l§8领域展开: 共鸣之室"
+      ]
+    ]
+  },
+  "1962": {
+    "repl": [
+      [
+        "§r§8Break!",
+        "§r§8折断!"
+      ],
+      [
+        "§9- Forces the target's bone(s) to break/take damage.",
+        "§9- 强制目标的骨骼断裂/受到伤害。"
+      ],
+      [
+        "§r§8Blast Away!",
+        "§r§8吹飞!"
+      ],
+      [
+        "§9- Forces the to be launched away with immense force.",
+        "§9- 强制目标被巨力击飞出去。"
+      ],
+      [
+        "§r§8Get Crushed!",
+        "§r§8压碎!"
+      ],
+      [
+        "§9- Crushes the target inbetween 2 invisible forces of Cursed Energy.",
+        "§9- 将目标压在两股无形的咒力之间。"
+      ],
+      [
+        "§r§8Plummet!",
+        "§r§8坠落!"
+      ],
+      [
+        "§9- Forces the target to plummet deep into the ground.",
+        "§9- 强制目标深深坠入地底。"
+      ],
+      [
+        "§r§cDie.",
+        "§r§c去死吧。"
+      ],
+      [
+        "§9- Kills the target if they are atleast 2 grades below you\nIf the target is not 2 grades below you, they will just take damage.",
+        "§9- 若目标比你低至少 2 个评级,则直接将其击杀。\n如果目标不比你低 2 个评级,则只会受到伤害。"
+      ],
+      [
+        "§r§5- §oOffensive Force Words",
+        "§r§5- §o攻击性咒言"
+      ],
+      [
+        "§4Warning, these words can have some serious back-lash!",
+        "§4警告,这些咒言可能带来严重的反噬!"
+      ]
+    ]
+  },
+  "1963": {
+    "repl": [
+      [
+        "§r§8Don't Move!",
+        "§r§8不许动!"
+      ],
+      [
+        "§9- Stops the target from moving.",
+        "§9- 使目标无法移动。"
+      ],
+      [
+        "§r§8Run Away!",
+        "§r§8快跑!"
+      ],
+      [
+        "§9- Forces the target to sprint forwards.",
+        "§9- 强制目标向前冲刺。"
+      ],
+      [
+        "§r§8Return.",
+        "§r§8回去吧。"
+      ],
+      [
+        "§9- Dis-spells active shikigami targets.",
+        "§9- 解除处于激活状态的式神目标。"
+      ],
+      [
+        "§r§8Sleep.",
+        "§r§8睡吧。"
+      ],
+      [
+        "§9- Forces the target to pass out.",
+        "§9- 强制目标昏迷。"
+      ],
+      [
+        "§r§8Heal.",
+        "§r§8痊愈吧。"
+      ],
+      [
+        "§9- Forces the target's body to instinctively activate the Reverse Cursed Technique (Lethal towards Curses).",
+        "§9- 强制目标的身体本能地发动反转术式(对咒灵是致命的)。"
+      ],
+      [
+        "§r§5- §oSupport / Restraining Words",
+        "§r§5- §o辅助/束缚咒言"
+      ]
+    ]
+  },
+  "1964": {
+    "repl": [
+      [
+        "§r§8Sh*t yourself!",
+        "§r§8拉裤子里吧!"
+      ],
+      [
+        "§r§5- §oUh idk funny",
+        "§r§5- §o呃,好玩而已啦"
+      ]
+    ]
+  },
+  "1965": {
+    "repl": [
+      [
+        "Cursed Speech Technique",
+        "咒言术式"
+      ],
+      [
+        "§5§oInherited technique from the Inumaki family.\nReinforces the user's words with Cursed Energy,\nwhich compels the listeners to act or be acted upon based on those words.",
+        "§5§o狗卷家相传的术式。\n以咒力强化使用者的话语,\n驱使听到话语的人依言行事或受其支配。"
+      ],
+      [
+        "§9This Technique has Negative Effects if abused too often.\nYou can heal the negative effects to your voice and brain by waiting or using either:\n§fReverse Cursed Technique or §2Cough Syrup",
+        "§9过度滥用这个术式会带来负面效果。\n你可以通过等待,或使用以下任意一种来治愈声音与大脑的负面效果:\n§f反转术式 或 §2止咳糖浆"
+      ]
+    ]
+  },
+  "1966": {
+    "repl": [
+      [
+        "§o§bStarplasma Ingot",
+        "§o§b星浆体锭"
+      ],
+      [
+        "§5- It's divine, radiating immense cursed energy.",
+        "§5- 神圣非凡,散发着庞大的咒力。"
+      ]
+    ]
+  },
+  "1967": "§r§a属性手册",
+  "1968": {
+    "repl": [
+      [
+        "§r§4Slashing Fighting Style",
+        "§r§4斩击战斗风格"
+      ],
+      [
+        "§r§cCarve ",
+        "§r§c雕刻斩 "
+      ],
+      [
+        "§r§cRushing Cleave",
+        "§r§c突进「捌」"
+      ],
+      [
+        "§r§cDual Slice",
+        "§r§c双连斩"
+      ],
+      [
+        "§r§cRapid Cleaves",
+        "§r§c连环「捌」"
+      ],
+      [
+        "§r§cCleaving Combo",
+        "§r§c「捌」连击"
+      ]
+    ]
+  },
+  "1969": {
+    "repl": [
+      [
+        "§r§4Four-Handed Fighting Style",
+        "§r§4四手战斗风格"
+      ],
+      [
+        "§r§cDouble Impact",
+        "§r§c双重冲击"
+      ],
+      [
+        "§r§cObliterate",
+        "§r§c湮灭"
+      ],
+      [
+        "§r§cDemon's Descent",
+        "§r§c魔王降临"
+      ],
+      [
+        "§r§cOverwhelming Power",
+        "§r§c压倒性力量"
+      ],
+      [
+        "§r§cForced Roles",
+        "§r§c强制定位"
+      ]
+    ]
+  },
+  "1970": {
+    "repl": [
+      [
+        "§r§l§cHeian Era Transformation",
+        "§r§l§c平安时代变身"
+      ],
+      [
+        "§c50+ Endurance",
+        "§c50+ 耐力"
+      ],
+      [
+        "§m20+ Sukuna Fingers",
+        "§m20+ 宿傩手指"
+      ],
+      [
+        "§eKamutoke or Hiten",
+        "§e神武解或飞天"
+      ],
+      [
+        "§o§4This Transformation is not Reversible!",
+        "§o§4此变身不可逆!"
+      ]
+    ]
+  },
+  "1971": {
+    "repl": [
+      [
+        "§r§cMaximum Output Dismantle",
+        "§r§c最大输出「解」"
+      ],
+      [
+        "§r§8Dismantle Pummeling",
+        "§r§8「解」痛击"
+      ],
+      [
+        "§r§8Heavy Dismantle",
+        "§r§8重「解」"
+      ],
+      [
+        "§r§7Rapid Dismantles",
+        "§r§7连续「解」"
+      ],
+      [
+        "§r§fBasic Dismantle",
+        "§r§f基础「解」"
+      ],
+      [
+        "§r§fDismantle ",
+        "§r§f「解」 "
+      ],
+      [
+        "§r§7Dissect",
+        "§r§7肢解"
+      ],
+      [
+        "§9§oVariants: Click + Mid-Air while Looking Straight Down§r",
+        "§9§o变体: 点击 + 空中垂直低头时§r"
+      ],
+      [
+        "§9§oVariants: Jump + Click + Backwards / Forwards§r",
+        "§9§o变体: 跳跃+点击+向后/向前§r"
+      ],
+      [
+        "§9§oVariants: Sneak + Click Mid-Air Directional§r",
+        "§9§o变体: 潜行+点击、空中定向§r"
+      ],
+      [
+        "§9§oVariants: Sprint + Jump + Look Straight Down Mid-Air + Click§r",
+        "§9§o变体: 疾跑+跳跃+空中垂直低头+点击§r"
+      ]
+    ]
+  },
+  "1972": {
+    "repl": [
+      [
+        "§r§fLayered Cleave",
+        "§r§f层叠「捌」"
+      ],
+      [
+        "§r§cSpider-Web",
+        "§r§c蛛网「捌」"
+      ],
+      [
+        "§r§cCarving Combination",
+        "§r§c雕刻组合技"
+      ],
+      [
+        "§r§4Maximum Cleave",
+        "§r§4最大输出「捌」"
+      ],
+      [
+        "§r§fCleave ",
+        "§r§f「捌」 "
+      ],
+      [
+        "§9§oVariants: Click + While Looking Straight Down§r",
+        "§9§o变体: 点击 + 垂直低头时§r"
+      ],
+      [
+        "§5-Credit to Realm Rampage for this Attack's Inspiration",
+        "§5-本招式灵感鸣谢 Realm Rampage"
+      ]
+    ]
+  },
+  "1973": {
+    "repl": [
+      [
+        "§r§4Malevolent Shrine/Kitchen",
+        "§r§4伏魔御厨子/御厨"
+      ],
+      [
+        "§r§cIncomplete Malevolent Shrine",
+        "§r§c不完全的伏魔御厨子"
+      ],
+      [
+        "§r§4Malevolent Shrine ",
+        "§r§4伏魔御厨子 "
+      ],
+      [
+        "§7(§eHold-Jump + Right-Click §cWhile Under 25 Percent Health§e§7)",
+        "§7(§e按住跳跃+右键 §c需在生命值低于 25% 时§e§7)"
+      ],
+      [
+        "§9(Closed-Barrier Domain)",
+        "§9(封闭结界领域)"
+      ],
+      [
+        "§9(Open-Barrier Domain)",
+        "§9(开放结界领域)"
+      ],
+      [
+        "§4Requires Heian Era Transformation",
+        "§4需要平安时代变身"
+      ]
+    ]
+  },
+  "1974": {
+    "repl": [
+      [
+        "§r§eOpen: Divine Flames",
+        "§r§e开: 神炎「竈」"
+      ],
+      [
+        "§9- Use during an Open Malevolent Shrine to cause mass destruction",
+        "§9- 在开启的伏魔御厨子期间使用,造成大规模破坏"
+      ],
+      [
+        "§r§5- §oSpecial Technique",
+        "§r§5- §o特殊术式"
+      ]
+    ]
+  },
+  "1975": {
+    "repl": [
+      [
+        "§r§cChant ",
+        "§r§c咒词咏唱 "
+      ],
+      [
+        "§r§bMAXIMUM World-Cutting Slash: Vertical",
+        "§r§b极·斩世之斩: 纵斩"
+      ],
+      [
+        "§r§bMAXIMUM World-Cutting Slash",
+        "§r§b极·斩世之斩"
+      ],
+      [
+        "§r§3World-Cutting Slash",
+        "§r§3斩世之斩"
+      ],
+      [
+        " Cursed Energy + §c3 Chants §g]",
+        " 咒力 + §c3 层咒词咏唱 §g]"
+      ],
+      [
+        " Cursed Energy + §4Heian Era Transformation  §g]",
+        " 咒力 + §4平安时代变身  §g]"
+      ],
+      [
+        " Cursed Energy + §4Heian Era Transformation §g]",
+        " 咒力 + §4平安时代变身 §g]"
+      ],
+      [
+        "§9- The slash that cuts through space itself, capable of piercing infinity.",
+        "§9- 斩断空间本身的一击,甚至能够贯穿不可侵。"
+      ],
+      [
+        "§r§5- §oSpecial Technique",
+        "§r§5- §o特殊术式"
+      ]
+    ]
+  },
+  "1976": {
+    "repl": [
+      [
+        "§r§4Ryomen Sukuna's Fighting Style",
+        "§r§4两面宿傩的战斗风格"
+      ],
+      [
+        "§r§cDemonic Blows",
+        "§r§c恶魔之击"
+      ],
+      [
+        "§r§cHellish Descent",
+        "§r§c地狱降临"
+      ],
+      [
+        "§r§cOpen Space",
+        "§r§c空间撕裂"
+      ],
+      [
+        "§r§cSeismic Step",
+        "§r§c震地踏步"
+      ],
+      [
+        "§r§cTakedown",
+        "§r§c坠落压制"
+      ],
+      [
+        "§r§cDemonic Blitz",
+        "§r§c恶魔疾袭"
+      ]
+    ]
+  },
+  "1977": {
+    "repl": [
+      [
+        "§r§l§4The King of Curses, Ryomen Sukuna§r",
+        "§r§l§4诅咒之王,两面宿傩§r"
+      ],
+      [
+        "§5§oAfter consuming his finger, Sukuna shall lay dormant inside of you,\nhowever upon consuming 15 of his fingers,\nhe shall take full-control of your body.",
+        "§5§o吞下他的手指后,宿傩将在你体内蛰伏,\n然而一旦吞下 15 根手指,\n他将完全夺取你的身体。"
+      ],
+      [
+        "§r§c- Click to give Sukuna control of your body",
+        "§r§c- 点击将身体交给宿傩控制"
+      ],
+      [
+        "§r§c- Hold Sneak for 3 Seconds and Punch a Player or Human (Megumi) to transfer vessel",
+        "§r§c- 按住潜行 3 秒并拳击一名玩家或人类(伏黑惠)以转移容器"
+      ],
+      [
+        "§7( §eRequires 15+ Fingers §7+ §4Prince of Black Sparks Trait/Yuji Itadori's Style §7)",
+        "§7( §e需要 15+ 根手指 §7+ §4黑闪王子特质/虎杖悠仁战斗风格 §7)"
+      ],
+      [
+        "§r§7[ §eSneak + Right-Click to Equip/Unequip All Skills §7]",
+        "§r§7[ §e潜行+右键以装备/卸下全部技能 §7]"
+      ]
+    ]
+  },
+  "1978": {
+    "repl": [
+      [
+        "§o§bUnobtanium\n",
+        "§o§b难得素\n"
+      ],
+      [
+        "§5- A Strange energy-type ore, it fluctuates in and out of reality almost as if it's not real.\nIts completely unmalleable and strong.",
+        "§5- 一种奇异的能量型矿石,它在现实中忽隐忽现,仿佛并不真实存在。\n它完全无法锻造,且异常坚固。"
+      ]
+    ]
+  },
+  "1979": {
+    "repl": [
+      [
+        "§o§bUnobtanium Ingot",
+        "§o§b难得素锭"
+      ],
+      [
+        "§5- A Strange energy-type ingot, it fluctuates in and out of reality almost as if it's not real.\nIts completely unmalleable and strong.",
+        "§5- 一种奇异的能量型锭,它在现实中忽隐忽现,仿佛并不真实存在。\n它完全无法锻造,且异常坚固。"
+      ]
+    ]
+  },
+  "1980": {
+    "repl": [
+      [
+        "§r§d§lVengeful Mandibles",
+        "§r§d§l复仇毒颚"
+      ],
+      [
+        "§r§5- §oTwo Daggers forged with remains of the Vengeful Ant Curse,\nThese daggers are imbued with the Curse's Negative energy\nallowing them to pierce targets with ease and inflict poison.",
+        "§r§5- §o以复仇蚁咒灵的残骸锻造的两柄短匕,\n匕首浸透了咒灵的负面能量,\n能够轻易刺穿目标并施加剧毒。"
+      ],
+      [
+        "§r§tEviscerate",
+        "§r§t剖腹"
+      ],
+      [
+        "§r§tMutilation",
+        "§r§t肢解"
+      ],
+      [
+        "§r§tDagger Blitz",
+        "§r§t匕首疾冲"
+      ],
+      [
+        "§r§cVanishing Fangs",
+        "§r§c消失之牙"
+      ],
+      [
+        "§r§cFalling Tempest Blitz",
+        "§r§c坠风暴疾冲"
+      ]
+    ]
+  },
+  "1981": {
+    "repl": [
+      [
+        "§r§9Jet Black Blade",
+        "§r§9漆黑之刃"
+      ],
+      [
+        "§r§5- §oAn Extremely sharp pitch black blade infused with tons of cursed energy.",
+        "§r§5- §o一柄极其锋利的漆黑色刀刃,注入了大量咒力。"
+      ],
+      [
+        "§r§tOverhead Slice",
+        "§r§t过顶斩"
+      ],
+      [
+        "§r§tDark Flourish",
+        "§r§t暗影花斩"
+      ],
+      [
+        "§r§tUmbral Rush",
+        "§r§t幽暗突袭"
+      ],
+      [
+        "§r§cShadow Assault",
+        "§r§c暗影突袭"
+      ],
+      [
+        "§r§cShadow Dance",
+        "§r§c影舞"
+      ]
+    ]
+  },
+  "1982": {
+    "repl": [
+      [
+        "§r§cClaws of Calamity",
+        "§r§c灾厄之爪"
+      ],
+      [
+        "§r§5-Cursed Tools that resemble 2 gauntlets ending in claw-like gloves.\nCapable of piercing through armour and dealing heavy blunt damage.§o.\n§4+10 Strength",
+        "§r§5-形似一对护手、末端为利爪手套的咒具。\n能够刺穿护甲并造成沉重的钝击伤害。§o.\n§4+10 力量"
+      ],
+      [
+        "§r§tLeft-Right Goodnight",
+        "§r§t左右晚安拳"
+      ],
+      [
+        "§r§tShoulder Bash",
+        "§r§t肩撞"
+      ],
+      [
+        "§r§tTwo-Palm Strike",
+        "§r§t双掌击"
+      ],
+      [
+        "§r§cCruel Combo",
+        "§r§c残酷连击"
+      ],
+      [
+        "§r§cVicious Claws",
+        "§r§c凶残爪击"
+      ]
+    ]
+  },
+  "1983": {
+    "repl": [
+      [
+        "§r§l§eExecutioner's Sword§r",
+        "§r§l§e处刑人之剑§r"
+      ],
+      [
+        "§r§5- §oThe Sword of Execution, granted by Judgeman in order to carry out justice,\nAny successful attack will instantly kill anyone who has been sentenced to death.\n§r§c-Strong Character/NPCs will be able to dodge this blade's attacks in order to save their own life.",
+        "§r§5- §o由审判者授予的处刑之剑,用于执行正义,\n任何成功的攻击都会立刻杀死已被判处死刑之人。\n§r§c-强大的角色/NPC 能够躲开此剑的攻击以保住性命。"
+      ],
+      [
+        "§r§gPiercing Strike",
+        "§r§g穿透一击"
+      ],
+      [
+        "§r§gFalling Light",
+        "§r§g坠光斩"
+      ],
+      [
+        "§r§gFlashing Light",
+        "§r§g闪光斩"
+      ],
+      [
+        "§r§gSwift Flash",
+        "§r§g迅闪"
+      ],
+      [
+        "§r§gBlinding Strike",
+        "§r§g致盲一击"
+      ]
+    ]
+  },
+  "1984": {
+    "repl": [
+      [
+        "§r§d§lSword of Extermination",
+        "§r§d§l退魔之剑"
+      ],
+      [
+        "§r§5- §oThe blade attatched to Mahoraga's arm, contains massive amounts of infused positive energy, \nmaking it extremely lethal to curses.",
+        "§r§5- §o附着在魔虚罗手臂上的刀刃,蕴含大量注入的正向能量,\n对咒灵而言极其致命。"
+      ],
+      [
+        "§r§6Severing Slice",
+        "§r§6断斩"
+      ],
+      [
+        "§r§6Piercing Flourish",
+        "§r§6穿刺花斩"
+      ],
+      [
+        "§r§cExtermination Combo",
+        "§r§c灭杀连击"
+      ],
+      [
+        "§r§6§lCurse Exorcism ",
+        "§r§6§l咒灵祓除 "
+      ]
+    ]
+  },
+  "1985": {
+    "repl": [
+      [
+        "§r§f§eJudge's Gavel",
+        "§r§f§e法官之槌"
+      ],
+      [
+        "§r§eThousand-Ton Blow",
+        "§r§e千吨重击"
+      ],
+      [
+        "§r§eHeavy Combo",
+        "§r§e沉重连击"
+      ],
+      [
+        "§r§eGround Slam ",
+        "§r§e砸地重击 "
+      ],
+      [
+        "§r§eBig Bonk ",
+        "§r§e大力锤击 "
+      ],
+      [
+        "§r§cSwitch Forms ",
+        "§r§c切换形态 "
+      ],
+      [
+        "§r§5§o- Large-Sized Gavel",
+        "§r§5§o- 大型槌"
+      ]
+    ]
+  },
+  "1986": {
+    "repl": [
+      [
+        "§r§f§eJudge's Gavel",
+        "§r§f§e法官之槌"
+      ],
+      [
+        "§r§e360 Sweep",
+        "§r§e360度横扫"
+      ],
+      [
+        "§r§eSpin Feint",
+        "§r§e旋转虚晃"
+      ],
+      [
+        "§r§eCyclone Crush ",
+        "§r§e旋风压杀 "
+      ],
+      [
+        "§r§eRising Strike ",
+        "§r§e升击 "
+      ],
+      [
+        "§r§cSwitch Forms ",
+        "§r§c切换形态 "
+      ],
+      [
+        "§r§5§o- Long-Sized Gavel",
+        "§r§5§o- 长柄槌"
+      ]
+    ]
+  },
+  "1987": {
+    "repl": [
+      [
+        "§r§f§eJudge's Gavel",
+        "§r§f§e法官之槌"
+      ],
+      [
+        "§r§eHeavy Smack",
+        "§r§e重拍"
+      ],
+      [
+        "§r§eThrow Gavel",
+        "§r§e掷槌"
+      ],
+      [
+        "§r§eHead Smash ",
+        "§r§e碎头重击 "
+      ],
+      [
+        "§r§eJudgement Strike ",
+        "§r§e审判一击 "
+      ],
+      [
+        "§r§cSwitch Forms ",
+        "§r§c切换形态 "
+      ],
+      [
+        "§r§5§o- Small-Sized Gavel",
+        "§r§5§o- 小型槌"
+      ]
+    ]
+  },
+  "1988": {
+    "repl": [
+      [
+        "§r§2Cursed Hand Blade",
+        "§r§2诅咒手刃"
+      ],
+      [
+        "§r§5- §oA Sharp katana-like blade with a hand for a handle.\nThe hand is cursed-energy imbued, which allows it to move on its own and return to the user.",
+        "§r§5- §o一柄以手掌作为刀柄的锋利刀状刀刃。\n手掌灌注了咒力,能够自行活动并飞回使用者手中。"
+      ],
+      [
+        "§r§tThrow",
+        "§r§t投掷"
+      ],
+      [
+        "§r§tBlunt Force",
+        "§r§t钝器重击"
+      ],
+      [
+        "§r§tHandshake Spin",
+        "§r§t握手旋转"
+      ]
+    ]
+  },
+  "1989": {
+    "repl": [
+      [
+        "§r§d§lHiten",
+        "§r§d§l飞天"
+      ],
+      [
+        "§r§5- §oHiten, 'Flying Heaven', is a cursed tool\nwielded by sukuna in the heian era. This spear is capable of controlling\nand manipulating the air around causing devastating damage.",
+        "§r§5- §o飞天,乃平安时代宿傩所持的咒具。\n这柄长枪能够操控四周的空气,造成毁灭性的伤害。"
+      ],
+      [
+        "§e-Sprint + Look Down + Jump to be carried by the wind",
+        "§e-疾跑+低头+跳跃可乘风而行"
+      ],
+      [
+        "§r§tCyclone Drill",
+        "§r§t旋风钻"
+      ],
+      [
+        "§r§tAir Passage",
+        "§r§t风道滑翔"
+      ],
+      [
+        "§r§tWhirling Winds",
+        "§r§t回旋风"
+      ],
+      [
+        "§r§tHeavenly Wind",
+        "§r§t天翔之风"
+      ],
+      [
+        "§r§tImpaling Gale",
+        "§r§t穿风突刺"
+      ],
+      [
+        "§r§cRampaging Tempest",
+        "§r§c狂暴风暴"
+      ]
+    ]
+  },
+  "1990": {
+    "repl": [
+      [
+        "§r§d§lInverted Spear of Heaven",
+        "§r§d§l天逆鉾"
+      ],
+      [
+        "§r§5- §oThis weapon has been imbued with a cursed technique powered by\na special foreign type of cursed energy that allows it to force the stoppage\nof any other technique it comes into contact with...",
+        "§r§5- §o这件武器灌注了一种特殊的异域咒力驱动的咒术,\n能够强制停止任何与之接触的术式……"
+      ],
+      [
+        "§r§tDeep Pierce",
+        "§r§t深度穿刺"
+      ],
+      [
+        "§r§tAnkle Cutter",
+        "§r§t断踝斩"
+      ],
+      [
+        "§r§cDomain Breaker",
+        "§r§c领域破坏"
+      ],
+      [
+        "§r§cFlash Slashes",
+        "§r§c闪光连斩"
+      ],
+      [
+        "§r§cWrong Way",
+        "§r§c走错了方向"
+      ]
+    ]
+  },
+  "1991": {
+    "repl": [
+      [
+        "§r§d§lKamutoke",
+        "§r§d§l神武解"
+      ],
+      [
+        "§r§5- §oKamutoke is a small weapon that resembles a tokkosho, wielded by sukuna in the heian era.\nThis weapon holds the ability to summon torrents of electricity\nthat strike the target from above.",
+        "§r§5- §o神武解是平安时代宿傩所持的小型武器,形似独钴杵。\n它能够召唤漫天雷霆,\n自上方直击目标。"
+      ],
+      [
+        "§r§tElectrified Pulse",
+        "§r§t带电脉冲"
+      ],
+      [
+        "§r§tLightning-Strike",
+        "§r§t落雷"
+      ],
+      [
+        "§r§tStorm Slice",
+        "§r§t风暴斩"
+      ],
+      [
+        "§r§tElectric Discharge",
+        "§r§t放电极光"
+      ],
+      [
+        "§r§cElectro-Pulse Beam",
+        "§r§c电磁脉冲光束"
+      ]
+    ]
+  },
+  "1992": {
+    "repl": [
+      [
+        "§r§aKatana",
+        "§r§a武士刀"
+      ],
+      [
+        "§r§5- §oA Deadly Japanese blade.",
+        "§r§5- §o一柄致命的日本刀。"
+      ],
+      [
+        "§r§tQuickdraw",
+        "§r§t极速居合"
+      ],
+      [
+        "§r§tProminence Draw",
+        "§r§t闪光居合"
+      ],
+      [
+        "§r§cRapid Cuts",
+        "§r§c疾速连斩"
+      ]
+    ]
+  },
+  "1993": {
+    "repl": [
+      [
+        "§r§dMountain Buster",
+        "§r§d崩山炮"
+      ],
+      [
+        "§5- A Railgun created with the energy of the Special Grade Shinkyodaiju Curse,\ncapable of creating atomic beams that cause mass devastation.",
+        "§5- 以特级咒灵「新巨兽」的能量打造的磁轨炮,\n能够发射造成大规模毁灭的原子光束。"
+      ]
+    ]
+  },
+  "1994": {
+    "repl": [
+      [
+        "§r§aNyoi Staff",
+        "§r§a如意杖"
+      ],
+      [
+        "§r§5- §oA durable staff made of highly conductable metal.",
+        "§r§5- §o一根以高导电性金属打造的坚固法杖。"
+      ],
+      [
+        "§r§6Low-Blow",
+        "§r§6下流一棒"
+      ],
+      [
+        "§r§6Pole Strike",
+        "§r§6长棍突刺"
+      ],
+      [
+        "§r§cDestructive Blows",
+        "§r§c毁灭连击"
+      ],
+      [
+        "§r§dShocking Strike§r",
+        "§r§d电击打击§r"
+      ]
+    ]
+  },
+  "1995": {
+    "repl": [
+      [
+        "§r§d§lPlayful Cloud",
+        "§r§d§l游云"
+      ],
+      [
+        "§r§5- §oIt amplifies the user's strength with its cursed energy,\nallowing even those with little to no cursed energy\nto overpower special grade cursed spirits.",
+        "§r§5- §o以其咒力增幅使用者的力量,\n即使是咒力稀少甚至没有咒力的人,\n也能力压特级咒灵。"
+      ],
+      [
+        "§r§tPlayful Strike",
+        "§r§t游走一击"
+      ],
+      [
+        "§r§tCranial Crush",
+        "§r§t碎颅重击"
+      ],
+      [
+        "§r§cFlash Blow",
+        "§r§c闪光一击"
+      ],
+      [
+        "§r§cGiant Killer",
+        "§r§c巨人杀手"
+      ],
+      [
+        "§r§cOnrush",
+        "§r§c猛冲"
+      ],
+      [
+        "§r§mSharpen §l§c{§4Irreversible§c}§r",
+        "§r§m磨利 §l§c{§4不可逆§c}§r"
+      ]
+    ]
+  },
+  "1996": {
+    "repl": [
+      [
+        "§r§d§lSharpened Playful Cloud",
+        "§r§d§l磨利·游云"
+      ],
+      [
+        "§r§5- §oIt amplifies the user's strength with its cursed energy,\nallowing even those with little to no cursed energy\nto overpower special grade cursed spirits.",
+        "§r§5- §o以其咒力增幅使用者的力量,\n即使是咒力稀少甚至没有咒力的人,\n也能力压特级咒灵。"
+      ],
+      [
+        "§r§tPuncture",
+        "§r§t穿刺"
+      ],
+      [
+        "§r§tTarget Practise",
+        "§r§t剑靶练习"
+      ],
+      [
+        "§r§cRepetitive Slashes",
+        "§r§c连环斩"
+      ],
+      [
+        "§r§cVorpal Strike",
+        "§r§c灭却斩"
+      ],
+      [
+        "§r§cOverwhelming Intensity",
+        "§r§c压倒性剑压"
+      ]
+    ]
+  },
+  "1997": {
+    "repl": [
+      [
+        "§r§cKusakabe's Katana",
+        "§r§c日下部的武士刀"
+      ],
+      [
+        "§r§5- §oA Deadly Japanese blade, can be used with Kusakabe's signature techniques.",
+        "§r§5- §o一柄致命的日本刀,可配合日下部的招牌技使用。"
+      ],
+      [
+        "§r§tBatto Sword Drawing: Quickdraw",
+        "§r§t拔刀技: 极速居合"
+      ],
+      [
+        "§r§tBatto Sword Drawing: Flashdraw Strike",
+        "§r§t拔刀技: 闪拔斩"
+      ],
+      [
+        "§r§tEvening Moon Sword Drawing: Intersection",
+        "§r§t夕月拔刀技: 交错斩"
+      ],
+      [
+        "§r§tEvening Moon Sword Drawing: Judgement Cuts§",
+        "§r§t夕月拔刀技: 审判连斩§"
+      ],
+      [
+        "§r§tHazy Moon",
+        "§r§t胧月"
+      ]
+    ]
+  },
+  "1998": {
+    "repl": [
+      [
+        "§r§bSlaughter Demon",
+        "§r§b屠戮魔"
+      ],
+      [
+        "§r§5- §oA Sharp knife imbued with cursed energy made to easily exorcise curses.",
+        "§r§5- §o一把灌注了咒力的锋利小刀,专为轻易祓除咒灵而造。"
+      ],
+      [
+        "§r§tCritical Slashes",
+        "§r§t致命连斩"
+      ],
+      [
+        "§r§tViper Fang",
+        "§r§t蝮蛇毒牙"
+      ],
+      [
+        "§r§tWide Cut",
+        "§r§t横斩"
+      ],
+      [
+        "§r§cThousand Cuts",
+        "§r§c千刃斩"
+      ],
+      [
+        "§r§cDeadly Piercing",
+        "§r§c致命穿刺"
+      ]
+    ]
+  },
+  "1999": {
+    "repl": [
+      [
+        "§r§d§lSplit-Soul Katana",
+        "§r§d§l释魂刀"
+      ],
+      [
+        "§r§5- §oThe Split Soul Katana ignores all physical toughness\nthrough the hardest substances and strike directly at the soul of its target",
+        "§r§5- §o释魂刀无视一切肉体的强韧,\n穿透最坚硬的物质,直击目标的灵魂"
+      ],
+      [
+        "§r§tQuick Slash",
+        "§r§t速斩"
+      ],
+      [
+        "§r§tRising Slice",
+        "§r§t升斩"
+      ],
+      [
+        "§r§cThroughout Heaven",
+        "§r§c撕裂苍穹"
+      ],
+      [
+        "§r§cCrossway Strikes",
+        "§r§c十字交错斩"
+      ],
+      [
+        "§r§cJudgement§7",
+        "§r§c审判§7"
+      ]
+    ]
+  },
+  "2000": {
+    "repl": [
+      [
+        "§r§cYuji Itadori's Fighting Style",
+        "§r§c虎杖悠仁的战斗风格"
+      ],
+      [
+        "§r§tManji Kick",
+        "§r§t卍字踢"
+      ],
+      [
+        "§r§tTriple Kicks",
+        "§r§t三连踢"
+      ],
+      [
+        "§r§tManji Dropkick",
+        "§r§t卍字飞踢"
+      ],
+      [
+        "§r§tFierce Barrage",
+        "§r§t猛击连打"
+      ],
+      [
+        "§r§4Divergent Strike",
+        "§r§4径庭击"
+      ],
+      [
+        "§e(Right-Clicking to time this move correctly will allow you to perform a controlled black-flash!)",
+        "§e(把握时机右键,就能打出可控的黑闪!)"
+      ]
+    ]
+  },
+  "2001": {
+    "repl": [
+      [
+        "§r§4Fists of Black Sparks",
+        "§r§4黑闪之拳"
+      ],
+      [
+        "§5- Yuji's improved fighting style, allows him to bring out the full potential of the black flash.",
+        "§5- 虎杖精进后的战斗风格,让他能够发挥出黑闪的全部潜能。"
+      ],
+      [
+        "§r§tFierce Strikes",
+        "§r§t凶猛连击"
+      ],
+      [
+        "§r§tTwinkicks",
+        "§r§t双连踢"
+      ],
+      [
+        "§r§tBrutal Quake",
+        "§r§t蛮荒震击"
+      ],
+      [
+        "§r§tDeadly Pursuit",
+        "§r§t致命追击"
+      ],
+      [
+        "§r§cFists of Vengeance",
+        "§r§c复仇之拳"
+      ],
+      [
+        "§r§cFinal Flash",
+        "§r§c终焉闪光"
+      ]
+    ]
+  },
+  "2002": "§r§c赤血操术 [ 尚未发布/制作 ]\n\n§e这个术式将在未来制作。\n由于赤血操术本身是一个独立的术式,\n我会在若干版本之后的专属更新中制作它,\n届时才会让它与虎杖的招式组兼容",
+  "2003": {
+    "repl": [
+      [
+        "§r§cDomain Expansion: Shrine of Reverie",
+        "§r§c领域展开: 遐想神龛"
+      ]
+    ]
+  },
+  "2004": {
+    "repl": [
+      [
+        "§r§cSoul Cleave ",
+        "§r§c灵魂斩击 "
+      ],
+      [
+        "§r§cAnkle Cleave",
+        "§r§c足踝斩击"
+      ],
+      [
+        "§r§cSevering Blitz",
+        "§r§c断绝疾袭"
+      ],
+      [
+        "§r§cCut-out Throw",
+        "§r§c切除投掷"
+      ],
+      [
+        "§r§4Fracture Flash",
+        "§r§4碎裂闪光"
+      ],
+      [
+        "§r§5- §oSoul Cleaves",
+        "§r§5- §o灵魂斩击"
+      ]
+    ]
+  },
+  "2005": {
+    "repl": [
+      [
+        "§r§cSoul Shrine Technique",
+        "§r§c灵魂御厨术式"
+      ],
+      [
+        "Click to use Soul Shrine Technique",
+        "点击以使用灵魂御厨术式"
+      ],
+      [
+        "§5§oThe Prince of Black Sparks, Yuji Itadori's reawakened Shrine Technique\nAwakening his own version of Sukuna's Shrine, allows him to create soul-piercing attacks \nand push the power of Black Flashes to their limit.",
+        "§5§o黑闪王子——虎杖悠仁重获苏醒的御厨术式,\n觉醒属于他自己的宿傩御厨,让他能够创造出贯穿灵魂的攻击,\n并将黑闪的力量推向极限。"
+      ],
+      [
+        "§7\n[ §gUpgrade Cost: §410 Black Flashes Landed on Special-Grade Entities §7]",
+        "§7\n[ §g升级条件: §4对特级实体打出 10 次黑闪 §7]"
+      ]
+    ]
+  },
+  "2006": "设置",
+  "2007": "受击帧(修复崩溃)",
+  "2008": "方块破坏/恶意破坏",
+  "2009": "开关自定义生物事件生成",
+  "2010": "开关冷却",
+  "2011": "开关菜单屏幕",
+  "2012": "开关任务冷却",
+  "2013": "仅允许一个宿傩容器",
+  "2014": "真人即死",
+  "2015": "经验倍率",
+  "2016": "button10",
+  "2017": "特殊任务",
+  "2018": "选择你想执行的任务。",
+  "2019": "§e星浆体护送\n§0难度: §g二级以上",
+  "2020": "敬请期待",
+  "2021": "你喜欢什么样的女人?",
+  "2022": "回答问题。",
+  "2023": "§2坚定不移的性格",
+  "2024": "§2大波霸",
+  "2025": "§2个高屁股大",
+  "2026": "§2都不喜欢",
+  "2027": "§2哥特辣妹",
+  "2028": "§2小巧平胸",
+  "2029": "§2男人。",
+  "2030": "§2你妈",
+  "2037": "§r§f毁灭碎石",
+  "2068": "§r§f改造人类",
+  "2069": "§r§f改造人类",
+  "2070": "§r§f多形灵体变异体",
+  "2101": "§r§f[§5 特级 §r§f] 新巨兽咒灵\\n§5- 它可真大……但你知道还有什么也很大吗?",
+  "2102": "§r§f[§5 特级 §r§f] 新巨兽咒灵",
+  "2103": "§r§f[§5 特级 §r§f] 复仇蚁咒灵\\n§5- 以《我独自升级》中的贝鲁为原型,\\n这只咒灵是一个巨大而死寂的蚁群所化的怨灵。",
+  "2104": "§r§f[§5 特级 §r§f] 复仇蚁咒灵",
+  "2105": "一股极其强大的力量",
+  "2106": "一股非常强大的力量",
+  "2107": "一股非常强大的力量",
+  "2108": "一股强大的力量",
+  "2109": "一股强大的力量",
+  "2125": "八握剑异戒神将魔虚罗",
+  "2126": "八握剑异戒神将魔虚罗",
+  "2172": "§l§d黄金 Miniroic",
+  "2174": "§gMiniroic 至尊",
+  "2179": "§g假伙伴玩偶",
+  "2212": "§d神圣之金块",
+  "2213": "§d难得素块",
+  "2214": "§e难得素矿石",
+  "2215": "§e异界砖块",
+  "2216": "§r§d遗忘之矛",
+  "2222": "§l§k§0???",
+  "2223": "§l§k§f???",
+  "2224": "§l§k§7???",
+  "2225": "§r§d诅咒宝库",
+  "2226": "§r§b诅咒之钥",
+  "2227": "§r§d不祥的诅咒之钥",
+  "2236": "§r§d神秘的制品\\n§5- ???\\n\\n§e(按住潜行+拳击以收回, §c会清除制品的数据§e!)\\n\\n§l§4在 Realms 上可能无法工作。",
+  "2237": "§r§d神秘的制品",
+  "2238": "§l§u咒术觉醒 v1.8      \n§4由 Heroic Productions 制作",
+  "2239": "§7你想要升级什么?"
+}

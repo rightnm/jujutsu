@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:shikigami7",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "shikigami7"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§fMax Elephant\n§g- Cost: [ §7325 Cursed Energy §g]\n\n§r§fMax Elephant Crush §7(§eHold-Jump+Right-Click§7)§r\n§g- Cost: [ §7150 Cursed Energy §g]\n\n§r§bPiercing Water §7(§eHold-Sneak+Right-Click§7)§r\n§g- Cost: [ §7250 Cursed Energy §g]\n§r§5- §o7th Summon"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

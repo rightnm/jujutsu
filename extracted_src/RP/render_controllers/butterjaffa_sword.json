@@ -1,0 +1,34 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.butterjaffa_sword": {
+			"textures": [
+				"Array.variants[query.property('property:butterjaffa_sword')]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:butterjaffa_sword')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.no",
+						"Geometry.butterjaffa_sword"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.butterjaffa_sword"
+						
+					]
+				}
+			}
+		}
+	}
+}

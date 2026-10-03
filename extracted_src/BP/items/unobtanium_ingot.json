@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:unobtanium_ingot",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "unobtanium_ingot"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§o§bUnobtanium Ingot\n§5- A Strange energy-type ingot, it fluctuates in and out of reality almost as if it's not real.\nIts completely unmalleable and strong."
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

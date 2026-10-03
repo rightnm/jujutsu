@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:water_fists",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.chestboat"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "water_fists"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§cWater-Stream Rock Smashing Fist\n\n§r§gRushing Current §7[§e Right-Click §7]\n\n§r§gFlowing Stream §7[§e Sneak+Right-Click §7]\n\n§r§gCrushing Basin §7[§e Jump+Right-Click §7]\n\n§r§gPrey's Peril §7[§e Jump+Punch §7]\n\n§r§gTyphoon Fang Strike §7[§e Sneak+Jump+Right-Click §7]\n\n§r§bFinal Smash §7[§e Sneak+Punch §7]\n\n§5- untrustworthy."
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

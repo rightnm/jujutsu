@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+	  "description": {
+	"identifier": "ds:foreign_bricks",
+	"menu_category": {
+	  "category": "items"
+	}
+  },
+  "components": { 
+	"minecraft:loot": "loot_tables/blocks/foreign_bricks.json" ,
+	  "minecraft:destructible_by_mining": {
+		"seconds_to_destroy": 5
+	  }, 
+	  "tag:foreign_bricks": {},
+	  "minecraft:destructible_by_explosion": {
+		"explosion_resistance": 100
+	  },
+	  "minecraft:map_color": "#000000",
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:light_emission": 15
+		}
+	}
+}

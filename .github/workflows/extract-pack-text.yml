@@ -1,0 +1,40 @@
+name: Extract pack text for translation
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [arena/01a1011c-jujutsu]
+    paths:
+      - .github/workflows/extract-pack-text.yml
+      - tools/extract_pack_text.py
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download combined add-on from release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download MC \
+            --pattern 'Jujutsu-Awakening-Complete-26.mcaddon' \
+            --output combined.mcaddon --clobber
+
+      - name: Extract every text file of both packs
+        run: |
+          rm -rf extracted_src
+          python3 tools/extract_pack_text.py combined.mcaddon extracted_src
+
+      - name: Commit extracted text
+        run: |
+          git config user.name "arena-agent"
+          git config user.email "arena-agent@users.noreply.github.com"
+          git add extracted_src
+          git commit -m "Extract pack text (BP/RP) for translation audit [skip ci]" || echo "nothing to commit"
+          git push origin "$(git branch --show-current)"

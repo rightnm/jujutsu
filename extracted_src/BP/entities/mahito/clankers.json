@@ -1,0 +1,71 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": { 
+      "identifier": "ds:clankers",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "ds:disappear": {
+        "minecraft:transformation": {
+          "into": "ds:disappear",
+          "delay": 0.0
+        }
+      },
+      "ds:projectile_adult": {
+        "minecraft:movement": { "value": 0 },
+        "minecraft:knockback_resistance": { "value": 1.0 },
+        "minecraft:type_family": { "family": ["attack", "projectile", "motionless"] },
+        "minecraft:collision_box": { "width": 0.1, "height": 0.1 },
+        "minecraft:damage_sensor": {
+          "triggers": { "cause": "all", "deals_damage": false }
+        },
+        "minecraft:health": { "value": 1, "max": 1, "min": 1 },
+        "minecraft:loot": { "table": "loot_tables/entities/none.json" },
+        "minecraft:nameable": {},
+        "minecraft:persistent": {},
+        "minecraft:physics": { "has_gravity": true },
+        "minecraft:pushable": {
+          "is_pushable": false,
+          "is_pushable_by_piston": false
+      },
+      "minecraft:scale": {
+        "value": 0.1
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:navigation.walk": {
+          "is_amphibious": true,
+          "can_pass_doors": true,
+          "can_walk": false,
+          "can_break_doors": true
+        },
+        "minecraft:jump.static": {},
+        "minecraft:timer": {
+          "looping": false,
+          "time": [5.0, 5.0],
+          "time_down_event": {
+            "event": "ds:disappear"
+          }
+        }
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "ds:projectile_adult"
+          ]
+        }
+      },
+      "ds:disappear": {
+        "add": {
+          "component_groups": [
+            "ds:disappear"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ds:divine_gold_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "BBB",
+            "BBB",
+            "BBB"
+        ],
+        "key": {
+            "B": {
+                "item": "ds:divine_gold"
+            }
+			
+        },
+		"unlock": [
+          {
+            "item": "ds:divine_gold"
+          }
+        ],
+        "result": {
+            "item": "ds:divine_gold_block",
+            "count": 1
+        },
+        "priority": 1
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:library"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 31453311,
+      "separation": 44,
+      "spacing": 90,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:library",
+        "weight": 1
+      }
+    ]
+  }
+}

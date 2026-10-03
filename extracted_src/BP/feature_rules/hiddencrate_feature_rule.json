@@ -1,0 +1,46 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:feature_rules": {
+	  "description": {
+		"identifier": "ds:hiddencrate_feature_rule",
+		"places_feature": "ds:hiddencrate_feature"
+	  },
+	  "conditions": {
+		"placement_pass": "surface_pass",
+		"minecraft:biome_filter": [
+		  {
+			"any_of": [
+			  {
+				"test": "has_biome_tag",
+				"operator": "==",
+				"value": "monster"
+			  }
+			],
+			"none_of": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "river"
+				  }
+			]
+		  }
+		]
+	  },
+	  "distribution": {
+		"iterations": 1,
+		"x": -16,
+		"y": {
+		  "extent": [
+			  -60,
+			  42
+			],
+			"distribution": "uniform"
+		},
+		"z": -16,
+		"scatter_chance": {
+		  "numerator": 1,
+		  "denominator": 12
+		}
+	  }
+	}
+  }

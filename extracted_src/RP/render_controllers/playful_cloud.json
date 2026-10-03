@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.playful_cloud": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.textureoff",
+            "Texture.playful_cloud"
+          ]
+        }
+      },
+      "geometry": "Geometry.playful_cloud",
+      "materials": [{"*": "Material.emissive"}],
+      "textures": [
+        "query.property('property:playful_cloud') == 1 ? Texture.playful_cloud : (query.property('property:playful_cloud') == 0 ? Texture.textureoff)"
+      ]
+    }
+  }
+}

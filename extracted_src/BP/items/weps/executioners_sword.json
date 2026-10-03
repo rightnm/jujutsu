@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:executioners_sword",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "executioners_sword"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§l§eExecutioner's Sword§r\n§r§5- §oThe Sword of Execution, granted by Judgeman in order to carry out justice,\nAny successful attack will instantly kill anyone who has been sentenced to death.\n§r§c-Strong Character/NPCs will be able to dodge this blade's attacks in order to save their own life.\n\n§r§gPiercing Strike §7(§eRight-Click§7)\n\n§r§gFalling Light §7(§eHold-Jump + Right-Click§7)\n\n§r§gFlashing Light §7(§eSneak + Right-Click§7)\n\n§r§gSwift Flash §7(§eSneak + Jump + Right-Click§7)\n\n§r§gBlinding Strike §7(§eSneak + Punch§7)"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false,
+            "minecraft:foil": true
+            }
+        }
+    }

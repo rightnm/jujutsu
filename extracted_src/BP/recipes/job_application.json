@@ -1,0 +1,44 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ds:job_application"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "URG",
+            "RRR",
+            "GRU"
+        ],
+        "key": {
+            "R": {
+                "item": "ds:reset_ticket"
+            },
+            "G": {
+                "item": "ds:divine_gold_block"
+            },
+            "U": {
+                "item": "ds:unobtanium_block"
+            }
+			
+        },
+		"unlock": [
+          {
+            "item": "ds:reset_ticket"
+          },
+          {
+            "item": "ds:divine_gold_block"
+          },
+          {
+            "item": "ds:unobtanium_block"
+          }
+        ],
+        "result": {
+            "item": "ds:job_application",
+            "count": 1
+        },
+        "priority": 1
+    }
+}

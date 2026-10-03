@@ -1,0 +1,36 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.18.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ds:cursed_eye",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/models/cursed_eye"
+			},
+			"geometry": {
+				"default": "geometry.cursed_eye"
+      },
+      "particle_effects": {
+        "undying_crystal_aura1": "ds:undying_crystal_aura1",
+        "undying_crystal_aura2": "ds:undying_crystal_aura2",
+        "undying_crystal_aura3": "ds:undying_crystal_aura3"
+			},
+			"animations": {
+				"idle": "animation.cursed_eye.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:testco"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 81543314,
+      "separation": 35,
+      "spacing": 71,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:testco",
+        "weight": 1
+      }
+    ]
+  }
+}

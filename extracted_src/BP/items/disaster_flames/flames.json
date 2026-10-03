@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:flames1",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "flames1"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§gFlamethrower\n§g- Cost: [ §7250 Cursed Energy §g]\n\n§r§6Firewall §7(§eHold-Jump+Right-Click§7)§r\n§g- Cost: [ §7100 Cursed Energy §g]\n\n§r§6Scorched Earth §7(§eHold-Sneak+Right-Click§7)§r\n§g- Cost: [ §7250 Cursed Energy §g]\n\n§r§l§6Flash-fire Heatwave §r§7(§eHold-Sneak+Punch§7)§r\n§g- Cost: [ §7400 Cursed Energy §g]\n\n§r§l§6Eternal Blaze §r§7(§eHold-Sneak+Hold Jump+Right-Click§7)§r\n§g- Cost: [ §7800 Cursed Energy §g]\n§r§5- §oWildfire Skills"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

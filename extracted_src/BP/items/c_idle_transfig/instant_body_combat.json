@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:instant_body_combat",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "instant_body_combat"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§uSpirit Body Combat\n\n§r§tImpale §7(§eRight-Click§7)\n\n§r§tRuthless Strikes §7(§eHold-Sneak+Right-Click§7)\n\n§r§tTakedown §7(§eHold-Jump+Right-Click§7)\n\n§r§cRapid Assault §7(§eHold-Sneak+Punch§7)\n\n§r§cImpenetrable §7(§eHold-Jump+Punch§7)\n§e- Counter\n\n§r§cTruly a Curse! §7(§eHold-Sneak+Hold-Jump+Right-Click§7)\n§c- Very Difficult to land\n\n§r§5- §oMahito Awakened Combat"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

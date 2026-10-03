@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:flames_fists",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "fire_fist"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§f§6Jogo's Combat Style\n\n§r§6Fire Palm\n§g- Cost [ §730 Cursed Energy §g] §7(§eRight-Click§7)\n\n§r§6Flaming Chokehold\n§g- Cost [ §750 Cursed Energy §g] §7(§eHold Jump + Click§7)\n\n§r§6Blazing Punch \n§g- Cost [ §775 Cursed Energy §g] §7(§eSneak + Click§7)\n\n§r§6Inferno Quake\n§g- Cost [ §7125 Cursed Energy §g] §7(§eSneak + Punch§7)\n\n§r§6Inferno Kick\n§g- Cost [ §7200 Cursed Energy §g] §7(§eSneak + Hold Jump + Right-Click)\n\n§r§5§o- Disaster Flames Cursed Technique style"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

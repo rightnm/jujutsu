@@ -1,0 +1,1327 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"idk": {
+			"textures": [
+				"textures/items/stoplookingintothesefilesudonkey"
+			]
+		},
+		"yuji_fist": {
+			"textures": [
+				"textures/items/yuji_fist"
+			]
+		},
+		"kamutoke": {
+			"textures": [
+				"textures/items/kamutoke"
+			]
+		},
+		"atomic_crystal": {
+			"textures": [
+				"textures/items/atomic_crystal"
+			]
+		},
+		"mahito_fitpng": {
+			"textures": [
+				"textures/items/mahito_fitpng"
+			]
+		},
+		"transfigured_human_icon1": {
+			"textures": [
+				"textures/items/transfigured_human_icon1"
+			]
+		},
+		"transfigured_human_icon2": {
+			"textures": [
+				"textures/items/transfigured_human_icon2"
+			]
+		},
+		"starry_ingot": {
+			"textures": [
+				"textures/items/starry_ingot"
+			]
+		},
+		"job": {
+			"textures": [
+				"textures/items/job"
+			]
+		},
+		"unobtanium_ingot": {
+			"textures": [
+				"textures/items/unobtanium_ingot"
+			]
+		},
+		"divine_gold": {
+			"textures": [
+				"textures/items/divine_gold"
+			]
+		},
+		"idle_transfiguration_icon": {
+			"textures": [
+				"textures/items/idle_transfiguration"
+			]
+		},
+		"idle_transfiguration_icon2": {
+			"textures": [
+				"textures/items/idle_transfiguration2"
+			]
+		},
+		"idle_transfiguration_icon3": {
+			"textures": [
+				"textures/items/idle_transfiguration3"
+			]
+		},
+		"idle_transfiguration_icon4": {
+			"textures": [
+				"textures/items/idle_transfiguration4"
+			]
+		},
+		"idle_transfiguration_icon5": {
+			"textures": [
+				"textures/items/idle_transfiguration5"
+			]
+		},
+		"idle_transfiguration_icon6": {
+			"textures": [
+				"textures/items/idle_transfiguration6"
+			]
+		},
+		"mahito_combat2": {
+			"textures": [
+				"textures/items/mahito_combat2"
+			]
+		},
+		"mahito_combat3": {
+			"textures": [
+				"textures/items/mahito_combat3"
+			]
+		},
+		"instant_body_combat": {
+			"textures": [
+				"textures/items/instant_body_combat"
+			]
+		},
+		"curse_fist": {
+			"textures": [
+				"textures/items/curse_fist"
+			]
+		},
+		"painkiller_icon": {
+			"textures": [
+				"textures/items/painkiller_icon"
+			]
+		},
+		"absorption_icon": {
+			"textures": [
+				"textures/items/absorption_icon"
+			]
+		},
+		"boogie_woogie_icon": {
+			"textures": [
+				"textures/items/boogie_woogie"
+			]
+		},
+		"boogie_fists": {
+			"textures": [
+				"textures/items/boogie_fists"
+			]
+		},
+		"boogie_woogie_icon1": {
+			"textures": [
+				"textures/items/boogie_woogie_icon1"
+			]
+		},
+		"boogie_woogie_icon2": {
+			"textures": [
+				"textures/items/boogie_woogie_icon2"
+			]
+		},
+		"boogie_woogie_icon3": {
+			"textures": [
+				"textures/items/boogie_woogie_icon3"
+			]
+		},
+		"delusional_icon": {
+			"textures": [
+				"textures/items/delusional_icon"
+			]
+		},
+		"delusional_icon1": {
+			"textures": [
+				"textures/items/delusional_icon1"
+			]
+		},
+		"delusional_icon2": {
+			"textures": [
+				"textures/items/delusional_icon2"
+			]
+		},
+		"absorption_icon1": {
+			"textures": [
+				"textures/items/absorption_icon1"
+			]
+		},
+		"absorption_icon2": {
+			"textures": [
+				"textures/items/absorption_icon2"
+			]
+		},
+		"absorption_icon3": {
+			"textures": [
+				"textures/items/absorption_icon3"
+			]
+		},
+		"warden_icon": {
+			"textures": [
+				"textures/items/warden_icon"
+			]
+		},
+		"beru_daggers": {
+			"textures": [
+				"textures/items/beru_daggers"
+			]
+		},
+		"yuji_technique": {
+			"textures": [
+				"textures/items/yuji_technique"
+			]
+		},
+		"mountain_buster": {
+			"textures": [
+				"textures/items/mountain_buster"
+			]
+		},
+		"cough_syrup": {
+			"textures": [
+				"textures/items/cough_syrup"
+			]
+		},
+		"black_fists": {
+			"textures": [
+				"textures/items/black_fists"
+			]
+		},
+		"glock": {
+			"textures": [
+				"textures/items/glock"
+			]
+		},
+		"megaphone": {
+			"textures": [
+				"textures/items/megaphone"
+			]
+		},
+		"cursed_speech": {
+			"textures": [
+				"textures/items/cursed_speech"
+			]
+		},
+		"cursed_speech1": {
+			"textures": [
+				"textures/items/cursed_speech1"
+			]
+		},
+		"cursed_speech2": {
+			"textures": [
+				"textures/items/cursed_speech2"
+			]
+		},
+		"cursed_speech3": {
+			"textures": [
+				"textures/items/cursed_speech3"
+			]
+		},
+		"cursed_speech4": {
+			"textures": [
+				"textures/items/cursed_speech4"
+			]
+		},
+		"9mm_ammo": {
+			"textures": [
+				"textures/items/9mm_ammo"
+			]
+		},
+		"hand_sword": {
+			"textures": [
+				"textures/items/hand_sword"
+			]
+		},
+		"miracles_icon": {
+			"textures": [
+				"textures/items/miracles_icon"
+			]
+		},
+		"blood_manipulation": {
+			"textures": [
+				"textures/items/blood_manipulation"
+			]
+		},
+		"soul_shrine1": {
+			"textures": [
+				"textures/items/soul_shrine1"
+			]
+		},
+		"soul_shrine2": {
+			"textures": [
+				"textures/items/soul_shrine2"
+			]
+		},
+		"calamity_claws": {
+			"textures": [
+				"textures/items/calamity_claws"
+			]
+		},
+		"hiten": {
+			"textures": [
+				"textures/items/hiten"
+			]
+		},
+		"dackmug": {
+			"textures": [
+				"textures/items/dackmug"
+			]
+		},
+		"conflict_essence": {
+			"textures": [
+				"textures/items/conflict_essence"
+			]
+		},
+		"omega_scythe": {
+			"textures": [
+				"textures/items/omega_scythe"
+			]
+		},
+		"rodofdiscord": {
+			"textures": [
+				"textures/items/rodofdiscord"
+			]
+		},
+		"equinox_slicer": {
+			"textures": [
+				"textures/items/equinox_slicer"
+			]
+		},
+		"origin_blade": {
+			"textures": [
+				"textures/items/origin_blade"
+			]
+		},
+		"atomic_sword": {
+			"textures": [
+				"textures/items/atomic_sword_png"
+			]
+		},
+		"the_shard": {
+			"textures": [
+				"textures/items/the_shard"
+			]
+		},
+		"explode_staff": {
+			"textures": [
+				"textures/items/explode_staff"
+			]
+		},
+		"devastator": {
+			"textures": [
+				"textures/items/devastator"
+			]
+		},
+		"water_fists": {
+			"textures": [
+				"textures/items/water_fists"
+			]
+		},
+		"void_katana": {
+			"textures": [
+				"textures/items/void_katana"
+			]
+		},
+		"deathhorn": {
+			"textures": [
+				"textures/items/deathhorn"
+			]
+		},
+		"frog_cero": {
+			"textures": [
+				"textures/items/frog_cero"
+			]
+		},
+		"crescendo": {
+			"textures": [
+				"textures/items/crescendo"
+			]
+		},
+		"legacy_scythe": {
+			"textures": [
+				"textures/items/legacy_scythe"
+			]
+		},
+		"birch_tree": {
+			"textures": [
+				"textures/items/birch_tree"
+			]
+		},
+		"butter_blade": {
+			"textures": [
+				"textures/items/butter_blade"
+			]
+		},
+		"reset_ticket": {
+			"textures": [
+				"textures/items/reset_ticket"
+			]
+		},
+		"sukuna_fist": {
+			"textures": [
+				"textures/items/sukuna_fist"
+			]
+		},
+		"unobtanium": {
+			"textures": [
+				"textures/items/unobtanium"
+			]
+		},
+		"tablet": {
+			"textures": [
+				"textures/items/tablet"
+			]
+		},
+		"core_of_creation": {
+			"textures": [
+				"textures/items/core_of_creation"
+			]
+		},
+		"truegrimoire": {
+			"textures": [
+				"textures/items/truegrimoire"
+			]
+		},
+		"truephaser": {
+			"textures": [
+				"textures/items/truephaser"
+			]
+		},
+		"truesword": {
+			"textures": [
+				"textures/items/truesword"
+			]
+		},
+		"trueamulet": {
+			"textures": [
+				"textures/items/trueamulet"
+			]
+		},
+		"component": {
+			"textures": [
+				"textures/items/component"
+			]
+		},
+		"keycard": {
+			"textures": [
+				"textures/items/keycard"
+			]
+		},
+		"reality_shard": {
+			"textures": [
+				"textures/items/reality_shard"
+			]
+		},
+		"mysterious_torch": {
+			"textures": [
+				"textures/items/mysterious_torch"
+			]
+		},
+		"mysterious_ring": {
+			"textures": [
+				"textures/items/mysterious_ring"
+			]
+		},
+		"mysterious_shard": {
+			"textures": [
+				"textures/items/mysterious_shard"
+			]
+		},
+		"mysterious_artifact": {
+			"textures": [
+				"textures/items/mysterious_artifact"
+			]
+		},
+		"origin_orb": {
+			"textures": [
+				"textures/items/origin_orb"
+			]
+		},
+		"cleave_fist": {
+			"textures": [
+				"textures/items/cleave_fist"
+			]
+		},
+		"four_fist": {
+			"textures": [
+				"textures/items/four_fist"
+			]
+		},
+		"sukuna_finger": {
+			"textures": [
+				"textures/items/sukuna_finger"
+			]
+		},
+		"sukuna_heian": {
+			"textures": [
+				"textures/items/sukuna_heian"
+			]
+		},
+		"sukuna1": {
+			"textures": [
+				"textures/items/sukuna1"
+			]
+		},
+		"sukuna2": {
+			"textures": [
+				"textures/items/sukuna2"
+			]
+		},
+		"sukuna3": {
+			"textures": [
+				"textures/items/sukuna3"
+			]
+		},
+		"sukuna4": {
+			"textures": [
+				"textures/items/sukuna4"
+			]
+		},
+		"sukuna5": {
+			"textures": [
+				"textures/items/sukuna5"
+			]
+		},
+		"sukuna_icon": {
+			"textures": [
+				"textures/items/sukuna_technique"
+			]
+		},
+		"sight_icon": {
+			"textures": [
+				"textures/items/sight"
+			]
+		},
+		"katana": {
+			"textures": [
+				"textures/items/katana"
+			]
+		},
+		"windup_icon": {
+			"textures": [
+				"textures/items/windup"
+			]
+		},
+		"katana2": {
+			"textures": [
+				"textures/items/katana2"
+			]
+		},
+		"malevolent_cloak": {
+			"textures": [
+				"textures/items/malevolent_cloak"
+			]
+		},
+		"kusakabe_cloak": {
+			"textures": [
+				"textures/items/kusakabe_cloak"
+			]
+		},
+		"kusakabe_fit": {
+			"textures": [
+				"textures/items/kusakabe_fit"
+			]
+		},
+		"cursed_object": {
+			"textures": [
+				"textures/items/cursed_object"
+			]
+		},
+		"pigs_crown_png": {
+			"textures": [
+				"textures/items/pigs_crown"
+			]
+		},
+		"curse_warder_v1": {
+			"textures": [
+				"textures/items/curse_warder_v1"
+			]
+		},
+		"curse_warder_v2": {
+			"textures": [
+				"textures/items/curse_warder_v2"
+			]
+		},
+		"curse_warder_v3": {
+			"textures": [
+				"textures/items/curse_warder_v3"
+			]
+		},
+		"curse_warder_v4": {
+			"textures": [
+				"textures/items/curse_warder_v4"
+			]
+		},
+		"grade1_seal": {
+			"textures": [
+				"textures/items/grade1_seal"
+			]
+		},
+		"grade2_seal": {
+			"textures": [
+				"textures/items/grade2_seal"
+			]
+		},
+		"grade3_seal": {
+			"textures": [
+				"textures/items/grade3_seal"
+			]
+		},
+		"grade4_seal": {
+			"textures": [
+				"textures/items/grade4_seal"
+			]
+		},
+		"black_blade": {
+			"textures": [
+				"textures/items/black_blade"
+			]
+		},
+		"slaughter_demon": {
+			"textures": [
+				"textures/items/slaughter_demon"
+			]
+		},
+		"dread_bell": {
+			"textures": [
+				"textures/items/dread_bell"
+			]
+		},
+		"cursed_eye": {
+			"textures": [
+				"textures/items/cursed_eye"
+			]
+		},
+		"rough_crystal": {
+			"textures": [
+				"textures/items/rough_crystal"
+			]
+		},
+		"undying_crystal": {
+			"textures": [
+				"textures/items/undying_crystal"
+			]
+		},
+		"cursed_crystal": {
+			"textures": [
+				"textures/items/cursed_crystal"
+			]
+		},
+		"blitz_crystal": {
+			"textures": [
+				"textures/items/blitz_crystal"
+			]
+		},
+		"jjkfit_png1": {
+			"textures": [
+				"textures/items/jjkfit_png1"
+			]
+		},
+		"jjkfit_png2": {
+			"textures": [
+				"textures/items/jjkfit_png2"
+			]
+		},
+		"flyhead_bucket": {
+			"textures": [
+				"textures/items/flyhead_bucket"
+			]
+		},
+		"strange_vile": {
+			"textures": [
+				"textures/items/strange_vile"
+			]
+		},
+		"jjkfit_png3": {
+			"textures": [
+				"textures/items/jjkfit_png3"
+			]
+		},
+		"jogofit_png": {
+			"textures": [
+				"textures/items/jogo_fitpng"
+			]
+		},
+		"sorcerers_outfit": {
+			"textures": [
+				"textures/items/sorcerers_outfit"
+			]
+		},
+		"phone": {
+			"textures": [
+				"textures/items/phone"
+			]
+		},
+		"executioners_sword": {
+			"textures": [
+				"textures/items/executioners_sword"
+			]
+		},
+		"promotion": {
+			"textures": [
+				"textures/items/promotion"
+			]
+		},
+		"judgeman_icon": {
+			"textures": [
+				"textures/items/judgeman_icon"
+			]
+		},
+		"judgeman1": {
+			"textures": [
+				"textures/items/judgeman1"
+			]
+		},
+		"judgeman2": {
+			"textures": [
+				"textures/items/judgeman2"
+			]
+		},
+		"judgefit_png2": {
+			"textures": [
+				"textures/items/judgefit_png2"
+			]
+		},
+		"gavel": {
+			"textures": [
+				"textures/items/gavel"
+			]
+		},
+		"gavel2": {
+			"textures": [
+				"textures/items/gavel2"
+			]
+		},
+		"gavel3": {
+			"textures": [
+				"textures/items/gavel3"
+			]
+		},
+		"flames_icon": {
+			"textures": [
+				"textures/items/flames_icon"
+			]
+		},
+		"fire_fist": {
+			"textures": [
+				"textures/items/fire_fist"
+			]
+		},
+		"flames1": {
+			"textures": [
+				"textures/items/flames1"
+			]
+		},
+		"flames2": {
+			"textures": [
+				"textures/items/flames2"
+			]
+		},
+		"flames3": {
+			"textures": [
+				"textures/items/flames3"
+			]
+		},
+		"flames4": {
+			"textures": [
+				"textures/items/flames4"
+			]
+		},
+		"flames5": {
+			"textures": [
+				"textures/items/flames5"
+			]
+		},
+		"flames6": {
+			"textures": [
+				"textures/items/flames6"
+			]
+		},
+		"flames7": {
+			"textures": [
+				"textures/items/flames7"
+
+			]
+		},
+		"yujifit_png": {
+			"textures": [
+				"textures/items/yujifit_png"
+			]
+		},
+		"10shadows_icon": {
+			"textures": [
+				"textures/items/10shadows_icon"
+			]
+		},
+		"limitless_icon": {
+			"textures": [
+				"textures/items/limitless_icon"
+			]
+		},
+		"jfk_icon": {
+			"textures": [
+				"textures/items/jfk_icon"
+			]
+		},
+		"glocks_icon": {
+			"textures": [
+				"textures/items/glocks_icon"
+			]
+		},
+		"lovetrain_icon": {
+			"textures": [
+				"textures/items/lovetrain_icon"
+			]
+		},
+		"inverted_spear": {
+			"textures": [
+				"textures/items/inverted_spear"
+			]
+		},
+		"soul_sword": {
+			"textures": [
+				"textures/items/soul_sword"
+			]
+		},
+		"playful_cloud": {
+			"textures": [
+				"textures/items/playful_cloud"
+			]
+		},
+		"playful_cloud_sharpened": {
+			"textures": [
+				"textures/items/playful_cloud_sharpened"
+			]
+		},
+		"limitless_fist": {
+			"textures": [
+				"textures/items/fist"
+			]
+		},
+		"limitless1": {
+			"textures": [
+				"textures/items/limitless1"
+			]
+		},
+		"limitless2": {
+			"textures": [
+				"textures/items/limitless2"
+			]
+		},
+		"limitless3": {
+			"textures": [
+				"textures/items/limitless3"
+			]
+		},
+		"limitless4": {
+			"textures": [
+				"textures/items/limitless4"
+			]
+		},
+		"limitless5": {
+			"textures": [
+				"textures/items/limitless5"
+			]
+		},
+		"limitless6": {
+			"textures": [
+				"textures/items/limitless6"
+			]
+		},
+		"shadow_wheel": {
+			"textures": [
+				"textures/items/shadow_wheel"
+			]
+		},
+		"shikigami1": {
+			"textures": [
+				"textures/items/shikigami1"
+			]
+		},
+		"shikigami2": {
+			"textures": [
+				"textures/items/shikigami2"
+			]
+		},
+		"shikigami3": {
+			"textures": [
+				"textures/items/shikigami3"
+			]
+		},
+		"shikigami4": {
+			"textures": [
+				"textures/items/shikigami4"
+			]
+		},
+		"shikigami5": {
+			"textures": [
+				"textures/items/shikigami5"
+			]
+		},
+		"shikigami6": {
+			"textures": [
+				"textures/items/shikigami6"
+			]
+		},
+		"shikigami7": {
+			"textures": [
+				"textures/items/shikigami7"
+			]
+		},
+		"shikigami8": {
+			"textures": [
+				"textures/items/shikigami8"
+			]
+		},
+		"shikigami9": {
+			"textures": [
+				"textures/items/shikigami9"
+			]
+		},
+		"shikigami10": {
+			"textures": [
+				"textures/items/shikigami10"
+			]
+		},
+		"shikigami11": {
+			"textures": [
+				"textures/items/shikigami11"
+			]
+		},
+		"shikigami12": {
+			"textures": [
+				"textures/items/shikigami12"
+			]
+		},
+		"heavenly_restriction": {
+			"textures": [
+				"textures/items/heavenly_restriction"
+			]
+		},
+		"hr_icon1": {
+			"textures": [
+				"textures/items/hr_icon1"
+			]
+		},
+		"hr_icon2": {
+			"textures": [
+				"textures/items/hr_icon2"
+			]
+		},
+		"hr_icon3": {
+			"textures": [
+				"textures/items/hr_icon3"
+			]
+		},
+		"hr_icon4": {
+			"textures": [
+				"textures/items/hr_icon4"
+			]
+		},
+		"explosive_technique": {
+			"textures": [
+				"textures/items/explosive_technique"
+			]
+		},
+		"explosive1": {
+			"textures": [
+				"textures/items/explosive1"
+			]
+		},
+		"explosive2": {
+			"textures": [
+				"textures/items/explosive2"
+			]
+		},
+		"explosive3": {
+			"textures": [
+				"textures/items/explosive3"
+			]
+		},
+		"explosive4": {
+			"textures": [
+				"textures/items/explosive4"
+			]
+		},
+		"gojofit_png1": {
+			"textures": [
+				"textures/items/gojofit_png2"
+			]
+		},
+		"gojofit_png2": {
+			"textures": [
+				"textures/items/gojofit_png1"
+			]
+		},
+		"sukunafit_png1": {
+			"textures": [
+				"textures/items/sukunafit_png1"
+			]
+		},
+		"sukunafit_png2": {
+			"textures": [
+				"textures/items/sukunafit_png2"
+			]
+		},
+		"fist": {
+			"textures": [
+				"textures/items/fist"
+			]
+		},
+		"speed": {
+			"textures": [
+				"textures/items/speed"
+			]
+		},
+		"mahoraga_wheel": {
+			"textures": [
+				"textures/items/mahoraga_wheel"
+			]
+		},
+		"stats_book": {
+			"textures": [
+				"textures/items/stats_book"
+			]
+		},
+		"cursed_icon2": {
+			"textures": [
+				"textures/items/cursed_icon2"
+			]
+		},
+		"cursed": {
+			"textures": [
+				"textures/items/cursed"
+			]
+		},
+		"dash": {
+			"textures": [
+				"textures/items/dash"
+			]
+		},
+		"evade": {
+			"textures": [
+				"textures/items/evade"
+			]
+		},
+		"extermination_sword": {
+			"textures": [
+				"textures/items/extermination_sword"
+			]
+		},
+		"lovetrain1": {
+			"textures": [
+				"textures/items/lovetrain1"
+			]
+		},
+		"lovetrain2": {
+			"textures": [
+				"textures/items/lovetrain2"
+			]
+		},
+		"lovetrain3": {
+			"textures": [
+				"textures/items/lovetrain3"
+			]
+		},
+		"lovetrain4": {
+			"textures": [
+				"textures/items/lovetrain4"
+			]
+		},
+		"lovetrain5": {
+			"textures": [
+				"textures/items/lovetrain5"
+			]
+		},
+		"lovetrain6": {
+			"textures": [
+				"textures/items/lovetrain6"
+			]
+		},
+		"settings": {
+			"textures": [
+				"textures/items/settings"
+			]
+		},
+		"lightning_technique": {
+			"textures": [
+				"textures/items/lightning_technique"
+			]
+		},
+		"lightning1": {
+			"textures": [
+				"textures/items/lightning1"
+			]
+		},
+		"lightning2": {
+			"textures": [
+				"textures/items/lightning2"
+			]
+		},
+		"lightning3": {
+			"textures": [
+				"textures/items/lightning3"
+			]
+		},
+		"lightning4": {
+			"textures": [
+				"textures/items/lightning4"
+			]
+		},
+		"lightning5": {
+			"textures": [
+				"textures/items/lightning5"
+			]
+		},
+		"lightning6": {
+			"textures": [
+				"textures/items/lightning6"
+			]
+		},
+		"lightning7": {
+			"textures": [
+				"textures/items/lightning7"
+			]
+		},
+		"sound_book": {
+			"textures": [
+				"textures/items/sound_book"
+			]
+		},
+		"flower_book": {
+			"textures": [
+				"textures/items/flower_book"
+			]
+		},
+		"moon_book": {
+			"textures": [
+				"textures/items/moon_book"
+			]
+		},
+		"arrow_art": {
+			"textures": [
+				"textures/items/arrow_art"
+			]
+		},
+		"swamp_art": {
+			"textures": [
+				"textures/items/swamp_art"
+			]
+		},
+		"speed_art": {
+			"textures": [
+				"textures/items/speed_art"
+			]
+		},
+		"shockwave_art": {
+			"textures": [
+				"textures/items/shockwave_art"
+			]
+		},
+		"ice_art": {
+			"textures": [
+				"textures/items/ice_art"
+			]
+		},
+		"temari_art": {
+			"textures": [
+				"textures/items/temari_art"
+			]
+		},
+		"stone_art": {
+			"textures": [
+				"textures/items/stone_art"
+			]
+		},
+		"blood_art": {
+			"textures": [
+				"textures/items/blood_art"
+			]
+		},
+		"obi_art": {
+			"textures": [
+				"textures/items/obi_art"
+			]
+		},
+		"thread_art": {
+			"textures": [
+				"textures/items/thread_art"
+			]
+		},
+		"vases_art": {
+			"textures": [
+				"textures/items/vases_art"
+			]
+		},
+		"emotion_art": {
+			"textures": [
+				"textures/items/emotion_art"
+			]
+		},
+		"swamp_art": {
+			"textures": [
+				"textures/items/swamp_art"
+			]
+		},
+		"speed_art": {
+			"textures": [
+				"textures/items/speed_art"
+			]
+		},
+		"arrow_art": {
+			"textures": [
+				"textures/items/arrow_demonart"
+			]
+		},
+		"swamp_demonart": {
+			"textures": [
+				"textures/items/swamp_demonart"
+			]
+		},
+		"speed_demonart": {
+			"textures": [
+				"textures/items/speed_demonart"
+			]
+		},
+		"shockwave_demonart": {
+			"textures": [
+				"textures/items/shockwave_demonart"
+			]
+		},
+		"ice_demonart": {
+			"textures": [
+				"textures/items/ice_demonart"
+			]
+		},
+		"temari_demonart": {
+			"textures": [
+				"textures/items/temari_demonart"
+			]
+		},
+		"stone_demonart": {
+			"textures": [
+				"textures/items/stone_demonart"
+			]
+		},
+		"blood_demonart": {
+			"textures": [
+				"textures/items/blood_demonart"
+			]
+		},
+		"obi_demonart": {
+			"textures": [
+				"textures/items/obi_demonart"
+			]
+		},
+		"thread_demonart": {
+			"textures": [
+				"textures/items/thread_demonart"
+			]
+		},
+		"vases_demonart": {
+			"textures": [
+				"textures/items/vases_demonart"
+			]
+		},
+		"emotion_demonart": {
+			"textures": [
+				"textures/items/emotion_demonart"
+			]
+		},
+		"cyclone_style": {
+			"textures": [
+				"textures/items/cyclone_style"
+			]
+		},
+		"iaido_style": {
+			"textures": [
+				"textures/items/iaido_style"
+			]
+		},
+		"water_icon1": {
+			"textures": [
+				"textures/items/water_icon1"
+			]
+		},
+		"flame_icon1": {
+			"textures": [
+				"textures/items/flame_icon1"
+			]
+		},
+		"wind_icon1": {
+			"textures": [
+				"textures/items/wind_icon1"
+			]
+		},
+		"sun_icon1": {
+			"textures": [
+				"textures/items/sun_icon1"
+			]
+		},
+		"mist_icon1": {
+			"textures": [
+				"textures/items/mist_icon1"
+			]
+		},
+		"insect_icon1": {
+			"textures": [
+				"textures/items/insect_icon1"
+			]
+		},
+		"beast_icon1": {
+			"textures": [
+				"textures/items/beast_icon1"
+			]
+		},
+		"thunder_icon1": {
+			"textures": [
+				"textures/items/thunder_icon1"
+			]
+		},
+		"stone_icon1": {
+			"textures": [
+				"textures/items/stone_icon1"
+			]
+		},
+		"serpent_icon1": {
+			"textures": [
+				"textures/items/serpent_icon1"
+			]
+		},
+		"nyoi_staff": {
+			"textures": [
+				"textures/items/nyoi_staff"
+			]
+		},
+		"hakarifit_png1": {
+			"textures": [
+				"textures/items/hakarifit_png1"
+			]
+		},
+		"hakarifit_png2": {
+			"textures": [
+				"textures/items/hakarifit_png2"
+			]
+		},
+		"kashimo_fit": {
+			"textures": [
+				"textures/items/kashimo_fit"
+			]
+		}
+	}
+}		

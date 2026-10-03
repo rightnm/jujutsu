@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:soul_sword",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "soul_sword"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§d§lSplit-Soul Katana\n§r§5- §oThe Split Soul Katana ignores all physical toughness\nthrough the hardest substances and strike directly at the soul of its target\n\n§r§tQuick Slash §7(§eRight-Click§7)\n\n§r§tRising Slice §7(§eHold-Jump + Right-Click§7)\n\n§r§cThroughout Heaven §7(§eSneak + Right-Click§7)\n§r§4-=- Requires Physical Heavenly Restriction -=-\n\n§r§cCrossway Strikes §7(§eSneak + Jump + Right-Click§7)\n§r§4-=- Requires Physical Heavenly Restriction -=-\n\n§r§cJudgement§7(§eSneak + Punch§7)\n§r§4-=- Requires Physical Heavenly Restriction -=-\n\n§r§l§d[ Special Grade Cursed Tool ]"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

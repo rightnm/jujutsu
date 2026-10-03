@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:front_vfx",
+      "materials": {
+        "default": "zombie"
+      },
+      "textures": {
+        "default": "textures/entity/air"
+      },
+      "geometry": {
+        "default": "geometry.front_vfx_locators"
+      },
+      "particle_effects": {
+        "fast_dash1": "ds:fast_dash1",
+        "rapid_assault_dash1": "ds:rapid_assault_dash1",
+        "rapid_assault_dash2": "ds:rapid_assault_dash2",
+        "rapid_assault_dash3": "ds:rapid_assault_dash3",
+        "rapid_assault_dash4": "ds:rapid_assault_dash4",
+        "rapid_assault_dash5": "ds:rapid_assault_dash5",
+        "rapid_assault_blitz1": "ds:rapid_assault_blitz1",
+        "rapid_assault_blitz2": "ds:rapid_assault_blitz2"
+      },
+      "render_controllers": [
+        "controller.render.zombie"
+      ],
+      "enable_attachables": false
+    }
+  }
+}

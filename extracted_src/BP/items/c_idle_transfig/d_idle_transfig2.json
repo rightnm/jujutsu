@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:idle_transfig2",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "idle_transfiguration_icon3"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§uBody Transfiguration\n\n§r§dTrident Rush §r§7(§eRight-Click§7)\n§g- Cost: [ §750 Cursed Energy §g]\n\n§r§dSpike Pierce §r§7(§eHold-Jump + Right-Click§7)\n§g- Cost: [ §7100 Cursed Energy §g]\n\n§r§dDrill Breaker §r§7(§eHold-Sneak + Right-Click§7)\n§g- Cost: [ §7200 Cursed Energy §g]\n§o§g(§4Spam Right-Click or Punch again to use Close-Range Drill Breaker§g)\n\n§r§dMurder Manifestation §r§7(§eHold-Sneak + Punch§7)\n§g- Cost: [ §7300 Cursed Energy §g]\n\n§r§dDecoy Trick §r§7(§eHold-Sneak+Hold-Jump + Click§7)\n§g- Cost: [ §7300 Cursed Energy §g]\n§r§5- §oIdle Transfiguration"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

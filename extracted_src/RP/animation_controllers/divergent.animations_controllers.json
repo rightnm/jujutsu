@@ -1,0 +1,26 @@
+   {
+  "format_version": "1.10.0",
+  "animation_controllers": {
+ "controller.animation.divergentfists":{
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "in": "q.property('divergent_fists')"
+            }
+          ]
+        },
+        "in": {
+            "animations": ["divergent_animation"],
+            "transitions": 
+          [
+            {
+                "default": "!q.property('divergent_fists')"
+            }
+          ]
+        }
+      }
+ }
+  }
+   }

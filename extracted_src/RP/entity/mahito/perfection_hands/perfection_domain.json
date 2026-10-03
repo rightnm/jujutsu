@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:perfection_domain",
+      "spawn_egg": {
+        "overlay_color": "#a29920",
+        "base_color": "#a28949"
+      },
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/perfection_domain"
+      },
+      "geometry": {
+        "default": "geometry.perfection_domain"
+			},
+			"scripts": {
+			"should_update_bones_and_effects_offscreen": true,
+			"animate": [
+			"root"
+			   ]
+			      },
+      "animations": {
+        "root": "animation.perfection_domain.idle"
+      },
+      "particle_effects": {
+        "perfection_clap1": "ds:perfection_clap1",
+        "perfection_clap2": "ds:perfection_clap2",
+        "perfection_clap3": "ds:perfection_clap3",
+        "perfection_clap4": "ds:perfection_clap4",
+        "perfection_clap5": "ds:perfection_clap5",
+        "perfection_clap6": "ds:perfection_clap6",
+        "perfection_clap1b": "ds:perfection_clap1b",
+        "perfection_clap2b": "ds:perfection_clap2b",
+        "perfection_clap3b": "ds:perfection_clap3b",
+        "perfection_clap4b": "ds:perfection_clap4b",
+        "perfection_clap5b": "ds:perfection_clap5b",
+        "perfection_domain1": "ds:perfection_domain1",
+        "perfection_domain2": "ds:perfection_domain2",
+        "perfection_domain3": "ds:perfection_domain3",
+        "perfection_domain4": "ds:perfection_domain4",
+        "perfection_domain5": "ds:perfection_domain5",
+        "perfection_domain6": "ds:perfection_domain6",
+        "perfection_domain7": "ds:perfection_domain7",
+        "perfection_domain8": "ds:perfection_domain8",
+        "perfection_domain9": "ds:perfection_domain9",
+        "perfection_domain10": "ds:perfection_domain10",
+        "perfection_domain11": "ds:perfection_domain11",
+        "perfection_domain12": "ds:perfection_domain12",
+        "perfection_domain13": "ds:perfection_domain13"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

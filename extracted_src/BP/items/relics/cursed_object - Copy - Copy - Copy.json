@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:cursed_object_v4",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "cursed_object"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§dSuperior Cursed Remnant\n§r§5- A Remnant from a past sorcerer or curse lost to time,\nthese cursed objects are sought after by curses and sorcerers alike as they contain immense cursed energy.\nCan be used to craft a §dCurse Warder§5.\n\n§7+ §b100 Cursed Energy §7on consumption.\n\n§r§o§4-Cursed Relic-"
+            },
+            "minecraft:max_stack_size": 1
+            },
+            "minecraft:foil": true,
+            "minecraft:allow_off_hand": false
+            }
+        }

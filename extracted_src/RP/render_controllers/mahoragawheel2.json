@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.mahoraga_wheel2": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.textureoff",
+            "Texture.mahoraga_wheel2"
+          ]
+        }
+      },
+"ignore_lighting": true,
+      "geometry": "Geometry.mahoraga_wheel2",
+      "materials": [{"*": "Material.emissive"}],
+      "textures": [
+        "query.property('property:mahoraga_wheel2') == 1 ? Texture.mahoraga_wheel2 : (query.property('property:mahoraga_wheel2') == 0 ? Texture.textureoff)"
+      ]
+    }
+  }
+}

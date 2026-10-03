@@ -1,0 +1,1 @@
+scoreboard players set @a[tag=!calling,scores={activemission=0,missionsCD=1..}] missionsCD 0

@@ -1,0 +1,501 @@
+{
+ "_comment": "有序片段替换表（长的在前），构建器在 manual 条目 repl 之后应用。所有模式均为完整控制串/固定模板片段，不会互相嵌套破坏。",
+ "pairs": [
+  [
+   "§7(§eDouble-Sneak + Look Straight Down + Click§7)",
+   "§7(§e双击潜行+垂直低头+点击§7)"
+  ],
+  [
+   "§7(§eDouble-Sneak + Look Down§7)",
+   "§7(§e双击潜行+低头§7)"
+  ],
+  [
+   "§7(§eDouble-Sneak+Punch§7)",
+   "§7(§e双击潜行+拳击§7)"
+  ],
+  [
+   "§7(§eDouble-Sneak§7)",
+   "§7(§e双击潜行§7)"
+  ],
+  [
+   "§7(§eDouble Sneak§7)",
+   "§7(§e双击潜行§7)"
+  ],
+  [
+   "§7(§eHold Sneak + Hold Jump + Right-Click§7)",
+   "§7(§e按住潜行+按住跳跃+右键§7)"
+  ],
+  [
+   "§7(§eHold-Sneak + Hold-Jump + Right-Click§7)",
+   "§7(§e按住潜行+按住跳跃+右键§7)"
+  ],
+  [
+   "§7(§eHold Jump + Right-Click§7)",
+   "§7(§e按住跳跃+右键§7)"
+  ],
+  [
+   "§7(§eHold Sneak + Right-Click§7)",
+   "§7(§e按住潜行+右键§7)"
+  ],
+  [
+   "§7(§eSprint + Jump + Click§7)",
+   "§7(§e疾跑+跳跃+点击§7)"
+  ],
+  [
+   "§7(§eSprint+Jump+Right-Click§7)",
+   "§7(§e疾跑+跳跃+右键§7)"
+  ],
+  [
+   "§7(§eSprint+Jump+Punch§7)",
+   "§7(§e疾跑+跳跃+拳击§7)"
+  ],
+  [
+   "§7(§eSprint+Right-Click§7)",
+   "§7(§e疾跑+右键§7)"
+  ],
+  [
+   "§7(§eSprint + Right-Click§7)",
+   "§7(§e疾跑+右键§7)"
+  ],
+  [
+   "§7(§eSneak + Jump + Click§7)",
+   "§7(§e潜行+跳跃+点击§7)"
+  ],
+  [
+   "§7(§eHold-Sneak+Look Up+Right-Click§7)",
+   "§7(§e按住潜行+抬头+右键§7)"
+  ],
+  [
+   "§7(§eLook Down+Right-Click§7)",
+   "§7(§e低头+右键§7)"
+  ],
+  [
+   "§7(§eHold-Sneak + Click§7)",
+   "§7(§e按住潜行+点击§7)"
+  ],
+  [
+   "§7 (§eHold-Jump + Click§7)",
+   "§7 (§e按住跳跃+点击§7)"
+  ],
+  [
+   "§7(§eClick§7)",
+   "§7(§e点击§7)"
+  ],
+  [
+   "§7[§e Sneak+Jump+Right-Click §7]",
+   "§7[§e 潜行+跳跃+右键 §7]"
+  ],
+  [
+   "§7[§e Sneak+Right-Click §7]",
+   "§7[§e 潜行+右键 §7]"
+  ],
+  [
+   "§7[§e Jump+Right-Click §7]",
+   "§7[§e 跳跃+右键 §7]"
+  ],
+  [
+   "§7[§e Sneak+Punch §7]",
+   "§7[§e 潜行+拳击 §7]"
+  ],
+  [
+   "§7[§e Jump+Punch §7]",
+   "§7[§e 跳跃+拳击 §7]"
+  ],
+  [
+   "§7[§e Right-Click §7]",
+   "§7[§e 右键 §7]"
+  ],
+  [
+   "Cost: [ §8",
+   "消耗: [ §8"
+  ],
+  [
+   "§g[ §7Click to be assigned to a mission §g]",
+   "§g[ §7点击以接取任务 §g]"
+  ],
+  [
+   "§g[ §4Sneak+Punch to cancel current mission §g]",
+   "§g[ §4潜行+拳击以取消当前任务 §g]"
+  ],
+  [
+   "§g  - Sneak + Click to Get ",
+   "§g  - 潜行+点击以获取 "
+  ],
+  [
+   "§r§l§d[ Special Grade Cursed Tool ]",
+   "§r§l§d[ 特级咒具 ]"
+  ],
+  [
+   "§r§7[ §9Grade 1 Cursed Tool §7]",
+   "§r§7[ §9一级咒具 §7]"
+  ],
+  [
+   "§r§7[ §6Grade 2 Cursed Tool §7]",
+   "§r§7[ §6二级咒具 §7]"
+  ],
+  [
+   "§r§7[ §2Grade 3 Cursed Tool §7]",
+   "§r§7[ §2三级咒具 §7]"
+  ],
+  [
+   "§r§l§a[ Grade 4 Cursed Tool ]",
+   "§r§l§a[ 四级咒具 ]"
+  ],
+  [
+   "§r§o§4-Cursed Relic-",
+   "§r§o§4-诅咒遗物-"
+  ],
+  [
+   "§r§o§f-=- Requires 10 Shadows Technique -=-§r",
+   "§r§o§f-=- 需要十种影法术 -=-§r"
+  ],
+  [
+   "§r§4-=- Requires Yuji Combat OR Physical Heavenly Restriction -=-",
+   "§r§4-=- 需要虎杖格斗或肉体天与咒缚 -=-"
+  ],
+  [
+   "§r§4-=- Requires Physical Heavenly Restriction -=-",
+   "§r§4-=- 需要肉体天与咒缚 -=-"
+  ],
+  [
+   "§r§d-=- Requires Electrified Cursed Energy -=-",
+   "§r§d-=- 需要带电咒力 -=-"
+  ],
+  [
+   "§b(Requires 10+ Agility)",
+   "§b(需要敏捷 10+)"
+  ],
+  [
+   "§b(Requires 25+ Agility)",
+   "§b(需要敏捷 25+)"
+  ],
+  [
+   "§b(Requires 35+ Agility)",
+   "§b(需要敏捷 35+)"
+  ],
+  [
+   "§8(§bRequires 50+ Agility, §450+ Strength§8)",
+   "§8(§b需要敏捷 50+, §4力量 50+§8)"
+  ],
+  [
+   "§o§dSwitch Combat Style",
+   "§o§d切换战斗风格"
+  ],
+  [
+   "§r§o§dSwitch Combat Style",
+   "§r§o§d切换战斗风格"
+  ],
+  [
+   "§e(Counter)",
+   "§e(反击)"
+  ],
+  [
+   "§b- Requires Simple Domain to be active",
+   "§r§b- 需要简易领域处于激活状态"
+  ],
+  [
+   "§r§b- Requires Simple Domain to be active",
+   "§r§b- 需要简易领域处于激活状态"
+  ],
+  [
+   "§9(This is not world cutting slash)",
+   "§9(这不是斩世之斩)"
+  ],
+  [
+   "§e- Chargeable, click to release§r",
+   "§e- 可蓄力,点击释放§r"
+  ],
+  [
+   "§e- Chargeable, click to fire§r",
+   "§e- 可蓄力,点击发射§r"
+  ],
+  [
+   "§r§oShared Cooldown",
+   "§r§o共享冷却"
+  ],
+  [
+   "§r§5- §oDomain Expansion.",
+   "§r§5- §o领域展开。"
+  ],
+  [
+   "§r§5- §oDomain Expansion",
+   "§r§5- §o领域展开"
+  ],
+  [
+   "§r§5- §o1st Skillset",
+   "§r§5- §o技能组1"
+  ],
+  [
+   "§r§5- §o2nd Skillset",
+   "§r§5- §o技能组2"
+  ],
+  [
+   "§r§5- §o1st Skill",
+   "§r§5- §o技能1"
+  ],
+  [
+   "§r§5- §o2nd Skill",
+   "§r§5- §o技能2"
+  ],
+  [
+   "§r§5- §o3rd Skill",
+   "§r§5- §o技能3"
+  ],
+  [
+   "§r§5- §o4th Skill",
+   "§r§5- §o技能4"
+  ],
+  [
+   "§r§5- §o5th Skill",
+   "§r§5- §o技能5"
+  ],
+  [
+   "§r§5- §o6th Skill",
+   "§r§5- §o技能6"
+  ],
+  [
+   "§r§5- §oSukuna Combat",
+   "§r§5- §o宿傩格斗"
+  ],
+  [
+   "§r§5- §oHeian Combat",
+   "§r§5- §o平安时代格斗"
+  ],
+  [
+   "§r§f-==Requirements=--",
+   "§r§f-==需求=--"
+  ],
+  [
+   "§7(§eHold-Sneak+Hold-Jump+Right-Click§7)",
+   "§7(§e按住潜行+按住跳跃+右键§7)"
+  ],
+  [
+   "§7(§eHold-Sneak + Hold-Jump + Click§7)",
+   "§7(§e按住潜行+按住跳跃+点击§7)"
+  ],
+  [
+   "§7(§eHold-Sneak+Hold-Jump + Click§7)",
+   "§7(§e按住潜行+按住跳跃+点击§7)"
+  ],
+  [
+   "§7(§eHold-Jump+Hold-Sneak+Right-Click§7)",
+   "§7(§e按住跳跃+按住潜行+右键§7)"
+  ],
+  [
+   "§7(§eHold-Jump+Hold Sneak + Right-Click§7)",
+   "§7(§e按住跳跃+按住潜行+右键§7)"
+  ],
+  [
+   "§7(§eHold Sneak + Hold Jump + Click§7)",
+   "§7(§e按住潜行+按住跳跃+点击§7)"
+  ],
+  [
+   "§7(§eHold-Sneak+Jump+Right-Click§7)",
+   "§7(§e按住潜行+跳跃+右键§7)"
+  ],
+  [
+   "§7(§eHold-Jump+Sneak+Right-Click§7)",
+   "§7(§e按住跳跃+潜行+右键§7)"
+  ],
+  [
+   "§7(§eSneak + Jump + Right-Click§7)",
+   "§7(§e潜行+跳跃+右键§7)"
+  ],
+  [
+   "§7(§eSprint + Jump + Right-Click§7)",
+   "§7(§e疾跑+跳跃+右键§7)"
+  ],
+  [
+   "§7(§eLook Down+Sneak+Right-Click§7)",
+   "§7(§e低头+潜行+右键§7)"
+  ],
+  [
+   "§7(§eRight-Click / Click again to Feint§7)",
+   "§7(§e右键 / 再次点击以佯攻§7)"
+  ],
+  [
+   "§7(§eHold-Sneak+Right-Click§7)",
+   "§7(§e按住潜行+右键§7)"
+  ],
+  [
+   "§7(§eHold-Sneak + Right-Click§7)",
+   "§7(§e按住潜行+右键§7)"
+  ],
+  [
+   "§7(§eHold-Jump+Right-Click§7)",
+   "§7(§e按住跳跃+右键§7)"
+  ],
+  [
+   "§7(§eHold-Jump + Right-Click§7)",
+   "§7(§e按住跳跃+右键§7)"
+  ],
+  [
+   "§7(§eJump+Look up + Right Click§7)",
+   "§7(§e跳跃+抬头+右键§7)"
+  ],
+  [
+   "§7[ §eSneak + Punch to Unequip All Shikigami §7]",
+   "§7[ §e潜行+拳击以收回全部式神 §7]"
+  ],
+  [
+   "§r§7[ §eSneak + Punch to Unequip All Skills §7]",
+   "§r§7[ §e潜行+拳击以卸下全部技能 §7]"
+  ],
+  [
+   "§7[ §eRight-Click to Switch Shikigami §7]",
+   "§7[ §e右键以切换式神 §7]"
+  ],
+  [
+   "§7[ §ePunch to Equip Shikigami §7]",
+   "§7[ §e拳击以装备式神 §7]"
+  ],
+  [
+   "§7(§eSneak + Hold Jump + Right-Click)",
+   "§7(§e潜行+按住跳跃+右键)"
+  ],
+  [
+   "§7(§eHold Sneak + Punch§7)",
+   "§7(§e按住潜行+拳击§7)"
+  ],
+  [
+   "§7(§eHold-Sneak+Punch§7)",
+   "§7(§e按住潜行+拳击§7)"
+  ],
+  [
+   "§7(§eHold-Sneak + Punch§7)",
+   "§7(§e按住潜行+拳击§7)"
+  ],
+  [
+   "§7(§eHold-Jump+Punch§7)",
+   "§7(§e按住跳跃+拳击§7)"
+  ],
+  [
+   "§7(§eHold Jump + Click§7)",
+   "§7(§e按住跳跃+点击§7)"
+  ],
+  [
+   "§7(§eHold-Jump + Click§7)",
+   "§7(§e按住跳跃+点击§7)"
+  ],
+  [
+   "§7(§ePunch or Right-Click§7)",
+   "§7(§e拳击或右键§7)"
+  ],
+  [
+   "§7(§eLook Down + Sneak§7)",
+   "§7(§e低头+潜行§7)"
+  ],
+  [
+   "§7(§eSneak + Right Click§7)",
+   "§7(§e潜行+右键§7)"
+  ],
+  [
+   "§7(§eSneak + Right-Click§7)",
+   "§7(§e潜行+右键§7)"
+  ],
+  [
+   "§7(§eSneak + Click§7)",
+   "§7(§e潜行+点击§7)"
+  ],
+  [
+   "§7(§eSneak + Punch§7)",
+   "§7(§e潜行+拳击§7)"
+  ],
+  [
+   "§7(§eRight-Click§7)",
+   "§7(§e右键§7)"
+  ],
+  [
+   "§7(§ePunch§7)",
+   "§7(§e拳击§7)"
+  ],
+  [
+   "§7[§e Click §7]",
+   "§7[§e 点击 §7]"
+  ],
+  [
+   "§l§9[Use while in Creative Mode to unlock all skills]",
+   "§l§9[在创造模式下使用以解锁全部技能]"
+  ],
+  [
+   "§g  - Sneak + Click to Advance ",
+   "§g  - 潜行+点击以推进 "
+  ],
+  [
+   "§7 [ §gCost: 10 Invest Points §7]",
+   "§7 [ §g消耗: 10 加点 §7]"
+  ],
+  [
+   "§r§g  - Click to use ",
+   "§r§g  - 点击以使用 "
+  ],
+  [
+   "§g- Cost: [ §cAll your Stored Energy §g]",
+   "§g- 消耗: [ §c你全部的储存能量 §g]"
+  ],
+  [
+   " Cursed Energy + §g5 Stored Energy §g]",
+   " 咒力 + §g5 储存能量 §g]"
+  ],
+  [
+   " Cursed Energy + §g10 Stored Energy §g]",
+   " 咒力 + §g10 储存能量 §g]"
+  ],
+  [
+   " Cursed Energy + §g15 Stored Energy §g]",
+   " 咒力 + §g15 储存能量 §g]"
+  ],
+  [
+   " Cursed Energy + §g25 Stored Energy §g]",
+   " 咒力 + §g25 储存能量 §g]"
+  ],
+  [
+   " Cursed Energy + §g50 Stored Energy §g]",
+   " 咒力 + §g50 储存能量 §g]"
+  ],
+  [
+   " Cursed Energy §e+ §21x Stable Transfigured Human §e+ §21x Unstable Transfigured Human §g]",
+   " 咒力 §e+ §21 个稳定改造人类 §e+ §21 个不稳定改造人类 §g]"
+  ],
+  [
+   " Cursed Energy §e+ §23x Stable Transfigured Humans §e+ §23x Unstable Transfigured Humans §g]",
+   " 咒力 §e+ §23 个稳定改造人类 §e+ §23 个不稳定改造人类 §g]"
+  ],
+  [
+   " Cursed Energy §e+ §24x Unstable Transfigured Humans §g]",
+   " 咒力 §e+ §24 个不稳定改造人类 §g]"
+  ],
+  [
+   " Cursed Energy §e+ §22x Transfigured Humans §g]",
+   " 咒力 §e+ §22 个改造人类 §g]"
+  ],
+  [
+   " Cursed Energy §e+ §23x Transfigured Humans §g]",
+   " 咒力 §e+ §23 个改造人类 §g]"
+  ],
+  [
+   " Cursed Energy §e+ §71 Cobblestone §g]",
+   " 咒力 §e+ §71 块圆石 §g]"
+  ],
+  [
+   " Cursed Energy §g]",
+   " 咒力 §g]"
+  ],
+  [
+   "§g- Cost [ §7",
+   "§g- 消耗 [ §7"
+  ],
+  [
+   "Cost: [ §7",
+   "消耗: [ §7"
+  ],
+  [
+   "§g- Requirements: [ §c",
+   "§g- 需求: [ §c"
+  ],
+  [
+   "§o§4Dropping this item will DELETE it.",
+   "§o§4丢弃此物品会将其删除。"
+  ]
+ ]
+}

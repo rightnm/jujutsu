@@ -1,0 +1,229 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": { 
+      "scripts": {
+        "animate": [
+          "health"
+        ]
+      },
+      "animations": {
+        "health": "controller.animation.health"
+      },
+      "properties":{
+        "property:transfigured_colour": { 
+          "type": "int", 
+          "range": [0, 100], 
+          "default": 1,
+          "client_sync": true
+        }	
+      },
+      "identifier": "ds:transfigured_human_proj",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "ds:disappear": {
+        "minecraft:transformation": {
+          "into": "ds:disappear",
+          "delay": 0.0
+        }
+      },
+      "ds:projectile_adult": {
+        "minecraft:movement": {
+          "value": 0
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "idk"
+          ],
+          "seats": {
+            "position": [
+              0,
+              1.1,
+              -0.35
+            ],
+            "lock_rider_rotation": 0
+          }
+        },
+        "minecraft:behavior.mount_pathing": {
+          "priority": 2,
+          "speed_multiplier": 1.25,
+          "target_dist": 0,
+          "track_target": true
+        }
+      },
+      "bridge:execute_command_id_1": {
+        "minecraft:skin_id": {
+          "value": 1
+        }
+      },
+      "bridge:execute_no_command": {
+        "minecraft:skin_id": {
+          "value": 0
+        }
+      }
+    },
+    "components": {
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:type_family": {
+        "family": ["attack", "projectile"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.1
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1,
+        "min": 1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 0
+          }
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/none.json"
+      },
+      "minecraft:nameable": {},
+      "minecraft:persistent": {},
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": false,
+        "can_break_doors": true
+      },
+      "minecraft:movement": {
+        "value": 0
+      },
+      "minecraft:jump.static": {},
+      "minecraft:timer": {
+        "looping": true,
+        "time": [0.0, 0.0],
+        "time_down_event": {
+          "event": "commands"
+        }
+      }
+    },
+    "events": {
+      "transfigured_colour1": {
+        "set_property": {
+          "property:transfigured_colour": 0	
+        }
+      },
+      "transfigured_colour2": {
+        "set_property": { 
+          "property:transfigured_colour": 1	
+        }
+      },
+      "transfigured_colour3": {
+        "set_property": {
+          "property:transfigured_colour": 2
+        }
+      },
+      "transfigured_colour4": {
+        "set_property": {
+          "property:transfigured_colour": 3
+        }
+      },
+      "transfigured_colour4": {
+        "set_property": {
+          "property:transfigured_colour": 3
+        }
+      },
+      "transfigured_colour4": {
+        "set_property": {
+          "property:transfigured_colour": 3
+        }
+      },
+      "transfigured_colour5": {
+        "set_property": {
+          "property:transfigured_colour": 4
+        }
+      },
+      "transfigured_colour6": {
+        "set_property": {
+          "property:transfigured_colour": 5
+        }
+      },
+      "transfigured_colour7": {
+        "set_property": {
+          "property:transfigured_colour": 6
+        }
+      },
+      "transfigured_colour8": {
+        "set_property": {
+          "property:transfigured_colour": 7
+        }
+      },
+      "mob_die": {
+        "queue_command": {
+          "command": [
+            "event entity @s ds:disappear"
+          ]
+        }
+      },
+      "ds:disappear": {
+        "add": {
+          "component_groups": [
+            "ds:disappear"
+          ]
+        }
+      },
+      "commands": {
+        "queue_command": {
+          "command": [
+            "execute as @s[name=transfigure_cube] at @s run function idle_transfig/transfigure_cube",
+            "execute as @s[name=transfigure_wall] at @s run function idle_transfig/transfigure_wall",
+            "execute as @s[name=transfigure_spikes] at @s run function idle_transfig/transfigure_spikes",
+            "execute as @s[name=transfigure_worms] at @s run function idle_transfig/transfigure_worms"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "queue_command": {
+          "command": [
+            "scoreboard objectives add skincolour dummy",
+            "scoreboard players random @s skincolour 1 8",
+            "event entity @s[scores={skincolour=1}] transfigured_colour1",
+            "event entity @s[scores={skincolour=2}] transfigured_colour2",
+            "event entity @s[scores={skincolour=3}] transfigured_colour3",
+            "event entity @s[scores={skincolour=4}] transfigured_colour4",
+            "event entity @s[scores={skincolour=5}] transfigured_colour5",
+            "event entity @s[scores={skincolour=6}] transfigured_colour6",
+            "event entity @s[scores={skincolour=7}] transfigured_colour7",
+            "event entity @s[scores={skincolour=8}] transfigured_colour8"
+          ]
+        }
+      }
+    }
+  }
+}

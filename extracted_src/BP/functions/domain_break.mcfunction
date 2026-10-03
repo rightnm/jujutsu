@@ -1,0 +1,1 @@
+scoreboard players set @e[family=projectile,tag=DomainExpansion,r=55,scores={Deleter=31..}] Deleter 30

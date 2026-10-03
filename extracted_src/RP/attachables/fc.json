@@ -1,0 +1,20 @@
+{
+  "format_version": "1.18.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "ds:frog_cero",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/models/textureoff"
+      },
+      "geometry": {
+        "default": "geometry.nothing"
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

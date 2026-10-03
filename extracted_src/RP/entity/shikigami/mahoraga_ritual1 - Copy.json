@@ -1,0 +1,53 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ds:mahoraga_ritual2",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/shikigami/mahoraga"
+			},
+			"geometry": {
+				"default": "geometry.mahoraga"
+      },
+      "particle_effects": {
+        "exorcism_aura": "ds:exorcism_aura",
+        "stomp1": "ds:stomp1",
+        "mahoraga_ritual1": "ds:mahoraga_ritual1",
+        "mahoraga_ritual2": "ds:mahoraga_ritual2",
+        "mahoraga_ritual3": "ds:mahoraga_ritual3",
+        "mahoraga_ritual4": "ds:mahoraga_ritual4",
+        "mahoraga_ritual5": "ds:mahoraga_ritual5",
+        "mahoraga_ritual6": "ds:mahoraga_ritual6"
+      },
+      "sound_effects": {
+        "stomp": "mob.stomp",
+        "step_sound": "random.sprint",
+        "fizz_sound": "random.fizz",
+        "shock1": "mob.shock1",
+        "whoosh": "random.whoosh",
+        "whoop": "random.whoop",
+        "punch1": "mob.punch1",
+        "bullet": "mob.strike",
+        "swordslash": "mob.swordslash",
+        "slash1": "mob.slash1",
+        "sniper": "mob.bullet",
+        "blocked": "random.blocked",
+        "wind": "mob.wind",
+        "flap": "mob.enderdragon.flap",
+        "magic1": "mob.magic1",
+        "explode_sound": "random.explode",
+        "whoosh_sound": "mob.witch.throw",
+        "splat": "mob.slime.jump",
+        "movement": "mob.enderdragon.flap",
+        "sheath": "armor.equip_chain"
+      },
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"enable_attachables": true
+		}
+	}
+}

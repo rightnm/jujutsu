@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.joystick": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.textureoff",
+            "Texture.joystick"
+          ]
+        }
+      },
+      "geometry": "Geometry.joystick",
+      "materials": [{"*": "Material.emissive"}],
+      "textures": [
+        "query.property('property:joystick') == 1 ? Texture.joystick : (query.property('property:joystick') == 0 ? Texture.textureoff)"
+      ]
+    }
+  }
+}

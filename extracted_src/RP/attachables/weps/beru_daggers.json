@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "ds:beru_daggers",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/models/beru_daggers",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.beru_daggers"
+      },
+      "scripts": {
+        "parent_setup": "variable.boot_layer_visible = 0.0;"
+      },
+      "render_controllers": [ "controller.render.armor" ]
+    }
+  }
+}

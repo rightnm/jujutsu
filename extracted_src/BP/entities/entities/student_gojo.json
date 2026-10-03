@@ -1,0 +1,263 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": { 
+			"scripts": {
+	"animate": [
+					"health"
+				]
+			},
+			"animations": {
+				"health": "controller.animation.health"
+			},
+	"properties":{
+				"property:test": { 
+					"type": "int", 
+					"range": [0, 1], 
+					"default": 0,
+					"client_sync": true
+				},
+				"property:test2": { 
+					"type": "int", 
+					"range": [0, 1], 
+					"default": 0,
+					"client_sync": true
+				},	
+				"property:test3": { 
+					"type": "int", 
+					"range": [0, 1], 
+					"default": 1,
+					"client_sync": true
+				}	
+	},
+      "identifier": "ds:student_gojo",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:student_gojo_components": {
+
+        "minecraft:behavior.controlled_by_player": {
+          "speed_multiplier": 1.0
+        },
+        "minecraft:behavior.ranged_attack": {
+          "attack_groups": ["student_gojo_projectile"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": ["hero", "gojo", "sorcerer", "human", "boss", "special_grade"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": true,
+        "can_break_doors": true
+      },
+      "minecraft:annotation.break_door": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:health": {
+        "value": 240,
+        "max": 240
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:movement": {
+        "value": 0.46
+      },
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 0.3
+      },
+      "minecraft:on_death": {
+        "event": "gojo_die"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/sus"
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "test": "is_underwater",
+            "operator": "==",
+            "value": true
+          },
+          "event": "minecraft:start_transforming"
+        }
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1,
+        "track_target": false
+      },
+      "minecraft:behavior.stomp_turtle_egg": {
+        "priority": 4,
+        "speed_multiplier": 1,
+        "search_range": 10,
+        "search_height": 3,
+        "goal_radius": 1.14,
+        "search_count": 4,
+        "interval": 20
+
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1,
+				"entity_types": {
+					"filters": {
+						"none_of": [
+							{
+								"test": "is_family",
+								"subject": "other",
+								"value": "hero"
+							}
+						]
+					},
+					"max_dist": 64
+				}
+			},
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 11,
+        "reselect_targets": true,
+        "must_see": false,
+        "within_radius": 64,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                        "subject": "other",
+                  "value": "villain"
+                },
+                {
+                  "test": "is_family",
+                        "subject": "other",
+                  "value": "q_clan"
+                },
+                {
+                  "test": "has_tag",
+                        "subject": "other",
+                  "value": "curse"
+                },
+                {
+                  "test": "is_family",
+                        "subject": "other",
+                  "value": "purecurse"		
+                },
+                {
+									"test": "has_tag",
+									"subject": "other",
+									"value": "sukuna"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "sukuna"
+								},
+								{
+                  "test": "is_family",
+                        "subject": "other",
+                  "value": "undead"	
+                },
+                {
+                  "test": "is_family",
+                  "value": "pest"			  
+                }
+              ]
+            },
+            "max_dist": 64
+
+          }
+        ]
+      },
+      "minecraft:follow_range": 300,
+      "minecraft:loot": {
+        "table": "loot/nothing.json"
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+	  }
+    },
+    "events": {
+	"test": {
+    "set_property": {
+	"property:test": 0
+		}
+	},
+	"test2": {
+    "set_property": { 
+	"property:test2": 1	
+		}
+	},
+	"test3": {
+    "set_property": {
+	"property:test3": 2
+		}
+	},
+      "gojo_die": {
+        "queue_command": {
+          "command": [
+            "execute as @s[tag=!wcs_death_cutscene,tag=!transfigure_death] at @s unless entity @e[type=ds:transfigured_human,r=1] run function mobs/student_gojo_death",
+            "camerashake add @a[r=35] 0.1 0.1"
+		  ]
+            }
+  },
+			"minecraft:entity_spawned": {
+			"queue_command": {
+				"command": [
+					"function mobs/student_gojo_spawn"
+				]
+			}
+		}
+	}
+  }
+}

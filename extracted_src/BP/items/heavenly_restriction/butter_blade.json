@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:butter_blade",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.chestboat"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "butter_blade"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§dButter Blade §r\n\n§r§gBlade Throw §7(§eRight-Click§7)\n\n§r§gTp Slam §7(§eSneak + Right-Click§7)\n\n§5- ButterJaffa's personal blade."
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

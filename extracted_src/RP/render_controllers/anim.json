@@ -1,0 +1,28 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.animated_hats": {
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Texture.default"
+			],
+			"geometry": "Geometry.default"
+		},
+		"controller.render.block_hat": {
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Texture.default"
+			],
+			"geometry": "Geometry.default"
+		}
+	}
+}

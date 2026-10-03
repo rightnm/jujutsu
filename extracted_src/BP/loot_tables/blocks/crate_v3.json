@@ -1,0 +1,168 @@
+{
+	"pools": [
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"weight": 45,
+					"count": {
+						"min": 3,
+						"max": 12
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:coal",
+					"weight": 15,
+					"count": {
+						"min": 3,
+						"max": 12
+					}
+				},
+				{
+					"type": "item",
+					"name": "ds:cough_syrup",
+					"weight": 25,
+					"count": {
+						"min": 1,
+						"max": 5
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:gold_ingot",
+					"weight": 25,
+					"count": {
+						"min": 6,
+						"max": 12
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:enchanted_book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 1,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond",
+					"weight": 15,
+					"count": {
+						"min": 2,
+						"max": 4
+					}
+				},
+				{
+					"type": "item",
+					"name": "minecraft:emerald",
+					"weight": 10,
+					"count": {
+						"min": 2,
+						"max": 4
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "ds:katana",
+					"weight": 5,
+					"count": 1
+				},
+				{
+					"type": "item",
+					"name": "ds:nyoi_staff",
+					"weight": 5,
+					"count": {
+						"min": 1
+				},
+					"type": "item",
+					"name": "ds:slaughter_demon",
+					"weight": 4,
+					"count": {
+						"min": 1
+				},
+					"type": "item",
+					"name": "ds:black_blade",
+					"weight": 2,
+					"count": {
+						"min": 1
+					}
+				},
+				{
+					"type": "item",
+					"name": "ds:cursed_object_v1",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "ds:grade3_seal",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "ds:cursed_object_v2",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "ds:grade2_seal",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "ds:megaphone",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "ds:cursed_object_v3",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "ds:grade1_seal",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "ds:cursed_object_v4",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "ds:special_grade_seal",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "ds:calamity_claws",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:coal",
+					"weight": 63,
+					"count": {
+						"min": 1,
+						"max": 8
+						
+					}
+				}
+			]
+		}
+	]
+}

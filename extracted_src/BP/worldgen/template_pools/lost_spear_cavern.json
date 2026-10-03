@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "ds:lost_spear_cavern"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "lost_spear_cavern",
+	"processors": "ds:cobblestone_replacement"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

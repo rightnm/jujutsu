@@ -1,0 +1,84 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:mahoragatamed",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/shikigami/mahoraga"
+      },
+      "geometry": {
+        "default": "geometry.mahoraga"
+      },
+      "animations": {
+          "movement_controller": "controller.animation.mahoraga.movement",
+          "static": "animation.mahoraga.static",
+          "move": "animation.mahoraga.move",
+          "sprint": "animation.mahoraga.sprint"
+      },
+      "particle_effects": {
+        "exorcism_aura": "ds:exorcism_aura",
+        "stomp1": "ds:stomp1",
+        "mahoraga_slash1": "ds:mahoraga_slash1",
+        "mahoraga_slash2": "ds:mahoraga_slash2",
+        "mahoraga_slash3": "ds:mahoraga_slash3",
+        "mahoraga_slash4": "ds:mahoraga_slash4",
+        "mahoraga_slash5": "ds:mahoraga_slash5",
+        "mahoraga_slash6": "ds:mahoraga_slash6",
+        "mahoraga_slash7": "ds:mahoraga_slash7",
+        "punch_warning": "ds:punch_warning",
+        "blow0": "ds:blow0",
+        "blow1": "ds:blow1",
+        "blow2": "ds:blow2",
+        "blow3": "ds:blow3",
+        "blow4": "ds:blow4",
+        "blow5": "ds:blow5",
+        "blow6": "ds:blow6",
+        "blow7": "ds:blow7",
+        "temp": "ds:temp",
+        "temp": "ds:temp",
+        "temp": "ds:temp",
+        "temp": "ds:temp"
+      },
+      "sound_effects": {
+        "stomp": "mob.stomp",
+        "step_sound": "random.sprint",
+        "fizz_sound": "random.fizz",
+        "shock1": "mob.shock1",
+        "whoosh": "random.whoosh",
+        "whoop": "random.whoop",
+        "punch1": "mob.punch1",
+        "bullet": "mob.strike",
+        "swordslash": "mob.swordslash",
+        "slash1": "mob.slash1",
+        "sniper": "mob.bullet",
+        "blocked": "random.blocked",
+        "wind": "mob.wind",
+        "flap": "mob.enderdragon.flap",
+        "magic1": "mob.magic1",
+        "explode_sound": "random.explode",
+        "whoosh_sound": "mob.witch.throw",
+        "splat": "mob.slime.jump",
+        "movement": "mob.enderdragon.flap",
+        "sheath": "armor.equip_chain"
+      },
+      "scripts": {
+          "animate": [
+              "movement_controller"
+          ],
+          "pre_animation": [
+			  "variable.attack = Math.sin(variable.attack_time * 30.0);",
+			  "variable.random = math.round(math.random(0,1));"
+		  ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "enderman_spawn_egg"
+      }
+    }
+  }
+}

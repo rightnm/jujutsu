@@ -1,0 +1,34 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.soulking_sword": {
+			"textures": [
+				"Array.variants[query.property('property:soulking_sword')]"
+			],
+			"materials": [
+				{
+					"*": "Material.entity_emissive_alpha"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:soulking_sword')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.no",
+						"Geometry.soulking_sword"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.soulking_sword"
+						
+					]
+				}
+			}
+		}
+	}
+}

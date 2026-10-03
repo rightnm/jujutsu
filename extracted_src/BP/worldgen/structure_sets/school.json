@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:school"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 71243314,
+      "separation": 50,
+      "spacing": 151,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:school",
+        "weight": 1
+      }
+    ]
+  }
+}

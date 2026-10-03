@@ -1,0 +1,36 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.kamutoke": {
+			"textures": [
+				"Array.variants[query.property('property:kamutoke')]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:kamutoke')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.nothing",
+						"Geometry.kamutoke",
+						"Geometry.kamutoke_right"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.kamutoke",
+						"Texture.kamutoke"
+						
+					]
+				}
+			}
+		}
+	}
+}

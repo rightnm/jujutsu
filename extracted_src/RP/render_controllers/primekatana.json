@@ -1,0 +1,38 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.primekatana": {
+			"textures": [
+				"Array.variants[query.property('property:primekatana')]"
+			],
+			"materials": [
+				{
+					"*": "Material.entity_emissive_alpha"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:primekatana')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.textureoff",
+						"Geometry.primekatana",
+						"Geometry.primekatana_sheathed",
+						"Geometry.primekatana3"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.primekatana",
+						"Texture.primekatana",
+						"Texture.primekatana"
+						
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,95 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ds:pebble",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:arrow"
+    },
+    "component_groups": {
+      "ds:despawn":{
+        "minecraft:instant_despawn":{}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "idk" ]
+      },
+      "minecraft:timer": {
+        "looping": true,
+        "randomInterval": false,
+        "time": 0.0,
+        "time_down_event": {
+         "event": "ds:timer_event",
+         "target": "self"
+        }
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 0,
+            "knockback": true,
+            "semi_random_diff_damage":false,
+            "destroy_on_hit": false
+          },
+          "definition_event": {
+            "affectProjectile": true,
+            "eventTrigger": {
+              "event": "ds:hit_event",
+              "target": "self"
+            }
+          }
+        },
+        "offset": [ 0, 0, 0 ],
+        "power": 1.2,
+        "gravity": 0.00,
+        "angle_offset": 0.0,
+        "inertia": 1,
+        "knockback":false,
+        "multiple_targets":true,
+        "liquid_inertia": 1
+      },
+      "minecraft:transformation": {
+        "into": "ds:despawn",
+        "delay": 2.5
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 80.0,
+          "max_dropped_ticks": 10,
+          "use_motion_prediction_hints": true
+        }
+      }
+    },
+    "events": {
+      "ds:timer_event":{
+        "queue_command": {
+          "command": [
+          "particle ds:cursed_energy_hand1",
+          "execute as @e[scores={Stun=5..},type=!ds:pebble,r=4] at @s if block ~~-1~ air if block ~~-2~ air run tp @e[type=ds:pebble,r=5] ~~~",
+          "execute unless entity @s[scores={Deleter=0..}] run scoreboard players set @s Deleter 33",
+          "execute as @s at @s if entity @p[tag=boogie_woogie,scores={punch=1},r=70] run particle ds:boogie_woogie_tp1",
+          "execute as @s at @s if entity @p[tag=boogie_woogie,scores={punch=1},r=70] run particle ds:boogie_woogie_tp2",
+          "execute as @s at @s if entity @p[tag=boogie_woogie,scores={punch=1},r=70] run playanimation @p[tag=boogie_woogie,scores={punch=1},r=70] animation.todo.fast_clap",
+          "execute as @s at @s if entity @p[tag=boogie_woogie,scores={punch=1},r=70] run execute as @p[tag=boogie_woogie,scores={punch=1},r=70] at @s run particle ds:boogie_woogie_tp",
+          "execute as @s at @s if entity @p[tag=boogie_woogie,scores={punch=1},r=70] run execute as @p[tag=boogie_woogie,scores={punch=1},r=70] at @s run particle ds:boogie_woogie_tp2",
+          "execute as @s at @s if entity @p[tag=boogie_woogie,scores={punch=1},r=70] run execute as @p[tag=boogie_woogie,scores={punch=1},r=70] at @s run playsound mob.clap @a[r=100] ~~1~ 99999 1.25 9999",
+          "execute as @s at @s if entity @p[tag=boogie_woogie,scores={punch=1},r=70] run tp @p[tag=boogie_woogie,scores={punch=1},r=70] ~~~",
+          "execute as @s at @s if entity @p[tag=boogie_woogie,scores={punch=1},r=70] run kill @s"
+
+
+		  ]
+        }
+      },
+      "ds:hit_event":{
+        "queue_command": {
+          "command": [
+			  "execute as @s at @s if entity @e[type=!ds:pebble,r=2] run function boogie_woogie/pebble_land"
+		  ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.airhorn": {
+			"textures": [
+				"Array.variants[query.property('property:airhorn')]"
+			],
+			"materials": [
+				{
+					"*": "Material.entity_emissive_alpha"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:airhorn')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.textureoff",
+						"Geometry.airhorn"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.textureoff",
+						"Texture.airhorn"
+						
+					]
+				}
+			}
+		}
+	}
+}

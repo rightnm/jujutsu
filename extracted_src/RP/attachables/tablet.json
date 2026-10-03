@@ -1,0 +1,19 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "ds:mysterious_tablet",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/models/tablet"
+      },
+      "geometry": {
+        "default": "geometry.tablet"
+      },
+      "render_controllers": [ "controller.render.armor" ]
+    }
+  }
+}

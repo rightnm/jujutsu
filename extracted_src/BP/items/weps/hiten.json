@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:hiten",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "hiten"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§d§lHiten\n§r§5- §oHiten, 'Flying Heaven', is a cursed tool\nwielded by sukuna in the heian era. This spear is capable of controlling\nand manipulating the air around causing devastating damage.\n\n§e-Sprint + Look Down + Jump to be carried by the wind\n\n§r§tCyclone Drill §7(§eRight-Click§7)\n\n§r§tAir Passage §7(§eSprint + Right-Click§7)\n\n§r§tWhirling Winds §7(§eHold-Sneak + Right-Click§7)\n\n§r§tHeavenly Wind §7(§eHold-Jump + Right-Click§7)\n\n§r§tImpaling Gale §7(§eHold-Sneak + Punch§7)\n§r§oShared Cooldown\n\n§r§cRampaging Tempest §7(§eHold-Sneak + Hold-Jump + Right-Click§7)\n§r§oShared Cooldown\n\n§r§l§d[ Special Grade Cursed Tool ]"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

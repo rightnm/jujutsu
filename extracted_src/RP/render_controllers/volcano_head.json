@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.volcano_head": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.textureoff",
+            "Texture.volcano_head"
+          ]
+        }
+      },
+      "geometry": "Geometry.volcano_head",
+      "materials": [{"*": "Material.alpha"}],
+      "textures": [
+        "query.property('property:volcano_head') == 1 ? Texture.volcano_head : (query.property('property:volcano_head') == 0 ? Texture.textureoff)"
+      ]
+    }
+  }
+}

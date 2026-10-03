@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:sukuna1",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "sukuna1"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§fBasic Dismantle §7(§ePunch§7)\n§g- Cost: [ §710 Cursed Energy §g]\n\n§r§fDismantle §7(§eRight-Click§7)\n§9§oVariants: Click + Mid-Air while Looking Straight Down§r\n§g- Cost: [ §750 Cursed Energy §g]\n\n§r§7Dissect §7(§eHold-Jump + Click§7)\n§9§oVariants: Jump + Click + Backwards / Forwards§r\n§g- Cost: [ §775 Cursed Energy §g]\n\n§r§7Rapid Dismantles §7(§eHold-Sneak + Click§7)\n§9§oVariants: Sneak + Click Mid-Air Directional§r\n§g- Cost: [ §7200 Cursed Energy §g]\n\n§r§8Heavy Dismantle §7(§eSprint + Jump + Click§7)\n§9§oVariants: Sprint + Jump + Look Straight Down Mid-Air + Click§r\n§g- Cost: [ §7200 Cursed Energy §g]\n\n§r§8Dismantle Pummeling §7(§eHold-Sneak + Punch§7)§r\n§g- Cost: [ §7300 Cursed Energy §g]\n\n§r§cMaximum Output Dismantle §7(§eHold-Sneak + Hold-Jump + Click§7)§r\n§9(This is not world cutting slash)\n§e- Chargeable, click to fire§r\n§g- Cost: [ §7500 Cursed Energy §g]\n§r§5- §o1st Skill"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

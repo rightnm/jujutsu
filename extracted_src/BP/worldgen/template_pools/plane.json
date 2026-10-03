@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "ds:plane"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "plane",
+	"processors": "ds:cobblestone_replacement"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

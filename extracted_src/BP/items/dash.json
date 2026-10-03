@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:dash",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "dash"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§aDash\n\n§7(§eJump+Look up + Right Click§7) to Frontflip Dash\n\n§7(§eSneak + Right Click§7) to Flashstep"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

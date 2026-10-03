@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:promotion",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "promotion"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§dJujutsu Grade Promotion Papers\n\n§5- Promotes you up a Grade in Jujutsu Sorcery.\n§cDoes not grant any of the stats acquired from levelling up normally."
+            },
+            "minecraft:max_stack_size": 4,
+            "minecraft:allow_off_hand": false,
+            "minecraft:foil": true
+            }
+        }
+    }

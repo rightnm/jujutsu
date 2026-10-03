@@ -1,0 +1,157 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ds:full_background",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "property:colours": {
+          "type": "int",
+          "range": [0, 12],
+          "default": 0,
+          "client_sync": true
+        }
+      }
+    },
+    "component_groups": {
+      "ds:disappear": {
+        "minecraft:instant_despawn": {}
+      },
+      "ds:projectile_adult": {
+        "minecraft:movement": {
+          "value": 0
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": ["idk"],
+          "seats": [
+            {
+              "position": [0, 1.1, -0.35],
+              "lock_rider_rotation": 0
+            }
+          ]
+        },
+        "minecraft:behavior.mount_pathing": {
+          "priority": 2,
+          "speed_multiplier": 1.25,
+          "target_dist": 0,
+          "track_target": true
+        }
+      }
+    },
+    "components": {
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:type_family": {
+        "family": ["plusultra_vision"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.1
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1,
+        "min": 1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 0
+          }
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/none.json"
+      },
+      "minecraft:nameable": {},
+      "minecraft:persistent": {},
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": false,
+        "can_break_doors": true
+      },
+      "minecraft:movement": {
+        "value": 0
+      },
+      "minecraft:scale": {
+        "value": 0.9
+      },
+      "minecraft:jump.static": {},
+      "minecraft:timer": {
+        "looping": true,
+        "time": [0.0, 0.0],
+        "time_down_event": {
+          "event": "background_colour"
+        }
+      }
+    },
+    "events": {
+      "ds:disappear": {
+        "add": {
+          "component_groups": ["ds:disappear"]
+        }
+      },
+      "background_colour": {
+        "queue_command": {
+          "command": ["tag @s[tag=!Frames] add Frames"]
+        }
+      },
+      "colour_1": {
+        "set_property": {
+          "property:colours": 0
+        }
+      },
+      "colour_2": {
+        "set_property": {
+          "property:colours": 1
+        }
+      },
+      "colour_3": {
+        "set_property": {
+          "property:colours": 2
+        }
+      },
+      "colour_4": {
+        "set_property": {
+          "property:colours": 3
+        }
+      },
+      "colour_5": {
+        "set_property": {
+          "property:colours": 4
+        }
+      },
+      "colour_6": {
+        "set_property": {
+          "property:colours": 5
+        }
+      }
+    }
+  }
+}

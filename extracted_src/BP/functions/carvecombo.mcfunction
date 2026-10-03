@@ -1,0 +1,9 @@
+particle ds:cleave_aureole
+particle ds:carving_combo3
+particle ds:carving_combo4
+particle ds:carving_combo5
+particle ds:carving_combo6
+particle ds:carving_combo7
+particle ds:carving_combo8
+particle ds:carving_combo9
+particle ds:carving_combo10

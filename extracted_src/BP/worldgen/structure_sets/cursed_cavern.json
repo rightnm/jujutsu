@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:cursed_cavern"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 71543314,
+      "separation": 49,
+      "spacing": 100,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "ds:cursed_cavern",
+        "weight": 1
+      }
+    ]
+  }
+}

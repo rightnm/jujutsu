@@ -1,0 +1,50 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.eyes": {
+			"textures": [
+				"Array.variants[query.property('property:eyes')]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:eyes')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.eyes",
+						"Geometry.eyes",
+						"Geometry.eyes",
+						"Geometry.eyes",
+						"Geometry.eyes",
+						"Geometry.eyes",
+						"Geometry.eyes",
+						"Geometry.eyes",
+						"Geometry.eyes",
+						"Geometry.eyes"
+						
+						
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.eyes_red",
+						"Texture.eyes_blue",
+						"Texture.eyes_gray",
+						"Texture.eyes_orange",
+						"Texture.eyes_serious_teal",
+						"Texture.eyes_serious_red",
+						"Texture.eyes_serious_blue",
+						"Texture.eyes_serious_gray",
+						"Texture.eyes_serious_orange",
+						"Texture.eyes_serious_teal"
+						
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.evidence": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.textureoff",
+            "Texture.evidence"
+          ]
+        }
+      },
+"ignore_lighting": true,
+      "geometry": "Geometry.evidence",
+      "materials": [{"*": "Material.emissive"}],
+      "textures": [
+        "query.property('property:evidence') == 1 ? Texture.evidence : (query.property('property:evidence') == 0 ? Texture.textureoff)"
+      ]
+    }
+  }
+}

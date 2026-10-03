@@ -1,0 +1,71 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ds:knockback_dummy",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+		 "minecraft:knockback_resistance": {
+        "value": 0
+      },
+		"minecraft:interact": {
+    "interactions": [
+      {
+		  "filters": {
+          },
+        "on_interact": {
+          "event": "take",
+          "target": "self"
+        }
+      }
+    ]
+  },
+      "minecraft:type_family": {
+        "family": [ "mob", "monster", "dummy" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 1.6
+      },
+      "minecraft:health": {
+        "value": 99999,
+        "max": 99999
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 0
+          }
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/none.json"
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:persistent": {
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      }
+    },
+
+    "events": {
+		"take": {
+			"run_command": {
+				"command": [
+					"execute as @p[r=3,scores={Sneaking=10..}] at @s run kill @e[type=ds:no_knockback_dummy,c=1] "
+				]
+			}
+		}
+    }
+  }
+}

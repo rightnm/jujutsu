@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:transfigured_human_worm",
+      "materials": {
+        "default": "arrow"
+      },
+      "textures": {
+        "default": "textures/entity/textureoff",
+        "transfigured_colour1": "textures/entity/transfigured_human1",
+        "transfigured_colour2": "textures/entity/transfigured_human2",
+        "transfigured_colour3": "textures/entity/transfigured_human3",
+        "transfigured_colour4": "textures/entity/transfigured_human4",
+        "transfigured_colour5": "textures/entity/transfigured_human5",
+        "transfigured_colour6": "textures/entity/transfigured_human6",
+        "transfigured_colour7": "textures/entity/transfigured_human7",
+        "transfigured_colour8": "textures/entity/transfigured_human8"
+      },
+      "geometry": {
+        "default": "geometry.transfigured_human_worm"
+      },
+      "animations": {
+        "idle": "animation.worm.idle",
+        "move": "animation.arrow.move"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.shake = query.shake_time - query.frame_alpha;",
+          "variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+        ],
+        "animate": [
+          "move",
+          "idle"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.arrow",
+        "controller.render.transfigured_colour2"
+      ]
+    }
+  }
+}

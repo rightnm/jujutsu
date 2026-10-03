@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:extermination_sword",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "extermination_sword"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§d§lSword of Extermination\n§r§5- §oThe blade attatched to Mahoraga's arm, contains massive amounts of infused positive energy, \nmaking it extremely lethal to curses.\n\n§r§6Severing Slice §7(§eClick§7)\n\n§r§6Piercing Flourish §7(§eHold-Jump + Click§7)\n\n§r§cExtermination Combo §7(§eSneak + Jump + Click§7)\n§r§4-=- Requires Physical Heavenly Restriction -=-§r\n\n§r§6§lCurse Exorcism §r§7(§eSneak + Click§7)\n\n§r§l§d[ Special Grade Cursed Tool ]"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

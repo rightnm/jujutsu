@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ds:unobtanium_ingot"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "BBB",
+            "BBB",
+            "BBB"
+        ],
+        "key": {
+            "B": {
+                "item": "ds:unobtanium"
+            }
+			
+        },
+		"unlock": [
+          {
+            "item": "ds:unobtanium"
+          }
+        ],
+        "result": {
+            "item": "ds:unobtanium_ingot",
+            "count": 1
+        },
+        "priority": 1
+    }
+}

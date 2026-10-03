@@ -1,0 +1,136 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ds:riko_amanai",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"health"
+				]
+			},
+			"animations": {
+				"health": "controller.animation.health"
+			}
+		},
+		"component_groups": {
+			"ds:disappear": {
+				"minecraft:transformation": {
+					"into": "ds:disappear",
+					"delay": 0.0
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": ["neutral", "non_sorcerer", "plasma_vessel", "human"]
+			},
+			"minecraft:health": {
+				"value": 150,
+				"max": 150
+			},
+			"minecraft:attack": {
+				"damage": [
+					1
+				]
+			},
+			"minecraft:movement": {
+				"value": 0.45
+			},
+			"minecraft:scale": {
+				"value": 0.8
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			},
+			"minecraft:jump.static": {},
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.walk": {
+				"can_walk": true,
+				"avoid_sun": false,
+				"avoid_water": true  // Add this line to make the entity avoid water
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 6,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 7
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 7,
+				"look_distance": 64,
+				"probability": 0.2
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"within_radius": 64,
+				"reselect_targets": true,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							]
+						},
+						"max_dist": 64
+					}
+				]
+			},
+			"minecraft:behavior.delayed_attack": {
+				"priority": 0,
+				"attack_once": false,
+				"track_target": true,
+				"require_complete_path": false,
+				"random_stop_interval": 0,
+				"reach_multiplier": 0.01,
+				"speed_multiplier": 1,
+				"attack_duration": 999,
+				"hit_delay_pct": 999
+      },
+      "minecraft:jump.static": {},
+      "minecraft:timer": {
+        "looping": true,
+        "time": [0.0, 0.0],
+        "time_down_event": {
+          "event": "riko_amanai"
+        }
+      }
+    },
+		"events": {
+			"riko_amanai": {
+				"queue_command": {
+					"command": [
+						"function missions/vessel_mission/riko_amanai"
+					]
+				}
+			},
+			"ds:disappear": {
+				"add": {
+					"component_groups": [
+						"ds:disappear"
+					]
+				}
+			},
+			"riko_amanai_die": {
+				"queue_command": {
+					"command": [
+						"function missions/vessel_mission/mission_failed",
+						"camerashake add @a[r=35] 0.1 0.1"
+					]
+				}
+			}
+		}
+	}
+}

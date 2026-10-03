@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ds:undying_crystal_drop",
+      "materials": {
+				"default": "entity_beam_additive"
+      },
+      "textures": {
+        "default": "textures/models/undying_crystal"
+      },
+      "geometry": {
+        "default": "geometry.crystal_drop"
+      },
+      "spawn_egg": {
+        "texture": "village_guard_spawn_egg",
+        "texture_index": 0
+      },
+      "particle_effects": {
+        "special_aura1": "ds:special_aura1",
+        "special_aura2": "ds:special_aura2"
+			},
+			"animations": {
+				"idle": "animation.weapon.drop"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:shadow_style_katana",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "katana2"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§cKusakabe's Katana\n§r§5- §oA Deadly Japanese blade, can be used with Kusakabe's signature techniques.\n\n§r§tBatto Sword Drawing: Quickdraw\n§g- Cost: [ §720 Cursed Energy §g] §7(§eRight-Click§7)\n\n§r§tBatto Sword Drawing: Flashdraw Strike\n§g- Cost: [ §740 Cursed Energy §g] §7(§eHold-Jump + Right-Click§7)\n\n§r§tEvening Moon Sword Drawing: Intersection\n§g- Cost: [ §7100 Cursed Energy §g] §7(§eSneak + Click§7)\n§r§b- Requires Simple Domain to be active\n\n§r§tEvening Moon Sword Drawing: Judgement Cuts§\n§g- Cost: [ §720 Cursed Energy §g] §7(§eSneak + Punch§7)\n§r§b- Requires Simple Domain to be active\n\n§r§tHazy Moon\n§g- Cost: [ §7200 Cursed Energy §g] §7(§eSneak + Jump + Click§7)\n"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

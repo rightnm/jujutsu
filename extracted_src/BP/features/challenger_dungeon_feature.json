@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "ds:challenger_dungeon_feature"
+		},
+		"structure_name": "mystructure:challenger_dungeon_spawn",
+		"adjustment_radius": 16,
+		"constraints": {
+      "unburied": {},
+			"block_intersection": {
+				"block_allowlist": [
+					"minecraft:grass",
+					"minecraft:sand",
+					"minecraft:water",
+					"minecraft:dirt"
+				]
+			}
+		}
+	}
+}

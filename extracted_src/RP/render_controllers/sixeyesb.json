@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.sixeyesb": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.textureoff",
+            "Texture.sixeyesb"
+          ]
+        }
+      },
+      "geometry": "Geometry.sixeyesb",
+      "materials": [{"*": "Material.default"}],
+      "textures": [
+        "query.property('property:sixeyesb') == 1 ? Texture.sixeyesb : (query.property('property:sixeyesb') == 0 ? Texture.textureoff)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.18.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ds:kings_cloak",
+			"materials": {
+				"default": "armor"
+			},
+			"textures": {
+				"default": "textures/models/kings_cloak"
+			},
+			"geometry": {
+				"default": "geometry.kings_cloak"
+			},
+			"animations": {
+				"idle": "animation.kings_cloak.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.is_alive"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.animated_hats"
+			]
+		}
+	}
+}

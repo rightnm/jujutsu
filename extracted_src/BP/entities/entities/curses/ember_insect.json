@@ -1,0 +1,139 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ds:ember_insect",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 1 + (query.equipment_count * Math.Random(1,2)) : 0"
+      },
+      "minecraft:nameable": {},
+      "minecraft:on_death": {
+        "event": "curse_die"
+      },
+      "minecraft:type_family": {
+        "family": ["vex", "monster", "mob", "purecurse", "curse", "pest", "grade4", "emberinsect", "small"]
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:collision_box": {
+        "width": 0.4,
+        "height": 0.8
+      },
+      "minecraft:movement": {
+        "value": 1.0
+      },
+      "minecraft:scale": {
+        "value": 0.5
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": false
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:fire_immune": {},
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.charge_attack": {
+        "priority": 18
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 18,
+        "reselect_targets": true,
+        "must_see": false,
+        "within_radius": 64,
+        "entity_types": [
+          {
+            "filters": {
+              "none_of": [
+                {
+                  "test": "is_family",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "despawncito"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "damage"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "projectile"
+                },
+                {
+                  "test": "has_tag",
+                  "subject": "other",
+                  "value": "flames"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "purecurse"
+                }
+              ]
+            },
+            "max_dist": 64
+          }
+        ]
+      },
+      "minecraft:follow_range": 300,
+      "minecraft:loot": {
+        "table": "loot/nothing.json"
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 9,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.look_at_entity": {
+        "priority": 9,
+        "look_distance": 6.0,
+        "probability": 0.02,
+        "filters": { "test": "is_family", "subject": "other", "value": "mob" }
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        ]
+      }
+    },
+    "events": {
+      "curse_die": {
+        "queue_command": {
+          "command": [
+            "function flames/ember_insect_explode"
+          ]
+        }
+      }
+    }
+  }
+}

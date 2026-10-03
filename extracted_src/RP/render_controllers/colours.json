@@ -1,0 +1,39 @@
+
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.colours": {
+			"textures": [
+				"Array.variants[query.property('property:colours')]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.variants[query.property('property:colours')]",
+			"arrays": {
+				"geometries": {
+					"Array.variants": [
+						"Geometry.default",
+						"Geometry.default",
+						"Geometry.default",
+						"Geometry.default",
+						"Geometry.default",
+						"Geometry.default"
+					]
+				},
+				"textures": {
+					"Array.variants": [
+						"Texture.white",
+						"Texture.pink",
+						"Texture.hearts",
+						"Texture.yellow",
+						"Texture.yellow_pink",
+						"Texture.black"
+					]
+				}
+			}
+		}
+	}
+}

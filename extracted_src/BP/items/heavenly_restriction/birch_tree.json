@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:birch_tree",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.chestboat"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "birch_tree"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§dBirch Tree\n§5- What a nice tree.\n(This item was created in the architect's work: Clover Legends/Meridia, Item is a Reference to Item Asylum on Roblox)"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

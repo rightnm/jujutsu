@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:explode_staff",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.chestboat"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "explode_staff"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§cExplosion Staff \n\n§5- Explosion!"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

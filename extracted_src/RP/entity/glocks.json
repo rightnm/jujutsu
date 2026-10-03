@@ -1,0 +1,226 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ds:glocks",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/models/glocks"
+			},
+			"geometry": {
+				"default": "geometry.glocks"
+			},
+      "particle_effects": {
+        "shoot_up1": "ds:shoot_up1",
+        "shoot_up2": "ds:shoot_up2",
+        "shoot_up3": "ds:shoot_up3",
+        "shoot_up4": "ds:shoot_up4",
+        "shoot_up5": "ds:shoot_up5",
+        "shoot_up6": "ds:shoot_up6",
+        "paramita1": "ds:paramita1",
+        "paramita2": "ds:paramita2",
+        "paramita3": "ds:paramita3",
+        "paramita4": "ds:paramita4",
+        "paramita5": "ds:paramita5",
+        "paramita6": "ds:paramita6",
+        "paramita7": "ds:paramita7",
+        "blue_wisdom1": "ds:blue_wisdom1",
+        "blue_wisdom2": "ds:blue_wisdom2",
+        "blue_wisdom3": "ds:blue_wisdom3",
+        "blue_wisdom4": "ds:blue_wisdom4",
+        "blue_wisdom5": "ds:blue_wisdom5",
+        "blue_wisdom6": "ds:blue_wisdom6",
+        "blue_wisdom7": "ds:blue_wisdom7",
+        "blue_twilight1": "ds:blue_twilight1",
+        "blue_twilight2": "ds:blue_twilight2",
+        "blue_twilight3": "ds:blue_twilight3",
+        "blue_twilight4": "ds:blue_twilight4",
+        "blue_twilight5": "ds:blue_twilight5",
+        "blue_twilight6": "ds:blue_twilight6",
+        "lapse_energy": "ds:lapse_energy",
+        "lapse_energy2": "ds:lapse_energy2",
+        "blue_phase1": "ds:blue_phase1",
+        "blue_phase2": "ds:blue_phase2",
+        "blue_phase3": "ds:blue_phase3",
+        "blue_phase4": "ds:blue_phase4",
+        "blue_phase5": "ds:blue_phase5",
+        "blue_phase6": "ds:blue_phase6",
+        "vorpal_strike1": "ds:vorpal_strike1",
+        "vorpal_strike2": "ds:vorpal_strike2",
+        "vorpal_strike3": "ds:vorpal_strike3",
+        "throughout_heaven1": "ds:throughout_heaven1",
+        "throughout_heaven2": "ds:throughout_heaven2",
+        "electro_cannon_orb1": "ds:electro_cannon_orb1",
+        "electro_cannon_orb2": "ds:electro_cannon_orb2",
+        "electro_cannon_orb3": "ds:electro_cannon_orb3",
+        "electro_cannon_orb4": "ds:electro_cannon_orb4",
+        "electro_cannon_orb5": "ds:electro_cannon_orb5",
+        "electro_cannon_orb": "ds:electro_cannon_orb",
+        "energy_orb1": "ds:energy_orb1",
+        "energy_orb2": "ds:energy_orb2",
+        "energy_orb3": "ds:energy_orb3",
+        "energy_orb4": "ds:energy_orb4",
+        "sever_slash1": "ds:sever_slash1",
+        "sever_slash2": "ds:sever_slash2",
+        "sever_slash3": "ds:sever_slash3",
+        "sever_slash4": "ds:sever_slash4",
+        "extermination_slicer1": "ds:extermination_slicer1",
+        "extermination_slicer2": "ds:extermination_slicer2",
+        "unlimited_enter_backgroundv1": "ds:unlimited_enter_backgroundv1",
+        "unlimited_enter_backgroundv2": "ds:unlimited_enter_backgroundv2",
+        "unlimited_enter_backgroundv3": "ds:unlimited_enter_backgroundv3",
+        "unlimited_enter": "ds:unlimited_enter",
+        "unlimited_enter1": "ds:unlimited_enter1",
+        "unlimited_enter2": "ds:unlimited_enter2",
+        "unlimited_enter3": "ds:unlimited_enter3",
+        "200hollow_purple1": "ds:200hollow_purple1",
+        "200hollow_purple2": "ds:200hollow_purple2",
+        "200hollow_purple3": "ds:200hollow_purple3",
+        "200hollow_purple4": "ds:200hollow_purple4",
+        "200hollow_purple5": "ds:200hollow_purple5",
+        "200hollow_purple6": "ds:200hollow_purple6",
+        "imaginary_purple1": "ds:imaginary_purple1",
+        "imaginary_purple2": "ds:imaginary_purple2",
+        "imaginary_purple3": "ds:imaginary_purple3",
+        "imaginary_purple4": "ds:imaginary_purple4",
+        "imaginary_purple5": "ds:imaginary_purple5",
+        "imaginary_purple6": "ds:imaginary_purple6",
+        "imaginary_purple7": "ds:imaginary_purple7",
+        "imaginary_blue": "ds:imaginary_blue",
+        "imaginary_blue_trail": "ds:imaginary_blue_trail",
+        "imaginary_red": "ds:imaginary_red",
+        "imaginary_red_trail": "ds:imaginary_red_trail",
+        "imaginary_blue_splash1": "ds:imaginary_blue_splash1",
+        "imaginary_blue_splash2": "ds:imaginary_blue_splash2",
+        "imaginary_blue_splash3": "ds:imaginary_blue_splash3",
+        "imaginary_blue_splash4": "ds:imaginary_blue_splash4",
+        "imaginary_red_splash1": "ds:imaginary_red_splash1",
+        "imaginary_red_splash2": "ds:imaginary_red_splash2",
+        "imaginary_red_splash3": "ds:imaginary_red_splash3",
+        "imaginary_red_splash4": "ds:imaginary_red_splash4",
+        "imaginary_collide1": "ds:imaginary_collide1",
+        "imaginary_collide2": "ds:imaginary_collide2",
+        "imaginary_collide3": "ds:imaginary_collide3",
+        "imaginary_collide4": "ds:imaginary_collide4",
+        "imaginary_collide5": "ds:imaginary_collide5",
+        "imaginary_collide6": "ds:imaginary_collide6",
+        "imaginary_collide7": "ds:imaginary_collide7",
+        "imaginary_collide8": "ds:imaginary_collide8",
+        "imaginary_collide9": "ds:imaginary_collide9",
+        "hollow_purple1": "ds:hollow_purple1",
+        "hollow_purple2": "ds:hollow_purple2",
+        "hollow_purple3": "ds:hollow_purple3",
+        "hollow_purple4": "ds:hollow_purple4",
+        "hollow_purple5": "ds:hollow_purple5",
+        "hollow_purple6": "ds:hollow_purple6",
+        "hollow_purple7": "ds:hollow_purple7",
+        "hollow_purple8": "ds:hollow_purple8",
+        "hollow_purple9": "ds:hollow_purple9",
+        "hollow_blue": "ds:hollow_blue",
+        "hollow_blue_trail": "ds:hollow_blue_trail",
+        "hollow_blue0": "ds:hollow_blue0",
+        "hollow_red": "ds:hollow_red",
+        "hollow_red_trail": "ds:hollow_red_trail",
+        "hollow_red0": "ds:hollow_red0",
+        "red1": "ds:red1",
+        "red2": "ds:red2",
+        "red3": "ds:red3",
+        "red4": "ds:red4",
+        "red5": "ds:red5",
+        "red6": "ds:red6",
+        "red7": "ds:red7"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+					"variable.tcos1 = -variable.tcos0;",
+					"variable.attack_body_rot_y = Math.sin(Math.sqrt(variable.attack_time) * 360.0) * 11.46;",
+					"variable.cos_attack_body_rot_y = Math.cos(variable.attack_body_rot_y);",
+					"variable.sin_attack_body_rot_y = Math.sin(variable.attack_body_rot_y);",
+					"variable.internal_swim_pos = Math.mod(query.modified_distance_moved, 26.0);",
+					"variable.attack = Math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0) * 57.3;",
+					"variable.attack2 = Math.sin(variable.attack_time * 180.0) * 57.3;",
+					"variable.z_bob = Math.cos(query.life_time * 103.13244) * 2.865 + 2.865;",
+					"variable.x_bob = Math.sin(query.life_time * 76.776372) * 2.865;"
+				]
+			},
+			"animations": {
+				"humanoid_big_head": "animation.humanoid.big_head",
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+				"look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+				"look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+				"move": "animation.humanoid.move",
+				"riding.arms": "animation.humanoid.riding.arms",
+				"riding.legs": "animation.humanoid.riding.legs",
+				"holding": "animation.humanoid.holding",
+				"brandish_spear": "animation.humanoid.brandish_spear",
+				"charging": "animation.humanoid.charging",
+				"attack.rotations": "animation.humanoid.attack.rotations",
+				"sneaking": "animation.humanoid.sneaking",
+				"bob": "animation.humanoid.bob",
+				"damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs",
+				"bow_and_arrow": "animation.humanoid.bow_and_arrow",
+				"swimming": "animation.humanoid.swimming",
+				"use_item_progress": "animation.humanoid.use_item_progress",
+				"zombie_attack_bare_hand": "animation.zombie.attack_bare_hand",
+				"zombie_swimming": "animation.zombie.swimming"
+			},
+			"animation_controllers": [
+				{
+					"humanoid_baby_big_head": "controller.animation.humanoid.baby_big_head"
+				},
+				{
+					"look_at_target": "controller.animation.humanoid.look_at_target"
+				},
+				{
+					"move": "controller.animation.humanoid.move"
+				},
+				{
+					"riding": "controller.animation.humanoid.riding"
+				},
+				{
+					"holding": "controller.animation.humanoid.holding"
+				},
+				{
+					"brandish_spear": "controller.animation.humanoid.brandish_spear"
+				},
+				{
+					"charging": "controller.animation.humanoid.charging"
+				},
+				{
+					"attack": "controller.animation.humanoid.attack"
+				},
+				{
+					"sneaking": "controller.animation.humanoid.sneaking"
+				},
+				{
+					"bob": "controller.animation.humanoid.bob"
+				},
+				{
+					"damage_nearby_mobs": "controller.animation.humanoid.damage_nearby_mobs"
+				},
+				{
+					"bow_and_arrow": "controller.animation.humanoid.bow_and_arrow"
+				},
+				{
+					"swimming": "controller.animation.humanoid.swimming"
+				},
+				{
+					"use_item_progress": "controller.animation.humanoid.use_item_progress"
+				},
+				{
+					"zombie_attack_bare_hand": "controller.animation.zombie.attack_bare_hand"
+				},
+				{
+					"zombie_swimming": "controller.animation.zombie.swimming"
+				}
+			],
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"enable_attachables": true
+		}
+	}
+}

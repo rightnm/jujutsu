@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:shikigami2",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "shikigami2"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§fToad Sentry§7\n§g- Cost: [ §780 Cursed Energy §g]\n\n§r§fToad Pull §7(§eHold-Sneak+Right-Click§7)\n§g- Cost: [ §720 Cursed Energy §g]\n§r§5- §o2nd Summon"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

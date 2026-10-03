@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.inventory_curse": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.textureoff",
+            "Texture.inventory_curse"
+          ]
+        }
+      },
+      "geometry": "Geometry.inventory_curse",
+      "materials": [{"*": "Material.default"}],
+      "textures": [
+        "query.property('property:inventory_curse') == 1 ? Texture.inventory_curse : (query.property('property:inventory_curse') == 0 ? Texture.textureoff)"
+      ]
+    }
+  }
+}

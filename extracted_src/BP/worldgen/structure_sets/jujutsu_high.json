@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "ds:jujutsu_high"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 57543314,
+      "separation": 24,
+      "spacing": 50,
+      "spread_type": "triangular"
+    },
+    "structures": [
+      {
+        "structure": "ds:jujutsu_high",
+        "weight": 1
+      }
+    ]
+  }
+}

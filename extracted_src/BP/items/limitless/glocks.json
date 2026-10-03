@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:glocks_technique",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "glocks_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§r§4Reversal Technique: Shoot up the Classroom!\n§g- Cost: [ §750 Cursed Energy §g]\n§l§dLimitless Technique Admin Spec\n§r§5- §oCredit to: Sinisterbart on Youtube"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }

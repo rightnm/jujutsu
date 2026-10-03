@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ds:flames_technique",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "flames_icon"
+                }
+            },
+            "minecraft:display_name": {
+				"value": "§r§6The Disaster Flames Technique\n§5§oAs the strongest curse, Jogoat...\nfought the fraud, the king of curses, he began to open his domain,\nSukuna shrunk back in fear then Jogoat said...\nStand Proud Sukuna, You were strong...\n\n§r§g  - Click to use Disaster Flames Technique\n§g  - Sneak + Click to Advance Disaster Flames Technique§7 [ §gCost: 10 Invest Points §7]\n\n§l§9[Use while in Creative Mode to unlock all skills]\n\n§r§7[ §eSneak + Punch to Unequip All Skills §7]\n\n§6Double Sneak to Remove Volcano-Head\n§6Sneak+Punch+Sneak to add Volcano-Head"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false
+            }
+        }
+    }
