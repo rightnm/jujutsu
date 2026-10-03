@@ -6,6 +6,7 @@ on:
     branches: [arena/01a1011c-jujutsu]
     paths:
       - .github/workflows/extract-pack-text.yml
+      - tools/extract_pack_text.py
 
 permissions:
   contents: write
