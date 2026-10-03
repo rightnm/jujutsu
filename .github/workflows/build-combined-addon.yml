@@ -1,0 +1,43 @@
+name: Build combined Jujutsu add-on
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  combine:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download resource pack from release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download MC \
+            --pattern 'New-Jujutsu-Awakening-Addon-MCPE-Resource-26.mcaddon' \
+            --output resource.mcaddon
+
+      - name: Combine behavior and resource packs
+        run: |
+          python3 tools/combine_mcaddon.py \
+            New-Jujutsu-Awakening-Addon-MCPE-Behavior-26.mcaddon \
+            resource.mcaddon \
+            Jujutsu-Awakening-Complete-26.mcaddon
+          unzip -t Jujutsu-Awakening-Complete-26.mcaddon
+
+      - name: Upload combined add-on to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload MC Jujutsu-Awakening-Complete-26.mcaddon --clobber
+
+      - name: Preserve workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Jujutsu-Awakening-Complete-26
+          path: Jujutsu-Awakening-Complete-26.mcaddon
+          compression-level: 0
